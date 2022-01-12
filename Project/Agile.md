@@ -1,8 +1,17 @@
 # Agile
 
-- Backlog: Priorité des besoins sous forme de User story 
-- BurnDown Chart: avancement du Sprint
-- Kanban: Tableau des tâches du Sprint
+## Manifeste
+Les quatre valeurs fondamentales:
+- les individus et leurs interactions,
+- la fonctionnalité du produit final,
+- la collaboration avec le client,
+- l’adaptation au changement.
+
+## Definitions
+- Backlog: Liste hiérarchisée des caractéristiques du produit souhaitées
+- BurnDown Chart: avancement de la production du Sprint
+- Definition of Ready: Pourquoi, Quoi, Comment ?
+- Kanban: Visualisation des flux de développement en tableau des tâches du Sprint, basée sur les flux entrants
 - Planning Poker: Estimation collective du backlog basé sur le "Story Point"
 - Product Owner (PO): Représentant des dev qui gère la vision du produit
 - Release: Nouvelle version du produit
@@ -17,3 +26,10 @@
   + Velocity will naturally be different between teams.
   + Reward team members for solving problems based on difficulty, not time spent. 
 - User Story: Besoins vis-a-vis de l'application
+  + “En tant que A, je veux B pour réaliser C”
+
+## SAFe (Scaled Agile Framework)
+Chaque équipe agile représente un wagon du Agile Release Train (ART).
+
+## Scrum
+- Scrum is a framework for developing application products in a complex environment
