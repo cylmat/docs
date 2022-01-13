@@ -15,7 +15,7 @@ Les quatre valeurs fondamentales:
 - Planning Poker: Estimation collective du backlog basé sur le "Story Point"
 - Product Owner (PO): Représentant des dev qui gère la vision du produit
 - Release: Nouvelle version du produit
-- Retrospective: Réunion de la Scrum Team pour but de tirer les leçons du Sprint passé
+- Retrospective (REX - Retour expérience): Réunion de la Scrum Team pour but de tirer les leçons du Sprint passé
 - Scrum Master: Garant du respect du suivi des sprints
 - Sprint: Intervalle pendant lequel la Dev Team va concevoir la feature (15j)
 - Sprint Planning: Réunion du PO et de la Dev Team pour sélectionner les éléments du Backlog à réaliser au cours du Sprint
