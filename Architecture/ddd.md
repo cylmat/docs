@@ -10,9 +10,11 @@ Approach
 Design
 ------
 ### Model relevant
+- Focus efforts on what generates financial value for the company
 - Bounded context -> common language -> Continuous intégration -> Model Driven
   * Model relevant and speak to every parts 
   * Continuous Integration keep model concepts consistent within these bounds
+- Subdomains (Core, Support, Generic) are logical separations of the domain where contexts are technical solutions
 
 ### Blocks of Model
 - Layered architecture
