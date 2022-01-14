@@ -21,7 +21,9 @@ Design
 - Modules: Divide application in a cohesive low-coupling langage concept (and not as technical split)
 
 + Domain events: Informations about application activities as a serie of individual events
++ Factories: Provide encapsulation to create complex aggregates or objects
 + Services: A responsability that can't be modeled as an object
++ Repository: Provide methods that select objects/aggregates based on criteria meaningful to domain
 
 - Aggregate: Cluster of objects with defined boundaries around each
 - Entities (Reference-object): Distinguished by its identity rather than its attributes
