@@ -40,6 +40,9 @@ Declarative-style design (conceptual contours):
 - Low-coupling standalone classes
 - Closure operations whose return type is same as arguments
 
+### Strategic design
+Separate core/kernel/host and layer/system/stream
+
 Reference
 ---------
 - Bounded context: Description of a boundary where a particular model is applicable
