@@ -9,12 +9,23 @@ Approach
 
 Design
 ------
-### Model:
+### Model relevant
 - Bounded context -> common language -> Continuous intégration -> Model Driven
   * Model relevant and speak to every parts 
   * Continuous Integration keep model concepts consistent within these bounds
 
+### Blocks of Model Design
+- Layered architecture
+  * Isolate domain model and business logic
+  * Eliminate any user interface and infrastructure dependency
+- Modules: Divide application in a cohesive low-coupling langage concept (and not as technical split)
 
++ Domain events: Informations about application activities as a serie of individual events
++ Services: A responsability that can't be modeled as an object
+
+- Aggregate: Cluster of objects with defined boundaries around each
+- Entities (Reference-object): Distinguished by its identity rather than its attributes
+- Value-object: Defined by its attributes, have no individual identity  
 
 Reference
 ---------
