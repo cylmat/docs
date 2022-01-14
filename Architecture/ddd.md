@@ -14,7 +14,7 @@ Design
   * Model relevant and speak to every parts 
   * Continuous Integration keep model concepts consistent within these bounds
 
-### Blocks of Model Design
+### Blocks of Model
 - Layered architecture
   * Isolate domain model and business logic
   * Eliminate any user interface and infrastructure dependency
@@ -27,7 +27,15 @@ Design
 
 - Aggregate: Cluster of objects with defined boundaries around each
 - Entities (Reference-object): Distinguished by its identity rather than its attributes
-- Value-object: Defined by its attributes, have no individual identity  
+- Value-object: Defined by its attributes, have no individual identity 
+
+### Flexible design
+**A pleasant and powerful design must be clear, deep modeled, coherent and open to low-coupled easy changes.**  
+
+- Speakful classes and interfaces
+- Tests-first to think client-way
+- Side-effect free (segregated commands that do not return domain informations)
+- Place code-assertions (invariants)
 
 Reference
 ---------
@@ -38,3 +46,7 @@ Reference
 **@ref**  
 - https://www.domainlanguage.com
 - https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
+
++ _Blue-book_ Domain-Driven Design: Tackling Complexity in the Heart of Software
++ _Yellow Book_ Domain-Driven Design Reference: Definitions and Pattern Summaries
+
