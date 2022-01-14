@@ -14,7 +14,6 @@ Design
 - Bounded context -> common language -> Continuous intégration -> Model Driven
   * Model relevant and speak to every parts 
   * Continuous Integration keep model concepts consistent within these bounds
-- Subdomains (Core, Support, Generic) are logical separations of the domain where contexts are technical solutions
 
 ### Blocks of Model
 - Layered architecture
@@ -45,7 +44,11 @@ Declarative-style design (conceptual contours):
 - Closure operations whose return type is same as arguments
 
 ### Strategic design
-Separate core/kernel/host and layer/system/stream
+Separate core/kernel/host and layer/system/stream  
+Subdomains are logical separations of the domain where contexts are technical solutions
+- Highlighted Core, hightest value with small and skilled code
+- Support, adding functionalities to the project
+- Generic, without specialities well separated from the core
 
 Reference
 ---------
