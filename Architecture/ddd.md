@@ -32,10 +32,13 @@ Design
 ### Flexible design
 **A pleasant and powerful design must be clear, deep modeled, coherent and open to low-coupled easy changes.**  
 
-- Speakful classes and interfaces
+Declarative-style design:  
+- Speakful classes and interfaces (intention-revealing)
 - Tests-first to think client-way
 - Side-effect free (segregated commands that do not return domain informations)
-- Place code-assertions (invariants)
+- Place code-assertions (post‐conditions and invariants)
+- Low-coupling standalone classes
+- Closure operations whose return type is same as arguments
 
 Reference
 ---------
