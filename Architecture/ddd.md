@@ -32,7 +32,7 @@ Design
 ### Flexible design
 **A pleasant and powerful design must be clear, deep modeled, coherent and open to low-coupled easy changes.**  
 
-Declarative-style design:  
+Declarative-style design (conceptual contours):  
 - Speakful classes and interfaces (intention-revealing)
 - Tests-first to think client-way
 - Side-effect free (segregated commands that do not return domain informations)
