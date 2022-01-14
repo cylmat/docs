@@ -21,7 +21,8 @@ Design
 - Modules: Divide application in a cohesive low-coupling langage concept (and not as technical split)
 
 + Domain events: Informations about application activities as a serie of individual events
-  - Implement explicitly side effects of changes 
+  - Implement explicitly internal side effects of changes 
+  - != Integration events (boundary's external event, additional systems, async)
 + Factories: Provide encapsulation to create complex aggregates or objects
 + Services: A responsability that can't be modeled as an object
 + Repository: Provide methods that select objects/aggregates based on criteria meaningful to domain
