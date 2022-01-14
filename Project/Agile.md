@@ -12,6 +12,7 @@ Les quatre valeurs fondamentales:
 - BurnDown Chart: avancement de la production du Sprint
 - Definition of Ready: Pourquoi, Quoi, Comment ?
 - Kanban: Visualisation des flux de développement en tableau des tâches du Sprint, basée sur les flux entrants
+- Kick-off meeting: Réunion de lancement du projet
 - Planning Poker: Estimation collective du backlog basé sur le "Story Point"
 - Product Owner (PO): Représentant des dev qui gère la vision du produit
 - Release: Nouvelle version du produit
