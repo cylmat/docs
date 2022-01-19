@@ -17,16 +17,20 @@
   - Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
 
 ## Package Principles   
-Component cohesion
+Component cohesion (Separate those things that change at different times or for different reasons. & Don’t force users to depend on things they don’t need.)
 - REP: Reuse/Release Equivalence Principle (The granular of reuse is the granular of release.)
 - CRP: Common Reuse Principle (The classes in a component are reused together. If you reuse one of the classes in a component, you reuse them all.)
+  + Classes that tend to be reused together belong in the same package together. (ISP) 
 - CCP: Common Closure Principle 
   * The classes in a component should be closed together against the same kinds of changes. 
   * A change that affects a component affects all the classes in that component and no other components.
+  * Package should not have more than one reason to change. (SRP)
 Component coupling
 - ADP: Acyclic Dependencies Principle
 - SDP: Stable-Dependency Principle (Depend in the direction of stability.)
 - SAP: Stable-Abstractions Principle (A component should be as abstract as it is stable.)
+
+@ref: https://en.wikipedia.org/wiki/Package_principles
 
 ## Object
 CUPID: (Dan North, BDD)   
