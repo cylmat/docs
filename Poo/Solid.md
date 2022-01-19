@@ -34,7 +34,9 @@ Component coupling
 - SAP: Stable-Abstractions Principle (A component should be as abstract as it is stable.) 
   + Stable package should also be abstract, so that its stability does not prevent it from being extended. (Zone of Pain <-> Zone of Useless)
 
-@ref: https://en.wikipedia.org/wiki/Package_principles
+@ref: 
+- https://en.wikipedia.org/wiki/Package_principles
+- https://blog.heron.me/component-principles-b943d7bf8b28
 
 ## Object
 CUPID: (Dan North, BDD)   
