@@ -27,6 +27,7 @@ Les quatre valeurs fondamentales:
 - Backlog: Liste hiérarchisée des caractéristiques du produit souhaitées
 - BurnDown Chart: avancement de la production du Sprint
 - Definition of Ready: Pourquoi, Quoi, Comment ?
+- Definition of Done: Quand un produit est livrable
 - Kanban: Visualisation des flux de développement en tableau des tâches du Sprint, basée sur les flux entrants
 - Kick-off meeting: Réunion de lancement du projet
 - Planning Poker: Estimation collective du backlog basé sur le "Story Point"
@@ -36,7 +37,7 @@ Les quatre valeurs fondamentales:
 - Scrum Master: Garant du respect du suivi des sprints
 - Sprint: Intervalle pendant lequel la Dev Team va concevoir la feature (15j)
 - Sprint Planning: Réunion du PO et de la Dev Team pour sélectionner les éléments du Backlog à réaliser au cours du Sprint
-- Stand up Daily: Réunions quotidiennes
+- Stand up Daily (DSM): Réunions quotidiennes
 - Story Point: Unité d’estimation de complexité utilisée sur les projets (Fibonacci)
   + Dates don’t account for the non-project related work: emails, meetings.
   + Relative estimation removes the emotional attachment.
