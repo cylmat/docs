@@ -33,8 +33,7 @@ Test Doubles.
 * cela sera dans la majorité des cas une mauvaise pratique.
 Exemple : des mocks dans un test d’exactitude ? A éviter !
 
-Erreurs
-
+    Erreurs:
     Une classe de production => une classe de tests. Le second défaut est d’utiliser des mocks à outrance.
     Pour (presque) chaque méthode => une méthode de test
     Ce choix a de nombreuses conséquences : tout changement d’implémentation sera coûteux car il faudra réécrire les tests, les adapter
