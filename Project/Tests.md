@@ -35,9 +35,10 @@ Exemple : des mocks dans un test d’exactitude ? A éviter !
 
 ```
     Erreurs:
-    Une classe de production => une classe de tests. Le second défaut est d’utiliser des mocks à outrance.
-    Pour (presque) chaque méthode => une méthode de test
-    Ce choix a de nombreuses conséquences : tout changement d’implémentation sera coûteux car il faudra réécrire les tests, les adapter
+    - Une classe de production => une classe de tests. 
+    - Utiliser des mocks à outrance.
+    - Pour (presque) chaque méthode => une méthode de test
+    Ce choix a de nombreuses conséquences : tout changement d’implémentation sera coûteux car il faudra les adapter
 ```
 ---
 @ref
