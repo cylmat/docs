@@ -12,8 +12,7 @@
 * YAGNI: You Aren’t Gonna Need It
 * XP: revue de code, tests systématiquement, conception refactoring tout au long du projet, solution la plus simple,
  + compréhension en métaphores, intégration des modifications, cycles de développement rapides  
-
-CQRS: Command query responsibility separation - Methods should be Command an action, or query returns data, but not both.
+* CQRS: Command query responsibility separation - Methods should be Command an action, or query returns data, but not both.
 
 1) Composition over Inheritance
  + classes should achieve polymorphic behavior by their composition rather than inheritance from a parent class.
