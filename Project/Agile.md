@@ -50,3 +50,15 @@ Chaque équipe agile représente un wagon du Agile Release Train (ART).
 
 ## Scrum
 - Scrum is a framework for developing application products in a complex environment
+
+## Xtrem Programming
+    revue de code en permanence
+    tests systématiquement 
+    refactoring continue
+    solution la plus simple toujours retenue
+    définir des métaphores pour la compréhension
+    intégration des modifications quotidienne
+    cycles de développement rapides
+
+**@Ref:**  
+https://fr.wikipedia.org/wiki/Extreme_programming
