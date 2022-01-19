@@ -24,11 +24,15 @@ Component cohesion (Separate those things that change at different times or for 
 - CCP: Common Closure Principle 
   * The classes in a component should be closed together against the same kinds of changes. 
   * A change that affects a component affects all the classes in that component and no other components.
-  * Package should not have more than one reason to change. (SRP)
+  * Package should not have more than one reason to change. (SRP)  
+  
 Component coupling
-- ADP: Acyclic Dependencies Principle
-- SDP: Stable-Dependency Principle (Depend in the direction of stability.)
-- SAP: Stable-Abstractions Principle (A component should be as abstract as it is stable.)
+- ADP: Acyclic Dependencies Principle. 
+  + Cooperation and integration needs to happen in small incremental releases. (Top-down design)
+- SDP: Stable-Dependency Principle (Depend in the direction of stability.) 
+  + Designs, by nature of the environments they are used in, are changing. (modules that are intended to be easy to change aren’t depended on by modules that are harder to change)
+- SAP: Stable-Abstractions Principle (A component should be as abstract as it is stable.) 
+  + Stable package should also be abstract, so that its stability does not prevent it from being extended. (Zone of Pain <-> Zone of Useless)
 
 @ref: https://en.wikipedia.org/wiki/Package_principles
 
