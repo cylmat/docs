@@ -17,9 +17,9 @@ CQRS: Command query responsibility separation - Methods should be Command an act
 
 1) Composition over Inheritance
  + classes should achieve polymorphic behavior by their composition rather than inheritance from a parent class.
-3) Programming to Interface
+2) Programming to Interface
 
-Composition vs aggregation
+**Composition vs aggregation**
 - Composition: include inside  (delete composition => delete elements)
 - Aggregation: include virtual (delete only aggregation, not elements)
 
