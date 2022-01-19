@@ -40,6 +40,26 @@ Exemple : des mocks dans un test d’exactitude ? A éviter !
     - Pour (presque) chaque méthode => une méthode de test
     Ce choix a de nombreuses conséquences : tout changement d’implémentation sera coûteux car il faudra les adapter
 ```
+
+Category:Software_testing
+---
+    ABX test
+    Acceptance testing
+    Blind experiment
+    Boundary testing
+    Fuzz testing
+    Gray box testing
+    Metasploit Project
+    Sanity testing: after a software build, with minor changes, or functionality, to ascertain that the bugs have been fixed
+    Smoke testing: 1. Performed post-build to verify that critical functionalities are working. Before functional or regression tests.
+    Software performance testing
+    Software testing
+    Stress testing
+    Test automation
+    Unit testing
+    Web application security scanner
+    White hat hacker
+    White-box testing
 ---
 @ref
     https://www.guru99.com/smoke-sanity-testing.html
