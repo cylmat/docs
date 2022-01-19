@@ -8,7 +8,7 @@
 - Web: OAuth, SimpleXML, Soap, Sockets, Xml-Rpc
 - Pack/Unpack, Yield, Reflexion, utf8
 
-samples
+Samples
 ---
 session locking  
 ob_get_level() nested  
@@ -21,3 +21,11 @@ Domdocument (domxpath&simplexml)
 File+Stream  
 utf8  
 ... 
+
+Syntaxic
+---
+[, $b, $c, 'd' => $d] = $array   
+foreach ($array as ['id' => $id, 'name' => $name])     
+variadic_func( ...$a )  
+[$a[2],$a[3]] = [$a[3],$a[2]];   
+preg_replace_callback   
