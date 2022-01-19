@@ -1,11 +1,27 @@
 # Agile
 
 ## Manifeste
+**12 principes**:
+- Satisfaire le client en livrant régulièrement
+- Accueillez positivement les changements de besoins
+- Livrez fréquemment un logiciel fonctionnel
+- Utilisateurs et développeurs doivent travailler ensemble
+- Faire confiance aux personnes motivées
+- Dialogue en face à face pour transmettre l'information
+- Garder toujours un logiciel fonctionnel
+- Maintenir un rythme constant de développement
+- Une attention continue à l'excellence technique
+- La simplicité est essentielle
+- Equipes auto-organisées
+- Réfléchit aux moyens possibles de devenir plus efficace  
+  
 Les quatre valeurs fondamentales:
 - les individus et leurs interactions,
 - la fonctionnalité du produit final,
 - la collaboration avec le client,
 - l’adaptation au changement.
+
+**@ref**: https://fr.wikipedia.org/wiki/Manifeste_agile  
 
 ## Definitions
 - Backlog: Liste hiérarchisée des caractéristiques du produit souhaitées
