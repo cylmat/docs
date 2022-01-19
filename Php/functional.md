@@ -6,3 +6,18 @@
 - Net: cookies, curl, dns, headers
 - Spl: data structures, exceptions, iterators, arrayobject
 - Web: OAuth, SimpleXML, Soap, Sockets, Xml-Rpc
+- Pack/Unpack, Yield, Reflexion, utf8
+
+samples
+---
+session locking  
+ob_get_level() nested  
+ob_implicit_flush() for stream  
+pure function (no side effect)  
+strtotime()  
+json_last_error_msg()  
+SoapClient(wsdl)  
+Domdocument (domxpath&simplexml)  
+File+Stream  
+utf8  
+... 
