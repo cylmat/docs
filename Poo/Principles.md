@@ -14,6 +14,7 @@
  + compréhension en métaphores, intégration des modifications, cycles de développement rapides  
 * CQRS: Command query responsibility separation - Methods should be Command an action, or query returns data, but not both.
 
+**Composition & interface**
 1) Composition over Inheritance
  + classes should achieve polymorphic behavior by their composition rather than inheritance from a parent class.
 2) Programming to Interface
