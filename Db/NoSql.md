@@ -34,8 +34,8 @@ De plus un B-arbre grandit à partir de la racine, contrairement à un arbre bin
 
 MapReduce est un patron d'architecture de développement informatique, inventé par Google,  
 dans lequel sont effectués des calculs parallèles, et souvent distribués, de données potentiellement très volumineuses  
-------
 
+------
 ## Infos
 Distribution:  le but de la distribution est de soulager le serveur central en répartissant les données sur plusieurs serveurs.
 Elasticite: capacité du système à s’adapter automatiquement en fonction du nombre de serveurs qu’il dispose et de la quantité de données
