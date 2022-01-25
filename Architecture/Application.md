@@ -2,13 +2,6 @@
 
 Architecture
 ---
-- DAO - Data Accesss Object: regrouper les accès aux données persistantes dans des classes à part, plutôt que dans les classes "métier"
-- DTO - Data Transfert Object: Se distingue du DAO car il ne permet que de modifier ou d'accéder à ses données (mutateurs, accesseurs)
-- Inversion of Control (IoC): Typically a Framework, an external source take control of the flow.
-- MVP Modèle-Vue-Presentation
-- POC - Programmation orienté composant: utiliser une approche modulaire de l'architecture, meilleure lisibilité et maintenance.
-- Value object: Represents a simple immutable entity not based on identity: two value objects are equal when they have the same value
-
 - ADR: (MVC) 
   + Action (takes HTTP requests) 
   + Domain (modify state, storage, data)
