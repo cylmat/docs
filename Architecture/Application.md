@@ -2,56 +2,56 @@
 
 Architecture
 ---
-    DAO - Data Accesss Object: regrouper les accès aux données persistantes dans des classes à part, plutôt que dans les classes "métier"
-    DTO - Data Transfert Object: Se distingue du DAO car il ne permet que de modifier ou d'accéder à ses données (mutateurs, accesseurs)
-    Inversion of Control (IoC): Typically a Framework, an external source take control of the flow.
-    MVP Modèle-Vue-Presentation
-    POC - Programmation orienté composant: utiliser une approche modulaire de l'architecture, meilleure lisibilité et maintenance.
-    Value_object: Represents a simple immutable entity not based on identity: two value objects are equal when they have the same value
-        Value objects are among the building blocks of DDD. 
+- DAO - Data Accesss Object: regrouper les accès aux données persistantes dans des classes à part, plutôt que dans les classes "métier"
+- DTO - Data Transfert Object: Se distingue du DAO car il ne permet que de modifier ou d'accéder à ses données (mutateurs, accesseurs)
+- Inversion of Control (IoC): Typically a Framework, an external source take control of the flow.
+- MVP Modèle-Vue-Presentation
+- POC - Programmation orienté composant: utiliser une approche modulaire de l'architecture, meilleure lisibilité et maintenance.
+- Value object: Represents a simple immutable entity not based on identity: two value objects are equal when they have the same value
 
+- ADR: (MVC) 
+  + Action (takes HTTP requests) 
+  + Domain (modify state, storage, data)
+  + Responder (builds the HTTP response).
+- Active record
+- Broker pattern
+- Client–server
+- CBD
+- DAO
+- DDD: Domain Driven Design, structure and language of software code should match the business domain
+- ECB: Entity-Control-Boundary, structures the classes composing a software according to their responsibilities in the use-case realization
+  + (E) Info longue duration - (C) Process execution and logic - (B) Wrap external interactions
+- ECS: Entity–component–system
+- Event-Driven: software architecture paradigm promoting the production, detection, consumption of, and reaction to events.
+- Front controller
+- Hexagonal: Systèmes à base de composants d'application qui sont faiblement couplés et facilement connectés (Ports - Adapters).
+- Hierarchical MVC
+- Identity map
+- Interceptor
+- Implicit invocation
+- Inversion of control
+- Layers
+- Microservices:  A variant of the (SOA), arranges an application as a collection of loosely coupled services
+- MOM
+- Multitier architecture
+- MVA
+- MVC: Model-View-Controller
+- MVP: Model-View-Presenter
+- MVVM: ModelView - ViewModel
+- Monolithic
+- Multitier
+- ORB
+- P2P: Each entity is client & server
+- Pipe and filter architecture
+- Publish–subscribe: Messages send without know if receivers. Abonnés sans savoir s’il y a des diffuseurs
+- PAC: Presentation-Abstraction-Control
+- REST
+- SOA
+- Service locator
+- Specification
+- Space-based architecture
 
-    ADR: refinement of MVC. Action (takes HTTP requests) –Domain (modify state, storage, data)– Responder (builds the HTTP response).
-    Active record
-    Broker
-    Client–server
-    CBD
-    DAO
-    DTO
-    DDD
-    ECB
-    ECS
-    EDA
-    Front controller
-    Identity map
-    Interceptor
-    Implicit invocation
-    Inversion of control
-    Model 2
-    MOM
-    Microservices
-    MVA
-    MVC
-    MVP
-    MVVM
-    Monolithic
-    Multitier
-    Naked objects
-    ORB
-    P2P
-    Publish–subscribe
-    PAC
-    REST
-    SOA
-    Service locator
-    Specification
-
-@ref: https://en.wikipedia.org/wiki/Architectural_pattern
-
----
-**Refs**  
-- https://fr.wikipedia.org/wiki/Patron_de_conception
-- https://en.wikipedia.org/wiki/Anti-pattern
-- https://springframework.guru/gang-of-four-design-patterns/
-- https://online.visual-paradigm.com/diagrams/templates/class-diagram/gof-design-patterns-factory-method/
-
+@ref:  
+- https://en.wikipedia.org/wiki/List_of_software_architecture_styles_and_patterns
+- https://en.wikipedia.org/wiki/Architectural_pattern
+- https://fr.wikipedia.org/wiki/Architecture_logicielle
