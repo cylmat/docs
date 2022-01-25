@@ -7,6 +7,7 @@ Architecture
   + Domain (modify state, storage, data)
   + Responder (builds the HTTP response).
 - Active record
+- Asynchronous
 - Broker pattern
 - Client–server
 - Component-based
@@ -22,9 +23,10 @@ Architecture
 - Hierarchical MVC
 - Identity map
 - Interceptor
-- Implicit invocation
+- Implicit invocation (event)
 - Inversion of control
 - Layers
+- Microkernel
 - Microservices:  A variant of the (SOA), arranges an application as a collection of loosely coupled services
 - MOM
 - Multitier architecture
