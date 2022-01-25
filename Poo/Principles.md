@@ -25,7 +25,8 @@
 
 ---
 @Ref
- - [https://en.wikipedia.org/wiki/Category:Programming_principles]
+ - https://en.wikipedia.org/wiki/Category:Programming_principles
+ - https://www.martinfowler.com/eaaCatalog/index.html
 
 ## Twelve factors (SaaS) Api
 - I. Codebase: One codebase tracked in revision control, many deploys
