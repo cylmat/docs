@@ -31,6 +31,9 @@ Onion Architecture (build on Port & Adapter):
 + All application core code can be compiled and run separate from infrastructure
 
 ---
+![Clean](https://miro.medium.com/max/560/1*0R0r00uF1RyRFxkxo3HVDg.png)
+
+---
 @ref:  
 - https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
 - https://herbertograca.com/2017/09/21/onion-architecture/
