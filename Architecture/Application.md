@@ -9,6 +9,7 @@ Architecture
 - Active record
 - Broker pattern
 - Client–server
+- Component-based
 - CBD
 - DAO
 - DDD: Domain Driven Design, structure and language of software code should match the business domain
