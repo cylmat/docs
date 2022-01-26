@@ -2,7 +2,7 @@
 
 - Misc: cache, regexp 
 - Net: cookies, curl, date/time, dns, files, form request, headers, 0MQ
-- Web: OAuth, (DomDoc) SimpleXML, Soap, Sockets, Xml-Rpc  
+- Web: Sockets, Xml-Rpc  
 + Functional: closure->bindTo, error handler, generator, (un)pack, reflexion, 
   - regexp, ticks, thread (shell_exec), utf8, yield
 
@@ -12,7 +12,7 @@
 - Phar, Zip
 
 ### Language
-- Gettext, Iconv, Intl, MbString
+- CommonMark, Gettext, Iconv, Intl, Parle, MbString
 
 ### Process
 - Eio, PcNtl, Posix, Parallele, pThread, Sync
@@ -23,6 +23,15 @@
 - Json, Lua, Url (encode), Stream (zip://), V8js, Yaml
 - Spl: Arrayobject, Data structures, exceptions, iterators
 - Swoole
+
+### Services, Data
+- Curl, Event, network, Ssh2, sockets
+- Dom, SimpleXml, Xsl
+- Ldap, Memcache, 0MQ
+- OAuth, Soap, Xml-Rpc
+
+### Text, type
+- Filters, function ref, object ref, Reflexion
 
 Syntaxic
 ---
