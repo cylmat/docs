@@ -6,10 +6,6 @@ php.ini
 - memory_get_peak_usage()
 - realpath_cache_size()
 
-**@ref** 
-- https://github.com/psecio/iniscan
-- https://httpd.apache.org/docs/2.4/programs/ab.html
-
 zend opcache
 ---
     memory_consumption+
@@ -28,3 +24,9 @@ fpm pool.d
     max_request=1000
     slow=/path/to/slowlog.log
     request_slowlog_timeout=5s
+
+---
+**@ref** 
+- https://github.com/psecio/iniscan
+- https://httpd.apache.org/docs/2.4/programs/ab.html
+- https://www.php.net/manual/fr/ref.info.php
