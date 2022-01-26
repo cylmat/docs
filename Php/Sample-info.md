@@ -1,26 +1,12 @@
 # Functional
 
-- Crypto, date, files, generator, iconv, inlt, iterator, stream
-- Form: Post, Request, Server
-- Misc: cache, regexp, error handler, sqlite
-- Net: cookies, curl, dns, headers
+- Ext: crypto, iconv, inlt
+- Misc: cache, regexp 
+- Net: cookies, curl, date/time, dns, files, form request, headers, 0MQ
 - Spl: data structures, exceptions, iterators, arrayobject
-- Web: OAuth, SimpleXML, Soap, Sockets, Xml-Rpc
-- Pack/Unpack, Yield, Reflexion, utf8
-
-Samples
----
-session locking  
-ob_get_level() nested  
-ob_implicit_flush() for stream  
-pure function (no side effect)  
-strtotime()  
-json_last_error_msg()  
-SoapClient(wsdl)  
-Domdocument (domxpath&simplexml)  
-File+Stream  
-utf8  
-... 
+- Web: OAuth, (DomDoc) SimpleXML, Soap, Sockets, Xml-Rpc  
++ Functional: closure->bindTo, error handler, generator, (un)pack, reflexion, 
+  - regexp, stream (zip://), ticks, thread (shell_exec), v8js, utf8, yield
 
 Syntaxic
 ---
