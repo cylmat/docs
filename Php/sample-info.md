@@ -1,12 +1,28 @@
 # Functional
 
-- Ext: crypto, iconv, inlt
 - Misc: cache, regexp 
 - Net: cookies, curl, date/time, dns, files, form request, headers, 0MQ
-- Spl: data structures, exceptions, iterators, arrayobject
 - Web: OAuth, (DomDoc) SimpleXML, Soap, Sockets, Xml-Rpc  
 + Functional: closure->bindTo, error handler, generator, (un)pack, reflexion, 
-  - regexp, stream (zip://), ticks, thread (shell_exec), v8js, utf8, yield
+  - regexp, ticks, thread (shell_exec), utf8, yield
+
+### Compression, Crypto
+- BCMath, GMP
+- Hash, MCrypt, OpenSSL, Sodium
+- Phar, Zip
+
+### Language
+- Gettext, Iconv, Intl, MbString
+
+### Process
+- Eio, PcNtl, Posix, Parallele, pThread, Sync
+
+### Others ext
+- Data Structures (Hash, Sequence, Vector...)
+- FANN neural network
+- Json, Lua, Url (encode), Stream (zip://), V8js, Yaml
+- Spl: Arrayobject, Data structures, exceptions, iterators
+- Swoole
 
 Syntaxic
 ---
