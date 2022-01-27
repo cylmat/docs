@@ -1,7 +1,7 @@
 # Functional
 
 - Misc: cache, regexp 
-- Net: cookies, curl, date/time, dns, files, form request, headers, 0MQ
+- Net: cookies, curl, date/time (TZ), dns, files, form request, headers, 0MQ
 - Web: Sockets, Xml-Rpc  
 + Functional: closure->bindTo, error handler, generator, (un)pack, reflexion, 
   - regexp, ticks, thread (shell_exec), utf8, yield
