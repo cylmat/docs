@@ -46,6 +46,13 @@ Les quatre valeurs fondamentales:
 - User Story: Besoins vis-a-vis de l'application
   + “En tant que A, je veux B pour réaliser C”
 
+## Organization
+- Tribes: Squads collection (1 to 100...) with same business area (e.g. Mobile)
+- Squads: 1 dedicated PO and UStories, Chapter, and devs with one long term mission.
+- Chapters: Inter-tribes dedicated to special tech (Chapter "front", Chapter "data"...)
+- Guilds: Community inter-Tribes of members with shared interests, knowledge and practices
+@ ref: https://achardypm.medium.com/agile-team-organisation-squads-chapters-tribes-and-guilds-80932ace0fdc
+
 ## SAFe (Scaled Agile Framework)
 Chaque équipe agile représente un wagon du Agile Release Train (ART).
 
