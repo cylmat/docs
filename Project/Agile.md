@@ -32,6 +32,7 @@ Les quatre valeurs fondamentales:
 - Kick-off meeting: Réunion de lancement du projet
 - Planning Poker: Estimation collective du backlog basé sur le "Story Point"
 - Product Owner (PO): Représentant des dev qui gère la vision du produit
+- Refinement (Grooming) permet de donner de la visibilité sur les Sprints à venir et le travail restant.
 - Release: Nouvelle version du produit
 - Retrospective (REX - Retour expérience): Réunion de la Scrum Team pour but de tirer les leçons du Sprint passé
 - Scrum Master: Garant du respect du suivi des sprints
