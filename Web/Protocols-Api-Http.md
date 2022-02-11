@@ -3,6 +3,9 @@
 ## Api
 - https://jsonapi.org/
 
+## Http
+- Authentication: https://datatracker.ietf.org/doc/html/rfc7235
+
 ## Réseau
 - Protocole réseau application (dns, http, sshell, rpc ...)
 - Protocole réseau transport (tcp, udp)
