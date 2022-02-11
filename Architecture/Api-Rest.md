@@ -1,7 +1,9 @@
 # Api
 
 ## Rest
-- REST: Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
+Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
+
+- https://api-platform.com/
 - https://jsonapi.org/
 
 ---
