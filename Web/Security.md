@@ -8,4 +8,6 @@ JWT: are an open, industry standard RFC 7519 method for representing claims secu
 - Cross-site_request_forgery
 
 ---
-@ref: - http://owasp.org/www-project-top-ten
+@ref: 
+- OWASP: Open Web Application Security Project
+- http://owasp.org/www-project-top-ten
