@@ -13,3 +13,6 @@
 ## Relational
 - Oracle Database Express Edition: free, smaller-footprint edition of Oracle Database (https://www.oracle.com/fr/database/technologies/appdev/xe.html) 
 - Percona Server: Free open-soure distribution of the MySQL relational database (https://www.percona.com)
+
+Bonus  
+- ProxySql: MySQL protocol hih performance proxy (https://www.proxysql.com)
