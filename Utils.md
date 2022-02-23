@@ -16,12 +16,17 @@ Diagram
 Editor
 * https://replit.com: Collaborator browser IDE
 
+Front
+* https://jsfiddle.net
+
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
 
-Playground
-* https://3v4l.org: Online Php editor
+Playground back
+* https://3v4l.org: Online Php editor!
+* https://code.sololearn.com
 * https://paiza.io
+* http://phpfiddle.org
 * https://sandbox.onlinephpfunctions.com
 
 ## Linux
