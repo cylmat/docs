@@ -14,7 +14,8 @@ Diagram
 * https://www.websequencediagrams.com
 
 Editor
-* https://replit.com: Collaborator browser IDE
+* http://lighttable.com: The next generation code editor
+* https://replit.com: Collaborator online browser IDE
 
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
@@ -31,8 +32,10 @@ Playground Front
 * https://www.codeply.com
 * https://codesandbox.io
 * https://cssdeck.com/labs
+* https://glitch.com
 * https://jsbin.com
 * https://jsfiddle.net
+* https://liveweave.com
 
 ## Linux
 App
