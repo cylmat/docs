@@ -13,8 +13,20 @@ Copy code
 Diagram
 * https://www.websequencediagrams.com
 
+Editor
+* https://replit.com: Collaborator browser IDE
+
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
+
+Playground
+* https://3v4l.org: Online Php editor
+* https://paiza.io
+* https://sandbox.onlinephpfunctions.com
+
+## Linux
+App
+* https://busybox.net: The Swiss Army Knife of Embedded Linux
 
 ## Web
 E-commerce
@@ -24,3 +36,10 @@ E-commerce
 Console
 * https://cmder.net: Nice console emulators
 * https://mremoteng.org: Remote connections manager
+
+Package manager
+* https://chocolatey.org
+* https://scoop.sh: Commande line installer
+
+Screen capture
+* https://www.screenpresso.com
