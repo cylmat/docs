@@ -8,8 +8,16 @@ Copy code
 * https://pastebin.com
 * https://sharemycode.fr
 
+Css
+* https://cssreference.io
+
 Diagram
+* https://app.diagrams.net
+* http://diagramo.com: Flowchart
+* https://online.visual-paradigm.com
 * https://www.websequencediagrams.com
+* https://yuml.me
+* https://www.yworks.com/yed-live
 
 Editor
 * http://lighttable.com: The next generation code editor
