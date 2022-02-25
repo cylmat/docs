@@ -1,4 +1,4 @@
-## Utils dev
+## Utils back
 
 App
 * http://srsbiz.pl/utils/hexit.php: Hexa editor
@@ -7,9 +7,6 @@ Copy code
 * https://carbon.now.sh: Create and share beautiful images of source code
 * https://pastebin.com
 * https://sharemycode.fr
-
-Css
-* https://cssreference.io
 
 Diagram
 * https://app.diagrams.net
@@ -37,12 +34,3 @@ Playground Back
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
 
-Playground Front
-* https://codepen.io
-* https://www.codeply.com
-* https://codesandbox.io
-* https://cssdeck.com/labs
-* https://glitch.com
-* https://jsbin.com
-* https://jsfiddle.net
-* https://liveweave.com
