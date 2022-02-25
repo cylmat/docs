@@ -12,6 +12,7 @@ Diagram
 * https://app.diagrams.net
 * http://diagramo.com: Flowchart
 * https://www.lucidchart.com
+* https://www.planttext.com: UML editor
 * https://online.visual-paradigm.com
 * https://www.websequencediagrams.com
 * https://yuml.me
