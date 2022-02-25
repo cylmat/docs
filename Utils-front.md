@@ -16,6 +16,9 @@ Drawing
 Free pictures
 * https://unsplash.com
 
+Misc...
+* https://www.toptal.com/developers/webdevchecklist
+
 Photo editor
 * https://pixteller.com
 * https://www.photopea.com
@@ -29,3 +32,7 @@ Playground
 * https://jsbin.com
 * https://jsfiddle.net
 * https://liveweave.com
+
+Optimization
+* https://imagecompressor.com
+* http://jpeg-optimizer.com
