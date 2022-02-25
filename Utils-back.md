@@ -14,6 +14,7 @@ Diagram
 * https://www.lucidchart.com
 * https://www.planttext.com: UML editor
 * https://online.visual-paradigm.com
+* https://www.umlet.com: Free UML tool and VSCode
 * https://www.websequencediagrams.com
 * https://yuml.me
 * https://www.yworks.com/yed-live
