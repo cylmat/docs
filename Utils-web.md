@@ -1,5 +1,10 @@
 # Utils web
 
+Browser size testing
+* https://www.browserling.com
+* http://www.responsinator.com
+* https://search.google.com/test/mobile-friendly: Mobile friendly testing
+
 Front test
 * https://www.cypress.io: JS end-to-end testing framework
 
@@ -13,3 +18,8 @@ Perf
 * https://tools.pingdom.com
 * https://yellowlab.tools
 * http://yslow.org
+
+Screen size testing
+* https://sizzy.co
+* http://whatismyscreenresolution.net
+* https://xrespond.com
