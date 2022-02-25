@@ -9,9 +9,16 @@ Drawing
 * https://www.canva.com
 * https://www.figma.com
 * https://www.invisionapp.com
+* https://marvelapp.com
+* https://proto.io
+* https://vectr.com
 
 Free pictures
 * https://unsplash.com
+
+Photo editor
+* https://pixteller.com
+* https://www.photopea.com
 
 Playground
 * https://codepen.io
