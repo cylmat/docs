@@ -11,6 +11,7 @@ Copy code
 Diagram
 * https://app.diagrams.net
 * http://diagramo.com: Flowchart
+* https://www.lucidchart.com
 * https://online.visual-paradigm.com
 * https://www.websequencediagrams.com
 * https://yuml.me
