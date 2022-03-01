@@ -74,3 +74,7 @@ Playground
 Optimization
 * https://imagecompressor.com
 * http://jpeg-optimizer.com
+
+Templates
+* http://www.csszengarden.com
+* http://www.freehtml5templates.co.uk
