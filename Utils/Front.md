@@ -1,5 +1,10 @@
 # Utils front
 
+Colors
+* https://coolors.co
+* https://paletton.com
+* https://www.rapidtables.com/web/css/css-color.html
+
 Css helper
 * https://www.cssportal.com
 * https://cssreference.io
