@@ -1,5 +1,11 @@
 # Utils js
 
+Docs
+* http://es6-features.org
+* https://eloquentjavascript.net
+* http://jstherightway.org
+* https://standardjs.com
+
 Playground
 * https://codepen.io
 * https://www.codeply.com
