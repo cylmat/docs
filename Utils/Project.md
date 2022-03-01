@@ -11,10 +11,6 @@ Tools
 ## Security
 * https://www.ssllabs.com: Qualys SSL testing lab
 
-## Web
-E-commerce
-* https://thelia.net: Open-source Symfony framework
-
 ## Windows
 Console
 * https://cmder.net: Nice console emulators
