@@ -5,6 +5,9 @@ Browser size testing
 * http://www.responsinator.com
 * https://search.google.com/test/mobile-friendly: Mobile friendly testing
 
+E-commerce
+* https://thelia.net: Open-source Symfony framework
+
 Front test
 * https://www.cypress.io: JS end-to-end testing framework
 
