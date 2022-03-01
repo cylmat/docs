@@ -4,6 +4,7 @@ Css helper
 * https://www.cssportal.com
 * https://cssreference.io
 * https://html-css-js.com
+* https://www.layoutit.com
 * https://www.toptal.com/developers/css3maker
 
 Css framework
@@ -14,6 +15,7 @@ Css framework
 * http://ink.sapo.pt
 * http://jeet.gs
 * https://www.knacss.com
+* https://materializecss.com
 * https://milligram.io
 * http://necolas.github.io/normalize.css
 * https://purecss.io
