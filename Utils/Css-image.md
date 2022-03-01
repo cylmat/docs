@@ -65,16 +65,6 @@ Photo editor
 * https://pixteller.com
 * https://www.photopea.com
 
-Playground
-* https://codepen.io
-* https://www.codeply.com
-* https://codesandbox.io
-* https://cssdeck.com/labs
-* https://glitch.com
-* https://jsbin.com
-* https://jsfiddle.net
-* https://liveweave.com
-
 Optimization
 * https://imagecompressor.com
 * http://jpeg-optimizer.com
