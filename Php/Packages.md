@@ -11,17 +11,16 @@ Driving tool
 * https://docs.behat.org
 * http://peridot-php.github.io
 
-## Framework
+Fake data
+* https://github.com/fzaninotto/Faker
+* https://github.com/nelmio/alice
+
 Mocking
 * http://docs.mockery.io
 * https://github.com/phpspec/prophecy: PHP mocking framework
 
-## Packages
+Packages misc
 * https://www.stashphp.com: Cache process
-* https://xdebug.org: PHP debugger extension
-Fake data
-* https://github.com/fzaninotto/Faker
-* https://github.com/nelmio/alice
 
 Packages manager
 * https://getcomposer.org
@@ -46,6 +45,7 @@ Testing framework
 * https://github.com/paratestphp/paratest
 * http://phpspec.net
 * https://phpunit.de: The PHP testing framework
++ https://xdebug.org: PHP debugger extension
 
 ---
 @ref: 
