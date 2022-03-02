@@ -1,14 +1,5 @@
 ## Utils back
 
-Api creation
-* https://stoplight.io
-* https://swagger.io
-
-Api tests & mock
-* https://designer.mocky.io
-* https://www.postman.com
-* https://wiremock.org
-
 App
 * http://srsbiz.pl/utils/hexit.php: Hexa editor
 
