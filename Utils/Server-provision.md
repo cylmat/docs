@@ -3,11 +3,6 @@
 Architecture
 * https://varnish-cache.org: HTTP cache
 
-Automatisation
-* https://www.jenkins.io
-* https://www.phing.info
-* https://robo.li
-
 CDN
 * https://www.cloudflare.com
 
@@ -22,6 +17,10 @@ Deployement PHP
 * https://deployer.org
 * https://robo.li
 * http://rocketeer.autopergamene.eu: PHP task runner
+
+Environment
+* https://www.docker.com
+* https://www.vagrantup.com
 
 Provisionning
 * https://www.ansible.com
