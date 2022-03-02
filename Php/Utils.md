@@ -22,4 +22,6 @@ Packages manager
 * https://pecl.php.net
 
 ---
-@ref: https://phpqa.io
+@ref: 
+- https://eilgin.github.io/php-the-right-way
+- https://phpqa.io
