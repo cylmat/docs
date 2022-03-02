@@ -58,6 +58,14 @@ Free pictures
 * https://commons.wikimedia.org/wiki/Category:Images
 * https://unsplash.com
 
+Html templating
+* http://www.99lime.com/elements
+* https://haml.info
+* https://handlebarsjs.com
+* https://html5boilerplate.com
+* http://www.initializr.com
+* http://mustache.github.io
+
 Misc...
 * https://placeholder.com: Free images placeholder service
 * https://www.toptal.com/developers/webdevchecklist
