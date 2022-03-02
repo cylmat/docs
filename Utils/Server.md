@@ -3,7 +3,11 @@
 Architecture
 * https://varnish-cache.org: HTTP cache
 
-Hosting
+CDN
+* https://www.cloudflare.com
+
+Cloud
+* https://www.heroku.com
 * https://www.serverless.com
 
 Security
