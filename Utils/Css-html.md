@@ -44,20 +44,6 @@ Css dev
 * https://lesscss.org
 * https://sass-lang.com
 
-Drawing
-* https://app.genmymodel.com
-* https://www.befunky.com
-* https://www.canva.com
-* https://www.figma.com
-* https://www.invisionapp.com
-* https://marvelapp.com
-* https://proto.io
-* https://vectr.com
-
-Free pictures
-* https://commons.wikimedia.org/wiki/Category:Images
-* https://unsplash.com
-
 Html templating
 * http://www.99lime.com/elements
 * https://haml.info
@@ -73,14 +59,6 @@ Html templating
 Misc...
 * https://placeholder.com: Free images placeholder service
 * https://www.toptal.com/developers/webdevchecklist
-
-Photo editor
-* https://pixteller.com
-* https://www.photopea.com
-
-Optimization
-* https://imagecompressor.com
-* http://jpeg-optimizer.com
 
 Templates
 * http://www.csszengarden.com
