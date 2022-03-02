@@ -48,6 +48,7 @@ Html templating
 * https://handlebarsjs.com
 * https://html5boilerplate.com
 * http://www.initializr.com
+* https://markojs.com: A declarative, HTML-based language
 * https://github.com/arnaud-lb/MtHaml
 * http://mustache.github.io
 * https://platesphp.com: Native PHP template
