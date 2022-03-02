@@ -1,8 +1,5 @@
 # Utils front
 
-Appli
-* https://birdfont.org
-
 Colors
 * https://coolors.co
 * https://paletton.com
@@ -56,7 +53,7 @@ Html templating
 * https://www.smarty.net
 * https://twig.symfony.com
 
-Misc...
+Misc
 * https://placeholder.com: Free images placeholder service
 * https://www.toptal.com/developers/webdevchecklist
 
