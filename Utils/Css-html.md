@@ -31,6 +31,7 @@ Css framework
 * https://modernizr.com
 * http://necolas.github.io/normalize.css
 * https://purecss.io
+* https://semantic-ui.com
 * https://tailwindcss.com
 * https://thisisdallas.github.io/Simple-Grid
 * https://unsemantic.com
