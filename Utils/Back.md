@@ -8,12 +8,6 @@ Copy code
 * https://pastebin.com
 * https://sharemycode.fr
 
-Database ORM
-* https://www.doctrine-project.org
-* https://laravel.com/docs/9.0/eloquent
-* http://propelorm.org
-* https://www.redbeanphp.com
-
 Diagram
 * https://app.diagrams.net
 * http://diagramo.com: Flowchart
@@ -32,21 +26,6 @@ Editor
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
 
-Linter
-* https://cs.symfony.com
-* https://github.com/squizlabs/PHP_CodeSniffer
-* https://pdepend.org: Software metric
-* https://phpmd.org
-* https://pmd.github.io
-
-Packages
-* https://www.stashphp.com: Cache process
-
-Packages manager
-* https://getcomposer.org
-* https://pear.php.net
-* https://pecl.php.net
-
 Playground Back
 * https://3v4l.org: Online Php editor!
 * https://code.sololearn.com
@@ -57,6 +36,3 @@ Playground Back
 
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
-
----
-@ref: https://phpqa.io
