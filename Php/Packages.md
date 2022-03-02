@@ -14,3 +14,4 @@ Packages manager
 * https://getcomposer.org
 * https://pear.php.net
 * https://pecl.php.net
+* https://github.com/phar-io/phive: Phar install and verification
