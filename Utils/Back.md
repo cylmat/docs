@@ -23,6 +23,10 @@ Editor
 * http://lighttable.com: The next generation code editor
 * https://replit.com: Collaborator online browser IDE
 
+Fake data
+* https://www.generatedata.com
+* https://mockaroo.com
+
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
 
