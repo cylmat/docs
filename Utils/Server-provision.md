@@ -14,11 +14,6 @@ Cloud
 * https://www.heroku.com
 * https://www.serverless.com
 
-Deployement PHP
-* https://deployer.org: Deployment tool written in PHP
-* https://www.magephp.com
-* http://rocketeer.autopergamene.eu
-
 Environment
 * https://www.docker.com
 * https://www.vagrantup.com
