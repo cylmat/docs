@@ -62,6 +62,14 @@ Modules
 * https://jspm.org
 * https://requirejs.org
 
+NodeJs
+* http://expressjs.com
+* https://jade-lang.com
+* https://loopback.io
+* http://meanjs.org
+* https://www.meteor.com
+* https://sailsjs.com
+
 Playground
 * https://codepen.io
 * https://www.codeply.com
