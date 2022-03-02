@@ -24,6 +24,7 @@ Framework
 * https://nextjs.org
 * https://reactjs.org
 * https://redux.js.org
+* https://script.aculo.us
 * http://vanilla-js.com
 * https://vuejs.org
 
@@ -36,6 +37,10 @@ Library
 * https://www.chartjs.org
 * http://www.commonjs.org
 * https://createjs.com
+* https://pixijs.com
+* https://polymer-library.polymer-project.org
+* http://prototypejs.org
+* https://requirejs.org
 * https://threejs.org: 3d
 * https://underscorejs.org
 * https://vanillajstoolkit.com
