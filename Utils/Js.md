@@ -37,6 +37,8 @@ Library
 * https://www.chartjs.org
 * http://www.commonjs.org
 * https://createjs.com
+* https://mootools.net
+* https://nativescript.org
 * https://pixijs.com
 * https://polymer-library.polymer-project.org
 * http://prototypejs.org
@@ -55,7 +57,9 @@ Playground
 * https://jsfiddle.net
 * https://liveweave.com
 
-Testing
+Testing browser
 * https://browsersync.io
 * https://www.cypress.io
 
+Testing framework
+* https://mochajs.org
