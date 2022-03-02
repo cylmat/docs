@@ -17,7 +17,7 @@ Cloud
 Deployement PHP
 * https://deployer.org: Deployment tool written in PHP
 * https://www.magephp.com
-* https://github.com/rocketeers/rocketeer
+* http://rocketeer.autopergamene.eu
 
 Environment
 * https://www.docker.com
