@@ -7,6 +7,7 @@ Automatisation
 * http://rocketeer.autopergamene.eu: PHP task runner
 
 Bug tracker
+* https://github.com/marekjm/issue: Command line issue tracker
 * https://www.mantisbt.org
 
 Management
