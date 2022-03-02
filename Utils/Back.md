@@ -42,6 +42,11 @@ Linter
 Packages
 * https://www.stashphp.com: Cache process
 
+Packages manager
+* https://getcomposer.org
+* https://pear.php.net
+* https://pecl.php.net
+
 Playground Back
 * https://3v4l.org: Online Php editor!
 * https://code.sololearn.com
