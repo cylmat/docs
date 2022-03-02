@@ -26,6 +26,9 @@ Editor
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
 
+Packages
+* https://www.stashphp.com: Cache process
+
 Playground Back
 * https://3v4l.org: Online Php editor!
 * https://code.sololearn.com
