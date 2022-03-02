@@ -28,6 +28,9 @@ Framework
 * http://vanilla-js.com
 * https://vuejs.org
 
+Helper
+* https://livejs.com
+
 Language
 * https://clojure.org
 * https://coffeescript.org
