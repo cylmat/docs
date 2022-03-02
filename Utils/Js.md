@@ -38,17 +38,23 @@ Language
 
 Library
 * https://www.chartjs.org
-* http://www.commonjs.org
 * https://createjs.com
 * https://mootools.net
 * https://nativescript.org
 * https://pixijs.com
 * https://polymer-library.polymer-project.org
 * http://prototypejs.org
-* https://requirejs.org
 * https://threejs.org: 3d
 * https://underscorejs.org
 * https://vanillajstoolkit.com
+
+Linter
+* https://www.jslint.com
+
+Modules
+* http://www.commonjs.org
+* https://jspm.org
+* https://requirejs.org
 
 Playground
 * https://codepen.io
