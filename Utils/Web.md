@@ -29,3 +29,9 @@ Screen size testing
 
 Security
 * https://www.ssllabs.com: Qualys SSL testing lab
+
+Testing browser
+* https://browsersync.io
+* https://codecept.io
+* https://www.cypress.io
+* https://www.selenium.dev
