@@ -2,6 +2,7 @@
 
 Build
 * https://brunch.io
+* https://babeljs.io
 
 Docs
 * http://es6-features.org
@@ -15,7 +16,10 @@ Format
 
 Framework
 * https://angularjs.org
+* https://backbonejs.org
 * https://d3js.org: Data-driven document
+* https://dojo.io
+* https://dojotoolkit.org
 * https://pugjs.org: Templating
 * https://nextjs.org
 * https://reactjs.org
@@ -27,6 +31,11 @@ Language
 * https://coffeescript.org
 * https://www.typescriptlang.org
 
+Library
+* https://www.chartjs.org
+* http://www.commonjs.org
+* https://createjs.com
+
 Playground
 * https://codepen.io
 * https://www.codeply.com
@@ -36,3 +45,8 @@ Playground
 * https://jsbin.com
 * https://jsfiddle.net
 * https://liveweave.com
+
+Testing
+* https://browsersync.io
+* https://www.cypress.io
+
