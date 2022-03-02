@@ -51,3 +51,6 @@ sscanf("3 5 9 11 109 8\n", "%[^\n]", $arr_temp);
 
 **declare array in for loop**  
 for ($l = array(1,1), $i = 2, $x = 0; $i < $length; $i++)     
+
+---
+@ref: https://eilgin.github.io/php-the-right-way
