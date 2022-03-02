@@ -22,3 +22,7 @@ Package manager
 
 Screen capture
 * https://www.screenpresso.com
+
+Versionning
+* https://alx.github.io/gitbook
+* https://git-scm.com
