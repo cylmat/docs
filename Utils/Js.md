@@ -84,6 +84,7 @@ Testing browser
 * https://browsersync.io
 * https://codecept.io
 * https://www.cypress.io
+* https://www.selenium.dev
 
 Testing framework
 * https://jasmine.github.io
