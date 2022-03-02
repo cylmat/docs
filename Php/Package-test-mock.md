@@ -31,6 +31,8 @@ Testing framework
 * https://github.com/paratestphp/paratest
 * http://phpspec.net
 * https://phpunit.de: The PHP testing framework
+
++ https://phpunitgen.io: PHPUnit generator
 + https://xdebug.org: PHP debugger extension
 
 ---
