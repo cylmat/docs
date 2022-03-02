@@ -8,6 +8,7 @@
 
 ## In-memory
 - https://ignite.apache.org: distributed database for high-performance
+- http://rocksdb.org: Persistent key-value for fast storage
 - https://sourceforge.net/projects/soliddbd: SolidDB is designed for extreme speed as a persistent
 
 ## No-Sql
