@@ -9,7 +9,7 @@ Automatisation
 Bug tracker
 * https://www.mantisbt.org
 
-Project
+Management
 * https://asana.com
 * https://trello.com
 
