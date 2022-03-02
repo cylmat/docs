@@ -5,11 +5,14 @@ Browser size testing
 * http://www.responsinator.com
 * https://search.google.com/test/mobile-friendly: Mobile friendly testing
 
+Browser E2E testing
+* https://browsersync.io
+* https://codecept.io
+* https://www.cypress.io
+* https://www.selenium.dev
+
 E-commerce
 * https://thelia.net: Open-source Symfony framework
-
-Front test
-* https://www.cypress.io: JS end-to-end testing framework
 
 Perf
 * https://www.dareboost.com
@@ -29,9 +32,3 @@ Screen size testing
 
 Security
 * https://www.ssllabs.com: Qualys SSL testing lab
-
-Testing browser
-* https://browsersync.io
-* https://codecept.io
-* https://www.cypress.io
-* https://www.selenium.dev
