@@ -15,8 +15,6 @@ Cloud
 
 Deployement PHP
 * https://deployer.org
-* https://robo.li
-* http://rocketeer.autopergamene.eu: PHP task runner
 
 Environment
 * https://www.docker.com
