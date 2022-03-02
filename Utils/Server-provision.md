@@ -18,8 +18,10 @@ Cloud
 * https://www.heroku.com
 * https://www.serverless.com
 
-Deployement
+Deployement PHP
 * https://deployer.org
+* https://robo.li
+* http://rocketeer.autopergamene.eu: PHP task runner
 
 Provisionning
 * https://www.ansible.com
@@ -27,6 +29,3 @@ Provisionning
 * https://www.chef.io
 * https://github.com/puphpet/puphpet: Vagrant provisionning
 * https://puppet.com
-
-Security
-* https://www.stunnel.org
