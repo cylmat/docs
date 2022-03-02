@@ -12,6 +12,7 @@ Fake data
 Mocking
 * http://docs.mockery.io
 * https://github.com/phpspec/prophecy: PHP mocking framework
+* http://php-vcr.github.io: Record HTTP interaction
 
 Quality
 * https://cs.symfony.com
