@@ -8,6 +8,12 @@ Copy code
 * https://pastebin.com
 * https://sharemycode.fr
 
+Database ORM
+* https://www.doctrine-project.org
+* https://laravel.com/docs/9.0/eloquent
+* http://propelorm.org
+* https://www.redbeanphp.com
+
 Diagram
 * https://app.diagrams.net
 * http://diagramo.com: Flowchart
