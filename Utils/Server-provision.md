@@ -1,6 +1,7 @@
 # Server
 
 Architecture
+* http://www.haproxy.org: High Performance TCP/HTTP Load Balancer
 * https://varnish-cache.org: HTTP cache
 
 CDN
@@ -14,7 +15,9 @@ Cloud
 * https://www.serverless.com
 
 Deployement PHP
-* https://deployer.org
+* https://deployer.org: Deployment tool written in PHP
+* https://www.magephp.com
+* https://github.com/rocketeers/rocketeer
 
 Environment
 * https://www.docker.com
