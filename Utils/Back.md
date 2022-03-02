@@ -26,6 +26,13 @@ Editor
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
 
+Linter
+* https://cs.symfony.com
+* https://github.com/squizlabs/PHP_CodeSniffer
+* https://pdepend.org: Software metric
+* https://phpmd.org
+* https://pmd.github.io
+
 Packages
 * https://www.stashphp.com: Cache process
 
@@ -39,3 +46,6 @@ Playground Back
 
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
+
+---
+@ref: https://phpqa.io
