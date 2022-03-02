@@ -21,6 +21,13 @@ Packages manager
 * https://pear.php.net
 * https://pecl.php.net
 
+Testing framework
+* http://atoum.org
+* https://docs.behat.org
+* https://codeception.com
+* https://coveralls.io
+* https://kahlan.github.io
+
 ---
 @ref: 
 - https://eilgin.github.io/php-the-right-way
