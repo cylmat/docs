@@ -20,6 +20,8 @@ Framework
 * https://d3js.org: Data-driven document
 * https://dojo.io
 * https://dojotoolkit.org
+* https://www.electronjs.org
+* https://emberjs.com
 * https://pugjs.org: Templating
 * https://nextjs.org
 * https://reactjs.org
@@ -50,6 +52,7 @@ Library
 * https://vanillajstoolkit.com
 
 Linter
+* https://eslint.org
 * https://flow.org
 * https://jshint.com
 * https://www.jslint.com
@@ -71,6 +74,7 @@ Playground
 
 Testing browser
 * https://browsersync.io
+* https://codecept.io
 * https://www.cypress.io
 
 Testing framework
