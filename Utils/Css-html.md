@@ -64,7 +64,11 @@ Html templating
 * https://handlebarsjs.com
 * https://html5boilerplate.com
 * http://www.initializr.com
+* https://github.com/arnaud-lb/MtHaml
 * http://mustache.github.io
+* https://platesphp.com: Native PHP template
+* https://www.smarty.net
+* https://twig.symfony.com
 
 Misc...
 * https://placeholder.com: Free images placeholder service
