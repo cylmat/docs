@@ -55,6 +55,7 @@ Html templating
 * https://twig.symfony.com
 
 Misc
+* https://phaser.io: Html5 game framework
 * https://placeholder.com: Free images placeholder service
 * https://www.toptal.com/developers/webdevchecklist
 
