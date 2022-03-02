@@ -39,6 +39,7 @@ Language
 Library
 * https://www.chartjs.org
 * https://createjs.com
+* https://jquery.com
 * https://mootools.net
 * https://nativescript.org
 * https://pixijs.com
@@ -49,6 +50,8 @@ Library
 * https://vanillajstoolkit.com
 
 Linter
+* https://flow.org
+* https://jshint.com
 * https://www.jslint.com
 
 Modules
@@ -71,4 +74,6 @@ Testing browser
 * https://www.cypress.io
 
 Testing framework
+* https://jasmine.github.io
+* https://jestjs.io
 * https://mochajs.org
