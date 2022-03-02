@@ -16,6 +16,7 @@ Format
 Framework
 * https://angularjs.org
 * https://d3js.org: Data-driven document
+* https://pugjs.org: Templating
 * https://nextjs.org
 * https://reactjs.org
 * https://redux.js.org
