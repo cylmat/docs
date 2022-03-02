@@ -1,18 +1,22 @@
 # Databases
 
 ## Big data
-- Cassandra: free and open-source NoSQL database management system (https://cassandra.apache.org)
+- https://cassandra.apache.org: free and open-source NoSQL database management system
+
+## Data science
+- https://neo4j.com: Graph Data Platform
 
 ## In-memory
-- Ignite Apache: distributed database for high-performance. (https://ignite.apache.org)
-- SolidDb:  solidDB is designed for extreme speed as a persistent. (https://sourceforge.net/projects/soliddb)
+- https://ignite.apache.org: distributed database for high-performance
+- https://sourceforge.net/projects/soliddbd: SolidDB is designed for extreme speed as a persistent
 
 ## No-Sql
-- CouchDb: open-source document-oriented NoSQL database, implemented in Erlang. (https://docs.couchdb.org)
+- https://docs.couchdb.org: open-source document-oriented NoSQL database, implemented in Erlang
 
 ## Relational
-- Oracle Database Express Edition: free, smaller-footprint edition of Oracle Database (https://www.oracle.com/fr/database/technologies/appdev/xe.html) 
-- Percona Server: Free open-soure distribution of the MySQL relational database (https://www.percona.com)
+- https://www.oracle.com/fr/database/technologies/appdev/xe.html:
+  + Oracle Database Express Edition: free, smaller-footprint edition of Oracle Database 
+- https://www.percona.com: Free open-soure distribution of the MySQL relational database
 
-Bonus  
-- ProxySql: MySQL protocol hih performance proxy (https://www.proxysql.com)
+## Bonus  
+- https://www.proxysql.com: MySQL protocol high performance proxy
