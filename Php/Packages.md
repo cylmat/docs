@@ -11,8 +11,17 @@ Driving tool
 * https://docs.behat.org
 * http://peridot-php.github.io
 
-Packages
+## Framework
+Mocking
+* http://docs.mockery.io
+* https://github.com/phpspec/prophecy: PHP mocking framework
+
+## Packages
 * https://www.stashphp.com: Cache process
+* https://xdebug.org: PHP debugger extension
+Fake data
+* https://github.com/fzaninotto/Faker
+* https://github.com/nelmio/alice
 
 Packages manager
 * https://getcomposer.org
@@ -21,6 +30,7 @@ Packages manager
 
 Quality
 * https://cs.symfony.com
+* https://github.com/phpro/grumphp: A PHP code-quality tool
 * https://github.com/squizlabs/PHP_CodeSniffer
 * https://pdepend.org: Software metric
 * https://phpinsights.com
@@ -30,9 +40,10 @@ Quality
 
 Testing framework
 * http://atoum.org
-* http://docs.mockery.io
 * https://coveralls.io
+* https://github.com/sebastianbergmann/dbunit: Database test
 * https://kahlan.github.io
+* https://github.com/paratestphp/paratest
 * http://phpspec.net
 * https://phpunit.de: The PHP testing framework
 
