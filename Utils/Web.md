@@ -26,3 +26,6 @@ Screen size testing
 * https://sizzy.co
 * http://whatismyscreenresolution.net
 * https://xrespond.com
+
+Security
+* https://www.ssllabs.com: Qualys SSL testing lab
