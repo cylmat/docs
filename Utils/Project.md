@@ -4,6 +4,7 @@ Automatisation
 * https://www.jenkins.io
 * https://www.phing.info
 * https://robo.li
+* https://robotframework.org
 * http://rocketeer.autopergamene.eu: PHP task runner
 
 Bug tracker
