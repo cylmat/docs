@@ -6,6 +6,9 @@ Automatisation
 * https://robo.li
 * http://rocketeer.autopergamene.eu: PHP task runner
 
+Bug tracker
+* https://www.mantisbt.org
+
 Project
 * https://asana.com
 * https://trello.com
