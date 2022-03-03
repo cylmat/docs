@@ -3,6 +3,7 @@
 ## Linux
 Tools
 * https://busybox.net: The Swiss Army Knife of Embedded Linux
+* http://supervisord.org: Client/server system that allows to control Unix processes
 
 Security
 * https://www.stunnel.org
