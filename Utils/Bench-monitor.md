@@ -8,3 +8,6 @@ Benchmark
 * https://github.com/wg/wrk: HTTP benchmarking tool
 * https://jmeter.apache.org: Load test and measure performance
 * https://locust.io
+
+Error tracking
+* https://sentry.io: Error tracking that monitor crashes
