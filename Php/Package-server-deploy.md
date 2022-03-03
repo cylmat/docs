@@ -11,3 +11,4 @@ Profiling
 * https://github.com/laynefyc/php-monitor: Monitor service and profiling code
 * https://github.com/phacility/xhprof: Function-level hierarchical profiler for PHP
 * https://github.com/tideways/php-xhprof-extension
+* https://phpbench.readthedocs.io
