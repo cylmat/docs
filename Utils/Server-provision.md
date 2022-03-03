@@ -22,5 +22,7 @@ Proxy
 * https://varnish-cache.org: HTTP cache
 
 Server
+* https://httpd.apache.org
 * https://www.lighttpd.net: Secure, fast web server
+* https://www.nginx.com
 * https://puma.io: Fast concurent web server
