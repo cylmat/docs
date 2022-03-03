@@ -6,7 +6,10 @@ Cloud
 
 Environment dev
 * https://www.docker.com
-* https://phpdocker.io: PHP development environment generator built with Docker
+  + https://hub.docker.com
+  + https://phpdocker.io: PHP development environment generator built with Docker
+* https://kubernetes.io: Open-source system for automating deployment
+  + https://operatorhub.io: K8s registry
 * https://www.vagrantup.com
 
 Provisionning
