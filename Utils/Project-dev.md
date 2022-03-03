@@ -11,6 +11,9 @@ Bug tracker
 * https://github.com/marekjm/issue: Command line issue tracker
 * https://www.mantisbt.org
 
+CI
+* https://circleci.com
+
 Management
 * https://asana.com
 * https://trello.com
