@@ -1,7 +1,7 @@
 # Databases
 
 Big data
-- https://cassandra.apache.org: free and open-source NoSQL database management system
+- https://cassandra.apache.org: Open-source NoSQL database management system
 
 Data science
 - https://neo4j.com: Graph Data Platform
@@ -9,11 +9,10 @@ Data science
 In-memory
 - https://ignite.apache.org: Distributed database for high-performance
 - https://redis.io: In-memory data structure store
-- http://rocksdb.org: Persistent key-value for fast storage
-- https://sourceforge.net/projects/soliddbd: SolidDB is designed for extreme speed as a persistent
+- https://www.teamblue.unicomsi.com/products/soliddb: SolidDB is designed for extreme speed as a persistent
 
 No-Sql
-- https://docs.couchdb.org: open-source document-oriented NoSQL database, implemented in Erlang
+- https://docs.couchdb.org: Open-source document-oriented NoSQL database
 - https://www.elastic.co
 - https://www.mongodb.com
 
@@ -23,6 +22,7 @@ Object storage
 
 Performance
 * https://www.influxdata.com: High-speed read and write database
+* http://rocksdb.org: Persistent key-value for fast storage
 
 Relational
 - https://mariadb.org
