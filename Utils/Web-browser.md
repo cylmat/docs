@@ -12,6 +12,7 @@ Browser E2E testing
 * https://browsersync.io
 * https://codecept.io
 * https://www.cypress.io
+* https://github.com/puppeteer/puppeteer: Headless Chrome Node.js API 
 * https://www.selenium.dev
 
 E-commerce
