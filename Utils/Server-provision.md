@@ -14,6 +14,7 @@ Provisionning
 * https://capistranorb.com
 * https://www.chef.io
 * https://github.com/puphpet/puphpet: Vagrant provisionning
+* https://www.redhat.com/fr/technologies/cloud-computing/openshift
 * https://puppet.com
 
 Proxy
