@@ -1,8 +1,5 @@
 # Server
 
-CI
-* https://circleci.com
-
 Cloud
 * https://www.heroku.com
 * https://www.serverless.com
