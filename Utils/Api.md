@@ -10,4 +10,5 @@ Sockets
 Tests & mock
 * https://designer.mocky.io
 * https://www.postman.com
+* https://www.soapui.org: Manage and execute end-to-end tests
 * https://wiremock.org
