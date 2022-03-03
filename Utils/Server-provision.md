@@ -24,3 +24,6 @@ Provisionning
 * https://www.chef.io
 * https://github.com/puphpet/puphpet: Vagrant provisionning
 * https://puppet.com
+
+Server
+* https://www.lighttpd.net: Secure, fast web server
