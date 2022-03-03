@@ -12,6 +12,7 @@ Benchmark
 Data collector
 * https://www.fluentd.org: Unified logging
 * https://www.elastic.co/fr/logstash
+* https://www.graylog.org: Collects and analyzes log data
 
 Error tracking
 * https://sentry.io: Error tracking that monitor crashes
