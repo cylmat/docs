@@ -16,3 +16,6 @@ Data collector
 
 Error tracking
 * https://sentry.io: Error tracking that monitor crashes
+
+Monitoring
+* https://newrelic.com: Monitoring and perf
