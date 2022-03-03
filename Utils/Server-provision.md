@@ -26,3 +26,4 @@ Proxy
 
 Server
 * https://www.lighttpd.net: Secure, fast web server
+* https://puma.io: Fast concurent web server
