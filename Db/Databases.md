@@ -17,6 +17,9 @@
 - https://www.elastic.co
 - https://www.mongodb.com
 
+Performance
+* https://www.influxdata.com: High-speed read and write database
+
 ## Relational
 - https://mariadb.org
 - https://www.mysql.com
