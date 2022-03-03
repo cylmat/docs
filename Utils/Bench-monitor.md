@@ -9,5 +9,9 @@ Benchmark
 * https://jmeter.apache.org: Load test and measure performance
 * https://locust.io
 
+Data collector
+* https://www.fluentd.org: Unified logging
+* https://www.elastic.co/fr/logstash
+
 Error tracking
 * https://sentry.io: Error tracking that monitor crashes
