@@ -13,9 +13,11 @@ Provisionning
 * https://www.ansible.com
 * https://capistranorb.com
 * https://www.chef.io
+* https://docs.drone.io: CI platform
 * https://github.com/puphpet/puphpet: Vagrant provisionning
 * https://www.redhat.com/fr/technologies/cloud-computing/openshift
 * https://puppet.com
+* https://saltproject.io
 
 Proxy
 * https://www.cloudflare.com: CDN
