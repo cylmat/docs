@@ -1,5 +1,8 @@
 # Utils web
 
+Analytics
+* https://www.openwebanalytics.com
+
 Browser size testing
 * https://www.browserling.com
 * http://www.responsinator.com
