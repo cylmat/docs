@@ -18,6 +18,7 @@ Browser E2E testing
 Communication
 * https://mercure.rocks: Real time protocol
 * https://www.rabbitmq.com: Message broker
+* https://stomp.github.io: Simple Text Orientated Messaging Protocol
 
 E-commerce
 * https://thelia.net: Open-source Symfony framework
