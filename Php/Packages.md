@@ -16,6 +16,11 @@ Event asynchronous
 * https://reactphp.org: Non-blocking I/O
 * https://openswoole.com: Async I/O server
 
+Image
+* https://github.com/Imagick/imagick
+* https://imagine.readthedocs.io: Image manipulation
+* https://jpgraph.net: PHP chart
+
 Message queue
 * https://github.com/zeromq/php-zmq
 
@@ -32,6 +37,5 @@ Threading
 ## Misc
 * https://getrector.org: Automated refactoring
 * https://github.com/JetBrains/phpstorm-stubs: Runtime & extensions header
-* https://jpgraph.net: PHP chart
 * https://phar.io: Compression of PHP packages
 * https://www.stashphp.com: Cache process
