@@ -9,6 +9,11 @@ Api
 * https://lumen.laravel.com (deprecated)
 * https://www.slimframework.com
 
+CMS
+* https://www.drupal.org
+* https://typo3.fr
+* https://xoops.org
+
 Communication
 * http://socketo.me (Ratchet): PHP Websocket
 
