@@ -1,5 +1,8 @@
 # Server
 
+Automatisation
+* http://rocketeer.autopergamene.eu: PHP task runner
+
 Debugger
 * https://github.com/krakjoe/phpdbg: Interactive debugger
 
