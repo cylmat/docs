@@ -6,10 +6,15 @@ Communication
 * https://williamdurand.fr/Negotiation
 
 Database ORM
-* https://www.doctrine-project.org
++ https://www.doctrine-project.org !**
+
+* https://atlasphp.io
+* https://github.com/j4mie/idiorm: Zero config ORM
 * https://laravel.com/docs/9.0/eloquent
 * http://propelorm.org
 * https://www.redbeanphp.com
+
+- https://phinx.org: Database migrations
 
 DI
 * https://github.com/silexphp/Pimple
