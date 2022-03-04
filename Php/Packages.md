@@ -7,6 +7,7 @@ Database ORM
 * https://www.redbeanphp.com
 
 Event-driven
+* https://github.com/php-pm/php-pm: Process manager, supercharger and load balancer
 * https://reactphp.org: Non-blocking I/O
 
 Misc
