@@ -20,6 +20,7 @@ Message queue
 * https://github.com/zeromq/php-zmq
 
 Misc
+* https://github.com/JetBrains/phpstorm-stubs: Runtime & extensions header
 * https://phar.io: Compression of PHP packages
 * https://www.stashphp.com: Cache process
 
