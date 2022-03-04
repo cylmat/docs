@@ -32,5 +32,6 @@ Threading
 ## Misc
 * https://getrector.org: Automated refactoring
 * https://github.com/JetBrains/phpstorm-stubs: Runtime & extensions header
+* https://jpgraph.net: PHP chart
 * https://phar.io: Compression of PHP packages
 * https://www.stashphp.com: Cache process
