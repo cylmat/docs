@@ -9,6 +9,15 @@ Api
 * https://lumen.laravel.com (deprecated)
 * https://www.slimframework.com
 
+Communication
+* http://socketo.me (Ratchet): PHP Websocket
+
+Event asynchronous
+* https://amphp.org: Concurrency framework
+* https://openswoole.com: Async I/O server
+* https://reactphp.org: Non-blocking I/O
+* https://roadrunner.dev: High perf PHP server
+
 Framework
 * https://driftphp.io
 * https://phalcon.io: High perf extension framework
