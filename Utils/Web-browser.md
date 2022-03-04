@@ -15,6 +15,12 @@ Browser E2E testing
 * https://github.com/puppeteer/puppeteer: Headless Chrome Node.js API 
 * https://www.selenium.dev
 
+Communication
+* https://mercure.rocks: Real time protocol
+* https://www.rabbitmq.com: Message broker
+* https://qpid.apache.org: Messaging tools that speak AMQP
+* https://stomp.github.io: Simple Text Orientated Messaging Protocol
+
 E-commerce
 * https://thelia.net: Open-source Symfony framework
 
