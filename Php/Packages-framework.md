@@ -22,5 +22,8 @@ Framework
 * https://driftphp.io
 * https://phalcon.io: High perf extension framework
 
+Libraries
+* https://github.com/auraphp
+
 Middleware
 * https://docs.mezzio.dev: PSR-15 (HTTP middle) from Laminas
