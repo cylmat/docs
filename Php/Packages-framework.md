@@ -35,9 +35,18 @@ Framework
 * https://quantumphp.io
 * https://www.yiiframework.com
 
-Librarie components
-* https://github.com/auraphp
-* https://nette.org
-
 Middleware
 * https://docs.mezzio.dev: PSR-15 (HTTP middle) from Laminas
+
+## Librarie components
++ **https://packagist.org/explore/popular**
+
+* https://auraphp.com
+* https://docs.laminas.dev/components
+* https://docs.sonata-project.org
+* https://github.com/FriendsOfSymfony
+* https://www.doctrine-project.org
+* https://laravel.com
+* https://nette.org
+* https://symfony.com/components
+* https://thephpleague.com
