@@ -15,6 +15,10 @@ Browser E2E testing
 * https://github.com/puppeteer/puppeteer: Headless Chrome Node.js API 
 * https://www.selenium.dev
 
+Communication
+* https://mercure.rocks: Real time protocol
+* https://www.rabbitmq.com: Message broker
+
 E-commerce
 * https://thelia.net: Open-source Symfony framework
 
