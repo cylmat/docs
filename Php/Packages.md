@@ -30,6 +30,9 @@ Packages manager
 * https://pecl.php.net
 * https://github.com/phar-io/phive: Phar install and verification
 
+Security
+* https://phpauth.github.io/PHPAuth
+
 Threading
 * https://github.com/krakjoe/pthreads (Archived)
 * https://pecl.php.net/package/parallel
