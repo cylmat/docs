@@ -1,7 +1,6 @@
 ## Utils Php
 
 Communication
-* https://mercure.rocks: Real time protocol
 * http://socketo.me (Ratchet): PHP Websocket
 
 Database ORM
@@ -18,7 +17,6 @@ Event asynchronous
 * https://openswoole.com: Async I/O server
 
 Message queue
-* https://www.rabbitmq.com
 * https://github.com/zeromq/php-zmq
 
 Misc
