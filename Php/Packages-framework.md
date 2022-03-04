@@ -45,7 +45,9 @@ Middleware
 * https://docs.laminas.dev/components
 * https://docs.sonata-project.org
 * https://github.com/FriendsOfSymfony
+* https://github.com/hoaproject
 * https://www.doctrine-project.org
+* https://www.horde.org
 * https://laravel.com
 * https://nette.org
 * https://symfony.com/components
