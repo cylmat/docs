@@ -15,3 +15,6 @@ Packages manager
 * https://pear.php.net
 * https://pecl.php.net
 * https://github.com/phar-io/phive: Phar install and verification
+
+Threading
+* https://github.com/krakjoe/pthreads (Archived)
