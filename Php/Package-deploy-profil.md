@@ -2,6 +2,7 @@
 
 Automatisation
 * https://www.phing.info
+* https://github.com/phpro/grumphp: A PHP code-quality tool automation
 * http://rocketeer.autopergamene.eu: PHP task runner
 
 Deployement
