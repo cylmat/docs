@@ -24,11 +24,21 @@ Event asynchronous
 * https://roadrunner.dev: High perf PHP server
 
 Framework
+* https://cakephp.org
 * https://driftphp.io
+* https://getlaminas.org
+* https://fatfreeframework.com
 * https://phalcon.io: High perf extension framework
+* https://quantumphp.io
+* https://www.yiiframework.com
+
++ **https://symfony.com !**
 
 Libraries
 * https://github.com/auraphp
 
 Middleware
 * https://docs.mezzio.dev: PSR-15 (HTTP middle) from Laminas
+
+Packages and components
+* https://nette.org
