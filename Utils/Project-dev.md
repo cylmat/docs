@@ -2,7 +2,6 @@
 
 Automatisation
 * https://www.jenkins.io
-* https://www.phing.info
 * https://robo.li
 * https://robotframework.org
 
