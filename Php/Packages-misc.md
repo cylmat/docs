@@ -2,6 +2,7 @@
 
 Communication
 * https://docs.php-http.org: Standardized HTTP
+* http://httplug.io: Client abstraction
 * https://williamdurand.fr/Negotiation
 
 Database ORM
