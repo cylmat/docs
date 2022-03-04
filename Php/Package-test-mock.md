@@ -1,5 +1,10 @@
 ## Testing
 
+Debugger
+* https://github.com/krakjoe/phpdbg: Interactive debugger
+* https://kint-php.github.io/kint
+* http://phpdebugbar.com
+
 Display
 * http://filp.github.io/whoops
 
