@@ -24,6 +24,8 @@ Event asynchronous
 * https://roadrunner.dev: High perf PHP server
 
 Framework
++ **https://symfony.com !**
+
 * https://cakephp.org
 * https://driftphp.io
 * https://getlaminas.org
@@ -31,8 +33,6 @@ Framework
 * https://phalcon.io: High perf extension framework
 * https://quantumphp.io
 * https://www.yiiframework.com
-
-+ **https://symfony.com !**
 
 Libraries
 * https://github.com/auraphp
