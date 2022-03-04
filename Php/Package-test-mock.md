@@ -1,5 +1,8 @@
 ## Testing
 
+Display
+* http://filp.github.io/whoops
+
 Driving tool
 * https://codeception.com
 * https://docs.behat.org
