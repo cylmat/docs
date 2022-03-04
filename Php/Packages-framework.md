@@ -30,15 +30,14 @@ Framework
 * https://driftphp.io
 * https://getlaminas.org
 * https://fatfreeframework.com
+* https://laravel.com
 * https://phalcon.io: High perf extension framework
 * https://quantumphp.io
 * https://www.yiiframework.com
 
-Libraries
+Librarie components
 * https://github.com/auraphp
+* https://nette.org
 
 Middleware
 * https://docs.mezzio.dev: PSR-15 (HTTP middle) from Laminas
-
-Packages and components
-* https://nette.org
