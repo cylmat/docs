@@ -11,6 +11,11 @@ Database ORM
 * http://propelorm.org
 * https://www.redbeanphp.com
 
+DI
+* https://github.com/silexphp/Pimple
+* https://docs.laminas.dev/laminas-di
+* https://php-di.org
+
 Event asynchronous
 * https://github.com/icicleio
 * https://github.com/php-pm/php-pm: Process manager, supercharger and load balancer
