@@ -5,7 +5,6 @@ Automatisation
 * https://www.phing.info
 * https://robo.li
 * https://robotframework.org
-* http://rocketeer.autopergamene.eu: PHP task runner
 
 Bug tracker
 * https://github.com/marekjm/issue: Command line issue tracker
