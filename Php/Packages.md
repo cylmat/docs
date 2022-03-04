@@ -18,3 +18,4 @@ Packages manager
 
 Threading
 * https://github.com/krakjoe/pthreads (Archived)
+* https://pecl.php.net/package/parallel
