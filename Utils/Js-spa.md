@@ -84,3 +84,6 @@ Testing framework
 * https://jasmine.github.io
 * https://jestjs.io
 * https://mochajs.org
+
+## SPA
+* https://hotwired.dev: Turbo - Stimulus - Strada for SPA
