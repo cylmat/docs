@@ -6,6 +6,9 @@ Database ORM
 * http://propelorm.org
 * https://www.redbeanphp.com
 
+Event-driven
+* https://reactphp.org: Non-blocking I/O
+
 Misc
 * https://phar.io: Compression of PHP packages
 * https://www.stashphp.com: Cache process
