@@ -8,6 +8,13 @@ Copy code
 * https://pastebin.com
 * https://sharemycode.fr
 
+Database admin
+* https://dbeaver.io: Free Universal Database Tool
+* https://www.dbvis.com: Data visualizer
+* https://www.heidisql.com
+* https://www.mysql.com/products/workbench
+* https://www.phpmyadmin.net
+
 Diagram
 * https://app.diagrams.net
 * http://diagramo.com: Flowchart
