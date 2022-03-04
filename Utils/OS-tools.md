@@ -23,5 +23,8 @@ Package manager
 * https://chocolatey.org
 * https://scoop.sh: Commande line installer
 
+Profiling visualizer
+* https://sourceforge.net/projects/qcachegrindwin
+
 Screen capture
 * https://www.screenpresso.com
