@@ -19,3 +19,7 @@ Management
 Versionning
 * https://alx.github.io/gitbook
 * https://git-scm.com
+
+## Language
+* https://github.com/facebook/hhvm
+* https://hacklang.org
