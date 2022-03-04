@@ -1,7 +1,7 @@
 ## Utils Php
 
 Communication
-* http://socketo.me (Ratchet): PHP Websocket
+* https://williamdurand.fr/Negotiation
 
 Database ORM
 * https://www.doctrine-project.org
@@ -10,12 +10,8 @@ Database ORM
 * https://www.redbeanphp.com
 
 Event asynchronous
-* https://amphp.org: Concurrency framework
 * https://github.com/icicleio
 * https://github.com/php-pm/php-pm: Process manager, supercharger and load balancer
-* https://openswoole.com: Async I/O server
-* https://reactphp.org: Non-blocking I/O
-* https://roadrunner.dev: High perf PHP server
 
 Image
 * https://github.com/Imagick/imagick
