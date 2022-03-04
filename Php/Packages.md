@@ -19,11 +19,6 @@ Event asynchronous
 Message queue
 * https://github.com/zeromq/php-zmq
 
-Misc
-* https://github.com/JetBrains/phpstorm-stubs: Runtime & extensions header
-* https://phar.io: Compression of PHP packages
-* https://www.stashphp.com: Cache process
-
 Packages manager
 * https://getcomposer.org
 * https://pear.php.net
@@ -33,3 +28,9 @@ Packages manager
 Threading
 * https://github.com/krakjoe/pthreads (Archived)
 * https://pecl.php.net/package/parallel
+
+## Misc
+* https://getrector.org: Automated refactoring
+* https://github.com/JetBrains/phpstorm-stubs: Runtime & extensions header
+* https://phar.io: Compression of PHP packages
+* https://www.stashphp.com: Cache process
