@@ -35,3 +35,10 @@ Relational
 
 Bonus  
 - https://www.proxysql.com: MySQL protocol high performance proxy
+
+## Admin
+* https://dbeaver.io: Free Universal Database Tool
+* https://www.dbvis.com: Data visualizer
+* https://www.heidisql.com
+* https://www.mysql.com/products/workbench
+* https://www.phpmyadmin.net
