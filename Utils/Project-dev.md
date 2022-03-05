@@ -1,5 +1,8 @@
 # Utils
 
+Admin panel
+* https://ajenti.org: Fast way to manage a remote linux box 
+
 Automatisation
 * https://www.jenkins.io
 * https://robo.li
