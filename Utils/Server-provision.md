@@ -36,6 +36,7 @@ Provisionning
 
 Proxy
 * https://www.cloudflare.com: CDN
+* https://doc.traefik.io: Cloud Native Edge Router
 * http://www.haproxy.org: High Performance TCP/HTTP Load Balancer
 * http://www.squid-cache.org
 * https://varnish-cache.org: HTTP cache
