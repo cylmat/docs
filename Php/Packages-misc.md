@@ -59,6 +59,9 @@ Packages manager
 * https://pecl.php.net
 * https://github.com/phar-io/phive: Phar install and verification
 
+Rules
+* https://github.com/K-Phoen/rulerz: Specification pattern
+
 Security
 * https://phpauth.github.io/PHPAuth
 
