@@ -9,15 +9,6 @@ Cloud database
 * https://www.cloudamqp.com
 * https://www.elephantsql.com
 
-Communication
-* https://activemq.apache.org
-* https://mercure.rocks: Real time protocol
-* https://qpid.apache.org: Messaging tools that speak AMQP
-* https://www.rabbitmq.com: Message broker
-* https://rocketmq.apache.org
-* https://stomp.github.io: Simple Text Orientated Messaging Protocol
-* https://zeromq.org: Open-source universal messaging library 
-
 Environment dev
 * https://www.docker.com
   + https://phpdocker.io: PHP development environment generator built with Docker
@@ -40,11 +31,6 @@ Proxy
 * http://www.haproxy.org: High Performance TCP/HTTP Load Balancer
 * http://www.squid-cache.org
 * https://varnish-cache.org: HTTP cache
-
-Search
-* https://www.elastic.co
-* https://lucene.apache.org: World class search capabilities
-* https://solr.apache.org: Search plateform build on Lucene
 
 Server
 * https://httpd.apache.org
