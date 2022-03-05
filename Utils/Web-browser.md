@@ -22,6 +22,7 @@ Communication protocol
 * https://www.rabbitmq.com: Message broker
 * https://rocketmq.apache.org
 * https://stomp.github.io: Simple Text Orientated Messaging Protocol
+* https://zeromq.org: Open-source universal messaging library 
 
 E-commerce
 * https://thelia.net: Open-source Symfony framework
