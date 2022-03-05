@@ -26,6 +26,7 @@ Object storage
 
 Performance
 * https://www.influxdata.com: High-speed read and write database
+* https://rethinkdb.com: Real-time push
 * http://rocksdb.org: Persistent key-value for fast storage
 
 Relational
