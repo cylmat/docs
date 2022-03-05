@@ -4,6 +4,11 @@ Cloud
 * https://www.heroku.com
 * https://www.serverless.com
 
+Cloud database
+* https://www.clever-cloud.com
+* https://www.cloudamqp.com
+* https://www.elephantsql.com
+
 Environment dev
 * https://www.docker.com
   + https://hub.docker.com
