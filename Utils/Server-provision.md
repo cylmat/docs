@@ -9,6 +9,15 @@ Cloud database
 * https://www.cloudamqp.com
 * https://www.elephantsql.com
 
+Communication protocol
+* https://activemq.apache.org
+* https://mercure.rocks: Real time protocol
+* https://qpid.apache.org: Messaging tools that speak AMQP
+* https://www.rabbitmq.com: Message broker
+* https://rocketmq.apache.org
+* https://stomp.github.io: Simple Text Orientated Messaging Protocol
+* https://zeromq.org: Open-source universal messaging library 
+
 Environment dev
 * https://www.docker.com
   + https://hub.docker.com
