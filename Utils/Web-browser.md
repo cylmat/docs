@@ -34,8 +34,5 @@ Screen size testing
 * http://whatismyscreenresolution.net
 * https://xrespond.com
 
-Search
-* https://www.elastic.co
-
 Security
 * https://www.ssllabs.com: Qualys SSL testing lab
