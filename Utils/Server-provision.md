@@ -9,7 +9,7 @@ Cloud database
 * https://www.cloudamqp.com
 * https://www.elephantsql.com
 
-Communication protocol
+Communication
 * https://activemq.apache.org
 * https://mercure.rocks: Real time protocol
 * https://qpid.apache.org: Messaging tools that speak AMQP
@@ -20,10 +20,8 @@ Communication protocol
 
 Environment dev
 * https://www.docker.com
-  + https://hub.docker.com
   + https://phpdocker.io: PHP development environment generator built with Docker
 * https://kubernetes.io: Open-source system for automating deployment
-  + https://operatorhub.io: K8s registry
 * https://www.vagrantup.com
 
 Provisionning
@@ -41,6 +39,9 @@ Proxy
 * http://www.haproxy.org: High Performance TCP/HTTP Load Balancer
 * http://www.squid-cache.org
 * https://varnish-cache.org: HTTP cache
+
+Search
+* https://www.elastic.co
 
 Server
 * https://httpd.apache.org
