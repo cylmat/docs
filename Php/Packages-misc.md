@@ -6,6 +6,7 @@ Cache
 
 Communication
 * https://docs.php-http.org: Standardized HTTP
+* https://github.com/PHPMailer/PHPMailer
 * http://httplug.io: Client abstraction
 * https://williamdurand.fr/Negotiation
 
