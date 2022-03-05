@@ -19,6 +19,9 @@ Management
 * https://asana.com
 * https://trello.com
 
+Testing
+* https://github.com/symm/vape: HTTP smoke tests
+
 Versionning
 * https://alx.github.io/gitbook
 * https://git-scm.com
