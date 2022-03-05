@@ -2,6 +2,7 @@
 
 Big data
 - https://cassandra.apache.org: Open-source NoSQL database management system
+- https://couchdb.apache.org: Relax
 - https://hbase.apache.org: Big data store
 
 Data science
