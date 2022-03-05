@@ -10,6 +10,7 @@ Data science
 In-memory
 - https://ignite.apache.org: Distributed database for high-performance
 - https://memcached.org
+- https://www.oracle.com/fr/database/technologies/related/berkeleydb.html
 - https://redis.io: In-memory data structure store
 - https://www.teamblue.unicomsi.com/products/soliddb: SolidDB is designed for extreme speed as a persistent
 
