@@ -1,5 +1,9 @@
 ## Testing
 
+Alternative
+* https://github.com/drodil/PHP-Fuzz-tester
+* https://infection.github.io: Mutating tests
+
 Debugger
 * https://github.com/krakjoe/phpdbg: Interactive debugger
 * https://kint-php.github.io/kint
