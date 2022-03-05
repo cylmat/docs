@@ -21,5 +21,5 @@ Versionning
 * https://git-scm.com
 
 ## Language
-* https://github.com/facebook/hhvm
-* https://hacklang.org
++ https://hacklang.org
++ https://www.lua.org
