@@ -6,6 +6,7 @@ Big data
 - https://hbase.apache.org: Big data store
 
 Data science
+- https://www.arangodb.com: Natively store data for graph
 - https://neo4j.com: Graph Data Platform
 
 In-memory
