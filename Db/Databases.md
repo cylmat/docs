@@ -2,6 +2,7 @@
 
 Big data
 - https://cassandra.apache.org: Open-source NoSQL database management system
+- https://hbase.apache.org: Big data store
 
 Data science
 - https://neo4j.com: Graph Data Platform
