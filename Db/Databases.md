@@ -26,6 +26,7 @@ Performance
 * http://rocksdb.org: Persistent key-value for fast storage
 
 Relational
+- https://firebirdsql.org
 - https://mariadb.org
 - https://www.mysql.com
 - https://www.oracle.com/fr/database/technologies/appdev/xe.html:
