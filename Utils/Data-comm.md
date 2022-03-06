@@ -9,6 +9,9 @@ Communication
 * https://stomp.github.io: Simple Text Orientated Messaging Protocol
 * https://zeromq.org: Open-source universal messaging library
 
+Email
+* https://github.com/mailhog/MailHog: Golang web and API based SMTP testing 
+
 Jobs
 * http://resque.github.io
 * https://sidekiq.org: Background jobs for Ruby
