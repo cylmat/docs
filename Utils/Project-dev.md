@@ -19,9 +19,6 @@ Bug tracker
 CI
 * https://circleci.com
 
-Email
-* https://github.com/mailhog/MailHog: Golang web and API based SMTP testing 
-
 Management
 * https://asana.com
 * https://trello.com
