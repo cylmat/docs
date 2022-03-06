@@ -17,6 +17,7 @@ Security
 ## Windows
 Console
 * https://cmder.net: Nice console emulators
+* https://hyper.is
 * https://mremoteng.org: Remote connections manager
 
 Package manager
