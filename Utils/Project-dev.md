@@ -1,7 +1,11 @@
 # Utils
 
 Admin panel
-* https://ajenti.org: Fast way to manage a remote linux box 
+* https://adminlte.io: Admin dashboard & control panel theme
+* http://crud-admin-generator.com
+* https://www.phpcrudgenerator.com
+
+- https://ajenti.org: Fast way to manage a remote linux box
 
 Automatisation
 * https://www.jenkins.io
@@ -14,6 +18,9 @@ Bug tracker
 
 CI
 * https://circleci.com
+
+Email
+* https://github.com/mailhog/MailHog: Golang web and API based SMTP testing 
 
 Management
 * https://asana.com
