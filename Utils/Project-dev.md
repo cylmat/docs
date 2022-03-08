@@ -25,11 +25,13 @@ Management
 
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
+* https://www.sonarqube.org
 
 Versionning
 * https://alx.github.io/gitbook
 * https://git-scm.com
 
+---
 ## Language
 + https://hacklang.org
 + https://haxe.org: Cross-plateform toolkit
