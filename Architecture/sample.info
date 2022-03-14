@@ -1,0 +1,64 @@
+Sample Clean architecture with Symfony
+
+SAMPLE STRUCTURE
+=====================================
+Application
+* Authenticator
+* Command
+* Config/Processor
+* Controller->action()
+* DI
+* Events
+* Exception
+* Form
+* Listener -> onRequest()
+* ParamConverter
+* Resources/config
+* RouteGenerator -> createLink($responsedata)
+* Security
+* Twig/DataProvider, Extension
+* Validator
+
+Component
+Application
+  * Action -> execute(Request): Response
+  * DTO
+    - Request
+      + OptionsResolver
+    - Response -> getData($model)
+Domain
+  * Exception
+  * Factory
+  * Manager : (call repositories)
+  * Model (items &collections)
+  * Repository (Query, RepositoryInterface)
+  * Service (fetch)
+Infrastructure
+  - Api
+    * Normalizer
+    * QueryBuilder
+    * Denormalizer
+    * Repository->execute(ApiManager)
+  - Bridge (Symfony bundle)
+    * Controller
+    * DI
+    * DTO (RouteGenerator)
+    * Resources (config, routing)
+  - Serializer (jms/config)
+      Normalizer : php
+      Serializer : yml
+
+SERIALIZER
+==========
+Domain/Model
+  Keyword
+    Keyword->set()->get()
+    KeywordCollection->set()->get()
+Infrastructure
+  ApiManager/Normalizer
+    CollectionDenormalizer->denormalize()
+    Denormalizer->denormalize()
+  Serializer/Config
+    Class.Class.yml
+    Class.ClassCollection.yml
+
