@@ -30,6 +30,8 @@ Management
 * https://trello.com
 * https://www.wrike.com
 
++ https://slack.com
+
 Mind mapping
 * https://freemind.fr.softonic.com
 * https://www.gloomaps.com: Visual sitemap
