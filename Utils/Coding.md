@@ -10,7 +10,9 @@ Copy code
 
 Diagram
 * https://app.diagrams.net
+* http://dia-installer.de: App
 * http://diagramo.com: Flowchart
+* https://www.diagrameditor.com
 * https://www.lucidchart.com
 * https://www.planttext.com: UML editor
 * https://online.visual-paradigm.com
