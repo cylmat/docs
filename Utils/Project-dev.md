@@ -21,7 +21,14 @@ CI
 
 Management
 * https://asana.com
+* https://www.bitrix24.fr: Plateforme tout-en-un
+* https://collabtive.o-dyn.de: App
+* https://freedcamp.com
+* https://www.meistertask.com
+* https://www.orangescrum.com
+* https://www.projeqtor.org: Open-source app
 * https://trello.com
+* https://www.wrike.com
 
 Mind mapping
 * https://freemind.fr.softonic.com
