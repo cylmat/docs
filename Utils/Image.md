@@ -8,13 +8,17 @@ Drawing
 * https://www.befunky.com
 * https://boxy-svg.com
 * https://www.canva.com
+* https://desygner.com
 * https://www.figma.com
-* https://inkscape.org
 * https://www.invisionapp.com
 * https://marvelapp.com
 * https://proto.io
 * https://vectr.com
 * https://www.vecteezy.com
+
++ https://calligra.org
++ https://inkscape.org
++ https://scribus.fr
 
 Free pictures
 * https://commons.wikimedia.org/wiki/Category:Images
