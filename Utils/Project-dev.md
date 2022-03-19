@@ -23,6 +23,12 @@ Management
 * https://asana.com
 * https://trello.com
 
+Mind mapping
+* https://freemind.fr.softonic.com
+* https://www.goconqr.com
+* https://www.mindmup.com
+* https://www.wisemapping.com
+
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
 * https://qossmic.github.io/deptrac: Keep your architecture CLEAN
