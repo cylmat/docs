@@ -31,6 +31,7 @@ Mind mapping
 * https://www.wisemapping.com
 
 Presentation
++ https://www.canva.com
 + https://docs.google.com/presentation: Google Slides
 
 Testing
