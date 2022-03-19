@@ -30,6 +30,9 @@ Mind mapping
 * https://www.mindmup.com
 * https://www.wisemapping.com
 
+Presentation
++ https://docs.google.com/presentation: Google Slides
+
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
 * https://qossmic.github.io/deptrac: Keep your architecture CLEAN
