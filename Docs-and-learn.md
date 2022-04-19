@@ -16,6 +16,7 @@ News
 
 Blog
 ---
++ https://blog.cleancoder.com: Uncle Bob
 + https://blog.stoplight.io: Api design
 + https://dasini.net: MySQL experts
 + https://microservices.io
