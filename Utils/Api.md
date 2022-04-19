@@ -1,7 +1,6 @@
 # Api
 
 Creation
-* https://jwt.io: JSON Web Tokens standard RFC 7519 method
 * https://stoplight.io
 * https://swagger.io
 
@@ -10,6 +9,9 @@ Server
 
 Sockets
 * https://socket.io
+
+Standards
+* https://jwt.io: JSON Web Tokens standard RFC 7519 method
 
 Tests & mock
 * https://designer.mocky.io
