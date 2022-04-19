@@ -42,6 +42,7 @@ Testing framework
 * https://github.com/sebastianbergmann/dbunit: Database test
 * https://kahlan.github.io
 * https://github.com/paratestphp/paratest
+* https://github.com/qossmic/deptrac: Keep your architecture clean. 
 * http://phpspec.net
 * https://phpunit.de: The PHP testing framework
 
