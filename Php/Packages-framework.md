@@ -37,18 +37,3 @@ Framework
 
 Middleware
 * https://docs.mezzio.dev: PSR-15 (HTTP middle) from Laminas
-
-## Librarie components
-+ **https://packagist.org/explore/popular**
-
-* https://auraphp.com
-* https://docs.laminas.dev/components
-* https://docs.sonata-project.org
-* https://github.com/FriendsOfSymfony
-* https://github.com/hoaproject
-* https://www.doctrine-project.org
-* https://www.horde.org
-* https://laravel.com
-* https://nette.org
-* https://symfony.com/components
-* https://thephpleague.com
