@@ -9,7 +9,7 @@ Learn
 + https://www.w3schools.com
 + https://www.w3schools.in
 
-Blog & news
+News & blog
 ---
 + https://bestofphp.com
 + https://blog.cleancoder.com: Uncle Bob
