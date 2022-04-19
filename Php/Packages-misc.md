@@ -8,7 +8,7 @@ Communication
 * https://docs.php-http.org: Standardized HTTP
 * https://github.com/PHPMailer/PHPMailer
 * http://httplug.io: Client abstraction
-* https://williamdurand.fr/Negotiation
+* https://williamdurand.fr/Negotiation: Http Content Negotiation 
 
 Compression
 * https://phar.io: Compression of PHP packages
