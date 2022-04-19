@@ -33,4 +33,4 @@ Misc
 - https://blog.silarhi.fr/symfony-double-authentification-2fa/
 
 Web
-- https://www.sporcle.com/games/mucleus/httpcodes
+- https://www.sporcle.com/games/Mucleus/httpcodes
