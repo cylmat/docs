@@ -12,6 +12,7 @@ Learn
 News
 ---
 + https://bestofphp.com
++ https://php.developpez.com
 + https://www.journaldev.com: Java, Android, Python, Web tutorial
 
 Blog
