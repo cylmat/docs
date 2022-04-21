@@ -23,6 +23,11 @@ Console
 * https://hyper.is
 * https://mremoteng.org: Remote connections manager
 
+HTTP sniffer
+- https://httptoolkit.tech
+- https://portswigger.net/burp: Security testing of web applications
+- https://www.wireshark.org
+
 Package manager
 * https://chocolatey.org
 * https://scoop.sh: Commande line installer
