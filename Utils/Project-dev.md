@@ -44,6 +44,9 @@ Presentation
 + https://www.canva.com
 + https://docs.google.com/presentation: Google Slides
 
+Security
+* https://www.vaultproject.io: By HashiCorp
+
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
 * https://qossmic.github.io/deptrac: Keep your architecture CLEAN
