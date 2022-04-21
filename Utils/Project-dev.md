@@ -49,6 +49,7 @@ Security
 
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
+* https://docs.pact.io: Microservices testing
 * https://qossmic.github.io/deptrac: Keep your architecture CLEAN
 * https://www.sonarqube.org
 
