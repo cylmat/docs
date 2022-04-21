@@ -22,6 +22,7 @@ Drawing
 
 Free pictures
 * https://commons.wikimedia.org/wiki/Category:Images
+* https://iconoir.com: Free icons
 * https://unsplash.com
 
 Photo editor
