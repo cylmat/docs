@@ -14,6 +14,9 @@ Tools
 Security
 * https://www.stunnel.org
 
+Shell
+* https://github.com/junegunn/fzf
+
 ## Windows
 Console
 * https://cmder.net: Nice console emulators
