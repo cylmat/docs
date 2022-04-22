@@ -33,6 +33,9 @@ Proxy
 * http://www.squid-cache.org
 * https://varnish-cache.org: HTTP cache
 
+Security
+* https://aquasecurity.github.io/trivy: Docker scanner
+
 Server
 * https://httpd.apache.org
 * https://www.lighttpd.net: Secure, fast web server
