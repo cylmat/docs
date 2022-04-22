@@ -2,7 +2,7 @@
 
 Creation
 * https://openapi-generator.tech
-* https://stoplight.io
+* https://stoplight.io: Design, Document & Build APIs Faster
 * https://swagger.io
 
 Server
