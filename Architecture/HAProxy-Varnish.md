@@ -11,7 +11,7 @@ Client {          - Cache #2 | Nginx #2
                   \          |
                     -------- | Nginx #3
 ```
-image: ![Varnish](https://miro.medium.com/max/914/1*zd-txiknFA6IqUN_cYgHug.png)
+![Varnish](https://miro.medium.com/max/914/1*zd-txiknFA6IqUN_cYgHug.png)
 
 ---
 **@ref:**  
