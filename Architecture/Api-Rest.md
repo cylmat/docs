@@ -2,6 +2,7 @@
 
 ## Protocol
 * https://rsocket.io: Protocol for Reactive Streams semantics between client-server
+* SOAP Simple Object Access Protocol
 
 ## Rest
 Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
