@@ -1,15 +1,13 @@
 # Api
 
 ## TYPES
-REST
-Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
+* REST: Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
 
-HATEOAS
-Hypermedia As The Engine of Application State constitue une contrainte de l'architecture d'application REST   
-- https://fr.wikipedia.org/wiki/HATEOAS
+* HATEOAS: Hypermedia As The Engine of Application State constitue une contrainte de l'architecture d'application REST   
+  - https://fr.wikipedia.org/wiki/HATEOAS
 
-Common Object Request Broker Architecture (CORBA)
-- https://corba.org
+* CORBA: Common Object Request Broker Architecture
+  - https://corba.org
 
 ## Protocol
 * https://rsocket.io: Protocol for Reactive Streams semantics between client-server
