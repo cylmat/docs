@@ -4,13 +4,12 @@
 REST
 Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
 
-- https://api-platform.com: Create REST and GraphQL APIs
-
 HATEOAS
 Hypermedia As The Engine of Application State constitue une contrainte de l'architecture d'application REST   
-@ref: https://fr.wikipedia.org/wiki/HATEOAS
+- https://fr.wikipedia.org/wiki/HATEOAS
 
 Common Object Request Broker Architecture (CORBA)
+- https://corba.org
 
 ## Protocol
 * https://rsocket.io: Protocol for Reactive Streams semantics between client-server
