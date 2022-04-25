@@ -3,6 +3,9 @@
 * REST: Representational State Transfer, is a paradigm and architecture designed by Roy Fielding, the co-author of both the HTTP and URI specifications.
   - https://restfulapi.net 
 
+* HAL Hypertext Application Language
+  - https://en.wikipedia.org/wiki/Hypertext_Application_Language
+
 * HATEOAS: Hypermedia As The Engine of Application State constitue une contrainte de l'architecture d'application REST.
   - A client interacts with a REST API through the responses provided by the server and shouldn't need any more documentation
   - https://fr.wikipedia.org/wiki/HATEOAS
