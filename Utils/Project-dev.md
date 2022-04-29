@@ -16,8 +16,9 @@ Bug tracker
 * https://github.com/marekjm/issue: Command line issue tracker
 * https://www.mantisbt.org
 
-CI
+CI / CD
 * https://circleci.com
+* https://jfrog.com/artifactory
 
 Security
 * https://www.vaultproject.io: By HashiCorp
