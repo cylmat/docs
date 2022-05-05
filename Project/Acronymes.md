@@ -1,23 +1,5 @@
 # Acronymes
 
-Web
----
-+ ACL - (Access Control List) est une liste d’Access Control Entry (ACE)
-+ API - Application Programming Interface: ensemble de classes et méthodes qui sert de façade par laquelle un logiciel offre des services à d'autres logiciels.
-+ CRDT - conflict-free replicated data type: is a data structure which can be replicated across multiple computers in a network, independently and concurrently
-+ ICD - Interface Control Document
-+ IHM - Interface Homme-Machine
-+ IPM - Interaction Personne-Machine
-+ MCO - Maintient en Condition Opérationnelle: mesures prises pour garantir que la bascule vers un environnement dégradé n'entraîne pas une altération.
-+ MDE/MDA - Model-Driven Engireering / Architecture (Ingéniérie Dirigée par Modèle)
-+ POSIX - Portable Operating System Interface (interface portable de système d'exploitation), l'héritage UNI(X)
-+ RGAA - Référentiel général d'accessibilité pour les administrations
-+ RGPD - Règlement Général sur la Protection des Données
-+ GDPR - General Data Protection Regulation
-+ TMA - Tierce_maintenance_applicative
-+ URI - Uniform Resource Identifiers
-+ UTF-8 (8-bit Unicode Transformation Format)
-
 Base
 ---
 + ACID - Atomic, Cohérence, Isolation, Durabilité
@@ -41,6 +23,7 @@ Projet
 + BPMN - Business Process Model and Annotation: graphical representation for specifying business processes (like UML)
 + MEP - Mise en production
 + MVP - Minimum Viable Product: version with just enough features to be usable by early customers then provide feedback
++ TL;DR: Too long, didn't read
 
 Reseau
 ---
@@ -51,3 +34,21 @@ Reseau
 + TCP - Transmission Control Protocol
 + TLS - Transport Layer Security  ou « Sécurité de la couche de transport »
 + UDP - User Datagram Protocol
+
+Web
+---
++ ACL - (Access Control List) est une liste d’Access Control Entry (ACE)
++ API - Application Programming Interface: ensemble de classes et méthodes qui sert de façade par laquelle un logiciel offre des services à d'autres logiciels.
++ CRDT - conflict-free replicated data type: is a data structure which can be replicated across multiple computers in a network, independently and concurrently
++ ICD - Interface Control Document
++ IHM - Interface Homme-Machine
++ IPM - Interaction Personne-Machine
++ MCO - Maintient en Condition Opérationnelle: mesures prises pour garantir que la bascule vers un environnement dégradé n'entraîne pas une altération.
++ MDE/MDA - Model-Driven Engireering / Architecture (Ingéniérie Dirigée par Modèle)
++ POSIX - Portable Operating System Interface (interface portable de système d'exploitation), l'héritage UNI(X)
++ RGAA - Référentiel général d'accessibilité pour les administrations
++ RGPD - Règlement Général sur la Protection des Données
++ GDPR - General Data Protection Regulation
++ TMA - Tierce_maintenance_applicative
++ URI - Uniform Resource Identifiers
++ UTF-8 (8-bit Unicode Transformation Format)
