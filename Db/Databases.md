@@ -9,6 +9,9 @@ Data science
 - https://www.arangodb.com: Natively store data for graph
 - https://neo4j.com: Graph Data Platform
 
+Events
++ https://debezium.io: Open source distributed platform for change data capture
+
 In-memory
 - https://ignite.apache.org: Distributed database for high-performance
 - https://memcached.org
