@@ -5,3 +5,4 @@
 - POC Proof of concept: realization of a certain method or idea in order to demonstrate its feasibility
 
 + Gantt chart: Illustrates a project schedule
++ North Star Framework: Model for managing products by identifying a single, crucial metric
