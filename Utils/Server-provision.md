@@ -14,6 +14,7 @@ Environment dev
 * https://www.docker.com
   + https://phpdocker.io: PHP development environment generator built with Docker
 * https://kubernetes.io: Open-source system for automating deployment
+  + https://pinniped.dev: K8s auth 
 * https://www.vagrantup.com
 
 Provisionning
