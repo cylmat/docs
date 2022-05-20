@@ -62,6 +62,9 @@ Modules
 * https://jspm.org
 * https://requirejs.org
 
+Microfrontends
+* https://single-spa.js.org
+
 NodeJs
 * http://expressjs.com
 * https://jade-lang.com
