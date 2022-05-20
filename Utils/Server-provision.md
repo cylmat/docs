@@ -26,6 +26,7 @@ Provisionning
 * https://www.redhat.com/fr/technologies/cloud-computing/openshift
 * https://puppet.com
 * https://saltproject.io
+* https://www.terraform.io: by HashiCorp
 
 Proxy
 * https://www.cloudflare.com: CDN
