@@ -56,6 +56,7 @@ Les quatre valeurs fondamentales:
 
 ## SAFe (Scaled Agile Framework)
 Chaque équipe agile représente un wagon du Agile Release Train (ART).
+@ref: https://www.scaledagileframework.com
 
 ## Scrum
 - Scrum is a framework for developing application products in a complex environment
