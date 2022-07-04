@@ -5,7 +5,8 @@ Cache
 * https://www.stashphp.com: Cache process
 
 Communication
-* https://docs.php-http.org: Standardized HTTP
+* https://php-http.org: Standardized HTTP
+  - https://docs.php-http.org/en/latest/clients/socket-client.html
 * https://github.com/PHPMailer/PHPMailer
 * http://httplug.io: Client abstraction
 * https://williamdurand.fr/Negotiation: Http Content Negotiation 
