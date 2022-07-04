@@ -40,6 +40,7 @@ Event asynchronous
 * https://github.com/php-pm/php-pm: Process manager, supercharger and load balancer
 * https://github.com/recoilphp/recoil
 * https://github.com/spatie/async
+* https://sabre.io/event
 
 Image
 * https://github.com/Imagick/imagick
