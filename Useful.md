@@ -8,6 +8,9 @@
 * https://www.vim.org
 * https://code.visualstudio.com/docs
 
+### Prompt
+- find xargs, grep sed awk
+
 ### Server
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
