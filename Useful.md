@@ -1,5 +1,8 @@
 # Useful knowledge
 
+### Architecture
+* https://en.wikipedia.org/wiki/Software_design_pattern
+
 ### Protocol
 * https://www.json.org
 * https://home.unicode.org
