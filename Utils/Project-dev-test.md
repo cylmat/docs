@@ -20,6 +20,13 @@ CI / CD
 * https://circleci.com
 * https://jfrog.com/artifactory
 
+Hosting
+* https://aws.amazon.com/fr/codecommit
+* https://bitbucket.org
+* https://gitea.io
+* https://gitlab.com
+* https://launchpad.net
+
 Security
 * https://www.vaultproject.io: By HashiCorp
 
