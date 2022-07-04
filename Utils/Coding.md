@@ -3,6 +3,7 @@
 AI
 * https://github.com/features/copilot
 * https://kodezi.co
+* https://www.tabnine.com: Code faster with AI code
 
 App
 * http://srsbiz.pl/utils/hexit.php: Hexa editor
