@@ -34,3 +34,12 @@ Misc
 
 Web
 - https://www.sporcle.com/games/Mucleus/httpcodes
+
+
+# Tests 
+Algorithms
+* https://www.codingame.com
+* https://www.hackerrank.com
+
+Security
+* https://www.hackthebox.com
