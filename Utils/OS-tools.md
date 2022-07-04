@@ -16,6 +16,7 @@ Security
 
 Shell
 * https://github.com/junegunn/fzf
+* https://linux.die.net/man/1/ccze: Colorize logs
 
 ## Windows
 Console
