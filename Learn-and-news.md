@@ -9,6 +9,8 @@ Learn
 + https://www.w3schools.com
 + https://www.w3schools.in
 
+- https://www.freecodecamp.org: Learn to code
+
 News & blog
 ---
 + https://www.journaldev.com: Java, Android, Python, Web tutorial
@@ -21,6 +23,7 @@ News & blog
 + https://blog.cleancoder.com: Uncle Bob
 + https://blog.stoplight.io: Api design
 + https://dasini.net: MySQL experts
++ http://mcamuzat.github.io: Journal d'un panda qui code
 + https://www.phpdevelopers.com.au
 
 Cheatsheets
