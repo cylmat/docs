@@ -21,7 +21,9 @@ Les quatre valeurs fondamentales:
 - la collaboration avec le client,
 - l’adaptation au changement.
 
-**@ref**: https://fr.wikipedia.org/wiki/Manifeste_agile  
+**@ref**: 
+- https://fr.wikipedia.org/wiki/Manifeste_agile  
+- https://en.wikipedia.org/wiki/Agile_software_development
 
 ## Definitions
 - Backlog: Liste hiérarchisée des caractéristiques du produit souhaitées
