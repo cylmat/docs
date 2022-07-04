@@ -1,5 +1,8 @@
 # OS Utils
 
+## Awesome bash
+- https://github.com/awesome-lists/awesome-bash
+
 ## Linux
 Monitoring
 * https://nmap.org: Security scanner
