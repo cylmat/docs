@@ -1,5 +1,9 @@
 ## Utils back
 
+AI
+* https://github.com/features/copilot
+* https://kodezi.co
+
 App
 * http://srsbiz.pl/utils/hexit.php: Hexa editor
 
