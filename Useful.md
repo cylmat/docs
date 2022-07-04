@@ -9,4 +9,5 @@
 * https://code.visualstudio.com/docs
 
 ### Server
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 * https://httpd.apache.org/docs/2.4/howto
