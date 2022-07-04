@@ -1,7 +1,8 @@
 # Useful knowledge
 
-### Langage
+### Protocol
 * https://www.json.org
+* https://home.unicode.org
 
 ### Dev
 * https://git-scm.com/doc
