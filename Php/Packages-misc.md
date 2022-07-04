@@ -9,6 +9,7 @@ Communication
   - https://docs.php-http.org/en/latest/clients/socket-client.html
 * https://github.com/PHPMailer/PHPMailer
 * http://httplug.io: Client abstraction
+* https://requests.ryanmccue.info: HTTP library
 * https://williamdurand.fr/Negotiation: Http Content Negotiation 
 
 Compression
