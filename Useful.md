@@ -1,7 +1,10 @@
 # Useful knowledge
 
-### Dev
+### Langage
 * https://www.json.org
+
+### Dev
+* https://git-scm.com/doc
 
 ### Editor
 * https://vimawesome.com
