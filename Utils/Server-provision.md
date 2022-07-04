@@ -29,6 +29,8 @@ Provisionning
 * https://saltproject.io
 * https://www.terraform.io: by HashiCorp
 
++ https://nixos.org: Linux NixOS Reproducible builds and deployments.
+
 Proxy
 * https://www.cloudflare.com: CDN
 * https://doc.traefik.io: Cloud Native Edge Router
