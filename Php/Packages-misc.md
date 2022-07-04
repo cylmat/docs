@@ -8,6 +8,7 @@ Communication
 * https://php-http.org: Standardized HTTP
   - https://docs.php-http.org/en/latest/clients/socket-client.html
 * https://github.com/PHPMailer/PHPMailer
+* https://phphttpclient.com: HTTPful
 * http://httplug.io: Client abstraction
 * https://requests.ryanmccue.info: HTTP library
 * https://williamdurand.fr/Negotiation: Http Content Negotiation 
