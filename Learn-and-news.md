@@ -22,3 +22,7 @@ News & blog
 + https://blog.stoplight.io: Api design
 + https://dasini.net: MySQL experts
 + https://www.phpdevelopers.com.au
+
+Cheatsheets
+---
+* https://doabledanny.gumroad.com/l/git-commands-cheat-sheet-pdf
