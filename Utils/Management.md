@@ -27,11 +27,3 @@ Presentation
 
 Sondage
 * https://strawpoll.com: Créer un sondage gratuit
-
----
-## Language
-+ https://hacklang.org
-+ https://haxe.org: Cross-plateform toolkit
-+ https://www.lua.org
-+ https://www.perl.org
-+ https://www.ruby-lang.org
