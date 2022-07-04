@@ -29,6 +29,7 @@ Testing
 * https://docs.pact.io: Microservices testing
 * https://qossmic.github.io/deptrac: Keep your architecture CLEAN
 * https://www.sonarqube.org: Code Quality and Code Security, SonarLint paired with IDE
+* https://testproject.io: Test recorder
 
 Versionning
 * https://alx.github.io/gitbook
