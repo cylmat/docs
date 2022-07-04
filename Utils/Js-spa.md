@@ -27,7 +27,7 @@ Framework
 * https://reactjs.org
 * https://redux.js.org
 * https://script.aculo.us
-* https://www.sencha.com: JS grid
+* https://sencha.com: JS grid
 * http://vanilla-js.com
 * https://vuejs.org
 
