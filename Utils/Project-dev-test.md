@@ -20,6 +20,9 @@ CI / CD
 * https://circleci.com
 * https://jfrog.com/artifactory
 
+Documentation
+* https://www.sphinx-doc.org: create intelligent and beautiful documentation
+
 Hosting
 * https://aws.amazon.com/fr/codecommit
 * https://bitbucket.org
