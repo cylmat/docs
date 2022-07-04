@@ -43,3 +43,5 @@ Algorithms
 
 Security
 * https://www.hackthebox.com
+* https://www.root-me.org
+* https://tryhackme.com
