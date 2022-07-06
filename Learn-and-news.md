@@ -9,7 +9,9 @@ Learn
 + https://www.w3schools.com
 + https://www.w3schools.in
 
+Coding
 - https://www.freecodecamp.org: Learn to code
+- https://www.programmingalgorithms.com
 
 News & blog
 ---
