@@ -13,6 +13,9 @@ Coding
 - https://www.freecodecamp.org: Learn to code
 - https://www.programmingalgorithms.com
 
+Php
++ https://phptherightway.com
+
 Cheatsheets
 ---
 * https://doabledanny.gumroad.com/l/git-commands-cheat-sheet-pdf
