@@ -1,4 +1,4 @@
-# Docs and learn
+# Learn and training
 
 Learn
 ---
