@@ -16,6 +16,15 @@ Coding
 Php
 + https://phptherightway.com
 
+Algorithms
+* https://www.codingame.com
+* https://www.hackerrank.com
+
+Security
+* https://www.hackthebox.com
+* https://www.root-me.org
+* https://tryhackme.com
+
 Cheatsheets
 ---
 * https://doabledanny.gumroad.com/l/git-commands-cheat-sheet-pdf
