@@ -12,6 +12,7 @@ Learn
 Coding
 - https://www.freecodecamp.org: Learn to code
 - https://www.programmingalgorithms.com
+- https://www.isograd-testingservices.com/FR/solutions-challenges-de-code
 
 Php
 + https://phptherightway.com
