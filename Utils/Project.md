@@ -15,6 +15,13 @@ Diagram
 * https://yuml.me
 * https://www.yworks.com/yed-live
 
+Hosting
+* https://aws.amazon.com/fr/codecommit
+* https://bitbucket.org
+* https://gitea.io
+* https://gitlab.com
+* https://launchpad.net
+
 Mind mapping
 * https://freemind.fr.softonic.com
 * https://www.gloomaps.com: Visual sitemap
