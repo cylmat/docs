@@ -20,6 +20,7 @@ Php
 Algorithms
 * https://www.codingame.com
 * https://www.hackerrank.com
+* https://github.com/trekhleb/javascript-algorithms
 
 Security
 * https://www.hackthebox.com
