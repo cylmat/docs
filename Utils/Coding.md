@@ -16,20 +16,6 @@ Copy code
 * https://pastebin.com
 * https://sharemycode.fr
 
-Diagram
-* https://app.diagrams.net
-* http://dia-installer.de: App
-* http://diagramo.com: Flowchart
-* https://www.diagrameditor.com
-* https://www.lucidchart.com
-* https://mermaid-js.github.io: Markdown syntax for flowchart
-* https://www.planttext.com: UML editor
-* https://online.visual-paradigm.com
-* https://www.umlet.com: Free UML tool and VSCode
-* https://www.websequencediagrams.com
-* https://yuml.me
-* https://www.yworks.com/yed-live
-
 Editor
 * http://lighttable.com: The next generation code editor
 * https://replit.com: Collaborator online browser IDE
