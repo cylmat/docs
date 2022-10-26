@@ -19,3 +19,11 @@ Security
 ---
 **@ref**  
 - https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Mod%C3%A8le_OSI
+
+# Formats
+
+## Encoding
+- UTF8 - UCS Transformation Format 8: most common character encoding, represented by one to four bytes
+  + https://www.unicode.org
+- XLIFF (XML Localization Interchange File Format) : XML-based bitext format created to standardize the way localizable data are passed
+  + http://www.oasis-open.org/committees/xliff/documents/xliff-specification.htm 
