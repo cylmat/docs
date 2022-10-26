@@ -23,13 +23,6 @@ CI / CD
 Documentation
 * https://www.sphinx-doc.org: create intelligent and beautiful documentation
 
-Hosting
-* https://aws.amazon.com/fr/codecommit
-* https://bitbucket.org
-* https://gitea.io
-* https://gitlab.com
-* https://launchpad.net
-
 Security
 * https://www.vaultproject.io: By HashiCorp
 
