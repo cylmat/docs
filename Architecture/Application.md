@@ -26,6 +26,7 @@ Architecture
 - Implicit invocation (event)
 - Inversion of control
 - Layers
+- MDA: https://fr.wikipedia.org/wiki/Model_driven_architecture
 - Microkernel
 - Microservices:  A variant of the (SOA), arranges an application as a collection of loosely coupled services
 - MOM
