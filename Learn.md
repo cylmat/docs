@@ -26,6 +26,10 @@ Security
 * https://www.root-me.org
 * https://tryhackme.com
 
+Battle
+* https://www.isograd-testingservices.com/FR/challenges-de-code
+* https://le-shaker.com/lacodingbattle
+
 Cheatsheets
 ---
 * https://doabledanny.gumroad.com/l/git-commands-cheat-sheet-pdf
