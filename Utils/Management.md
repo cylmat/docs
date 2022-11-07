@@ -15,6 +15,7 @@
 Presentation
 + https://www.canva.com
 + https://docs.google.com/presentation: Google Slides
++ https://slides.com
 
 Sondage
 * https://strawpoll.com: Créer un sondage gratuit
