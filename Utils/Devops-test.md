@@ -39,6 +39,10 @@ Versionning
 * https://git-scm.com
 
 ---
+## Devops
+* https://www.getambassador.io
+
+---
 ## Language
 + https://hacklang.org
 + https://haxe.org: Cross-plateform toolkit
