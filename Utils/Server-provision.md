@@ -3,6 +3,7 @@
 Cloud
 * https://firebase.google.com: Build and run apps
 * https://www.heroku.com
+* https://www.netlify.com: fastest way to combine your favorite tools and APIs
 * https://www.serverless.com
 
 Cloud database
