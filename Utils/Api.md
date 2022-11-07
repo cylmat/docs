@@ -5,6 +5,9 @@ Creation
 * https://stoplight.io: Design, Document & Build APIs Faster
 * https://swagger.io
 
+Management solution
+* https://konghq.com/kong: Take control of your APIs
+
 Server
 * https://postgrest.org: Server that turns Postgres into RESTful API
 
