@@ -8,6 +8,7 @@ Creation
 
 Management solution
 * https://konghq.com/kong: Take control of your APIs
+* https://insomnia.rest: Api design platform
 
 Server
 * https://postgrest.org: Server that turns Postgres into RESTful API
