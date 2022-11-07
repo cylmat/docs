@@ -1,7 +1,6 @@
 # Utils back
 
-## Awesome Vscode
-- https://github.com/viatsko/awesome-vscode
+* Awesome Vscode: https://github.com/viatsko/awesome-vscode
 
 AI
 * https://github.com/features/copilot
