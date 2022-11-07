@@ -6,22 +6,25 @@
 ## Dev
 * https://git-scm.com/doc
 
-## Protocol
-* https://www.json.org
-* https://home.unicode.org
-
 ## Editor
 * https://vimawesome.com
 * https://www.vim.org
 * https://code.visualstudio.com/docs
 
-## Prompt
+## Linux
 - find xargs, grep sed awk
+
+## Protocol
+* JSON: https://www.json.org
+* Unicode: https://home.unicode.org
 
 ## Server
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 * https://httpd.apache.org/docs/2.4/howto
+
+## Techno
+* SSR Server-side Rendering
 
 ---
 # Interest
