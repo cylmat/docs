@@ -30,3 +30,7 @@
 
 ## Tools
 * https://it-tools.tech
+
+---
+## Docs
+* https://blog.testproject.io/2020/07/15/the-ultimate-postman-tutorial-for-api-testing
