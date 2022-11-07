@@ -35,3 +35,9 @@ Mind mapping
 * https://www.mindmup.com
 * https://thebrain.com
 * https://www.wisemapping.com
+
+---
+## Extensions Chrome
+- https://www.screencastify.com: Screencastify - Screen Video Recorder
+- Screen Recorder
+- https://www.tango.us: Tango: screenshots, training, & documentation
