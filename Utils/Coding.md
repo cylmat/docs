@@ -37,3 +37,6 @@ Playground Back
 
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
+
+Toolbox
+* https://it-tools.tech: Handy tools for developers
