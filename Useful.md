@@ -1,30 +1,32 @@
-# Useful knowledge
+# Useful 
 
-### Architecture
+## Architecture
 * https://en.wikipedia.org/wiki/Software_design_pattern
 
-### Protocol
+## Dev
+* https://git-scm.com/doc
+
+## Protocol
 * https://www.json.org
 * https://home.unicode.org
 
-### Dev
-* https://git-scm.com/doc
-
-### Editor
+## Editor
 * https://vimawesome.com
 * https://www.vim.org
 * https://code.visualstudio.com/docs
 
-### Prompt
+## Prompt
 - find xargs, grep sed awk
 
-### Server
+## Server
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 * https://httpd.apache.org/docs/2.4/howto
 
-# Interest
-
+## Interest
 - https://www.dev-box.app: Developer Toolbox
 - https://devtoys.app: Swiss Army Knife for Devs
 - https://www.opensourcealternative.to
+
+## Tools
+* https://it-tools.tech
