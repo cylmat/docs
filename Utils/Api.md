@@ -17,6 +17,7 @@ Sockets
 
 Standards
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
+* https://jsonhero.io: JSON Viewer
 
 Tests & mock
 * https://designer.mocky.io
