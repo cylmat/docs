@@ -23,14 +23,13 @@
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 * https://httpd.apache.org/docs/2.4/howto
 
-## Interest
+---
+# Interest
 - https://www.dev-box.app: Developer Toolbox
 - https://devtoys.app: Swiss Army Knife for Devs
 - https://www.opensourcealternative.to
+- https://it-tools.tech
 
-## Tools
-* https://it-tools.tech
-
----
-## Docs
+## Links
 * https://blog.testproject.io/2020/07/15/the-ultimate-postman-tutorial-for-api-testing
+* opendata: https://www.data.gouv.fr https://opendata.paris.fr
