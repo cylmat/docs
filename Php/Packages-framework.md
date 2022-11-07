@@ -15,6 +15,7 @@ CMS
 * https://xoops.org
 
 Communication
+* https://github.com/webgriffe/esb: Entreprise Service Bus
 * http://socketo.me (Ratchet): PHP Websocket
 
 Event asynchronous
