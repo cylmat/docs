@@ -12,6 +12,13 @@ Blogs
 + http://mcamuzat.github.io: Journal d'un panda qui code
 + https://www.phpdevelopers.com.au/news/blogs
 
++ https://www.patkua.com/blog
++ https://abdulapopoola.com
++ https://blog.humancoders.com
++ https://www.journalduhacker.net
++ https://korben.info
+
 Specific
 ---
 + https://microservices.io
++ https://martinfowler.com
