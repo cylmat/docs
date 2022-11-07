@@ -17,6 +17,7 @@ Blogs
 + https://blog.humancoders.com
 + https://www.journalduhacker.net
 + https://korben.info
++ https://betterprogramming.pub
 
 Specific
 ---
