@@ -17,6 +17,7 @@ Architecture
 - ECB: Entity-Control-Boundary, structures the classes composing a software according to their responsibilities in the use-case realization
   + (E) Info longue duration - (C) Process execution and logic - (B) Wrap external interactions
 - ECS: Entity–component–system
+- ESB: Enterprise Service Bus
 - Event-Driven: software architecture paradigm promoting the production, detection, consumption of, and reaction to events.
 - Front controller
 - Hexagonal: Systèmes à base de composants d'application qui sont faiblement couplés et facilement connectés (Ports - Adapters).
