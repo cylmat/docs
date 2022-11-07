@@ -22,3 +22,4 @@ Specific
 ---
 + https://microservices.io
 + https://martinfowler.com
++ https://m.twitch.tv/videos/1642457412: Toham, ça stream du développement, souvent du PHP
