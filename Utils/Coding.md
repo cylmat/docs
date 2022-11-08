@@ -7,6 +7,9 @@ AI
 * https://kodezi.co
 * https://www.tabnine.com: Code faster with AI code
 
+Analysis
+* https://astexplorer.net: Explore your code
+
 App
 * http://srsbiz.pl/utils/hexit.php: Hexa editor
 
