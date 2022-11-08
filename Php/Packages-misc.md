@@ -5,6 +5,9 @@
 
 ### Packages
 
+Api
+* * https://github.com/Tobion/OpenAPI-Symfony-Routing: Loads routes in Symfony based on OpenAPI/Swagger
+
 Cache
 * https://www.phpfastcache.com: Building reactive apps
 * https://www.stashphp.com: Cache process
