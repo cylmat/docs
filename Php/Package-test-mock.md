@@ -54,6 +54,7 @@ Quality
 * https://cs.symfony.com
 * https://github.com/phpro/grumphp: A PHP code-quality tool
 * https://github.com/squizlabs/PHP_CodeSniffer
+* https://github.com/qossmic/deptrac: Keep your architecture clean
 * https://pdepend.org: Software metric
 * https://phpinsights.com
 * https://phpmd.org
