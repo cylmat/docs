@@ -43,6 +43,7 @@ Driving tool
 Fake data
 * https://github.com/fzaninotto/Faker
 * https://github.com/nelmio/alice
+* https://github.com/theofidry/AliceBundle
 
 Mocking
 * http://docs.mockery.io
