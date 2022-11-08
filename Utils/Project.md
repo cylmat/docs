@@ -29,6 +29,7 @@ Hosting
 * https://launchpad.net
 
 Mind mapping
+* https://excalidraw.com
 * https://freemind.fr.softonic.com
 * https://www.gloomaps.com: Visual sitemap
 * https://www.goconqr.com
