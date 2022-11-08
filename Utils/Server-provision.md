@@ -47,6 +47,7 @@ Server
 * https://www.lighttpd.net: Secure, fast web server
 * https://www.nginx.com
 * https://nodejs.org
+* https://openlitespeed.org: Event-driven Php server
 * https://puma.io: Fast concurent web server
 
 Stack
