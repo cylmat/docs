@@ -4,6 +4,9 @@
 - https://github.com/awesome-lists/awesome-bash
 
 ## Linux
+- https://www.oracle.com/fr/linux: Oracle linux
+
+
 Monitoring
 * https://nmap.org: Security scanner
 * https://www.ntop.org: Network monitor
