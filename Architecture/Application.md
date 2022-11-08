@@ -19,6 +19,8 @@ Architecture
 - Client–server
 - Component-based
 - CBD
+- CQRS: Command Query Responsibility Segregation (séparation des composants de traitement "command" et restitution "query"
+  + https://afup.org/talks/2628-cqrs-fonctionnel-event-sourcing-domain-driven-design
 - DAO
 - DDD: Domain Driven Design, structure and language of software code should match the business domain
 - ECB: Entity-Control-Boundary, structures the classes composing a software according to their responsibilities in the use-case realization
