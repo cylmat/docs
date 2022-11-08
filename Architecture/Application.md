@@ -1,5 +1,12 @@
 # Application architecture
 
+Design
+---
+C4 model for visualising software architecture: Context, Containers, Components, and Code
+@see: 
+- https://c4model.com
+- https://www.infoq.com/articles/C4-architecture-model
+
 Architecture
 ---
 - ADR: (MVC) 
