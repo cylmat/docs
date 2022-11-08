@@ -16,6 +16,7 @@ Réseau
 Security
 * TLS: https://fr.wikipedia.org/wiki/Transport_Layer_Security
 * Kerberos: https://fr.m.wikipedia.org/wiki/Kerberos_(protocole)
+* SAML: https://www.onelogin.com/learn/saml
 
 ---
 **@ref**  
