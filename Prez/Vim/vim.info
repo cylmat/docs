@@ -9,5 +9,7 @@ justinmk/vim-sneak,
 easymotion
 
 ------------
-:help text-objects and :help object-motions
-http://vimdoc.sourceforge.net/htmldoc/motion.html#object-motions
+@see
+- :help text-objects and :help object-motions
+- http://vimdoc.sourceforge.net/htmldoc/motion.html#object-motions
+- https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
