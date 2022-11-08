@@ -60,6 +60,7 @@ Quality
 * https://phpmd.org
 * https://phpstan.org
 * https://pmd.github.io
+* https://github.com/rectorphp/rector: Instant Upgrades and Automated Refactoring
 
 Testing framework
 * http://atoum.org
