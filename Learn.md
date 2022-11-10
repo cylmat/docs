@@ -23,6 +23,9 @@ Algorithms
 * https://www.hackerrank.com
 * https://github.com/trekhleb/javascript-algorithms
 
+HackerRank, LEETCODE, Codingame, Coderbyte, Codewars, Codefights  
+Tryalgo.org, Topcoder, Codechef, Geeksforgeeks, Codeforces, Interviewbit.com
+
 Security
 * https://www.hackthebox.com
 * https://www.root-me.org
