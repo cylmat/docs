@@ -13,3 +13,8 @@
 
 ## Spec
 - https://github.com/php/php-langspec: PHP Language Specification
+
+---
+- https://phptherightway.com
+- https://phpqa.io: Php Quality Assurance
+- https://www.php-fig.org/psr: Standards Recommendations
