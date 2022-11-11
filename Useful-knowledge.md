@@ -9,9 +9,13 @@
 * https://git-scm.com/doc
 
 ### Editor
+**VIM**
 * https://vimawesome.com
 * https://www.vim.org
 * https://vimhelp.org
+* https://vim.rtorr.com: Vim Cheat Sheet
+
+**VSCODE**
 * https://code.visualstudio.com/docs
 
 ### Linux
