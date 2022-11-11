@@ -60,6 +60,8 @@ Reference
 - https://www.domainlanguage.com
 - https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
 
+* https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture
+
 + _Blue-book_ Domain-Driven Design: Tackling Complexity in the Heart of Software
 + _Yellow Book_ Domain-Driven Design Reference: Definitions and Pattern Summaries
 
