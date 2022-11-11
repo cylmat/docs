@@ -11,6 +11,7 @@
 ### Editor
 * https://vimawesome.com
 * https://www.vim.org
+* https://vimhelp.org
 * https://code.visualstudio.com/docs
 
 ### Linux
