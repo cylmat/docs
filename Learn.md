@@ -34,3 +34,11 @@ Security
 Battle
 * https://www.isograd-testingservices.com/FR/challenges-de-code
 * https://le-shaker.com/lacodingbattle
+
+---
+Databases
+---
+- https://learn.oracle.com/ols/learning-path/mysql-explorer/51871/79674: MySQL Explorer | Learn Oracle for Free
+- https://www.postgresql.org/docs/13/index.html
+- https://university.mongodb.com/courses/M001/about
+- http://web-algarve.com/books/MySQL%20&%20PHP/MySQL%205%200%20Certification%20Study%20Guide.pdf
