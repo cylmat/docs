@@ -15,6 +15,8 @@ Monitoring
 
 Network
 * Tracert: Déterminer l'itinéraire menant vers une destination
+* Tcpdump
+* telnet
 
 Tools
 * https://busybox.net: The Swiss Army Knife of Embedded Linux
