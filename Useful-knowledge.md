@@ -30,6 +30,9 @@
 ### Techno
 * SSR Server-side Rendering
 
+### General
+- https://fr.m.wikipedia.org/wiki/Paradigme_(programmation)
+
 ---
 # Interest
 - https://www.dev-box.app: Developer Toolbox
