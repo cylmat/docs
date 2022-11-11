@@ -31,6 +31,10 @@ Security
 * https://www.root-me.org
 * https://tryhackme.com
 
+General
+---
+- https://fr.m.wikipedia.org/wiki/Paradigme_(programmation)
+
 Battle
 * https://www.isograd-testingservices.com/FR/challenges-de-code
 * https://le-shaker.com/lacodingbattle
