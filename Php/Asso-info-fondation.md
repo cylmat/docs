@@ -9,3 +9,7 @@
 
 ## Cookbook
 - https://docstore.mik.ua/orelly/webprog/pcook/index.htm: Php Cookbook
+- https://github.com/php/php-langspec/tree/master/spec
+
+## Spec
+- https://github.com/php/php-langspec: PHP Language Specification
