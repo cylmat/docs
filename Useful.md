@@ -1,29 +1,33 @@
 # Useful 
 
-## Architecture
+### Architecture
 * https://en.wikipedia.org/wiki/Software_design_pattern
+* DDD / Architecture hexagonale
+* Architecture micro-services
 
-## Dev
+### Dev
 * https://git-scm.com/doc
 
-## Editor
+### Editor
 * https://vimawesome.com
 * https://www.vim.org
 * https://code.visualstudio.com/docs
 
-## Linux
+### Linux
 - find xargs, grep sed awk
 
-## Protocol
+### Protocol
 * JSON: https://www.json.org
 * Unicode: https://home.unicode.org
+* JsonApi / Swagger
 
-## Server
+### Server
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 * https://httpd.apache.org/docs/2.4/howto
+* Docker
 
-## Techno
+### Techno
 * SSR Server-side Rendering
 
 ---
