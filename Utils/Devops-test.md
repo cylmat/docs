@@ -23,6 +23,9 @@ CI / CD
 Documentation
 * https://www.sphinx-doc.org: create intelligent and beautiful documentation
 
+Logging and monitoring
+* https://www.elastic.co/fr/what-is/elk-stack: Elasticsearch, Logstash et Kibana
+
 Security
 * https://www.vaultproject.io: By HashiCorp
 
