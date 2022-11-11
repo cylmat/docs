@@ -2,6 +2,7 @@
 
 Benchmark
 * https://httpd.apache.org/docs/2.4/programs/ab.html: Apache Bench
+* https://gatling.io: Professional Load Testing Tool
 * https://github.com/lighttpd/weighttp
 * https://github.com/JoeDog/siege: Http load tester
 * https://github.com/tsenart/vegeta
