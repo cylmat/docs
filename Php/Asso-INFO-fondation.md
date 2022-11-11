@@ -4,6 +4,7 @@
 - https://opencollective.com/phpfoundation
 
 ## Php Internal Book
+Primarily targeted at developers who have experience in the C programming language  
 * https://www.phpinternalsbook.com
 * https://github.com/phpinternalsbook/PHP-Internals-Book
 
