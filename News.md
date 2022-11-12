@@ -19,6 +19,8 @@ Blogs
 + https://korben.info
 + https://betterprogramming.pub
 
+Data: https://dev.mysql.com/blog-archive
+
 Specific
 ---
 + https://microservices.io
