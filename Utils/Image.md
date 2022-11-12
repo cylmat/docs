@@ -25,10 +25,14 @@ Free pictures
 * https://iconoir.com: Free icons
 * https://unsplash.com
 
+**Collection svg**: https://github.com/n3r4zzurr0/svg-spinners
+
 Photo editor
 * https://pixlr.com
 * https://pixteller.com
 * https://www.photopea.com
+
+**Font maker**: https://inkpx.com/word-art-generator
 
 Optimization
 * https://imagecompressor.com
