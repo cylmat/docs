@@ -18,6 +18,7 @@ Data collector
 
 Error tracking
 * https://sentry.io: Error tracking that monitor crashes
+* https://www.blackfire.io
 
 Monitoring (Application Performance Management)
 * https://github.com/randy-girard/app_perf: App perf monitoring (Ruby) 
