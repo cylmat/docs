@@ -24,14 +24,6 @@ Php & api
 + https://restfulapi.net
 + https://phptherightway.com
 
-Algorithms
-* https://www.codingame.com
-* https://www.hackerrank.com
-* https://github.com/trekhleb/javascript-algorithms
-
-HackerRank, LEETCODE, Codingame, Coderbyte, Codewars, Codefights  
-Tryalgo.org, Topcoder, Codechef, Geeksforgeeks, Codeforces, Interviewbit.com
-
 Security
 * https://www.hackthebox.com
 * https://www.root-me.org
