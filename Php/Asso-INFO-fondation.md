@@ -1,6 +1,7 @@
 # Asso
 
 - https://afup.org
+- https://afsy.fr: Asso FR des utilisateurs de Symfony
 - https://opencollective.com/phpfoundation
 
 ## Php Internal Book
