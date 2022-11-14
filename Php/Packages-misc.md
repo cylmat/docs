@@ -44,6 +44,7 @@ DI
 * https://php-di.org
 
 Documentation
+* https://doxygen.nl
 * https://phpdox.net
 
 Event asynchronous
