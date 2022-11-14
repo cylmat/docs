@@ -7,7 +7,7 @@ Learn
 + https://techdevguide.withgoogle.com
 
 + https://www.tutorialspoint.com
-+ https://www.w3.org/developers
++ https://www.w3.org/developers - https://www.w3.org/standards
 + https://www.w3schools.com
 + https://www.w3schools.in
 
