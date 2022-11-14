@@ -16,6 +16,9 @@ Primarily targeted at developers who have experience in the C programming langua
 ## Spec
 - https://github.com/php/php-langspec: PHP Language Specification
 
+## Study book
+* https://ikamy.ch/public/img/books/PHP+7+Zend+Certification+Study+Guide.pdf
+
 ---
 - https://phptherightway.com
 - https://phpqa.io: Php Quality Assurance
