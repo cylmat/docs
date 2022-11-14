@@ -17,6 +17,7 @@ Blogs
 + https://blog.humancoders.com
 + https://www.journalduhacker.net
 + https://korben.info
++ http://www.lafabriquedecode.com/blog
 + https://betterprogramming.pub
 
 Data: https://dev.mysql.com/blog-archive
