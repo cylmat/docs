@@ -12,7 +12,7 @@ Diagram: https://c4model.com
 * https://online.visual-paradigm.com
 * https://www.umlet.com: Free UML tool and VSCode
 * https://www.websequencediagrams.com
-* https://yuml.me
+* https://yuml.me: Diagram generator language
 * https://www.yworks.com/yed-live
 
 Prototype
