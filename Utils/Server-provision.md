@@ -10,6 +10,7 @@ Cloud database
 * https://www.clever-cloud.com
 * https://www.cloudamqp.com
 * https://www.elephantsql.com
+* https://www.memcachier.com: most advanced managed Memcache
 
 Environment dev
 * https://www.docker.com
