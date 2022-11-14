@@ -26,3 +26,6 @@ Monitoring (Application Performance Management)
 * https://newrelic.com: Monitoring and perf
 * https://prometheus.io: Open-source systems monitoring and alerting toolkit
 * https://skywalking.apache.org: Distributed systems and microservices
+
+Profiling
+* https://github.com/jokkedk/webgrind: Xdebug Profiling Web Frontend in PHP
