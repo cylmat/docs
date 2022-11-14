@@ -3,6 +3,10 @@ Database
 * https://buzut.net/maitrisez-mysql-en-cli
 * https://bytescout.com/blog/20-important-sql-queries.html
 
+Cheats
+* https://www.sqltutorial.org/sql-cheat-sheet
+* https://intellipaat.com/blog/tutorial/sql-tutorial/sql-commands-cheat-sheet
+
 Tool
 - https://tableplus.com
 
