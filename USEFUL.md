@@ -3,6 +3,7 @@
 ### Algo DSA
 * https://www.programiz.com/dsa
 * https://www.geeksforgeeks.org/data-structures
+* https://www.geeksforgeeks.org/fundamentals-of-algorithms
 
 ### Architecture
 * https://en.wikipedia.org/wiki/Software_design_pattern
