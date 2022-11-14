@@ -12,6 +12,7 @@
 
 ### Dev
 * https://git-scm.com/doc
+* Regex: https://regexone.com
 
 ### Editor
 **VIM**
