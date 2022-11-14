@@ -15,6 +15,7 @@ Format
 * https://jwt.io: RFC 7519 standard
 
 Framework
+* https://alpinejs.dev:  lightweight, JavaScript framework
 * https://angularjs.org
 * https://backbonejs.org
 * https://d3js.org: Data-driven document
