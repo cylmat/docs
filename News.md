@@ -8,6 +8,7 @@ Tech
 
 - https://grafikart.fr/blog
 - https://symfony.com/blog
+- https://dzone.com/web-development-programming-tutorials-tools-news
 
 Blogs
 ---
