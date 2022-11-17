@@ -30,6 +30,7 @@ Blogs
 + https://www.jesuisundev.com
 + https://voicesoftheelephpant.com
 + https://www.lafabriquedunet.fr
++ https://php.watch/
 
 Data: https://dev.mysql.com/blog-archive
 
