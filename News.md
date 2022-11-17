@@ -28,7 +28,8 @@ Blogs
 + http://www.lafabriquedecode.com/blog
 + https://betterprogramming.pub
 + https://www.jesuisundev.com
-+ https://voicesoftheelephpant.com/
++ https://voicesoftheelephpant.com
++ https://www.lafabriquedunet.fr
 
 Data: https://dev.mysql.com/blog-archive
 
