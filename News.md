@@ -4,6 +4,7 @@ Tech
 + https://php.developpez.com
 + https://thinktocode.com: Best practice, architecture, patterns
 + https://www.zend.com/blog
++ https://news.humancoders.com/t/php
 
 Blogs
 ---
