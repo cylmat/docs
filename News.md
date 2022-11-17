@@ -38,6 +38,7 @@ News
 * https://www.lesnumeriques.com
 * https://www.journaldunet.com/web-tech
 * https://www.zdnet.fr/actualites/php-4000000130q.htm
+* https://www.journaldugeek.com/category/sur-le-web
 
 Specific
 ---
