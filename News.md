@@ -31,6 +31,7 @@ Blogs
 + https://voicesoftheelephpant.com
 + https://www.lafabriquedunet.fr
 + https://php.watch/
++ https://www.garfieldtech.com
 
 Data: https://dev.mysql.com/blog-archive
 
