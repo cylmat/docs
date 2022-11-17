@@ -36,7 +36,8 @@ Data: https://dev.mysql.com/blog-archive
 News
 ---
 * https://www.lesnumeriques.com
-* https://www.journaldunet.com/web-tech/
+* https://www.journaldunet.com/web-tech
+* https://www.zdnet.fr/actualites/php-4000000130q.htm
 
 Specific
 ---
