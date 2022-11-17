@@ -1,10 +1,13 @@
 News
 ===
 Tech  
-+ https://php.developpez.com
 + https://thinktocode.com: Best practice, architecture, patterns
 + https://www.zend.com/blog
++ https://php.developpez.com
 + https://news.humancoders.com/t/php
+
+- https://grafikart.fr/blog
+- https://symfony.com/blog
 
 Blogs
 ---
@@ -24,6 +27,7 @@ Blogs
 + http://www.lafabriquedecode.com/blog
 + https://betterprogramming.pub
 + https://www.jesuisundev.com
++ https://voicesoftheelephpant.com/
 
 Data: https://dev.mysql.com/blog-archive
 
