@@ -19,6 +19,7 @@ Blogs
 + https://korben.info
 + http://www.lafabriquedecode.com/blog
 + https://betterprogramming.pub
++ https://www.jesuisundev.com
 
 Data: https://dev.mysql.com/blog-archive
 
