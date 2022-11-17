@@ -6,6 +6,7 @@ News
 Blogs
 ---
 + https://bestofphp.com: Discover useful php resources
++ https://blog.sensiolabs.com/fr: Sensiolabs
 + https://blog.cleancoder.com: Uncle Bob
 + https://blog.stoplight.io: Api design
 + https://dasini.net: MySQL experts
