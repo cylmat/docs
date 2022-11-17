@@ -1,10 +1,10 @@
 News
 ===
 Tech  
-+ https://thinktocode.com: Best practice, architecture, patterns
-+ https://www.zend.com/blog
++ https://www.phparch.com/
 + https://php.developpez.com
 + https://news.humancoders.com/t/php
++ https://www.zend.com/blog
 
 - https://grafikart.fr/blog
 - https://symfony.com/blog
