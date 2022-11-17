@@ -1,7 +1,9 @@
 News
 ===
+Tech  
 + https://php.developpez.com
 + https://thinktocode.com: Best practice, architecture, patterns
++ https://www.zend.com/blog
 
 Blogs
 ---
@@ -23,6 +25,10 @@ Blogs
 + https://www.jesuisundev.com
 
 Data: https://dev.mysql.com/blog-archive
+
+News
+---
+* https://www.lesnumeriques.com
 
 Specific
 ---
