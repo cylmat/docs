@@ -34,6 +34,9 @@ Battle
 * https://www.isograd-testingservices.com/FR/challenges-de-code
 * https://le-shaker.com/lacodingbattle
 
+Web
++ https://www.alsacreations.com: Tutos Html, Css, Js
+
 ---
 Databases
 ---
