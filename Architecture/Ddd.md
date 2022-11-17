@@ -59,6 +59,7 @@ Reference
 **@ref**  
 - https://www.domainlanguage.com
 - https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
+- https://alexsoyes.com/ddd-domain-driven-design/
 
 * https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture
 * https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence
