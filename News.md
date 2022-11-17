@@ -35,6 +35,7 @@ Data: https://dev.mysql.com/blog-archive
 News
 ---
 * https://www.lesnumeriques.com
+* https://www.journaldunet.com/web-tech/
 
 Specific
 ---
