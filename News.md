@@ -31,8 +31,9 @@ Blogs
 + https://www.jesuisundev.com
 + https://voicesoftheelephpant.com
 + https://www.lafabriquedunet.fr
-+ https://php.watch/
++ https://php.watch
 + https://www.garfieldtech.com
++ https://www.strangebuzz.com/fr
 
 Data: https://dev.mysql.com/blog-archive
 
