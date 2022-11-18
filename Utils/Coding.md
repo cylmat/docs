@@ -43,3 +43,6 @@ Playground Back
 
 Toolbox
 * https://it-tools.tech: Handy tools for developers
+
+Typing
+* https://www.typingstudy.com/typingtest
