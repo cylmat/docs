@@ -42,6 +42,9 @@ Versionning
 * https://alx.github.io/gitbook
 * https://git-scm.com
 
+## Extension mozilla
+- https://addons.mozilla.org/en-US/firefox/addon/tweak-extension
+
 ---
 ## Devops
 * https://www.getambassador.io
