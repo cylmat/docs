@@ -23,8 +23,8 @@ Prototype
 + https://storybook.js.org
 + https://wireframe.cc
 + https://retool.com
-
-* https://nicepage.com: Website Builder Software
++ https://www.canva.com/prototypes
++ https://nicepage.com: Website Builder Software
 
 Hosting
 * https://aws.amazon.com/fr/codecommit
