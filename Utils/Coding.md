@@ -49,3 +49,12 @@ Toolbox
 
 Typing
 * https://www.typingstudy.com/typingtest
+
+---
+## Language
++ https://elm-lang.org
++ https://hacklang.org
++ https://haxe.org: Cross-plateform toolkit
++ https://www.lua.org
++ https://www.perl.org
++ https://www.ruby-lang.org
