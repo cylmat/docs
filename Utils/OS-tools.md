@@ -4,6 +4,7 @@
 - https://github.com/awesome-lists/awesome-bash
 
 ## Linux
+- https://nixos.org
 - https://www.oracle.com/fr/linux: Oracle linux
 
 
