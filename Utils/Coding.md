@@ -41,6 +41,9 @@ Playground Back
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
 
+Shell
+- https://starship.rs
+
 Toolbox
 * https://it-tools.tech: Handy tools for developers
 
