@@ -4,12 +4,7 @@
 * ERROR 
 */
 
-interface Api {
-    function readData(string $filter);
-    function checkList();
-}
-
-class SimpleApi implements Api {
+class SimpleApi {
     function readData(string $filter) {
        $reseau->fetchRemote();
     }
@@ -30,7 +25,7 @@ class TokenAuthApi extends SimpleApi {
 }
 
 class Client {
-    function __construct(Api $api) {
+    function __construct(SimpleApi $api) {
         $api->readData('/url/'); 
         $list = $api->checkList();
         // other ... 
@@ -39,59 +34,10 @@ class Client {
 
 new Client(new SimpleApi()); // ok
 
-// On remplace SimpleApi par une classe dérivé TokenAuthApi
 new Client(new TokenAuthApi()); 
-
 // Err: on passe un string -> int attendu
 // Exception non gérée
 // Fonction désactivée, etc...
-
-
-
-/********
-* OK
-*/
-
-class Stock {
-    function getStock(): int { /**/ return 1; }
-}
-
-class SubStock extends Stock {
-    function getStock(): int { /**/ return 2; }
-}
-
-class Price {
-    function getPrice(): int { return 10; }
-}
-
-class PromoPrice extends Price {
-    function getPrice(): int { return 20; }
-}
-
-class Transaction {
-    function buy(SubStock $stock): Price {
-        $value = $stock->getStock();
-        return new Price();
-    }
-}
-
-class StockTransaction extends Transaction {
-    function buy(Stock $stock): PromoPrice {
-        return new PromoPrice();
-    }
-}
-
-class Client {
-    function run(Transaction $transaction) {
-        $stock = new SubStock();
-        $object = $transaction->buy($stock);
-    }
-}
-
-(new Client)->run(new Transaction); // ok
-(new Client)->run(new StockTransaction); // LSP ok
-
-
 
 
 
@@ -102,27 +48,35 @@ class Client {
  * COVARIANT
  */
 class Book {
-    function getId() { //...
-    }
+    function getId() { }
 }
 class ChildBook extends Book {
+    //function getId() { }
     function getAge() {//...
     }
 }
 
 class Collection {
-    function getBook($id): Book {
+    function getBook(string $id): Book {
         return new Book('someone');
     }
 }
-
 class ChildBookCollection extends Collection {
-    function getBook($id): ChildBook {
+    function getBook(string $id): ChildBook {
         return new ChildBook('disney');
+    }
+
+    function getAverage(): int {
+        /** @var ChildBookCollection $childBooks */
+        foreach ($childBooks as $c) {
+            /** @var ChildBook $c */
+            $c->getAge();
+        }
+        return 10;
     }
 }
 
-/// usage
+
 
 class Manager {
     function saveAuthor(Collection $collection): void {
@@ -132,58 +86,66 @@ class Manager {
     }
 }
 
+/// usage
+
 (new Manager())->saveAuthor(new Collection()); // ok
 (new Manager())->saveAuthor(new ChildBookCollection()); // ok
+//(new ChildManager)->saveChildBooks()
 
 
 
 
+class Database {
+    function saveProductByEan(string $ean){}
+    function saveProductById(int $id){}
+    function saveProductByArray(array $ids){}
+
+}
 /*********************
  * Contravariant
  */
-$client->run(Manager $manager) {
-    $manager->manage(“EAN135-abf”);
-    $manager->manage(32);
+class Gestion {
+    protected $database = new Database();
+
+    function manage(int|string $idOrEan) {
+        $this->database->saveProductByEan($idOrEan);
+    }
 }
 
 // same
-class ChildManager extends Manager {
+class ChildGestion extends Gestion {
     function manage(int|string $idOrEan) {
-        $database->getProductByEan($idOrEan)
-        $database->getProductById($idOrEan)
-}
-
-// fail
-class OnlyEanManager extends Manager {
-    function manage(string $ean) {
-        $database->getProductByEan($idOrEan)
+        $this->database->saveProductByEan($idOrEan);
+        $this->database->saveProductById($idOrEan);
+    }
 }
 
 // pass
-class LSPManager extends Manager {
-    function manage(int|string|array $param) {
-        $database->getProductByEan($param)
-        $database->getProductByArray($param)
+class LSPGestion extends Gestion {
+    function manage(int|string|array $idOrEan) {
+        $this->database->saveProductByEan($idOrEan);
+        $this->database->saveProductByArray($idOrEan);
+    }
 }
 
-//////// object
-    
-$client->run(Manager $manager) {
-    $manager->manage(new Param);
+// fail!!!
+class OnlyEanGestion extends Gestion {
+    function manage(string $ean) {
+        $this->database->saveProductByEan($ean);
+    }
 }
 
-class ChildManager extends Manager {
-    function manage(Param $param) {
-        $database->getProductByParam($param->getParam())
-        $database->getProductByArray($param->getInnerArr())
+
+class User {
+    function run(Gestion $gestion) {
+        $gestion->manage('ean8995'); //string
+        $gestion->manage(123454); //int
+    }
 }
 
-class SpecificManager extends Manager {
-    function manage(SpecificParam $specific) {
-        $database->getSpecialData($specific->getSpecific())
-}
-    
-class LSPManager extends Manager {
-    function manage(ArrayObject $param) {
-        $database->getProductByArray($param->getInnerArr())
-}
+/// usage
+(new User)->run(new Gestion()); // ok
+(new User)->run(new ChildGestion()); // ok
+(new User)->run(new LSPGestion()); // ok
+
+(new User)->run(new OnlyEanGestion()); // fail !!!!!
