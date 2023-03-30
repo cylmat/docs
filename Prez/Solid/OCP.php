@@ -1,50 +1,45 @@
 <?php
 
-class Speaker {
-    protected $conversation = [
-      'make.it' => "You can do it",
-      "success" => "Well done!"
-    ];
-  
-    public function speak($key) {
-        return $this->conversation[$key];
+
+class Engine {
+    public function run(string $config) {
+        if ('straight' == $config) {
+            $engine->goStraight();
+        }
+
+        if ('turn-over' == $config) {
+            $engine->goTurnOver();
+        }
     }
 }
 
-class SpeakerUpdated extends Speaker {
-    public function setConversation($key, $newValue) {
-        $this->conversation[$key] = $newValue;
-    }
-  
-    public function newSpeaker($key) {
-        return $this->conversation[$key];
-    }
+// use
+(new Engine)->run('turn-over'); //ok
+(new Engine)->run('new-feature'); // not implemented !
+
+
+
+/////////////// plugin
+
+class Feature {
+    function use() {}
 }
 
-
-
-
-
-/////////////// plugin system
-interface Operation {
-    function operate($data): int;
+class StraightFeature extends Feature {
+    function use() { 'straight'; }
 }
 
-final class Payment {
-    function __construct(Operation $op) 
-        //...
-        
-    public calculate(array $data): int {
-        return $op->operate($data);
+class NewFeature extends Feature {
+    function use() { 'new-feature'; }
+}
+
+class EngineOCP {
+    public function run(Feature $feature) {
+        $feature->use();
     }
 }
 
-class EmployeeOperation implements Operation {
-    function operate($data) //...
-}
+// use
 
-class ManagerOperation implements Operation {
-    function operate($data) //...
-}
-
-
+(new EngineOCP)->run(new StraightFeature()); //ok
+(new EngineOCP)->run(new NewFeature()); // ok !
