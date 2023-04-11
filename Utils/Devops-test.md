@@ -28,6 +28,8 @@ Logging and monitoring
 
 Security
 * https://www.vaultproject.io: By HashiCorp
+* https://github.com/gchq/CyberChef
+* https://gchq.github.io/CyberChef: Cyber Swiss Army Knife
 
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
