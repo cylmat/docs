@@ -17,6 +17,7 @@ In-memory
 - https://memcached.org
 - https://www.oracle.com/fr/database/technologies/related/berkeleydb.html
 - https://redis.io: In-memory data structure store
+- https://relay.so: Redis-like with concurency 
 - https://www.teamblue.unicomsi.com/products/soliddb: SolidDB is designed for extreme speed as a persistent
 
 No-Sql
