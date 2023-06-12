@@ -86,9 +86,11 @@ Playground
 * https://liveweave.com
 
 Testing framework
+* https://www.cypress.io
 * https://jasmine.github.io
 * https://jestjs.io
 * https://mochajs.org
+* https://playwright.dev
 
 ## SPA
 * https://hotwired.dev: Turbo - Stimulus - Strada for SPA
