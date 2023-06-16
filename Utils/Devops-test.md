@@ -31,6 +31,7 @@ Security
 * https://github.com/gchq/CyberChef
 * https://gchq.github.io/CyberChef: Cyber Swiss Army Knife
 * https://www.cvedetails.com
+* https://application.security/
 
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
