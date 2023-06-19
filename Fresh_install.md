@@ -11,3 +11,6 @@
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
 - https://learn.microsoft.com/en-us/windows/wsl/install
+
+Ext
+- https://addons.mozilla.org/en-US/firefox/addon/switchyomega
