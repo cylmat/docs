@@ -4,7 +4,9 @@
 * https://www.docker.com/products/docker-desktop
 * https://learn.microsoft.com/en-us/windows/powertoys
 * https://notepad-plus-plus.org/downloads
-* https://www.postman.com/
+* https://portswigger.net/burp/communitydownload
+* https://www.postman.com/downloads
+* https://www.wireshark.org/download.html
 
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
