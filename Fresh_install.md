@@ -12,6 +12,10 @@ Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
 - https://learn.microsoft.com/en-us/windows/wsl/install
 
+Tools
+- https://github.com/Bash-it/bash-it
+- https://github.com/akinomyoga/ble.sh
+
 Ext
 - https://addons.mozilla.org/fr/firefox/addon/cookie-quick-manager
 - https://addons.mozilla.org/en-US/firefox/addon/switchyomega
