@@ -31,6 +31,8 @@ Shell
 * https://linux.die.net/man/1/ccze: Colorize logs
 
 ## Windows
+* https://learn.microsoft.com/en-us/windows/powertoys/
+
 Console
 * https://cmder.net: Nice console emulators
 * https://hyper.is
