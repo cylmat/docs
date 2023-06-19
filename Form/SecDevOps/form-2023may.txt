@@ -65,20 +65,28 @@ Principes de Sécurité
 is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 + A01:2021 Broken Access Control (Directory Path Traversal)
 https://portswigger.net/web-security
+
 + A02:2021 Cryptographic Failure
 https://en.wikipedia.org/wiki/Rainbow_table
 Insecure TLS
 https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 https://words.filippo.io/the-ecb-penguin/
 Chiffrement : protège la donnée / Hash: vérifier l’intégrité
+
 + A03:2021 Injections
 https://portswigger.net/web-security/xxe
 Os-command injection
+
 + A04:2021 Insecure design
 Ex: redirection sans verification du GET
+
 + A05:2021 Security Misconfguration
+-	Comptes par default, pile d’erreur affichée, paramètre sécurité manquant, obsolète
+
 + A06:2021 Vulnerable outdated component
 + A07:2021 Identification and Auth Failure
+-	Auth autorise la brutforce, password défault ou connus, récupération mot de passe faible ou non hashé, id_session dans l’url, réutilise l’id de session
+
 + A08:2021 Software and Data Intégrity Failure
 + A09:2021 Securty Logging and Monitoring Failure
 + A10:2021 Server Side Request Forgery
