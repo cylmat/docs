@@ -13,4 +13,6 @@ Useful
 - https://learn.microsoft.com/en-us/windows/wsl/install
 
 Ext
+- https://addons.mozilla.org/fr/firefox/addon/cookie-quick-manager
 - https://addons.mozilla.org/en-US/firefox/addon/switchyomega
+- https://addons.mozilla.org/fr/firefox/addon/tweak-extension
