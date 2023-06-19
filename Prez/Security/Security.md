@@ -1,3 +1,0 @@
-tls https://en.wikipedia.org/wiki/Transport_Layer_Security
-openssl PBKDF2, PKCS7, PKCS12, X509
-...
