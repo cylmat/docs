@@ -41,6 +41,7 @@ Testing
 * https://www.sonarqube.org: Code Quality and Code Security, SonarLint paired with IDE
 * https://testproject.io: Test recorder
 * https://tideways.com/profiler/features
+- https://playwright.dev: End-to-end testing
 
 Versionning
 * https://alx.github.io/gitbook
