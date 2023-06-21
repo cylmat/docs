@@ -29,6 +29,10 @@ Object storage
 * https://etcd.io: Distributed key-value store
 * https://min.io: S3 compatible object storage
 
+ORM - ODM
+* https://mongoosejs.com
+* https://propelorm.org
+
 Performance
 * https://www.influxdata.com: High-speed read and write database
 * https://rethinkdb.com: Real-time push
