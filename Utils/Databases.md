@@ -5,6 +5,11 @@ Big data
 - https://couchdb.apache.org: Relax
 - https://hbase.apache.org: Big data store
 
+Cloud
+* https://www.cloudamqp.com
+* https://www.elephantsql.com
+* https://www.memcachier.com: most advanced managed Memcache
+
 Data science
 - https://www.arangodb.com: Natively store data for graph
 - https://neo4j.com: Graph Data Platform
