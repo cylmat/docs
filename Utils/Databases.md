@@ -32,6 +32,7 @@ Object storage
 ORM - ODM
 * https://mongoosejs.com
 * https://propelorm.org
+* https://sequelize.org: Node.js ORM for MySQL
 
 Performance
 * https://www.influxdata.com: High-speed read and write database
