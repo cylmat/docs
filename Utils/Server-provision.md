@@ -50,6 +50,7 @@ Server
 * https://nodejs.org
 * https://openlitespeed.org: Event-driven Php server
 * https://puma.io: Fast concurent web server
+* https://securitytrails.com
 
 Stack
 * http://devilbox.org: Dockerized LAMP and MEAN
