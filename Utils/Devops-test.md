@@ -19,6 +19,7 @@ Bug tracker
 CI / CD
 * https://circleci.com
 * https://jfrog.com/artifactory
+* https://www.sonatype.com: Open Source Vulnerability Scanner
 
 Documentation
 * https://www.sphinx-doc.org: create intelligent and beautiful documentation
