@@ -45,6 +45,11 @@ Playground Back
 Shell
 - https://starship.rs
 
+Security
+* https://www.vaultproject.io: By HashiCorp
+* https://github.com/gchq/CyberChef
+* https://gchq.github.io/CyberChef: Cyber Swiss Army Knife
+
 Toolbox
 * https://it-tools.tech: Handy tools for developers
 * https://devtoys.app: Swiss army life for dev
