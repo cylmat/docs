@@ -1,0 +1,112 @@
+Architecture logicielle
+
+Objectifs de la formation
+• Définir la notion d'architecture
+• Connaître les principaux styles architecturaux
+• Concevoir une architecture à partir des attributs de qualité
+• Concevoir une architecture en se basant sur les styles architecturaux
+• Evaluer une architecture
+• Documenter une architecture
+• Evaluer les enjeux des services techniques (persistance, transactions) dans les
+architectures
+• Evaluer les caractéristiques des solutions architecturales d'aujourd'hui et de
+demain
+• Comprendre les enjeux des débats actuels sur les choix architecturaux
+Prérequis
+• Avoir des notion d'architecture logicielle
+Public
+• Développeurs expérimentés
+• Architectes logiciels
+
+Programme de la formation
+Introduction à l'architecture
+• Définitions
+• Les qualités d'un architecte
+
+Architecture : Méthodologie
+• Architecte & Agilité
+• Gestion des risques
+• DDD & ADD
+• Attributs de qualité
+• Les différentes vues
+• Les critères d'une bonne conception
+• Principe KISS
+• Les GRASP
+
+Principe IHM
+• User eXperience
+• CDN
+• Rich Internet Application
+• Patterns MVC | MVVM
+• Responsive Web Design
+• SPA
+
+Style d'architecture
+• Définition d'un style d'architecture
+• Client-Serveur
+• RPC
+• SOA
+• REST
+• Messaging
+• Microservices
+• Reactives Microservices
+• API Gateway
+• Real Time DataStreaming
+• CQRS
+• Event-Sourcing
+• Layered
+• Bridge
+
+Cloud
+• … As A Service
+• Les différentes solutions de cloud : IAAS, PAAS, SAAS
+• Les différents cloud du marché
+• Mettre en œuvre un cloud
+• Les conteneurs de déploiement : Docker, Rocket
+• Clustering, scalabilité
+• Cloud & DEVOPS
+
+Persistance SQL
+• Présentation de la problématique
+• Mapping O/R : JPA & Hibernate
+
+Persistance : No SQL
+• Origines & définition
+• Théorème de CAP
+• Montée en charge horizontale & haute disponibilité
+• Sharding
+• Architecture massivement parallèles
+• Des données structurées ou non structurées ?
+• Les différents types de base noSQL : Clé/valeur – Document – Wide column –
+Graphe
+
+Persistance : New SQL
+• Architecture in-memory
+• Gros Volumes
+• OLTP/OLAP
+• Langage SQL
+
+Les principes Big Data
+• Définition
+• Datalake
+• Hadoop / HDFS
+• Map Reduce
+• Spark
+• Lambda Architecture
+• Hadoop
+
+Machine Learning – Big Data
+• Définition
+• Apprentissage supervisé, non supervisé
+• Validation des données
+
+iOT
+• Architecture in-memory
+• Gros Volumes
+• OLTP/OLAP
+• Langage SQL
+
+Méthode d'Audit
+• La méthode Attribute Driven Design
+• Strangler Pattern
+
