@@ -28,9 +28,6 @@ Logging and monitoring
 * https://www.elastic.co/fr/what-is/elk-stack: Elasticsearch, Logstash et Kibana
 
 Security
-* https://www.vaultproject.io: By HashiCorp
-* https://github.com/gchq/CyberChef
-* https://gchq.github.io/CyberChef: Cyber Swiss Army Knife
 * https://www.cvedetails.com
 * https://application.security/
 
