@@ -47,6 +47,8 @@ Shell
 
 Toolbox
 * https://it-tools.tech: Handy tools for developers
+* https://devtoys.app: Swiss army life for dev
+* https://www.dev-box.app
 
 Typing
 * https://www.typingstudy.com/typingtest
