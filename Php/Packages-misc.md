@@ -8,6 +8,7 @@
 Api
 * https://github.com/Tobion/OpenAPI-Symfony-Routing: Loads routes in Symfony based on OpenAPI/Swagger
 * https://packagist.org/packages/willdurand/hateoas-bundle
+* https://github.com/FriendsOfSymfony/FOSRestBundle
 
 Cache
 * https://www.phpfastcache.com: Building reactive apps
