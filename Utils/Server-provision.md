@@ -48,6 +48,7 @@ Server
 * https://securitytrails.com
 
 Stack
+* https://cloudstack.apache.org : Manage and deploy virtual machines
 * http://devilbox.org: Dockerized LAMP and MEAN
 * https://github.com/laravel/homestead
 * https://laragon.org: Portable dev environment
