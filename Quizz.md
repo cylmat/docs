@@ -13,14 +13,15 @@ Php
 - https://www.w3resource.com/php-exercises/php-array-exercises.php
 - https://www.w3resource.com/php-exercises/php-json-exercises.php
 - https://www.codepunker.com/learn/quizzes/7: Advanced PHP Quizz
-- https://phpquiz.xyz/
+- https://phpquiz.xyz
+- https://skillvalue.com/fr/quiz/php
 
 Symfony
 - https://www.wisdomjobs.com/e-university/symfony-practice-tests-2430-328359
 - https://www.goconqr.com/en/quiz/2765374/symfony-components-quiz
-- https://hamzahanafi11.github.io/symfony-quiz/qcm.html
+- https://hamzahanafi11.github.io/symfony-quiz/
 - http://www.memo-flash.com/fr/store/topic/1490
-- https://welovedevs.com/app/tests/symfony-5
+- https://welovedevs.com/app/tests/symfony-6
 - https://waytolearnx.com/2018/11/qcm-framework-symfony-partie-1.html
 
 Misc
