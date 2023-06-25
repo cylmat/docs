@@ -2,6 +2,7 @@ Database
 * https://www.sqlteaching.com
 * https://buzut.net/maitrisez-mysql-en-cli
 * https://bytescout.com/blog/20-important-sql-queries.html
+* https://en.wikipedia.org/wiki/Database_normalization
 
 Cheats
 * https://www.sqltutorial.org/sql-cheat-sheet
