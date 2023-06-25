@@ -11,6 +11,7 @@
 - https://jsonapi.org: A specification for building APIs in JSON
 - https://json-ld.org: JSON for linking data
 - https://raml.org: The simplest way to model APIs
+- https://spec.openapis.org/oas/latest.html: OAS
 
 * HAL Hypertext Application Language
   - https://en.wikipedia.org/wiki/Hypertext_Application_Language
