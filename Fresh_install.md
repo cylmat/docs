@@ -17,7 +17,13 @@ Tools
 - https://github.com/akinomyoga/ble.sh
 
 Ext
-- https://addons.mozilla.org/fr/firefox/addon/cookie-quick-manager
-- https://addons.mozilla.org/en-US/firefox/addon/switchyomega
-- https://addons.mozilla.org/fr/firefox/addon/tweak-extension
-- https://addons.mozilla.org/en-US/firefox/addon/modify-header-value
+https://addons.mozilla.org/fr/firefox/addon/
+- cookie-quick-manager
+- feedbroreader
+- firephp
+- modify-header-value
+- notes-by-firefox
+- switchyomega
+- tweak-extension
+- vue-js-devtools
+- xdebug-helper-for-firefox
