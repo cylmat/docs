@@ -1,5 +1,5 @@
 # Sym 6.3
-[symfony.com](https://symfony.com/blog/symfony-6-3-curated-new-features)
+[symfony.com/6-3](https://symfony.com/blog/symfony-6-3-curated-new-features)
 
 New features and changes :
 - Early Hints, NoSuspiciousCharacters Constraint, HTTP Exception Attributes, Mapping Request Data to Typed Objects, new Targeted Value Resolvers, Password Strength Constraint,
