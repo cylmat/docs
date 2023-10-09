@@ -1,8 +1,8 @@
-------------------------
-Architecture
-------------------------
-https://www.redhat.com/architect/nonfunctional-requirements-architecture. 
-https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/. 
+------------------------  
+Architecture  
+------------------------  
+https://www.redhat.com/architect/nonfunctional-requirements-architecture   
+https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/  
 https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence/  
 
 - DDD
@@ -36,5 +36,4 @@ https://www.cloudpanel.io/blog/8-best-free-cpanel-open-source-alternatives/#5-ve
 https://williamdurand.fr/2013/08/07/ddd-with-symfony2-folder-structure-and-code-first/  
 
 ![image](https://github.com/cylmat/docs/assets/47034111/fdfefeb0-a33c-4266-97df-ae518fb1dd58)
-
 ![image](https://github.com/cylmat/docs/assets/47034111/05b51247-e2c0-41e2-a9e0-787c7bb25cdc)
