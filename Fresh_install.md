@@ -12,9 +12,12 @@ Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
 - https://learn.microsoft.com/en-us/windows/wsl/install
 
-Tools
+Bash
 - https://github.com/Bash-it/bash-it
 - https://github.com/akinomyoga/ble.sh
+
+Vim
+- https://github.com/junegunn/vim-plug
 
 Ext
 https://addons.mozilla.org/fr/firefox/addon/
