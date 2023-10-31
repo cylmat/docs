@@ -42,6 +42,8 @@ Hosting
 * https://launchpad.net
 
 Mind mapping
+* https://www.mural.co
+* https://miro.com
 * https://excalidraw.com
 * https://freemind.fr.softonic.com
 * https://www.gloomaps.com: Visual sitemap
