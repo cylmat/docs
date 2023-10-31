@@ -22,6 +22,7 @@ Editor
 * http://lighttable.com: The next generation code editor
 * https://replit.com: Collaborator online browser IDE
 * https://fig.io: Your terminal, reimagined
+* https://vscode.dev/
 
 Fake data
 * https://www.generatedata.com
