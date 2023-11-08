@@ -19,6 +19,14 @@ Bash
 Vim
 - https://github.com/junegunn/vim-plug
 
+VSCode
+```
+https://www.jetbrains.com/lp/mono
+https://fonts.google.com/specimen/Fira+Code
+"editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+"editor.fontLigatures": true,
+```
+
 Ext
 https://addons.mozilla.org/fr/firefox/addon/
 - cookie-quick-manager
