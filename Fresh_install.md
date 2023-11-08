@@ -20,6 +20,7 @@ Vim
 - https://github.com/junegunn/vim-plug
 
 VSCode
+(https://devfonts.gafi.dev)
 ```
 https://www.jetbrains.com/lp/mono
 https://fonts.google.com/specimen/Fira+Code
