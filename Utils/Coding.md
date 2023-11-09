@@ -44,6 +44,7 @@ Playground Back
 - https://dbfiddle.uk
 
 Shell & fonts
+- https://ohmyz.sh
 - https://starship.rs
 - https://github.com/romkatv/powerlevel10k
 - https://github.com/powerline/powerline
