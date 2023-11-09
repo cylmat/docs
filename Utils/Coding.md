@@ -45,6 +45,8 @@ Playground Back
 
 Shell
 - https://starship.rs
+- https://github.com/romkatv/powerlevel10k
+- https://github.com/powerline/powerline
 
 Security
 * https://www.vaultproject.io: By HashiCorp
