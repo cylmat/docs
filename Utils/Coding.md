@@ -67,3 +67,4 @@ Typing
 + https://www.lua.org
 + https://www.perl.org
 + https://www.ruby-lang.org
++ https://nim-lang.org
