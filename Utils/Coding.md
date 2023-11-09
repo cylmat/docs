@@ -43,10 +43,11 @@ Playground Back
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
 
-Shell
+Shell & fonts
 - https://starship.rs
 - https://github.com/romkatv/powerlevel10k
 - https://github.com/powerline/powerline
+- https://www.nerdfonts.com
 
 Security
 * https://www.vaultproject.io: By HashiCorp
