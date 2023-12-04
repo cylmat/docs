@@ -39,7 +39,10 @@ Playground Back
 * http://phpfiddle.org
 * https://sandbox.onlinephpfunctions.com
 * https://www.tutorialspoint.com/codingground.htm
+* https://onlinephp.io
+* https://phpsandbox.io
 
+DB
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
 
