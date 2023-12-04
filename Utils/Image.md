@@ -2,6 +2,7 @@
 
 Appli
 * https://birdfont.org: Font editor
+* https://www.iloveimg.com: Image editor, resize, convert
 
 Drawing
 * https://app.genmymodel.com
