@@ -2,6 +2,10 @@
 
 Learn
 ---
+* https://roadmap.sh/backend
+* https://roadmap.sh/java
+  
+
 + https://developers.google.com/learn
 + https://developer.mozilla.org
 + https://techdevguide.withgoogle.com
