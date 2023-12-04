@@ -1,3 +1,15 @@
+# Php 8.3
+[8.3](https://www.php.net/releases/8.3/en.php)
+- json_validate
+- les constantes peuvent désormais être typées, , constantes de façon dynamique.
+- Randomizer getBytesFromString(), getFloat(), nextFloat()
+- #[\Override]
+- réinitialiser (readonly) (clonage)
+- messages d'erreur Date et Time
+- gestion des erreurs  unserialize()
+- ini deprecated : assert.active, assert.bail, assert.callback, assert.exception et assert.warning 
+- deprecated L'appel get_class() et get_parent_class() sans argument 
+
 # PHP 8.2
 [php.net](https://www.php.net/releases/8.2/en.php)
 [php.watch](https://php.watch/versions/8.2)
