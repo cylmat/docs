@@ -7,6 +7,12 @@
 apt install -y fish zsh
 # @see https://github.com/ohmyzsh/ohmyzsh
 
+# @see https://starship.rs
+starship:
+	sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+	echo 'eval "$(starship init bash)"' >> ~/.bashrc
+	mkdir -p ~/.config && touch ~/.config/starship.toml
+
 #############
 # Languages #
 #############
@@ -54,10 +60,11 @@ alias hf="historyfzf"
 ##########
 # Useful #
 ##########
-#manpages
-apt install -y manpages man-db# locales
 
-#locales
+# Manpages
+apt install -y manpages man-db
+
+# locales
 apt install -y locales locales-all
 
 ###########
@@ -81,6 +88,7 @@ apt install -y nmap
 # https://github.com/Bash-it/bash-it
 bash-it:
 	git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it && ~/.bash_it/install.sh
+ 
 # https://github.com/akinomyoga/ble.sh
 blesh:
 	apt update && apt install -y gawk
@@ -98,10 +106,6 @@ composer-bin:
 	php composer-setup.php --install-dir=bin --filename=composer
 	php -r "unlink('composer-setup.php'); unlink('/tmp/installer.sig');"
 	
-# https://kint-php.github.io/kint/
-kint-bin:
-	curl -LO https://raw.githubusercontent.com/kint-php/kint/master/build/kint.phar
-	
 #########
 # FONTS #
 #########
@@ -111,35 +115,7 @@ powerline:
 	mv PowerlineSymbols.otf /usr/share/fonts/
 	fc-cache -vf
 	mv 10-powerline-symbols.conf /etc/fonts/conf.d/
-	
-#######
-# GIT #
-#######
-# https://cdn.kernel.org/pub/software/scm/git/
-# http://ftp.be.debian.org/pub/software/scm/git-core/git-manpages-2.30.0.tar.gz
-git-man:
-	apt install -y locales locales-all manpages man-db
-	wget -P /tmp http://ftp.be.debian.org/pub/software/scm/git-core/git-manpages-2.30.0.tar.gz
-	tar -xzf /tmp/git-manpages-2.30.0.tar.gz -C /usr/share/man
 
-#########
-# LINUX #
-#########
-# https://busybox.net/
-busybox:
-	apt install -y busybox
-
-# https://starship.rs/
-starship:
-	sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-	echo 'eval "$(starship init bash)"' >> ~/.bashrc
-	mkdir -p ~/.config && touch ~/.config/starship.toml
-	
-# Process
-# kill $(ps | grep -oE ^.[0-9]+)
-ps:
-	apt update && apt install procps
-	
 #######
 # ZSH #
 #######
