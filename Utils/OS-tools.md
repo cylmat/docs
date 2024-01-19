@@ -38,6 +38,10 @@ Shell tool
 * https://github.com/junegunn/fzf
 * https://linux.die.net/man/1/ccze: Colorize logs
 
+Screen manager
+* https://doc.ubuntu-fr.org/awesome
+* https://doc.ubuntu-fr.org/tmux
+
 ## Windows
 ----------
 * https://learn.microsoft.com/en-us/windows/powertoys/
