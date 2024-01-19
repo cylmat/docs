@@ -81,7 +81,11 @@ apt install -y locales locales-all
 ###########
 # Edition #
 ###########
+# Vim
 apt install -y vim
+
+# Tmux : https://doc.ubuntu-fr.org/tmux
+apt install -y tmux
 
 ###########
 # Network #
