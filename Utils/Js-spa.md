@@ -9,6 +9,7 @@ Docs
 * https://eloquentjavascript.net
 * http://jstherightway.org
 * https://standardjs.com
+* https://nodejs.org/api/modules.html : CommonJS
 
 Format
 * https://www.json.org
@@ -25,6 +26,7 @@ Framework
 * https://emberjs.com
 * https://pugjs.org: Templating
 * https://nextjs.org
+* https://nestjs.com : framework for building server-side applications
 * https://reactjs.org
 * https://redux.js.org
 * https://script.aculo.us
@@ -33,6 +35,8 @@ Framework
 * https://vuejs.org
 
 Helper
+* https://gulpjs.com : automate & enhance your workflow
+* https://gruntjs.com : JavaScript Task Runner
 * https://livejs.com
 
 Language
