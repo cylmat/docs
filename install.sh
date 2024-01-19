@@ -43,8 +43,12 @@ apt install -y busybox ccze
 
 # Fzf
 apt install -y fzf
-function historyfzf () { $(history | fzf | grep -oE [^0-9]+) }
+echo '
+function historyfzf () {
+    $(history | fzf | grep -oE [^0-9]+)
+}
 alias hf="historyfzf"
+' >> ~/.bashrc
 
 ##########
 # Useful #
