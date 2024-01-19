@@ -1,26 +1,53 @@
 #!/bin/bash
 ####################
 
-https://github.com/phpenv/phpenv
-https://docs.volta.sh
-
-# shell
-https://github.com/ohmyzsh/ohmyzsh/
-
-
-# Edit
-apt install -y vim
-# Tools
-apt install -y busybox ccze fzf
-# Net
-apt install -y nmap
-# Shell
+#########
+# Shell #
+#########
 apt install -y fish zsh
+https://github.com/ohmyzsh/ohmyzsh
 
+#############
+# Languages #
+#############
+Php-env : https://github.com/phpenv/phpenv
+Node : https://docs.volta.sh
+
+########
+# Data #
+########
 # Redis
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 apt-get update && apt-get install redis
+
+#########
+# Tools #
+#########
+apt install -y busybox ccze fzf
+
+##########
+# Useful #
+##########
+#manpages
+apt install -y manpages man-db# locales
+
+#locales
+apt install -y locales locales-all
+
+###########
+# Edition #
+###########
+apt install -y vim
+
+###########
+# Network #
+###########
+apt install -y nmap
+
+
+
+# # # cleanup # # #
 
 
 ########
@@ -82,13 +109,6 @@ starship:
 	sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 	echo 'eval "$(starship init bash)"' >> ~/.bashrc
 	mkdir -p ~/.config && touch ~/.config/starship.toml
-	
-manpages:
-	apt install -y manpages man-db
-	
-# locales
-locales:
-	apt install -y locales locales-all
 	
 # Process
 # kill $(ps | grep -oE ^.[0-9]+)
