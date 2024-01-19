@@ -43,5 +43,6 @@ https://addons.mozilla.org/fr/firefox/addon/
 Dark Reader  
 RESTClient  
 
-
-Scripts and ~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
+### Scripts install
+~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
+script install: [cylmat/install]([https://github.com/cylmat/cheats/blob/main/.home/.bashrc](https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)
