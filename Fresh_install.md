@@ -1,4 +1,6 @@
-## App
+# Install
+
+## Windows app
 * https://www.docker.com/products/docker-desktop
 * https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
 * https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
@@ -12,14 +14,7 @@ Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
 - https://learn.microsoft.com/en-us/windows/wsl/install
 
-Bash
-- https://github.com/Bash-it/bash-it
-- https://github.com/akinomyoga/ble.sh
-
-Vim
-- https://github.com/junegunn/vim-plug
-
-VSCode
+### VSCode
 (https://devfonts.gafi.dev)
 ```
 https://www.jetbrains.com/lp/mono
@@ -28,7 +23,7 @@ https://fonts.google.com/specimen/Fira+Code
 "editor.fontLigatures": true,
 ```
 
-Ext
+### Ext
 https://addons.mozilla.org/fr/firefox/addon/
 - cookie-quick-manager
 - feedbroreader
@@ -39,10 +34,18 @@ https://addons.mozilla.org/fr/firefox/addon/
 - tweak-extension
 - vue-js-devtools
 - xdebug-helper-for-firefox
+- Dark Reader  
+- RESTClient  
 
-Dark Reader  
-RESTClient  
+## Linux app
+
+Bash
+- https://github.com/Bash-it/bash-it
+- https://github.com/akinomyoga/ble.sh
+
+Vim
+- https://github.com/junegunn/vim-plug
 
 ### Scripts install
-~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
-script install: [cylmat/install]([https://github.com/cylmat/cheats/blob/main/.home/.bashrc](https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)
+- ~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)  
+- script install: [cylmat/install](https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)  
