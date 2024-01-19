@@ -28,6 +28,7 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 #############
 Php-env : https://github.com/phpenv/phpenv
 Node : https://docs.volta.sh
+Ruby : apt install -y ruby
 
 #############
 # Databases #
