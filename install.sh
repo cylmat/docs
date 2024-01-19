@@ -53,6 +53,10 @@ redis-server &
 apt install -y sqlite3
 sqlite3 test.db
 
+# Memcached
+# @use : sudo systemctl start memcached
+apt install -y memcached libmemcached-tools
+
 #########
 # Tools #
 #########
