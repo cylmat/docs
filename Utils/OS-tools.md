@@ -1,12 +1,18 @@
 # OS Utils
 
-## Awesome bash
-- https://github.com/awesome-lists/awesome-bash
-
 ## Linux
+--------
 - https://nixos.org
 - https://www.oracle.com/fr/linux: Oracle linux
+- https://doc.ubuntu-fr.org
 
+### Shell
+- https://github.com/awesome-lists/awesome-bash
+- https://fishshell.com
+- https://ohmyz.sh
+- https://github.com/oh-my-fish/oh-my-fish
+- https://github.com/ohmybash/oh-my-bash
+- https://github.com/unixorn/awesome-zsh-plugins
 
 Monitoring
 * https://nmap.org: Security scanner
@@ -22,15 +28,18 @@ Network
 Tools
 * https://busybox.net: The Swiss Army Knife of Embedded Linux
 * http://supervisord.org: Client/server system that allows to control Unix processes
+* http://landley.net/toybox
+* https://www.gnu.org/software/coreutils
 
 Security
 * https://www.stunnel.org
 
-Shell
+Shell tool
 * https://github.com/junegunn/fzf
 * https://linux.die.net/man/1/ccze: Colorize logs
 
 ## Windows
+----------
 * https://learn.microsoft.com/en-us/windows/powertoys/
 
 Console
