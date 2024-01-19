@@ -5,7 +5,7 @@
 # Shell #
 #########
 apt install -y fish zsh
-https://github.com/ohmyzsh/ohmyzsh
+# @see https://github.com/ohmyzsh/ohmyzsh
 
 #############
 # Languages #
@@ -16,11 +16,6 @@ Node : https://docs.volta.sh
 #############
 # Databases #
 #############
-# Redis
-curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-apt-get update && apt-get install redis
-redis-server &
 
 # MongoDb
 curl -fsSL https://pgp.mongodb.com/server-4.4.asc | gpg -o /usr/share/keyrings/mongodb-server-4.4.gpg --dearmor
@@ -31,10 +26,25 @@ apt update && apt install -y mongodb-org
 mongod --dbpath /data/db --port 27017 --fork --logpath /var/log/mongodb/mongod.log
 mongo admin --eval 'db.createUser({user:"root",pwd:"root",roles:[{role:"userAdminAnyDatabase",db:"admin"}]})'
 
+# Redis
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+apt-get update && apt-get install redis
+redis-server &
+
+# Sqlite
+apt install -y sqlite3
+sqlite3 test.db
+
 #########
 # Tools #
 #########
-apt install -y busybox ccze fzf
+apt install -y busybox ccze
+
+# Fzf
+apt install -y fzf
+function historyfzf () { $(history | fzf | grep -oE [^0-9]+) }
+alias hf="historyfzf"
 
 ##########
 # Useful #
