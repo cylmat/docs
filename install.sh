@@ -92,7 +92,9 @@ apt install -y tmux
 ###########
 apt install -y nmap
 
-# use : ss -plunt
+# Netstat (ss)
+# @use : ss -plunt
+apt install -y net-tools   
 
 
 
