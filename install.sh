@@ -141,6 +141,8 @@ vundle:
 vim-plug:
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# https://www.vimgolf.com/
-vim-golf: 
-	apt install -y rubygems && gem install vimgolf
+############
+# TRAINING #
+############
+# @see https://www.vimgolf.com/
+apt install -y rubygems && gem install vimgolf
