@@ -67,6 +67,7 @@ Modules
 * http://www.commonjs.org
 * https://jspm.org
 * https://requirejs.org
+* https://standardjs.com/
 
 Microfrontends
 * https://single-spa.js.org
