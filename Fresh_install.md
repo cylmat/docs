@@ -40,5 +40,8 @@ https://addons.mozilla.org/fr/firefox/addon/
 - vue-js-devtools
 - xdebug-helper-for-firefox
 
-Dark Reader
-RESTClient
+Dark Reader  
+RESTClient  
+
+
+Scripts : [Cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
