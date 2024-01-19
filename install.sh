@@ -92,6 +92,8 @@ apt install -y tmux
 ###########
 apt install -y nmap
 
+# use : ss -plunt
+
 
 
 # # # cleanup # # #
