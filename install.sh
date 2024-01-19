@@ -49,6 +49,7 @@ function historyfzf () {
 }
 alias hf="historyfzf"
 ' >> ~/.bashrc
+. ~/.bashrc
 
 ##########
 # Useful #
