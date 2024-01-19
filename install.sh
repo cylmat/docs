@@ -120,25 +120,24 @@ composer-bin:
 #########
 # FONTS #
 #########
-powerline:
-	# apt install -y fonts-powerline
-	wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
-	mv PowerlineSymbols.otf /usr/share/fonts/
-	fc-cache -vf
-	mv 10-powerline-symbols.conf /etc/fonts/conf.d/
-
-
+# Powerline
+apt install -y fonts-powerline
+wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+mv PowerlineSymbols.otf /usr/share/fonts/
+fc-cache -vf
+mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 
 #######
 # VIM #
 #######
 # https://github.com/VundleVim/Vundle.vim
-vundle:
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# vundle:
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # https://github.com/junegunn/vim-plug
-vim-plug:
-	curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# @see https://vimawesome.com
 
 ############
 # TRAINING #
