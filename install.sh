@@ -72,6 +72,8 @@ alias hf="historyfzf"
 ' >> ~/.bashrc
 . ~/.bashrc
 
+# Nixos : @https://nixos.org
+
 ##########
 # Useful #
 ##########
