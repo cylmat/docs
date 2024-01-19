@@ -4,14 +4,24 @@
 #########
 # Shell #
 #########
-apt install -y fish zsh
-# @see https://github.com/ohmyzsh/ohmyzsh
+# Fish
+apt install -y fish
 
-# @see https://starship.rs
-starship:
-	sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-	echo 'eval "$(starship init bash)"' >> ~/.bashrc
-	mkdir -p ~/.config && touch ~/.config/starship.toml
+# Zsh : @see https://www.zsh.org
+apt install -y fonts-powerline zsh
+# OhMyZsh : @see https://ohmyz.sh
+
+#zsh-omz:
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#zsh-autosuggestions:
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#zsh-syntax-highlighting:
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Starship : @see https://starship.rs
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+mkdir -p ~/.config && touch ~/.config/starship.toml
 
 #############
 # Languages #
@@ -116,19 +126,7 @@ powerline:
 	fc-cache -vf
 	mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 
-#######
-# ZSH #
-#######
-# https://ohmyz.sh
-zsh-omz:
-	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-zsh-autosuggestions:
-	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-zsh-syntax-highlighting:
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-# https://www.zsh.org/
-zsh:
-	apt update && apt install -y fonts-powerline zsh
+
 
 #######
 # VIM #
