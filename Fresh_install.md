@@ -44,4 +44,4 @@ Dark Reader
 RESTClient  
 
 
-Scripts : [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
+Scripts and ~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)
