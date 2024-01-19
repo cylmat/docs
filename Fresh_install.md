@@ -39,3 +39,6 @@ https://addons.mozilla.org/fr/firefox/addon/
 - tweak-extension
 - vue-js-devtools
 - xdebug-helper-for-firefox
+
+Dark Reader
+RESTClient
