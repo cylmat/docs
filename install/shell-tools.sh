@@ -65,11 +65,15 @@ apt install -y nmap
 # @use : ss -plunt
 apt install -y net-tools   
 
+
 ##########
 # Server #
 ##########
 
 ### Ajenti @http://docs.ajenti.org/en/latest/man/install.html
+
+### Lynx @https://lynx.invisible-island.net/
+# sudo apt-get install lynx
 
 
 
