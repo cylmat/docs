@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y build-essential
+sudo apt install -y build-essential pkg-config
 
 #############
 # Languages #
