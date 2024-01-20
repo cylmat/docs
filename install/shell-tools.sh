@@ -4,15 +4,15 @@
 # Shell #
 ########
 
-# Bash
+### Bash
 # @https://github.com/ohmybash/oh-my-bash
 # @https://github.com/awesome-lists/awesome-bash
 
-# Fish : @https://fishshell.com
+### Fish : @https://fishshell.com
 # @https://github.com/oh-my-fish/oh-my-fish
 apt install -y fish
 
-# Zsh : @https://www.zsh.org
+### Zsh : @https://www.zsh.org
 # @https://github.com/unixorn/awesome-zsh-plugins
 apt install -y fonts-powerline zsh
 # OhMyZsh : @https://ohmyz.sh
@@ -24,7 +24,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 #zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Starship : @https://starship.rs
+### Starship : @https://starship.rs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
@@ -32,26 +32,29 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 ###########
 # Edition #
 ###########
-# Vim
+
+### Vim
 apt install -y vim
 
-# Tmux : @https://doc.ubuntu-fr.org/tmux
+### Tmux : @https://doc.ubuntu-fr.org/tmux
 apt install -y tmux
 
-# @https://doc.ubuntu-fr.org/awesome
+### @https://doc.ubuntu-fr.org/awesome
 
 #########
 # Tools #
 #########
 
-# Manpages
+### Manpages
 apt install -y manpages man-db
 
-# locales
+### locales
 apt install -y locales locales-all
 
-# Box : @https://busybox.net
+### Box : @https://busybox.net
 apt install -y busybox
+
+### Nixos : @https://nixos.org
 
 ###########
 # Network #
