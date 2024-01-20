@@ -10,7 +10,7 @@ sudo apt install -y build-essential pkg-config
 # @https://github.com/phpenv/phpenv-installer
 # or sudo update-alternatives --config php
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
-apt install -y libssl-dev libxml2-dev
+apt install -y libssl-dev libxml2-dev # No package 'libxml-2.0' found. No package 'openssl' found
 phpenv install -l
 phpenv install 8.3.0
 
