@@ -1,5 +1,4 @@
 #!/bin/bash
-####################
 
 #########
 # Shell #
@@ -22,69 +21,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
-
-#############
-# Databases #
-#############
-
-# MongoDb
-curl -fsSL https://pgp.mongodb.com/server-4.4.asc | gpg -o /usr/share/keyrings/mongodb-server-4.4.gpg --dearmor
-echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-4.4.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.4.list
-# -> select the Geographic area 8 "Europe", 37 "Paris"
-apt update && apt install -y mongodb-org
-#export MONGO_URI=mongodb://root:root@localhost:27017
-mongod --dbpath /data/db --port 27017 --fork --logpath /var/log/mongodb/mongod.log
-mongo admin --eval 'db.createUser({user:"root",pwd:"root",roles:[{role:"userAdminAnyDatabase",db:"admin"}]})'
-
-# Redis
-curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-apt-get update && apt-get install redis
-redis-server &
-
-# Sqlite
-apt install -y sqlite3
-sqlite3 test.db
-
-# Memcached
-# @use : sudo systemctl start memcached
-apt install -y memcached libmemcached-tools
-
-#########
-# Tools #
-#########
-apt install -y busybox ccze
-
-# Fzf
-apt install -y fzf
-echo '
-function historyfzf () {
-    $(history | fzf | grep -oE [^0-9]+)
-}
-alias hf="historyfzf"
-' >> ~/.bashrc
-. ~/.bashrc
-
-# Nixos : @https://nixos.org
-
-##########
-# Useful #
-##########
-
-# Manpages
-apt install -y manpages man-db
-
-# locales
-apt install -y locales locales-all
-
-###########
-# Edition #
-###########
-# Vim
-apt install -y vim
-
-# Tmux : https://doc.ubuntu-fr.org/tmux
-apt install -y tmux
 
 ###########
 # Network #
