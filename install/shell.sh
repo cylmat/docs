@@ -23,6 +23,25 @@ echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
 
 ###########
+# Edition #
+###########
+# Vim
+apt install -y vim
+
+# Tmux : https://doc.ubuntu-fr.org/tmux
+apt install -y tmux
+
+##########
+# Useful #
+##########
+
+# Manpages
+apt install -y manpages man-db
+
+# locales
+apt install -y locales locales-all
+
+###########
 # Network #
 ###########
 apt install -y nmap
