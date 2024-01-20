@@ -5,10 +5,8 @@
 #############
 
 # Php-env : @https://github.com/phpenv/phpenv
-git clone git@github.com:phpenv/phpenv.git ~/.phpenv
-echo 'export PATH="$HOME/.phpenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(phpenv init -)"' >> ~/.bash_profile
-exec $SHELL -l
+# @https://github.com/phpenv/phpenv-installer
+curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash
 
 # Node
 Node : https://docs.volta.sh
