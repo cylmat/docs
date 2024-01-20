@@ -8,7 +8,7 @@ sudo apt install -y build-essential
 
 # Php-env : @https://github.com/phpenv/phpenv
 # @https://github.com/phpenv/phpenv-installer
-curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash
+curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
 
 # Node
 Node : https://docs.volta.sh
