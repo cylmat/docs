@@ -9,6 +9,9 @@ sudo apt install -y build-essential pkg-config
 # Php-env : @https://github.com/phpenv/phpenv
 # @https://github.com/phpenv/phpenv-installer
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
+apt install -y libxml2-dev
+phpenv install -l
+phpenv install 8.3.0
 
 # Node
 Node : https://docs.volta.sh
