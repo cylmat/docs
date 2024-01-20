@@ -38,6 +38,8 @@ apt install -y vim
 # Tmux : @https://doc.ubuntu-fr.org/tmux
 apt install -y tmux
 
+# @https://doc.ubuntu-fr.org/awesome
+
 #########
 # Tools #
 #########
