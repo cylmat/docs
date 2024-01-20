@@ -24,13 +24,6 @@ echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
 
 #############
-# Languages #
-#############
-Php-env : https://github.com/phpenv/phpenv
-Node : https://docs.volta.sh
-Ruby : apt install -y ruby
-
-#############
 # Databases #
 #############
 
