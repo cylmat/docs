@@ -78,6 +78,9 @@ apt install -y net-tools
 ### Lynx @https://lynx.invisible-island.net/
 # sudo apt-get install lynx
 
+### W3m
+# sudo apt install w3m w3m-img
+
 
 
 # # # cleanup # # #
