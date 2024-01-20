@@ -10,6 +10,9 @@ Benchmark
 * https://jmeter.apache.org: Load test and measure performance
 * https://locust.io
 
+Server  
+* http://docs.ajenti.org
+
 Data collector
 * https://www.fluentd.org: Unified logging
 * https://www.elastic.co/fr/logstash
