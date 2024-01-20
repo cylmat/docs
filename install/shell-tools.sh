@@ -2,13 +2,20 @@
 
 #########
 # Shell #
-#########
-# Fish
+########
+
+# Bash
+# @https://github.com/ohmybash/oh-my-bash
+# @https://github.com/awesome-lists/awesome-bash
+
+# Fish : @https://fishshell.com
+# @https://github.com/oh-my-fish/oh-my-fish
 apt install -y fish
 
-# Zsh : @see https://www.zsh.org
+# Zsh : @https://www.zsh.org
+# @https://github.com/unixorn/awesome-zsh-plugins
 apt install -y fonts-powerline zsh
-# OhMyZsh : @see https://ohmyz.sh
+# OhMyZsh : @https://ohmyz.sh
 
 #zsh-omz:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -17,7 +24,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 #zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Starship : @see https://starship.rs
+# Starship : @https://starship.rs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
@@ -28,18 +35,21 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 # Vim
 apt install -y vim
 
-# Tmux : https://doc.ubuntu-fr.org/tmux
+# Tmux : @https://doc.ubuntu-fr.org/tmux
 apt install -y tmux
 
-##########
-# Useful #
-##########
+#########
+# Tools #
+#########
 
 # Manpages
 apt install -y manpages man-db
 
 # locales
 apt install -y locales locales-all
+
+# Box : @https://busybox.net
+apt install -y busybox
 
 ###########
 # Network #
@@ -54,6 +64,19 @@ apt install -y net-tools
 
 # # # cleanup # # #
 
+
+#Monitoring##
+
+   # https://nmap.org: Security scanner
+   # https://www.ntop.org: Network monitor
+   # https://www.wireshark.org: Network protocol analyzer
+   # https://www.zabbix.com
+
+#Network
+
+ #   Tracert: Déterminer l'itinéraire menant vers une destination
+ #   Tcpdump
+ #   telnet
 
 ########
 # BASH #
