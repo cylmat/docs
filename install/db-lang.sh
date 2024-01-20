@@ -6,21 +6,21 @@ sudo apt install -y build-essential pkg-config
 # Languages #
 #############
 
-# Php-env : @https://github.com/phpenv/phpenv
+### Php-env : @https://github.com/phpenv/phpenv
 # @https://github.com/phpenv/phpenv-installer
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
 apt install -y libxml2-dev
 phpenv install -l
 phpenv install 8.3.0
 
-# Node
+### Node
 Node : https://docs.volta.sh
 
-# Ruby version manager : @https://rvm.io
+### Ruby version manager : @https://rvm.io
 gpg2 --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 curl -sSL https://get.rvm.io | bash -s stable --rails
 
-# Python : @https://github.com/pyenv/pyenv
+### Python : @https://github.com/pyenv/pyenv
 curl https://pyenv.run | bash
 
 
