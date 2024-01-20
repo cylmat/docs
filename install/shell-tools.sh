@@ -51,10 +51,10 @@ apt install -y manpages man-db
 ### locales
 apt install -y locales locales-all
 
-### Box : @https://busybox.net
+### Box @https://busybox.net
 apt install -y busybox
 
-### Nixos : @https://nixos.org
+### Nixos @https://nixos.org
 
 ###########
 # Network #
@@ -64,6 +64,12 @@ apt install -y nmap
 # Netstat (ss)
 # @use : ss -plunt
 apt install -y net-tools   
+
+##########
+# Server #
+##########
+
+### Ajenti @http://docs.ajenti.org/en/latest/man/install.html
 
 
 
