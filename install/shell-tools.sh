@@ -37,6 +37,14 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 # @https://vimawesome.com
 apt install -y vim
 
+# vundle: https://github.com/VundleVim/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# https://github.com/junegunn/vim-plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+### ###
+
 ### Neovim @https://neovim.io
 
 ### Tmux : @https://doc.ubuntu-fr.org/tmux
@@ -59,19 +67,14 @@ apt install -y busybox
 
 ### Nixos @https://nixos.org
 
-###########
-# Network #
-###########
-apt install -y nmap
+####################
+# Network & Server #
+####################
 
-# Netstat (ss)
-# @use : ss -plunt
-apt install -y net-tools   
-
-
-##########
-# Server #
-##########
+# @https://nmap.org: Security scanner
+# @https://www.ntop.org: Network monitor
+# Netstat (ss) @use : ss -plunt
+apt install -y net-tools  nmap
 
 ### Ajenti @http://docs.ajenti.org/en/latest/man/install.html
 
@@ -86,18 +89,6 @@ apt install -y net-tools
 # # # cleanup # # #
 
 
-#Monitoring##
-
-   # https://nmap.org: Security scanner
-   # https://www.ntop.org: Network monitor
-   # https://www.wireshark.org: Network protocol analyzer
-   # https://www.zabbix.com
-
-#Network
-
- #   Tracert: Déterminer l'itinéraire menant vers une destination
- #   Tcpdump
- #   telnet
 
 ########
 # BASH #
@@ -133,17 +124,7 @@ mv PowerlineSymbols.otf /usr/share/fonts/
 fc-cache -vf
 mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 
-#######
-# VIM #
-#######
-# https://github.com/VundleVim/Vundle.vim
-# vundle:
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-# https://github.com/junegunn/vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# @see https://vimawesome.com
 
 ############
 # TRAINING #
