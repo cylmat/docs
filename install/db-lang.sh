@@ -11,7 +11,7 @@ sudo apt install -y build-essential pkg-config
 # or sudo update-alternatives --config php
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=$HOME/.phpenv bash
 
-apt install -y php-readline libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev libzip-dev
+apt install -y libreadline-dev libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev libzip-dev
 cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
 
 vim ~/.phpenv/plugins/php-build/share/php-build/default_configure_options
