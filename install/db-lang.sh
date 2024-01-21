@@ -15,7 +15,7 @@ apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1
 cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
 
 vim ~/.phpenv/plugins/php-build/share/php-build/default_configure_options
-vim ~/.phpenv/plugins/php-build/share/php-build/definitions/8.3.0
+vim ~/.phpenv/plugins/php-build/share/php-build/definitions/8.3.0    # keep install_package "https://www.php.net/distributions/php-8.3.0.tar.bz2"
 PHP_BUILD_DEBUG=yes phpenv install 8.3.0 # Download from https://www.php.net/distributions/php-8.3.0.tar.bz2
 
 sudo update-alternatives --install /usr/local/bin/php php ~/.phpenv/versions/8.3.0/bin/php 1
