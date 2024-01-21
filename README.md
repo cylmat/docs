@@ -1,4 +1,3 @@
 Most used:
-- [install](https://github.com/cylmat/docs/tree/main/install)  
-- [install/Fresh_install.md](https://github.com/cylmat/docs/blob/main/install/Fresh_install.md)
+- [install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils)
