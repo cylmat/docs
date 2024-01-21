@@ -18,6 +18,7 @@ vim ~/.phpenv/plugins/php-build/share/php-build/default_configure_options
 vim ~/.phpenv/plugins/php-build/share/php-build/definitions/8.3.0
 PHP_BUILD_DEBUG=yes phpenv install 8.3.0 # Download from https://www.php.net/distributions/php-8.3.0.tar.bz2
 
+sudo update-alternatives --install /usr/local/bin/php php ~/.phpenv/versions/8.3.0/bin/php 1
 
 ### Node
 Node : https://docs.volta.sh
