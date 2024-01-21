@@ -14,8 +14,8 @@ curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/php
 apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev   # No package 'libxml-2.0', 'openssl' found
 cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
 
-vim ./.phpenv/plugins/php-build/share/php-build/default_configure_options
-vim /home/cmatte/.phpenv/plugins/php-build/bin/../share/php-build/definitions/8.3.0
+vim ~/.phpenv/plugins/php-build/share/php-build/default_configure_options
+vim ~/.phpenv/plugins/php-build/share/php-build/definitions/8.3.0
 PHP_BUILD_DEBUG=yes phpenv install 8.3.0    # phpenv install -l
 
 
