@@ -10,7 +10,8 @@ sudo apt install -y build-essential pkg-config
 # @https://github.com/phpenv/phpenv-installer
 # or sudo update-alternatives --config php
 # @see https://github.com/php-build/php-build/blob/master/share/php-build/default_configure_options
-curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | sudo PHPENV_ROOT=/usr/local/bin/phpenv bash
+curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
+
 apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev   # No package 'libxml-2.0', 'openssl' found
 cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
 
