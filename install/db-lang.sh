@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt install -y build-essential cmake pkg-config
+sudo apt-get install ninja-build gettext cmake unzip curl
+sudo apt install -y build-essential pkg-config
 
 #############
 # Languages #
