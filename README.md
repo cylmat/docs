@@ -1,4 +1,4 @@
 Most used:
-- [Fresh_install.md](https://github.com/cylmat/docs/blob/main/Fresh_install.md)
-- [install](https://github.com/cylmat/docs/tree/main/install) 
+- [install](https://github.com/cylmat/docs/tree/main/install)  
+- [install/Fresh_install.md](https://github.com/cylmat/docs/blob/main/install/Fresh_install.md)
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils)
