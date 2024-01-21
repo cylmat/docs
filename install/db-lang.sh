@@ -9,15 +9,14 @@ sudo apt install -y build-essential pkg-config
 ### Php-env : @https://github.com/phpenv/phpenv
 # @https://github.com/phpenv/phpenv-installer
 # or sudo update-alternatives --config php
-# @see https://github.com/php-build/php-build/blob/master/share/php-build/default_configure_options
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=$HOME/.phpenv bash
 
-apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev   # No package 'libxml-2.0', 'openssl' found
+apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev
 cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
 
 vim ~/.phpenv/plugins/php-build/share/php-build/default_configure_options
 vim ~/.phpenv/plugins/php-build/share/php-build/definitions/8.3.0
-PHP_BUILD_DEBUG=yes phpenv install 8.3.0    # phpenv install -l
+PHP_BUILD_DEBUG=yes phpenv install 8.3.0 # Download from https://www.php.net/distributions/php-8.3.0.tar.bz2
 
 
 ### Node
