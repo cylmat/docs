@@ -9,6 +9,7 @@ sudo apt install -y build-essential pkg-config
 ### Php-env : @https://github.com/phpenv/phpenv
 # @https://github.com/phpenv/phpenv-installer
 # or sudo update-alternatives --config php
+# @see https://github.com/php-build/php-build/blob/master/share/php-build/default_configure_options
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
 apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev   # No package 'libxml-2.0', 'openssl' found
 PHP_BUILD_DEBUG=yes CONFIGURE_OPTS="--enable-sockets --enable-exif --enable-intl --enable-ftp --enable-cgi \
