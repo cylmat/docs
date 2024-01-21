@@ -48,6 +48,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 ### Neovim @https://neovim.io
 
 ### Tmux : @https://doc.ubuntu-fr.org/tmux
+# use ^b + :, then "set -g mouse on"
 apt install -y tmux
 
 ### @https://doc.ubuntu-fr.org/awesome
