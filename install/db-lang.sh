@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y build-essential pkg-config
+sudo apt install -y build-essential cmake pkg-config
 
 #############
 # Languages #
