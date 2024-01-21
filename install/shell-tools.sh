@@ -53,7 +53,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 git clone https://github.com/neovim/neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
-#sudo update-alternatives --install /usr/local/bin/nvim nvim ~/neovim/build/bin/nvim 1
 
 ### Tmux : @https://doc.ubuntu-fr.org/tmux
 # use ^b + :, then "set -g mouse on"
