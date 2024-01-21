@@ -12,10 +12,11 @@ sudo apt install -y build-essential pkg-config
 # @see https://github.com/php-build/php-build/blob/master/share/php-build/default_configure_options
 curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | PHPENV_ROOT=/usr/local/bin/phpenv bash
 apt install -y libbz2-dev libpng-dev libsqlite3-dev libssl-dev libxml2-dev zlib1g-dev   # No package 'libxml-2.0', 'openssl' found
+cp ~/.phpenv/plugins/php-build/share/php-build/default_configure_options ~/.phpenv/plugins/php-build/share/php-build/default_configure_options.bak
+
 vim ./.phpenv/plugins/php-build/share/php-build/default_configure_options
-PHP_BUILD_DEBUG=yes CONFIGURE_OPTS="--enable-sockets --enable-exif --enable-intl --enable-ftp --enable-cgi \
---with-curl=/usr --with-tidy --with-xmlrpc --enable-sysvsem --enable-sysvshm --enable-shmop --enable-pcntl" \
-phpenv install 8.3.0    # phpenv install -l
+vim /home/cmatte/.phpenv/plugins/php-build/bin/../share/php-build/definitions/8.3.0
+PHP_BUILD_DEBUG=yes phpenv install 8.3.0    # phpenv install -l
 
 
 ### Node
