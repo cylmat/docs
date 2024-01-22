@@ -37,15 +37,3 @@ https://addons.mozilla.org/fr/firefox/addon/
 - Dark Reader  
 - RESTClient  
 
-## Linux app
-
-Bash
-- https://github.com/Bash-it/bash-it
-- https://github.com/akinomyoga/ble.sh
-
-Vim
-- https://github.com/junegunn/vim-plug
-
-### Scripts install
-- ~/.bashrc: [cylmat/.home](https://github.com/cylmat/cheats/blob/main/.home/.bashrc)  
-- script install: [cylmat/install](https://github.com/cylmat/cheats/blob/main/.home/scripts_install.sh)  
