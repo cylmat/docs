@@ -1,0 +1,59 @@
+{
+    "console": "integratedTerminal",
+    "debug.internalConsoleOptions": "neverOpen",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {},
+    "editor.fontFamily": "JetBrains Mono, Fira Code iScript, Fira Code, Consolas, Courier New, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "300",
+    "editor.guides.bracketPairs": true,
+    "editor.letterSpacing": 1,
+    "editor.lineHeight": 20,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "files.autoSave": "afterDelay",
+    "git.terminalAuthentication": false,
+    "intelephense.files.exclude": [
+        "**/.DS_Store/**",
+        "**/.git/**",
+        "**/.hg/**",
+        "**/.history/**",
+        "**/.svn/**",
+        "**/bower_components/**",
+        "**/cache/**",
+        "**/CVS/**",
+        "**/node_modules/**",
+        "**/vendor/**/vendor/**",
+        "**/vendor/**/{Tests,tests}/**"
+    ],
+    "search.useIgnoreFiles": false,
+    "showOutput": "never",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.profiles.windows": {
+        "Ubuntu (WSL)": {
+            "args": [
+                "-d",
+                "Ubuntu-22.04"
+            ],
+            "path": "C:\\WINDOWS\\System32\\wsl.exe"
+        }
+    },
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-y>": false,
+        "<C-z>": false
+    },
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+    "vim.startInInsertMode": true,
+    "vim.statusBarColors.easymotionmode": "",
+    "workbench.colorCustomizations": {
+        "editorUnnecessaryCode.border": "#dd7aab",
+        "editorUnnecessaryCode.foreground": "#dd7aab"
+    }
+}
