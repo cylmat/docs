@@ -4,6 +4,10 @@ Most used:
 
 Ref:  
 [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
+
+### Shell
+- zsh / oh-my-zsh / antigen / powerlevel10k / tmux
+- nushell / starship / zellij
   
 ### ALL DOCS
 * Editor:
