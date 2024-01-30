@@ -53,6 +53,7 @@ Shell & fonts
 - https://github.com/romkatv/powerlevel10k
 - https://github.com/powerline/powerline
 - https://www.nerdfonts.com
+- https://www.nushell.sh: !
 
 Security
 * https://www.vaultproject.io: By HashiCorp
