@@ -7,4 +7,4 @@ Ref:
   
 ### ALL DOCS
 * Shell:
-<a href="https://zsh.sourceforge.io/Doc"><img width="25" height="50" src="https://www.zsh.org/color_vertical_icon.png"></a>
+<a href="https://zsh.sourceforge.io/Doc"><img width="50" height="25" src="https://seeklogo.com/images/Z/zsh-logo-581B0A9338-seeklogo.com.png"></a>
