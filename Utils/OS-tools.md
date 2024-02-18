@@ -5,6 +5,7 @@
 - https://nixos.org
 - https://www.oracle.com/fr/linux: Oracle linux
 - https://doc.ubuntu-fr.org
+- https://brew.sh: Homebrew
 
 ### Shell
 - https://github.com/awesome-lists/awesome-bash
