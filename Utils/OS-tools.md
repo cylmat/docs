@@ -31,6 +31,7 @@ Tools
 * http://supervisord.org: Client/server system that allows to control Unix processes
 * http://landley.net/toybox
 * https://www.gnu.org/software/coreutils
+* https://jqlang.github.io/jq: Json
 
 Security
 * https://www.stunnel.org
