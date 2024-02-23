@@ -72,6 +72,10 @@ apt install -y locales locales-all
 ### Box @https://busybox.net
 apt install -y busybox
 
+### Json commande line
+# https://jqlang.github.io/jq/  
+apt install -y jq
+
 ### Nixos @https://nixos.org
 
 ####################
