@@ -47,6 +47,9 @@ DB
 - https://www.db-fiddle.com: Sql database playground
 - https://dbfiddle.uk
 
+Share code
+- https://codefile.io
+
 Shell & fonts
 - https://ohmyz.sh
 - https://starship.rs
