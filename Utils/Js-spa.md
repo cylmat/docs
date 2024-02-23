@@ -89,6 +89,9 @@ Playground
 * https://jsbin.com
 * https://jsfiddle.net
 * https://liveweave.com
+* https://playcode.io/
+
+- https://cssdeck.com/
 
 Testing framework
 * https://www.cypress.io
