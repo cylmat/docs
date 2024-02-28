@@ -19,9 +19,10 @@ Ref:
 
 ### WSL
 - https://learn.microsoft.com/en-us/windows/wsl/install-manual     
-- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1/
-- https://docs.docker.com/engine/install/ubuntu/
-  - https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows/
+- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
+- https://docs.docker.com/engine/install/ubuntu
+  - https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
+- https://docs.docker.com/engine/install/linux-postinstall
 - sudo chmod 666 /var/run/docker.sock
 - aptitude search nftables | grep ^i
 - update-alternatives --config iptables   
