@@ -15,7 +15,17 @@ Format
 * https://www.json.org
 * https://jwt.io: RFC 7519 standard
 
+Design
+* https://plotly.com/javascript
+* https://sencha.com: JS grid
+
 Framework
++ https://reactjs.org
++ https://redux.js.org
++ https://nextjs.org
++ https://nestjs.com: framework for building server-side applications
++ https://vitejs.dev: Next Generation Frontend Tooling
+-
 * https://alpinejs.dev:  lightweight, JavaScript framework
 * https://angularjs.org
 * https://backbonejs.org
@@ -25,12 +35,7 @@ Framework
 * https://www.electronjs.org
 * https://emberjs.com
 * https://pugjs.org: Templating
-* https://nextjs.org
-* https://nestjs.com : framework for building server-side applications
-* https://reactjs.org
-* https://redux.js.org
 * https://script.aculo.us
-* https://sencha.com: JS grid
 * http://vanilla-js.com
 * https://vuejs.org
 
@@ -38,7 +43,6 @@ Helper
 * https://gulpjs.com : automate & enhance your workflow
 * https://gruntjs.com : JavaScript Task Runner
 * https://livejs.com
-* https://vitejs.dev: Next Generation Frontend Tooling
 
 Language
 * https://clojure.org
