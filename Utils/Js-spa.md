@@ -38,6 +38,7 @@ Helper
 * https://gulpjs.com : automate & enhance your workflow
 * https://gruntjs.com : JavaScript Task Runner
 * https://livejs.com
+* https://vitejs.dev: Next Generation Frontend Tooling
 
 Language
 * https://clojure.org
