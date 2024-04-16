@@ -12,6 +12,7 @@ Diagram:
 * https://mermaid-js.github.io: Markdown syntax for flowchart
 * https://www.planttext.com: UML editor
 * https://online.visual-paradigm.com
+* https://plantuml.com/fr/yaml : Uml in Yaml
 * https://www.umlet.com: Free UML tool and VSCode
 * https://www.websequencediagrams.com
 * https://yuml.me: Diagram generator language
