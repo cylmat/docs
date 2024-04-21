@@ -24,6 +24,7 @@ https://fonts.google.com/specimen/Fira+Code
 ```
 
 ### Ext
+https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
 https://addons.mozilla.org/fr/firefox/addon/
 - cookie-quick-manager
 - feedbroreader
