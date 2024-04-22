@@ -2,9 +2,6 @@ Most used:
 - [Fresh install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils) : Coding, security, project useful tools...
 
-Ref:  
-[Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
-
 ### Shell
 - zsh / oh-my-zsh / antigen / powerlevel10k / tmux
 - nushell / starship / zellij
@@ -16,3 +13,6 @@ Ref:
 - https://github.com/ziadoz/awesome-php
 - https://github.com/akrawchyk/awesome-vim
 - https://vimawesome.com   
+
+- App refs:    
+[Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
