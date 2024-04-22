@@ -15,14 +15,4 @@ Ref:
 - https://project-awesome.org/stevemao/awesome-git-addons
 - https://github.com/ziadoz/awesome-php
 - https://github.com/akrawchyk/awesome-vim
-- https://vimawesome.com
-
-### WSL
-- https://learn.microsoft.com/en-us/windows/wsl/install-manual     
-- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
-- https://docs.docker.com/engine/install/ubuntu
-  - https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
-- https://docs.docker.com/engine/install/linux-postinstall
-- sudo chmod 666 /var/run/docker.sock
-- aptitude search nftables | grep ^i
-- update-alternatives --config iptables   
+- https://vimawesome.com   
