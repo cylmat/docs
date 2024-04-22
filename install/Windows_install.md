@@ -24,17 +24,20 @@ https://fonts.google.com/specimen/Fira+Code
 ```
 
 ### Ext
-https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
-https://addons.mozilla.org/fr/firefox/addon/
-- cookie-quick-manager
-- feedbroreader
-- firephp
-- modify-header-value
-- notes-by-firefox
-- switchyomega
-- tweak-extension
-- vue-js-devtools
-- xdebug-helper-for-firefox
-- Dark Reader  
-- RESTClient  
+* Chrome : https://chromewebstore.google.com/category/extensions/productivity/developer
+* Firefox : https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
+* https://addons.mozilla.org/fr/firefox/addon/  
+- cookie-quick-manager, feedbroreader, firephp, modify-header-value, notes-by-firefox
+- switchyomega, tweak-extension, vue-js-devtools, xdebug-helper-for-firefox
+- Dark Reader, RESTClient  
 
+### WSL
+- https://learn.microsoft.com/en-us/windows/wsl/install-manual     
+- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
+- https://docs.docker.com/engine/install/ubuntu
+- https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
+- https://docs.docker.com/engine/install/linux-postinstall
+
+- sudo chmod 666 /var/run/docker.sock
+- aptitude search nftables | grep ^i
+- update-alternatives --config iptables
