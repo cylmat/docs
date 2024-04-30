@@ -48,6 +48,7 @@ Screen manager
 ## Windows
 ----------
 * https://learn.microsoft.com/en-us/windows/powertoys/
+* https://ninite.com : Install and Update All Your Programs at Once
 
 Console
 * https://cmder.net: Nice console emulators
