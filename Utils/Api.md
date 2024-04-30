@@ -17,6 +17,7 @@ Server
 
 Sockets
 * https://socket.io
+* https://grpc.io : A high performance, open source universal RPC framework
 
 Standards
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
