@@ -6,6 +6,7 @@
 - https://www.oracle.com/fr/linux: Oracle linux
 - https://doc.ubuntu-fr.org
 - https://brew.sh: Homebrew
+- https://www.edubuntu.org : A stable, secure and privacy concious option for schools.
 
 ### Shell
 - https://github.com/awesome-lists/awesome-bash
