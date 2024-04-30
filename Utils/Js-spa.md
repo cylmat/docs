@@ -25,6 +25,7 @@ Framework
 + https://nextjs.org
 + https://nestjs.com: framework for building server-side applications
 + https://vitejs.dev: Next Generation Frontend Tooling
++ https://htmx.org: high power tools for HTML
 -
 * https://alpinejs.dev:  lightweight, JavaScript framework
 * https://angularjs.org
