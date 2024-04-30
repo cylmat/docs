@@ -21,17 +21,22 @@ apt install -y fish
 apt install -y fonts-powerline zsh
 # OhMyZsh : @https://ohmyz.sh
 
-#zsh-omz:
+# zsh-omz:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#zsh-autosuggestions:
+# zsh-autosuggestions:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-#zsh-syntax-highlighting:
+# zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ### Starship @https://starship.rs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
+
+### @https://ohmyposh.dev
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-posh get shell
+echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
 
 ###########
 # Edition #
