@@ -22,13 +22,6 @@ Drawing
 + https://inkscape.org
 + https://scribus.fr
 
-Free pictures
-* https://commons.wikimedia.org/wiki/Category:Images
-* https://iconoir.com: Free icons
-* https://unsplash.com
-
-**Collection svg**: https://github.com/n3r4zzurr0/svg-spinners
-
 Photo editor
 * https://pixlr.com
 * https://pixteller.com
