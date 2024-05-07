@@ -58,6 +58,9 @@ Mind mapping
 * https://thebrain.com
 * https://www.wisemapping.com
 
+Games
+* https://menyr.nogstudio.com : Generate entire worlds in seconds
+
 ---
 ## Extensions Chrome
 - https://www.screencastify.com: Screencastify - Screen Video Recorder
