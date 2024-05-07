@@ -21,12 +21,6 @@ Diagram:
 
 - https://chatuml.com: UML assisted
 
-CMS
-- https://sulu.io
-
-Games
-* https://menyr.nogstudio.com : Generate entire worlds in seconds
-
 Format
 - https://asciidoc.org : presentation-rich content
 - https://docs.framasoft.org/fr/grav/markdown.html
@@ -63,6 +57,25 @@ Mind mapping
 * https://www.mindmup.com
 * https://thebrain.com
 * https://www.wisemapping.com
+
+---
+### Websites
+
+Free pictures
+* https://commons.wikimedia.org/wiki/Category:Images
+* https://iconoir.com: Free icons
+* https://unsplash.com
+
+**Collection svg**: https://github.com/n3r4zzurr0/svg-spinners
+
+Templates
+- https://dev.to/davidepacilio/40-free-html-landing-page-templates-3gfp
+
+CMS
+- https://sulu.io
+
+Games
+* https://menyr.nogstudio.com : Generate entire worlds in seconds
 
 ---
 ## Extensions Chrome
