@@ -64,6 +64,8 @@ Reference
 * https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture
 * https://khalilstemmler.com/articles/typescript-domain-driven-design/aggregate-design-persistence
 
+- (Exemple) [Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example)
+
 + _Blue-book_ Domain-Driven Design: Tackling Complexity in the Heart of Software
 + _Yellow Book_ Domain-Driven Design Reference: Definitions and Pattern Summaries
 
