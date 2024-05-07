@@ -21,6 +21,12 @@ Diagram:
 
 - https://chatuml.com: UML assisted
 
+CMS
+- https://sulu.io
+
+Games
+* https://menyr.nogstudio.com : Generate entire worlds in seconds
+
 Format
 - https://asciidoc.org : presentation-rich content
 - https://docs.framasoft.org/fr/grav/markdown.html
@@ -57,9 +63,6 @@ Mind mapping
 * https://www.mindmup.com
 * https://thebrain.com
 * https://www.wisemapping.com
-
-Games
-* https://menyr.nogstudio.com : Generate entire worlds in seconds
 
 ---
 ## Extensions Chrome
