@@ -3,6 +3,7 @@
 Appli
 * https://birdfont.org: Font editor
 * https://www.iloveimg.com: Image editor, resize, convert
+* https://krita.org : Programme professionnel de peinture libre et « Open source »
 
 Drawing
 * https://app.genmymodel.com
