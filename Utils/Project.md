@@ -10,6 +10,7 @@ Diagram:
 * https://www.diagrameditor.com
 * https://www.lucidchart.com
 * https://mermaid-js.github.io: Markdown syntax for flowchart
+* https://markmap.js.org/repl: markdown + mindmap
 * https://www.planttext.com: UML editor
 * https://online.visual-paradigm.com
 * https://plantuml.com/fr/yaml : Uml in Yaml
