@@ -23,13 +23,17 @@ https://fonts.google.com/specimen/Fira+Code
 "editor.fontLigatures": true,
 ```
 
-### Ext
+### Extensions
 * Chrome : https://chromewebstore.google.com/category/extensions/productivity/developer
 * Firefox : https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
 * https://addons.mozilla.org/fr/firefox/addon/  
 - cookie-quick-manager, feedbroreader, firephp, modify-header-value, notes-by-firefox
 - switchyomega, tweak-extension, vue-js-devtools, xdebug-helper-for-firefox
-- Dark Reader, RESTClient  
+- html-validator, colorzilla, fireshot, measure-it, firephp, http-header-live
++ firebug-and-web-development, web-developer
+- Dark Reader, RESTClient
+
+https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de page via script
 
 ### WSL
 - https://learn.microsoft.com/en-us/windows/wsl/install-manual     
