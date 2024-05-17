@@ -1,0 +1,6 @@
+[core]
+  editor = vim
+
+  # linux: input
+  # win: true (both sides)
+  autocrlf = input
