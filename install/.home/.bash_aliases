@@ -2,6 +2,10 @@
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # COMMANDS #
+alias ..='cd ..'
+alias .bashrc="vim ~/.bashrc"
+alias c="clear"
+alias dfh='df -h'
 alias home='cd ~'
 
 # LIST #
