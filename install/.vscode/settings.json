@@ -12,8 +12,35 @@
     "editor.lineHeight": 20,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "constant.language",
+                    "keyword.control",
+                    "storage.modifier", 
+                    "storage.type", 
+                    "string.quoted.double",
+                    "string.quoted.single"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
     "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.cnf": "properties"
+    },
     "git.terminalAuthentication": false,
+    "git-graph.contextMenuActionsVisibility": {},
+    "git-graph.defaultColumnVisibility": {
+        "Author": true,
+        "Commit": true,
+        "Date": true
+    },
     "intelephense.files.exclude": [
         "**/.DS_Store/**",
         "**/.git/**",
@@ -27,8 +54,31 @@
         "**/vendor/**/vendor/**",
         "**/vendor/**/{Tests,tests}/**"
     ],
+    "php": {
+        "files.exclude": {
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.hg": true,
+            "**/.svn": true,
+            "**/.vscode": true,
+            "**/cache": true,
+            "**/docs": true,
+            "**/node_modules": true,
+            "**/upgrade": true,
+            "**/uploads": true,
+            "/var/www/var": true
+        }
+    },
+    "php.suggest.basic": false,
+    "phpGettersSetters.getterTemplate": "/root/.config/getter.js",
+    "phpGettersSetters.setterTemplate": "/root/.config/setter.js",
     "search.useIgnoreFiles": false,
     "showOutput": "never",
+    "symfony-vscode.phpExecutablePath": "/usr/local/bin/php",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    "sync.quietSync": true,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.profiles.windows": {
         "Ubuntu (WSL)": {
@@ -37,8 +87,13 @@
                 "Ubuntu-22.04"
             ],
             "path": "C:\\WINDOWS\\System32\\wsl.exe"
+        },
+        "PowerShell": {
+            "icon": "terminal-powershell",
+            "source": "PowerShell"
         }
     },
+    "vim.commandLineModeKeyBindings": [],
     "vim.easymotion": true,
     "vim.handleKeys": {
         "<C-a>": false,
