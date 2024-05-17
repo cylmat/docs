@@ -8,6 +8,12 @@ alias c="clear"
 alias dfh='df -h'
 alias home='cd ~'
 
+# useful #
+alias dc="docker compose"
+alias dce="docker compose exec"
+alias k="kubectl"
+alias sym="symfony"
+
 # LIST #
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
