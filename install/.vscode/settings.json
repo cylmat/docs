@@ -106,6 +106,12 @@
     },
     "vim.hlsearch": true,
     "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "after": ["<C-r>"],
+          "before": ["<Leader>", "r"]
+        }
+    ],
     "vim.smartRelativeLine": true,
     "vim.sneak": true,
     "vim.startInInsertMode": true,
