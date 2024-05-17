@@ -39,6 +39,7 @@
             "path": "C:\\WINDOWS\\System32\\wsl.exe"
         }
     },
+    "vim.easymotion": true,
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-c>": false,
@@ -49,9 +50,12 @@
         "<C-z>": false
     },
     "vim.hlsearch": true,
+    "vim.leader": "<Space>",
     "vim.smartRelativeLine": true,
+    "vim.sneak": true,
     "vim.startInInsertMode": true,
     "vim.statusBarColors.easymotionmode": "",
+    "vim.statusBarColorControl": true,
     "workbench.colorCustomizations": {
         "editorUnnecessaryCode.border": "#dd7aab",
         "editorUnnecessaryCode.foreground": "#dd7aab"
