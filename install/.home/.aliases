@@ -20,3 +20,9 @@ alias l='ls $LS_OPTIONS -lA'
 alias grep='grep --color=auto'
 alias egrep='grep -E'
 alias fgrep='grep -F'
+
+# HISTORY #
+function historyfzf () {
+  $(history | fzf | grep -oE [^0-9]+)
+}
+alias hf="historyfzf"
