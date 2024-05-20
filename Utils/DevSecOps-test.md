@@ -48,6 +48,20 @@ Versionning
 ## Extension mozilla
 - https://addons.mozilla.org/en-US/firefox/addon/tweak-extension
 
+# Security & Pentest
+
+* https://www.aircrack-ng.org: WIFI security
+* https://www.kali.org
+* https://hashcat.net: Password recovery
+* nmap
+* sqlmap: Injection SQL
+* https://portswigger.net/burp: Burp suite
+* https://www.wireshark.org
+* https://www.zaproxy.org: Zed Attack Proxy (Owasp)
+
+Online
+- https://www.cvedetails.com: CVE Security
+
 ---
 ## Devops
 * https://www.getambassador.io
