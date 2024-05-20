@@ -11,6 +11,8 @@
 * https://www.wireshark.org/download.html
 * https://insomnia.rest/
 
+* https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
 - https://learn.microsoft.com/en-us/windows/wsl/install
