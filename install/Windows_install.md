@@ -9,6 +9,7 @@
 * https://www.postman.com/downloads
 * https://code.visualstudio.com/download
 * https://www.wireshark.org/download.html
+* https://insomnia.rest/
 
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
