@@ -43,6 +43,8 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
 - https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
 - https://docs.docker.com/engine/install/linux-postinstall
 
+```
 - sudo chmod 666 /var/run/docker.sock
 - aptitude search nftables | grep ^i
 - update-alternatives --config iptables
+```
