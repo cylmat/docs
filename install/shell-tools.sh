@@ -6,7 +6,7 @@ sudo apt install -y software-properties-common
 
 #########
 # Shell #
-########
+#########
 
 ### Bash @https://www.gnu.org/software/bash
 # @https://github.com/ohmybash/oh-my-bash
@@ -37,6 +37,11 @@ mkdir -p ~/.config && touch ~/.config/starship.toml
 curl -s https://ohmyposh.dev/install.sh | bash -s
 oh-my-posh get shell
 echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
+
+### NVM + Node
+# Volta 
+curl https://get.volta.sh | bash
+volta install node
 
 ###########
 # Edition #
