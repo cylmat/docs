@@ -30,6 +30,7 @@ Tests & mock app
 * https://www.soapui.org: Manage and execute end-to-end tests
 * https://wiremock.org
 - ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4
+- https://swagger.io/tools/swagger-codegen/
 
 Fake and mock online
 - https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20
