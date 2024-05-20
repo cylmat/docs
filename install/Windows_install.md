@@ -12,6 +12,9 @@
 * https://insomnia.rest/
 
 * https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+```
+* choco install k9s
+```
 
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
