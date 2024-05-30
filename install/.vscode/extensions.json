@@ -62,6 +62,9 @@
         "fterrag.vscode-php-cs-fixer",
         "ecodes.vscode-phpmd",
 
+        // front
+        "mattpocock.ts-error-translator",
+
         // git
         "mhutchie.git-graph",
         "donjayamanne.githistory",
