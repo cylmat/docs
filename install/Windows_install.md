@@ -42,14 +42,21 @@ https://fonts.google.com/specimen/Fira+Code
 https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de page via script
 
 ### WSL
-- https://learn.microsoft.com/en-us/windows/wsl/install-manual     
+- https://learn.microsoft.com/en-us/windows/wsl/install-manual
+  + installer WSL2 : https://docs.microsoft.com/fr-fr/windows/wsl/install
 - https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
 - https://docs.docker.com/engine/install/ubuntu
-- https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
+- Installer Docker : https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
+  + ou directement utiliser le site de docker: https://docs.docker.com/engine/install/ubuntu/?ref=paulsblog.dev#install-using-the-repository
 - https://docs.docker.com/engine/install/linux-postinstall
+  + Si problème de DNS : https://gist.github.com/coltenkrauter/608cfe02319ce60facd76373249b8ca6
+- https://docs.microsoft.com/fr-fr/windows/wsl/file-permissions
 
 ```
 - sudo chmod 666 /var/run/docker.sock
+  - echo "nameserver 1.1.1.1" | sudo tee resolv.conf
 - aptitude search nftables | grep ^i
 - update-alternatives --config iptables
+  +  il faut être en `/usr/sbin/iptables-legacy, 20, manual mode`
+- iptables-save
 ```
