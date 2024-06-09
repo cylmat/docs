@@ -7,6 +7,7 @@
 - https://doc.ubuntu-fr.org
 - https://brew.sh: Homebrew
 - https://www.edubuntu.org : A stable, secure and privacy concious option for schools.
++ infos: https://www.linuxfromscratch.org
 
 ### Shell
 - https://github.com/awesome-lists/awesome-bash
