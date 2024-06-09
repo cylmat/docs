@@ -4,7 +4,6 @@ Learn
 ---
 * https://roadmap.sh/backend
 * https://roadmap.sh/java
-  
 
 + https://developers.google.com/learn
 + https://developer.mozilla.org
@@ -14,6 +13,8 @@ Learn
 + https://www.w3.org/developers - https://www.w3.org/standards
 + https://www.w3schools.com
 + https://www.w3schools.in
+
+- https://www.linuxtrainingacademy.com/
 
 Coding
 - https://w & algoww.freecodecamp.org: Learn to code
@@ -33,6 +34,7 @@ Php & api
 + https://phptherightway.com
 
 Security
+-> formation : https://www.geeek.org/formation-cybersecurite-gratuite-hackthebox/
 * https://www.hackthebox.com
 * https://www.root-me.org
 * https://tryhackme.com
