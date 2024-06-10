@@ -16,6 +16,8 @@
         "wayou.vscode-todo-highlight",
         "equinusocio.vsc-material-theme",
         "esbenp.prettier-vscode",
+        "mrchetan.phpstorm-parameter-hints-in-vscode",
+        "medo64.render-crlf",
 
         // full
         "devsense.composer-php-vscode",
