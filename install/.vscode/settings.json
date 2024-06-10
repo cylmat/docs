@@ -10,6 +10,7 @@
     "editor.guides.bracketPairs": true,
     "editor.letterSpacing": 1,
     "editor.lineHeight": 20,
+    "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
     "editor.tokenColorCustomizations": {
@@ -30,6 +31,7 @@
             }
         ]
     },
+    "files.eol": "\n",
     "files.autoSave": "afterDelay",
     "files.associations": {
         "*.cnf": "properties"
