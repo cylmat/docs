@@ -19,6 +19,9 @@ Design
 * https://plotly.com/javascript
 * https://sencha.com: JS grid
 
+Editor
+- https://jsoneditoronline.org
+
 Framework
 + https://reactjs.org
 + https://redux.js.org
