@@ -86,6 +86,9 @@ apt install -y busybox
 # https://jqlang.github.io/jq/  
 apt install -y jq
 
+### Dos2Unix
+apt-get install -y dos2unix
+
 ### Nixos @https://nixos.org
 
 ### Kubectl ###
