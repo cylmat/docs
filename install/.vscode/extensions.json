@@ -66,6 +66,7 @@
 
         // front
         "mattpocock.ts-error-translator",
+        "ritwickdey.LiveServer",
 
         // git
         "mhutchie.git-graph",
