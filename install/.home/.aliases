@@ -4,14 +4,21 @@
 # COMMANDS #
 alias ..='cd ..'
 alias .bashrc="vim ~/.bashrc"
+alias .zshrc="vim ~/.zshrc"
 alias c="clear"
 alias dfh='df -h'
 alias home='cd ~'
+
+# omz
+ # copybuffer is Ctrl-O
+ alias cph="copypath"
+ alias cpf="copyfile"
 
 # useful #
 alias dc="docker compose"
 alias dce="docker compose exec"
 alias k="kubectl"
+alias h="helm"
 alias sym="symfony"
 
 # LIST #
@@ -28,7 +35,7 @@ alias egrep='grep -E'
 alias fgrep='grep -F'
 
 # HISTORY #
-function historyfzf () {
+function _historyfzf () {
   $(history | fzf | grep -oE [^0-9]+)
 }
-alias hf="historyfzf"
+alias hf="_historyfzf"
