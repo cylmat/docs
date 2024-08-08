@@ -50,11 +50,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # plugins=( ...zsh-syntax-highlighting)
 
 # Powerline
-apt install -y fonts-powerline
-wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
-mv PowerlineSymbols.otf /usr/share/fonts/
-fc-cache -vf
-mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+sudo apt install -y fonts-powerline
+sudo wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
+sudo mv PowerlineSymbols.otf /usr/share/fonts/
+sudo fc-cache -vf
+sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 
 ### Starship @https://starship.rs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
