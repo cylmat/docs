@@ -17,6 +17,8 @@
 #promptinit
 #prompt adam1
 
+export TERM=xterm-256color
+
 setopt histignorealldups sharehistory
 
 # Use vi keybindings even if our EDITOR is set to vi
