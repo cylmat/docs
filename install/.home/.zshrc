@@ -140,15 +140,16 @@ ZSH_THEME="cloud"
 # --- syntax highlighting
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+plugins=(copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh z zsh-autosuggestions zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
+
 # >CTRL-o (copybuffer: copy command to clipboard)
 # >ALT-left, right, up (dirhistory: navigate directories)
 # >copyfile <file>
 # >copypath (into clipboard)
 # >z <jump around dirs: go to find path>
 
-plugins=(copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh z zsh-autosuggestions zsh-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
-
+######
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
