@@ -116,14 +116,18 @@ apt install -y manpages man-db
 apt install -y locales locales-all
 
 ### Box @https://busybox.net
-apt install -y busybox
+sudo apt install -y busybox
 
 ### Json commande line
 # https://jqlang.github.io/jq/  
 apt install -y jq
 
+### Fzf
+# https://github.com/junegunn/fzf
+sudo apt install -y fzf
+
 ### Dos2Unix
-apt-get install -y dos2unix
+sudo apt-get install -y dos2unix
 
 ### Nixos @https://nixos.org
 
