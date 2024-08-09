@@ -12,6 +12,7 @@
 
 + https://slack.com
 + https://backstage.io
++ https://taiga.io: project management
 
 Presentation
 + https://www.canva.com
