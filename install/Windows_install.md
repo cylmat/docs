@@ -60,3 +60,33 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
   +  il faut être en `/usr/sbin/iptables-legacy, 20, manual mode`
 - iptables-save
 ```
+
+### Docker
+
+* wsl from other dir
+ https://dev.to/mefaba/installing-wsl-on-another-drive-in-windows-5c4a
+  wsl --import Ubuntu-22.04 D:\Ubuntu D:\Ubuntu-22.04-wsl-export.tar
+  
+* install docker 
+  
+https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows/
+
+
+* 1. Required dependencies 
+sudo apt-get update 
+sudo apt-get -y install apt-transport-https ca-certificates curl gnupg lsb-release 
+
+* 2. GPG key 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg 
+
+* 3. Use stable repository for Docker  
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+
+sudo apt-get update 
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io 
+
+* 4. Add user to docker group 
+sudo groupadd docker 
+sudo usermod -aG docker $USER sudo chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg
+sudo update-alternatives --config iptables
+
