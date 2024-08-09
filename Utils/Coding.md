@@ -79,5 +79,6 @@ Typing
 + https://haxe.org: Cross-plateform toolkit
 + https://www.lua.org
 + https://www.perl.org
++ https://www.purescript.org/
 + https://www.ruby-lang.org
 + https://nim-lang.org
