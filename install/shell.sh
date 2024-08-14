@@ -56,6 +56,7 @@ antidote load
 
 ###
 ### Prezto Zsh plugin Manager
+# http://jeromedalbert.com/migrate-from-oh-my-zsh-to-prezto/
 ###
 https://github.com/sorin-ionescu/prezto
 
