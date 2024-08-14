@@ -22,8 +22,9 @@ git clone https://github.com/neovim/neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
 
 ### Tmux : @https://doc.ubuntu-fr.org/tmux
+### https://github.com/tmuxinator/tmuxinator
 # use ^b + :, then "set -g mouse on"
-apt install -y tmux
+apt install -y tmux tmuxinator
 
 ### @https://doc.ubuntu-fr.org/awesome
 
