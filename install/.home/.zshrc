@@ -58,7 +58,9 @@ if [ -f ~/.aliases ]; then
 	source ~/.aliases
 fi
 
-############ Oh MY ZSH
+#################
+### Oh MY ZSH ###
+#################
 
 #
 # If you come from bash you might have to change your $PATH.
@@ -142,7 +144,7 @@ ZSH_THEME="cloud"
 # git config --global core.autocrlf false
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-plugins=(copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh z zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(aliases alias-findercopybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # >CTRL-o (copybuffer: copy command to clipboard)
