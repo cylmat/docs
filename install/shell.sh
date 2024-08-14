@@ -43,8 +43,9 @@ git config --global core.autocrlf false
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # plugins=( ...zsh-syntax-highlighting)
 
-
+###
 ### Antidote Zsh plugin Manager
+###
 git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
 
 # in ~/.zshrc
@@ -52,6 +53,16 @@ git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antid
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 [[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
 antidote load
+
+###
+### Prezto Zsh plugin Manager
+###
+https://github.com/sorin-ionescu/prezto
+
+###
+### Zsh unplugged (un)plugin manager
+###
+https://github.com/mattmc3/zsh_unplugged
 
 ##########################################################################
 # Prompt #
