@@ -11,6 +11,7 @@
 # - https://www.twilio.com/fr-fr/blog/astuces-zsh
 #
 #
+
 # Set up the prompt
 # Disable it with OMZ !
 #autoload -Uz promptinit
@@ -28,6 +29,9 @@ bindkey -v
 HISTSIZE=2000
 SAVEHIST=2000
 HISTFILE=~/.zsh_history
+
+# remove ending '%' on partial line (ex print -n "test")
+PROMPT_EOL_MARK=''
 
 # Use modern completion system
 autoload -Uz compinit
