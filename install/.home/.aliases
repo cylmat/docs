@@ -3,6 +3,7 @@
 
 # COMMANDS basic #
 alias ..='cd ..'
+alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
 alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
