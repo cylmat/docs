@@ -1,18 +1,19 @@
 # @ref
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-# COMMANDS #
+# COMMANDS basic #
 alias ..='cd ..'
 alias .bashrc="vim ~/.bashrc"
+alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
 alias c="clear"
 alias dfh='df -h'
 alias home='cd ~'
 
-# omz
- # copybuffer is Ctrl-O
- alias cph="copypath"
- alias cpf="copyfile"
+### OMZ zsh ###
+# copybuffer is Ctrl-O
+alias cph="copypath"
+alias cpf="copyfile"
 
 # useful #
 alias dc="docker compose"
@@ -28,6 +29,12 @@ alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -l'
 alias l='ls $LS_OPTIONS -lA'
 
+# NET
+alias ipme="curl -L ipconfig.me"
+alias nsplunt="netstat -plunt | grep LISTEN"
+# e.g. lsof -i tcp:3306
+alias lsofpni="lsof -P -n -i"
+
 # GREP #
 # https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
 alias grep='grep --color=auto'
@@ -39,3 +46,11 @@ function _historyfzf () {
   $(history | fzf | grep -oE [^0-9]+)
 }
 alias hf="_historyfzf"
+
+
+
+
+##### # others
+
+alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
+alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
