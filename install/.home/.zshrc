@@ -157,6 +157,12 @@ source $ZSH/oh-my-zsh.sh
 # >copypath (into clipboard)
 # >z <jump around dirs: go to find path>
 
+# Alias-finder
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+
 ######
 # User configuration
 
