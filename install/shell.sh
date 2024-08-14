@@ -44,6 +44,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # plugins=( ...zsh-syntax-highlighting)
 
 
+### Antidote Zsh plugin Manager
+git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
+
+# in ~/.zshrc
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+[[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
+antidote load
 
 ##########################################################################
 # Prompt #
