@@ -49,7 +49,10 @@ apt install -y jq
 sudo apt install -y fzf
 
 ### Dos2Unix
-sudo apt-get install -y dos2unix
+sudo apt install -y dos2unix
+
+### color logs
+sudo apt install ccze
 
 ### Nixos @https://nixos.org
 
