@@ -37,6 +37,9 @@ Plug 'easymotion/vim-easymotion'
 " Surround
 Plug 'tpope/vim-surround'
 
+" https://tpope.io/vim/unimpaired.git
+Plug 'tpope/vim-unimpaired'
+
 " Easy-align A Vim alignment plugin
 Plug 'junegunn/vim-easy-align'
 
