@@ -22,36 +22,38 @@ call plug#begin()
 " Airline : Lean & mean status/tabline
 Plug 'vim-airline/vim-airline'
 
-" Syntastic : a syntax checking
-Plug 'scrooloose/syntastic'
-
-" NERDTree : A tree explorer
-Plug 'scrooloose/nerdtree'
-
-" fugitive.vim: A Git wrapper so awesome
-Plug 'tpope/vim-fugitive'
-
-" EasyMotion
-Plug 'easymotion/vim-easymotion'
-
-" Surround
-Plug 'tpope/vim-surround'
-
-" https://tpope.io/vim/unimpaired.git
-Plug 'tpope/vim-unimpaired'
+" Colors-solarized: Precision colorscheme for the vim text editor
+Plug 'altercation/vim-colors-solarized'
 
 " Easy-align A Vim alignment plugin
 Plug 'junegunn/vim-easy-align'
 
+" EasyMotion
+Plug 'easymotion/vim-easymotion'
+
+" Fugitive.vim: A Git wrapper so awesome
+Plug 'tpope/vim-fugitive'
+
 " Fzf : A command-line fuzzy finder
 Plug 'junegunn/fzf'
 
-" precision colorscheme for the vim text editor
-Plug 'altercation/vim-colors-solarized'
+" NERDTree : A tree explorer
+Plug 'scrooloose/nerdtree'
 
-" repeat.vim: enable repeating supported plugin maps with "."
+" Repeat.vim: enable repeating supported plugin maps with "."
 Plug 'tpope/vim-repeat'
 
+" Surround
+Plug 'tpope/vim-surround'
+
+" Syntastic : a syntax checking
+Plug 'scrooloose/syntastic'
+
+" Tcomment: https://github.com/tomtom/tcomment_vim
+Plug 'tomtom/tcomment_vim'
+
+" Unimpaired: https://tpope.io/vim/unimpaired.git
+Plug 'tpope/vim-unimpaired'
 
 
 " Lightline : A light and configurable statusline/tabline
