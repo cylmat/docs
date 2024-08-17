@@ -32,34 +32,47 @@ apt install -y tmux tmuxinator
 # Tools #
 #########
 
-### Manpages
-apt install -y manpages man-db
+### buzyBox ###
+# @https://busybox.net
 
-### locales
-apt install -y locales locales-all
-
-### Box @https://busybox.net
 sudo apt install -y busybox
 
-### Json commande line
+### CCZE ###
+# color logs
+
+sudo apt install ccze
+
+### Dos2Unix ###
+
+sudo apt install -y dos2unix
+
+### Fzf ###
+
+# https://github.com/junegunn/fzf
+sudo apt install -y fzf
+source <(fzf --zsh)
+
+### Jq ###
+
+# Json commande line
 # https://jqlang.github.io/jq/  
 apt install -y jq
 
-### Fzf
-# https://github.com/junegunn/fzf
-sudo apt install -y fzf
-
-### Dos2Unix
-sudo apt install -y dos2unix
-
-### color logs
-sudo apt install ccze
-
-### Nixos @https://nixos.org
-
 ### Kubectl ###
+
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+
+### locales ###
+
+apt install -y locales locales-all
+
+### Man ###
+
+# manpages
+apt install -y manpages man-db
+
+### Nixos @https://nixos.org
 
 ##########################################################################
 # Network & Server #
