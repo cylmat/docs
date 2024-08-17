@@ -32,28 +32,40 @@ Plug 'altercation/vim-colors-solarized'
 " Easy-align A Vim alignment plugin
 Plug 'junegunn/vim-easy-align'
 
-" EasyMotion
+" EasyMotion https://github.com/easymotion/vim-easymotion
+" e.g.: <Leader><Leader>fo
 Plug 'easymotion/vim-easymotion'
 
 " Fugitive.vim: A Git wrapper so awesome
 Plug 'tpope/vim-fugitive'
 
 " Fzf : A command-line fuzzy finder
-Plug 'junegunn/fzf'
+" https://github.com/junegunn/fzf
+" USE Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " NERDTree : A tree explorer
+" Run with :NERDTree
+" :help NERDTree
 Plug 'scrooloose/nerdtree'
 
 " Repeat.vim: enable repeating supported plugin maps with "."
 Plug 'tpope/vim-repeat'
 
-" Surround
+" Surround https://github.com/tpope/vim-surround
+" USE cs"'
 Plug 'tpope/vim-surround'
 
 " Syntastic : a syntax checking
 Plug 'scrooloose/syntastic'
 
+" Tagbar: Class outline viewer
+Plug 'majutsushi/tagbar'
+
 " Tcomment: https://github.com/tomtom/tcomment_vim
+" :help tcomment-operator
+" e.g.: gc{motion}
 Plug 'tomtom/tcomment_vim'
 
 " Unimpaired: https://tpope.io/vim/unimpaired.git
