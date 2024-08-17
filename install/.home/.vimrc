@@ -8,6 +8,10 @@
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
 "
+""""""""""""""""
+" https://vimawesome.com !!!
+""""""""""""""""
+"
 " Load plugins:
 " :source %
 " :PlugInstall
