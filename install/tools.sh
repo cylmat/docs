@@ -1,9 +1,11 @@
 
 ##########################################################################
-# Edition VIM #
+# Edition & VIM #
 ###############
 
-### Vim @https://www.vim.org
+### VIM ###
+
+# Vim @https://www.vim.org
 # @https://vimawesome.com
 apt install -y vim
 
@@ -15,14 +17,17 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # https://github.com/junegunn/vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-### ###
+### Neovim ###
 
 ### Neovim @https://neovim.io
-git clone https://github.com/neovim/neovim
-make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
+# git clone https://github.com/neovim/neovim
+# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
 
-### Tmux : @https://doc.ubuntu-fr.org/tmux
-### https://github.com/tmuxinator/tmuxinator
+### Tmux ###
+
+# Tmux : @https://doc.ubuntu-fr.org/tmux
+# https://github.com/tmuxinator/tmuxinator
+# https://github.com/rothgar/awesome-tmux
 # use ^b + :, then "set -g mouse on"
 apt install -y tmux tmuxinator
 
