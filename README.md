@@ -14,8 +14,6 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm)
   + See [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
 
-See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
-
 ## Tools 
 
 - Usefull: [Busybox](https://busybox.net)
@@ -39,3 +37,5 @@ Most used:
 - [Fresh install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils) : Coding, security, project useful tools...
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
+
+Try Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
