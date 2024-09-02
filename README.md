@@ -7,12 +7,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 ## Shell
 
 - Shell with autocomplet, autosuggest, color..: Zsh + [OhMyZsh](https://ohmyz.sh)
-  + Plugins manager [Antigen](https://github.com/zsh-users/antigen) or [Prezto](https://github.com/sorin-ionescu/prezto)
-  + [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)  
-- Prompt colorfull: [Starship](https://starship.rs) or Powerlevel10k
+  + Plugins manager [Antigen](https://github.com/zsh-users/antigen)
+  + See [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)  
+- Prompt colorfull: [Starship](https://starship.rs)
 - Terminal sessions: Tmux + Tmuxinator
-  + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) and [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
-- nushell / zellij
+  + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm)
+  + See [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
+
+See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
 
 ## Editing
 
