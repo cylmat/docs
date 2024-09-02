@@ -6,7 +6,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 ## Shell
 
-- Shell with autocomplet, autosuggest, color..: Zsh + [OhMyZsh](https://ohmyz.sh)
+- Shell with auto and colors: Zsh + [OhMyZsh](https://ohmyz.sh)
   + Plugins manager [Antidote](https://getantidote.github.io)
   + See [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)  
 - Prompt colorfull: [Starship](https://starship.rs)
