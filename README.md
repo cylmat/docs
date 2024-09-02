@@ -32,7 +32,7 @@ See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell a
 
 ### Languages
 
-See [Awesome Php](https://github.com/ziadoz/awesome-php) and [Awesome React](https://github.com/enaqx/awesome-react]
+See [Awesome Php](https://github.com/ziadoz/awesome-php) and [Awesome React](https://github.com/enaqx/awesome-react)
 
 ---
 Most used:
