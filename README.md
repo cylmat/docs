@@ -19,9 +19,9 @@ See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell a
 ## Tools 
 
 - Usefull:
-- Git:
+- Version manager: Git
   + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
-- For fun: 
+- For happy days ^^: cowsay, fortune, lolcat
 
 ## Editing
 
