@@ -22,7 +22,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 **Included:**   
 
-- Logs: ccze
+- Ccze (color logs), Fzf (Files), Jq (json)
 - For happy days ^^: cowsay, fortune, lolcat
 
 ## Editing
