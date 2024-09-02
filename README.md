@@ -6,7 +6,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 ## Shell
 
-- Shell with auto and colors: Zsh + [OhMyZsh](https://ohmyz.sh)
+- Shell with auto and colors: [Zsh](https://wiki.ubuntu-fr.org/zsh) + [OhMyZsh](https://ohmyz.sh)
   + Plugins manager [Antidote](https://getantidote.github.io)
   + See [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)  
 - Prompt colorfull: [Starship](https://starship.rs)
@@ -18,7 +18,7 @@ See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell a
 
 ## Tools 
 
-- Usefull:
+- Usefull: [Busybox](https://busybox.net)
 - Version manager: Git
   + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
 - For happy days ^^: cowsay, fortune, lolcat
