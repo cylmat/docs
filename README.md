@@ -16,17 +16,23 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 See Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
 
+## Tools 
+
+- Usefull:
+- Git:
+  + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
+- For fun: 
+
 ## Editing
 
-- Vim: 
+- Windows editing: VSCode
+  + See [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
+- Mouseless edition: Vim
+  + See [Awesome Vim](https://github.com/akrawchyk/awesome-vim) and [Vim Awesome](https://vimawesome.com)
 
-# Awesome
-- https://github.com/viatsko/awesome-vscode
-- https://github.com/dictcp/awesome-git
-- https://project-awesome.org/stevemao/awesome-git-addons
-- https://github.com/ziadoz/awesome-php
-- https://github.com/akrawchyk/awesome-vim
-- https://vimawesome.com
+### Languages
+
+See [Awesome Php](https://github.com/ziadoz/awesome-php) and [Awesome React](https://github.com/enaqx/awesome-react]
 
 ---
 Most used:
