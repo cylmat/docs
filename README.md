@@ -19,6 +19,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Usefull: [Busybox](https://busybox.net)
 - Version manager: Git
   + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
+
+**Included:**   
+
+- Logs: ccze
 - For happy days ^^: cowsay, fortune, lolcat
 
 ## Editing
