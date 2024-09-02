@@ -1,6 +1,8 @@
 # My developer's environment
 
-...in progress
+This is my current day by day configuration as a fullstack Symfony/React developer.      
+I like adding a lot of usefull and time-saving plugins that gave me a lot of fluidity in my workflow.    
+I share here an overview of tools and utils installed on my workspace. Enjoy!   
 
 ## Shell
 
