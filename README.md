@@ -34,6 +34,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Informations:
   + btop (monitoring)
   + [neofetch](https://github.com/dylanaraps/neofetch)
+- Nice:
+  + uuidgen
 
 **Fun**
 
@@ -42,7 +44,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + figlet (ascii), cmatrix
   + [No more secrets](https://github.com/bartobri/no-more-secrets)
 - Training:
-  + [tt](https://github.com/lemnos/tt) or [ttyper](https://github.com/max-niederman/ttyper) (typing test)
+  + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist), [ttyper](https://github.com/max-niederman/ttyper) 
 
 ## Editing
 
