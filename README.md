@@ -9,14 +9,15 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Shell with auto and colors: [Zsh](https://wiki.ubuntu-fr.org/zsh) + [OhMyZsh](https://ohmyz.sh)
   + Plugins manager [Antidote](https://getantidote.github.io)
   + See [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)  
-- Prompt colorfull: [Starship](https://starship.rs)
+- Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: Tmux + Tmuxinator
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm)
   + See [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
 
 **Utils**
 
-- Browser: [Lynx](https://lynx.invisible-island.net)
+- Browser: [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
+- Helper man page: [TlDr](https://tldr.sh) 
 - Package manager: [Nix](https://nixos.org)
 - Toolbox: [Busybox](https://busybox.net)
 
@@ -26,10 +27,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Version manager: [Git](https://git-scm.com)
   + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
 
-**Included:**   
+**Misc:**   
 
-- Ccze (color logs), Fzf (Files), Jq (json)
-- For happy days ^^: cowsay, fortune, lolcat
+- Informations: [neofetch](https://github.com/dylanaraps/neofetch)
+- Ccze (color logs), fzf (files), jq (json)
+- For happy days ^^:
+  + cowsay (image), fortune (teller), lolcat (rainbow)
+  + figlet (ascii), cmatrix
+  + [No more secrets](https://github.com/bartobri/no-more-secrets)
 
 ## Editing
 
