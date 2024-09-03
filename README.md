@@ -14,10 +14,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm)
   + See [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
 
-## Tools 
+**Utils**
 
 - Usefull: [Busybox](https://busybox.net)
-- Version manager: Git
+
+## Tools 
+
+- Containers: [Minikube](https://minikube.sigs.k8s.io)
+- Version manager: [Git](https://git-scm.com)
   + See [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
 
 **Included:**   
