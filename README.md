@@ -16,7 +16,9 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 **Utils**
 
-- Usefull: [Busybox](https://busybox.net)
+- Browser: [Lynx](https://lynx.invisible-island.net)
+- Package manager: [Nix](https://nixos.org)
+- Toolbox: [Busybox](https://busybox.net)
 
 ## Tools 
 
