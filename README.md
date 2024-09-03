@@ -41,6 +41,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
   + figlet (ascii), cmatrix
   + [No more secrets](https://github.com/bartobri/no-more-secrets)
+- Training:
+  + [tt](https://github.com/lemnos/tt) or [ttyper](https://github.com/max-niederman/ttyper) (typing test)
 
 ## Editing
 
