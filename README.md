@@ -29,10 +29,15 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 **Misc:**   
 
+- Must have:
+  + ccze (color logs), fzf (files), jq (json)
+  + bc (calculator)
 - Informations: [neofetch](https://github.com/dylanaraps/neofetch)
-- Ccze (color logs), fzf (files), jq (json)
+
+**Fun**
+
 - For happy days ^^:
-  + cowsay (image), fortune (teller), lolcat (rainbow)
+  + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
   + figlet (ascii), cmatrix
   + [No more secrets](https://github.com/bartobri/no-more-secrets)
 
@@ -53,4 +58,7 @@ Most used:
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils) : Coding, security, project useful tools...
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
+---
+See:
+- https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
 Try Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
