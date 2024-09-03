@@ -30,9 +30,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 **Misc:**   
 
 - Must have:
-  + ccze (color logs), fzf (files), jq (json)
-  + bc (calculator)
-- Informations: [neofetch](https://github.com/dylanaraps/neofetch)
+  + bc (calculator), ccze (color logs), fzf (files), jq (json)
+- Informations:
+  + btop (monitoring)
+  + [neofetch](https://github.com/dylanaraps/neofetch)
 
 **Fun**
 
