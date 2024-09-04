@@ -15,6 +15,7 @@
 ```
 * choco install k9s
 ```
+https://alacritty.org/index.html
 
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
