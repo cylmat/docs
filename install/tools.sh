@@ -160,6 +160,7 @@ sysvbanner
 sudo apt install -y cowsay fortune lolcat
 
 ### no more secrets ###
+
 # from 1992 hacker movie Sneakers
 # https://github.com/bartobri/no-more-secrets
 # use ex: ls | nms -a
@@ -173,7 +174,8 @@ cd /tmp/no-more-secrets && make nms && make sneakers && sudo make install && cd 
 sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
 
 # @https://github.com/max-niederman/ttyper
-sudo apt install -y cargo && cargo install ttyper
+# @https://github.com/Samyak2/toipe
+sudo apt install -y cargo && cargo install ttyper toipe
 
 # gtypist @https://doc.ubuntu-fr.org/gtypist
 sudo apt install gtypist
