@@ -42,18 +42,24 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
-# Dos2Unix
-# CCze color logs
-# Json commande line @https://jqlang.github.io/jq
+# cal (or ncal) calendar
+# ccze : color logs
+# dos2Unix
+# finger (pinky) : user information lookup
+# Json : commande line @https://jqlang.github.io/jq
 # locales 
 # manpages
+# TlDr @https://github.com/tldr-pages/tldr
+#   (Collaborative cheatsheets for console commands)
 
 sudo apt install -y \
+cal \
 ccze \
 dos2unix \
 jq \
 locales locales-all \
-manpages man-db
+manpages man-db \
+tldr
 
 ### Fzf ###
 
@@ -72,10 +78,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 sudo apt install -y nix
 
 
-### TlDr @https://github.com/tldr-pages/tldr
-# Collaborative cheatsheets for console commands 
 
-sudo apt install -y tldr
 
 ##########################################################################
 # Network & Server #
