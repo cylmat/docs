@@ -42,6 +42,10 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
+### Font
+
+sudo apt install -y fonts-powerline
+
 # bc calculator
 # btop monitor : @https://github.com/aristocratos/btop
 # cal (or ncal) calendar
@@ -140,13 +144,16 @@ apt install -y rubygems && gem install vimgolf
 # https://doc.ubuntu-fr.org/tutoriel/matrix_terminal
 
 # cmatrix, cbonsai 
-# figlet display ascii text
-# sl : train when mistyping "ls"
+# figlet/sysvbanner display ascii text
+# sl : train when mistyping "ls" @https://github.com/mtoyoda/sl
+#   or
+# https://gir.st/blog/sl-alt.htm
 
 sudo apt install -y \
 cmatrix cbonsai \
 figlet \
-sl
+sl \
+sysvbanner
 
 ### fortune -s | cowsay | lolcat
 # cowsay -f tux "I love Linux!"
