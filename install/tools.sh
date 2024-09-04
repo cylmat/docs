@@ -48,7 +48,7 @@ sudo apt install -y busybox
 # locales 
 # manpages
 
-sudo apt install -y  \
+sudo apt install -y \
 ccze \
 dos2unix \
 jq \
@@ -61,16 +61,21 @@ manpages man-db
 sudo apt install -y fzf
 source <(fzf --zsh)
 
-
-
 ### Kubectl ###
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 
 
-
 ### Nixos @https://nixos.org
+
+sudo apt install -y nix
+
+
+### TlDr @https://github.com/tldr-pages/tldr
+# Collaborative cheatsheets for console commands 
+
+sudo apt install -y tldr
 
 ##########################################################################
 # Network & Server #
@@ -120,3 +125,17 @@ apt install -y rubygems && gem install vimgolf
 # https://www.tecmint.com/funny-linux-commands/
 # https://ostechnix.com/fun-linux-command-line-tools/
 # https://doc.ubuntu-fr.org/tutoriel/matrix_terminal
+
+# cmatrix, cbonsai 
+# figlet display ascii text
+
+sudo apt install -y \
+cmatrix cbonsai \
+figlet 
+
+### fortune -s | cowsay | lolcat
+# cowsay -f tux "I love Linux!"
+# cowsay -e ^^ -T UU "I use Arch Linux BTW!"
+
+sudo apt install -y cowsay fortune lolcat
+
