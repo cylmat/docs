@@ -42,6 +42,7 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
+# btop monitor : @https://github.com/aristocratos/btop
 # cal (or ncal) calendar
 # ccze : color logs
 # dos2Unix
@@ -148,4 +149,11 @@ figlet
 # cowsay -e ^^ -T UU "I use Arch Linux BTW!"
 
 sudo apt install -y cowsay fortune lolcat
+
+### no more secrets : from 1992 hacker movie Sneakers
+# https://github.com/bartobri/no-more-secrets
+# use ex: ls | nms -a
+
+git clone https://github.com/bartobri/no-more-secrets.git /tmp/no-more-secrets
+cd /tmp/no-more-secrets && make nms && make sneakers && sudo make install && cd -
 
