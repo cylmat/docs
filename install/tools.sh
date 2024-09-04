@@ -55,11 +55,15 @@ sudo apt install -y busybox
 sudo apt install -y \
 cal \
 ccze \
+command-not-found \
 dos2unix \
 jq \
 locales locales-all \
 manpages man-db \
 tldr
+
+echo "source /etc/zsh_command_not_found" >> ~/.zshrc
+
 
 ### Fzf ###
 
@@ -67,17 +71,14 @@ tldr
 sudo apt install -y fzf
 source <(fzf --zsh)
 
-### Kubectl ###
+### Neofetch
+# os informations
 
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
-
+sudo apt install -y neofetch
 
 ### Nixos @https://nixos.org
 
 sudo apt install -y nix
-
-
 
 
 ##########################################################################
@@ -112,6 +113,12 @@ php -r 'copy("https://getcomposer.org/installer", "composer-setup.php");'
 php -r "if (hash_file('sha384', 'composer-setup.php') === file_get_contents('/tmp/installer.sig')) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('/tmp/composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php --install-dir=bin --filename=composer
 php -r "unlink('composer-setup.php'); unlink('/tmp/installer.sig');"
+
+### Kubectl & minikube ###
+
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+
 
 ############
 # TRAINING #
