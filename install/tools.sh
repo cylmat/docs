@@ -139,10 +139,12 @@ apt install -y rubygems && gem install vimgolf
 
 # cmatrix, cbonsai 
 # figlet display ascii text
+# sl : train when mistyping "ls"
 
 sudo apt install -y \
 cmatrix cbonsai \
-figlet 
+figlet \
+sl
 
 ### fortune -s | cowsay | lolcat
 # cowsay -f tux "I love Linux!"
