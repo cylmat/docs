@@ -1,3 +1,5 @@
+# see all suggested installed custom tools
+alias my="echo nms"
 
 ##########################################################################
 # Edition & VIM #
