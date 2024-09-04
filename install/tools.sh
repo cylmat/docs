@@ -29,6 +29,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 # https://github.com/tmuxinator/tmuxinator
 # https://github.com/rothgar/awesome-tmux
 # use ^b + :, then "set -g mouse on"
+
 apt install -y tmux tmuxinator
 
 ### @https://doc.ubuntu-fr.org/awesome
@@ -41,10 +42,6 @@ apt install -y tmux tmuxinator
 # @https://busybox.net
 
 sudo apt install -y busybox
-
-### Font
-
-sudo apt install -y fonts-powerline
 
 # bc calculator
 # btop monitor : @https://github.com/aristocratos/btop
