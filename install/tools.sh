@@ -42,14 +42,18 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
-### CCZE ###
-# color logs
+# Dos2Unix
+# CCze color logs
+# Json commande line @https://jqlang.github.io/jq
+# locales 
+# manpages
 
-sudo apt install ccze
-
-### Dos2Unix ###
-
-sudo apt install -y dos2unix
+sudo apt install -y  \
+ccze \
+dos2unix \
+jq \
+locales locales-all \
+manpages man-db
 
 ### Fzf ###
 
@@ -57,25 +61,14 @@ sudo apt install -y dos2unix
 sudo apt install -y fzf
 source <(fzf --zsh)
 
-### Jq ###
 
-# Json commande line
-# https://jqlang.github.io/jq/  
-apt install -y jq
 
 ### Kubectl ###
 
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 
-### locales ###
 
-apt install -y locales locales-all
-
-### Man ###
-
-# manpages
-apt install -y manpages man-db
 
 ### Nixos @https://nixos.org
 
@@ -116,5 +109,14 @@ php -r "unlink('composer-setup.php'); unlink('/tmp/installer.sig');"
 # TRAINING #
 ############
 
-# @see https://www.vimgolf.com/
+# @see https://www.vimgolf.com  
 apt install -y rubygems && gem install vimgolf
+
+
+###########
+### FUN ###
+###########
+
+# https://www.tecmint.com/funny-linux-commands/
+# https://ostechnix.com/fun-linux-command-line-tools/
+# https://doc.ubuntu-fr.org/tutoriel/matrix_terminal
