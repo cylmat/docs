@@ -42,6 +42,7 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
+# bc calculator
 # btop monitor : @https://github.com/aristocratos/btop
 # cal (or ncal) calendar
 # ccze : color logs
@@ -54,6 +55,7 @@ sudo apt install -y busybox
 #   (Collaborative cheatsheets for console commands)
 
 sudo apt install -y \
+bc \
 cal \
 ccze \
 command-not-found \
@@ -159,3 +161,7 @@ sudo apt install -y cowsay fortune lolcat
 git clone https://github.com/bartobri/no-more-secrets.git /tmp/no-more-secrets
 cd /tmp/no-more-secrets && make nms && make sneakers && sudo make install && cd -
 
+### see other...
+# https://github.com/orangekame3/paclear
+# https://github.com/AngelJumbo/lavat
+# https://opensource.com/article/18/12/linux-toy-aafire
