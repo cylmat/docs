@@ -152,18 +152,34 @@ figlet \
 sl \
 sysvbanner
 
-### fortune -s | cowsay | lolcat
+### fortune ###
+# fortune -s | cowsay | lolcat
 # cowsay -f tux "I love Linux!"
 # cowsay -e ^^ -T UU "I use Arch Linux BTW!"
 
 sudo apt install -y cowsay fortune lolcat
 
-### no more secrets : from 1992 hacker movie Sneakers
+### no more secrets ###
+# from 1992 hacker movie Sneakers
 # https://github.com/bartobri/no-more-secrets
 # use ex: ls | nms -a
 
 git clone https://github.com/bartobri/no-more-secrets.git /tmp/no-more-secrets
 cd /tmp/no-more-secrets && make nms && make sneakers && sudo make install && cd -
+
+### typing ###
+
+# @https://github.com/lemnos/tt
+sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
+
+# @https://github.com/max-niederman/ttyper
+sudo apt install -y cargo && cargo install ttyper
+
+# gtypist @https://doc.ubuntu-fr.org/gtypist
+sudo apt install gtypist
+
+# see balzss/cli-typer
+# see Typon 
 
 ### see other...
 # https://github.com/orangekame3/paclear
