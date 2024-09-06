@@ -1,5 +1,10 @@
 # OS Utils
 
+Portals
+- https://ostechnix.com/
+- https://www.linuxlinks.com: Linux portal site
+- https://www.linuxfromscratch.org
+
 ## Linux
 --------
 - https://nixos.org
@@ -7,9 +12,6 @@
 - https://doc.ubuntu-fr.org
 - https://brew.sh: Homebrew
 - https://www.edubuntu.org : A stable, secure and privacy concious option for schools.
-+ infos: https://www.linuxfromscratch.org
-
-+ https://www.linuxlinks.com: Linux portal site
 
 ### Shell
 - https://github.com/awesome-lists/awesome-bash
