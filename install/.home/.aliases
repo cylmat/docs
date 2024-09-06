@@ -20,6 +20,7 @@ alias cpf="copyfile"
 # useful #
 alias dc="docker compose"
 alias dce="docker compose exec"
+alias dk="docker"
 alias k="kubectl"
 alias h="helm"
 alias sym="symfony"
