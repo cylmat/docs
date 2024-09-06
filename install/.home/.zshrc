@@ -189,3 +189,7 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+### Cmd not found
+
+source /etc/zsh_command_not_found
