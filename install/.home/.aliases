@@ -1,7 +1,7 @@
 # @ref
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-# COMMANDS basic #
+### COMMANDS basic ###
 alias ..='cd ..'
 alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
@@ -17,7 +17,7 @@ alias home='cd ~'
 alias cph="copypath"
 alias cpf="copyfile"
 
-# useful #
+### useful ###
 alias dc="docker compose"
 alias dce="docker compose exec"
 alias dk="docker"
@@ -25,26 +25,35 @@ alias k="kubectl"
 alias h="helm"
 alias sym="symfony"
 
-# LIST #
+### LIST ###
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
 alias ll='ls $LS_OPTIONS -l'
 alias l='ls $LS_OPTIONS -lA'
 
-# NET
+# use eza
+# https://github.com/eza-community/eza
+# ld=’eza -lD’
+# lf=’eza -lf --color=always | grep -v /’
+# lh=’eza -dl .* --group-directories-first’
+# ll=’eza -al --group-directories-first’
+# ls=’eza -alf --color=always --sort=size | grep -v /’
+# lt=’eza -al --sort=modified’
+
+### NET ##
 alias ipme="curl -L ipconfig.me"
 alias nsplunt="netstat -plunt | grep LISTEN"
 # e.g. lsof -i tcp:3306
 alias lsofpni="lsof -P -n -i"
 
-# GREP #
+### GREP ###
 # https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
 alias grep='grep --color=auto'
 alias egrep='grep -E'
 alias fgrep='grep -F'
 
-# HISTORY #
+### HISTORY ###
 function _historyfzf () {
   $(history | fzf | grep -oE [^0-9]+)
 }
