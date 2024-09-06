@@ -75,6 +75,9 @@ tldr
 
 echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
+### autojump or z ###
+# https://github.com/wting/autojump
+# https://github.com/agkozak/zsh-z (omz's "z" plugin)
 
 ### Fzf ###
 
