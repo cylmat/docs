@@ -60,6 +60,6 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 ### Resume of custom cmd
 
 # see all suggested installed custom tools
-alias my="echo
-nms
+alias my="echo \
+nms \
 "
