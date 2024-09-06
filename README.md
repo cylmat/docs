@@ -51,16 +51,27 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 ## Awesome !
 
-[Awesome lists](https://github.com/sindresorhus/awesome)
+Awesome lists :
++ [Awesome lists](https://github.com/sindresorhus/awesome)
++ [Awesome all tracked lists](https://www.trackawesomelist.com/#all-tracked-list)
++ [Awesome top 50](https://www.trackawesomelist.com/#top-50-awesome-list)
 
-- [Awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+Back
+- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+
+Dev env
+- [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps)
 - [Awesome Shell](https://github.com/alebcay/awesome-shell)
 - [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
 - [Awesome Zsh](https://github.com/unixorn/awesome-zsh-plugins)
 
-- [Awesome Git](https://github.com/dictcp/awesome-git) and [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
-
+Editor
 - [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
+
+Workflow
+- [Awesome Git](https://github.com/dictcp/awesome-git)
+- [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
+
 - [Awesome Vim](https://github.com/akrawchyk/awesome-vim) and [Vim Awesome](https://vimawesome.com)
 
 - [Awesome Php](https://github.com/ziadoz/awesome-php)
