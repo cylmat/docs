@@ -38,6 +38,12 @@ apt install -y tmux tmuxinator
 # Tools #
 #########
 
+### snapcraft  ###
+# https://snapcraft.io?categories=featured
+# multiple tools 
+
+sudo apt install snap
+
 ### buzyBox ###
 # @https://busybox.net
 
