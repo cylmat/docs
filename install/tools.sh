@@ -85,6 +85,12 @@ echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 sudo apt install -y fzf
 source <(fzf --zsh)
 
+### list
+# ls replacement
+
+sudo apt install cargo && cargo install lsd eza
+# install colorls @https://github.com/athityakumar/colorls
+
 ### Neofetch
 # os informations
 
@@ -142,7 +148,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 apt install -y rubygems && gem install vimgolf
 
 
-###########
+#####################
 ### FUN ###
 ###########
 
