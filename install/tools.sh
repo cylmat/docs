@@ -63,6 +63,7 @@ sudo apt install -y busybox
 
 sudo apt install -y \
 bc \
+btop \
 cal \
 ccze \
 command-not-found \
