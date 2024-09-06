@@ -45,6 +45,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Matchit
+" extended % matching for HTML and other..
+" Plug 'vim-scripts/matchit.zip'
+
 " NERDTree : A tree explorer
 " Run with :NERDTree
 " :help NERDTree
@@ -52,6 +56,12 @@ Plug 'scrooloose/nerdtree'
 
 " Repeat.vim: enable repeating supported plugin maps with "."
 Plug 'tpope/vim-repeat'
+
+" Sensible
+" One step above 'nocompatible' mode
+" a universal set of defaults that (hopefully) everyone can agree on.
+" runtime! make it load earlier, that we can override config after it
+" runtime! plugin/sensible.vim
 
 " Surround https://github.com/tpope/vim-surround
 " USE cs"'
