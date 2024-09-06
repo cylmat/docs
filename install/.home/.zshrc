@@ -10,7 +10,6 @@
 # Tips
 # - https://www.twilio.com/fr-fr/blog/astuces-zsh
 #
-#
 
 # Set up the prompt
 # Disable it with OMZ !
@@ -135,6 +134,10 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+###############
+### PLUGINS ###
+###############
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -144,9 +147,12 @@ ENABLE_CORRECTION="true"
 # --- Autosuggestion :
 # git config --global core.autocrlf false
 # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # --- syntax highlighting
 # git config --global core.autocrlf false
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# z @https://github.com/ajeetdsouza/zoxide
 
 plugins=(aliases alias-findercopybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
