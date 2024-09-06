@@ -71,7 +71,7 @@ dos2unix \
 jq \
 locales locales-all \
 manpages man-db \
-tldr
+tldr && tldr --update
 
 echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
