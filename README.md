@@ -70,6 +70,7 @@ Editor
 Environment
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 - [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+  + [Cli tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
 - [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
 - [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
 - [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html)
