@@ -56,3 +56,10 @@ alias hf="_historyfzf"
 
 alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
 alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
+
+### Resume of custom cmd
+
+# see all suggested installed custom tools
+alias my="echo
+nms
+"
