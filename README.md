@@ -39,7 +39,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 - For happy days ^^:
   + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
-  + figlet (ascii), cmatrix
+  + figlet (ascii), cmatrix, asciiquarium
   + [No more secrets](https://github.com/bartobri/no-more-secrets)
 - Training:
   + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist), [ttyper](https://github.com/max-niederman/ttyper) 
