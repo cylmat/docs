@@ -51,8 +51,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + See [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
 - Mouseless edition: Vim
   + See [Awesome Vim](https://github.com/akrawchyk/awesome-vim) and [Vim Awesome](https://vimawesome.com)
+ 
+## Awesome
 
-### Languages
+- [Awesome](https://github.com/sindresorhus/awesome)
+- [Awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)
+- [Awesome-shell](https://github.com/alebcay/awesome-shell)
+
+## Languages
 
 See [Awesome Php](https://github.com/ziadoz/awesome-php) and [Awesome React](https://github.com/enaqx/awesome-react)
 
