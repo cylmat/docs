@@ -78,6 +78,9 @@ CMS
 Games
 * https://menyr.nogstudio.com : Generate entire worlds in seconds
 
+Fun
+- https://www.la-rache.com
+
 ---
 ## Extensions Chrome
 - https://www.screencastify.com: Screencastify - Screen Video Recorder
