@@ -38,6 +38,7 @@ ORM - ODM
 * https://mongoosejs.com
 * https://propelorm.org
 * https://sequelize.org: Node.js ORM for MySQL
+* https://github.com/compositephp/db
 
 Performance
 * https://www.influxdata.com: High-speed read and write database
