@@ -65,6 +65,12 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
 - iptables-save
 
 sudo systemd docker start
+
+export DOCKER_HOST=unix:///var/run/docker.sock
+%docker ALL=(ALL) NOPASSWD: /usr/bin/dockerd
+export DOCKER_SOCK=/var/run/docker.sock
+export PUID=$(id -u)
+export PGID=$(id -g)
 ```
 
 ### Docker
