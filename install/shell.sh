@@ -12,11 +12,11 @@ sudo apt install -y software-properties-common
 # @https://github.com/unixorn/awesome-zsh-plugins
 sudo apt install -y zsh
 
-# OhMyZsh : @https://ohmyz.sh
+### OhMyZsh : @https://ohmyz.sh
 # zsh-omz:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# zsh-autosuggestions:
+### zsh-autosuggestions:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -38,7 +38,7 @@ git config --global core.autocrlf false
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # plugins=(zsh-autosuggestions)
 
-#--- syntax highlighting
+# --- syntax highlighting
 git config --global core.autocrlf false
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # plugins=( ...zsh-syntax-highlighting)
