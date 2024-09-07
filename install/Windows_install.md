@@ -22,6 +22,7 @@ Useful
 - https://learn.microsoft.com/en-us/windows/wsl/install
 
 ### VSCode
+
 (https://devfonts.gafi.dev)
 ```
 https://www.jetbrains.com/lp/mono
@@ -31,6 +32,7 @@ https://fonts.google.com/specimen/Fira+Code
 ```
 
 ### Extensions
+
 * Chrome : https://chromewebstore.google.com/category/extensions/productivity/developer
 * Firefox : https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
 * https://addons.mozilla.org/fr/firefox/addon/  
@@ -43,6 +45,7 @@ https://fonts.google.com/specimen/Fira+Code
 https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de page via script
 
 ### WSL
+
 - https://learn.microsoft.com/en-us/windows/wsl/install-manual
   + installer WSL2 : https://docs.microsoft.com/fr-fr/windows/wsl/install
 - https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
@@ -60,6 +63,8 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
 - update-alternatives --config iptables
   +  il faut être en `/usr/sbin/iptables-legacy, 20, manual mode`
 - iptables-save
+
+sudo systemd docker start
 ```
 
 ### Docker
