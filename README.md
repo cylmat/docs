@@ -51,6 +51,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 ## Awesome !
 
+[Awesome-awesome](https://github.com/emijrp/awesome-awesome) - [Awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
+
 Awesome lists :
 + [Awesome rank](https://awesomerank.github.io)
 + [Awesome lists](https://github.com/sindresorhus/awesome)
