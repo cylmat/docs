@@ -80,6 +80,5 @@ Most used:
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
 ---
-See:
-- https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
-Try Prezto plugin manager, Powerlevel10k theme and zellij multiplexer, nushell and alacritty terminal
+See too: [terminal-beautiful-productive](https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d)  
+Try: Prezto plugin manager, Powerlevel10k theme, zellij multiplexer, nushell, alacritty terminal..  
