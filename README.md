@@ -30,10 +30,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 **Misc:**   
 
-- Must have:
+- Useful:
   + bc (calculator), ccze (color logs), fzf (files), jq (json), uuidgen
 - Informations:
-  + btop (monitoring)
+  + [btop](https://github.com/aristocratos/btop) (monitoring)
   + [Neofetch](https://github.com/dylanaraps/neofetch)
 
 **Fun**
