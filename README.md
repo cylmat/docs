@@ -57,43 +57,25 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 [Awesome-awesome](https://github.com/emijrp/awesome-awesome) - [Awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
 
 Awesome lists :
-+ [Awesome rank](https://awesomerank.github.io)
-+ [Awesome lists](https://github.com/sindresorhus/awesome)
-+ [Awesome all tracked lists](https://www.trackawesomelist.com/#all-tracked-list)
-+ [Awesome top 50](https://www.trackawesomelist.com/#top-50-awesome-list)
++ [Awesome rank](https://awesomerank.github.io), [Awesome lists](https://github.com/sindresorhus/awesome), [Awesome all tracked lists](https://www.trackawesomelist.com/#all-tracked-list), [Awesome top 50](https://www.trackawesomelist.com/#top-50-awesome-list)
 
 Data
 - [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
 
 Dev tools
-- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
-- [Awesome Git](https://github.com/dictcp/awesome-git)
-- [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
+- [Awesome Docker](https://github.com/veggiemonk/awesome-docker), [Awesome Git](https://github.com/dictcp/awesome-git), [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
 
 Editor
-- [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
-- [Awesome Vim](https://github.com/akrawchyk/awesome-vim)
-- [vimawesome.com](https://vimawesome.com)
+- [Awesome VSCode](https://github.com/viatsko/awesome-vscode), [Awesome Vim](https://github.com/akrawchyk/awesome-vim), [vimawesome.com](https://vimawesome.com)
 
 Environment
-- [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
-- [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps)
-  + [Cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6)
-  + [Terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)
-- [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
-- [Awesome Tmux](https://github.com/rothgar/awesome-tmux)
-- [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html)
-- [Zsh top](https://safjan.com/top-popular-zsh-plugins-on-github-2023)
+- Cli [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps), [Cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [Terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
+- Shell [Awesome Bash](https://github.com/awesome-lists/awesome-bash), [Awesome Tmux](https://github.com/rothgar/awesome-tmux), [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html), [Zsh top](https://safjan.com/top-popular-zsh-plugins-on-github-2023)
 
 Programming
-- [Awesome Js](https://github.com/sorrycc/awesome-javascript)
-- [Awesome React](https://github.com/enaqx/awesome-react)
-- [Awesome React components](https://github.com/brillout/awesome-react-components)
-- [awesome-web-react](https://awesome-web-react.js.org)
+- Front [Awesome Js](https://github.com/sorrycc/awesome-javascript), [Awesome React](https://github.com/enaqx/awesome-react), [Awesome React components](https://github.com/brillout/awesome-react-components), [awesome-web-react](https://awesome-web-react.js.org)
 
-- [Awesome Php](https://github.com/ziadoz/awesome-php)
-- [Awesome ymfony](https://github.com/sitepoint-editors/awesome-symfony)
-- [Symfony 30](https://symfony.com/blog/the-30-most-useful-symfony-bundles-and-making-them-even-better)
+- Back [Awesome Php](https://github.com/ziadoz/awesome-php), [Awesome ymfony](https://github.com/sitepoint-editors/awesome-symfony), [Symfony 30](https://symfony.com/blog/the-30-most-useful-symfony-bundles-and-making-them-even-better)
 
 
 ---
