@@ -8,13 +8,13 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 - Shell with auto and colors: [Zsh](https://wiki.ubuntu-fr.org/zsh)
   + Framework [OhMyZsh](https://ohmyz.sh)
-  + OhMyZsh plugins: (aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)  
+  + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io)
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) + [Plugins list](https://github.com/tmux-plugins/list)
-  + Tpm plugins: (tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank) 
-  + Theme (tmux-powerline)
+  + Tpm plugins: (**tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank**) 
+  + Theme (**tmux-powerline**)
 
 **Utils**
 
@@ -34,23 +34,23 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + bc (calculator), ccze (color logs), fzf (files), jq (json), uuidgen
 - Informations:
   + btop (monitoring)
-  + [neofetch](https://github.com/dylanaraps/neofetch)
+  + [Neofetch](https://github.com/dylanaraps/neofetch)
 
 **Fun**
 
 - For happy days ^^:
   + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
   + figlet (ascii), cmatrix, asciiquarium
-  + [No more secrets](https://github.com/bartobri/no-more-secrets)
+  + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
 - Training:
   + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist), [ttyper](https://github.com/max-niederman/ttyper) 
 
 ## Editing
 
 - Windows editing: VSCode
-  + Plugins:
+  + Plugins: ..
 - Mouseless edition: Vim
-  + Plugins:
+  + Plugins: ..
 
 ## Awesome !
 
