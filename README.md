@@ -15,7 +15,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) (see [plugins list](https://github.com/tmux-plugins/list))
   + Tpm plugins: (**tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank**) 
-  + Theme (**tmux-powerline**)
+  + Theme (**tmux-colors-solarized**)
 
 **Utils**
 
