@@ -11,7 +11,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + OhMyZsh plugins: (aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)  
   + Plugins manager [Antidote](https://getantidote.github.io)
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
-- Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + Tmuxinator
+- Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) + [Plugins list](https://github.com/tmux-plugins/list)
   + Tpm plugins: (tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank) 
   + Theme (tmux-powerline)
