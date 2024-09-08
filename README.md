@@ -10,6 +10,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Framework [OhMyZsh](https://ohmyz.sh)
   + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io)
+  + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) (see [plugins list](https://github.com/tmux-plugins/list))
