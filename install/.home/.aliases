@@ -73,7 +73,7 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 # see all suggested installed custom tools
 alias my='echo "
 - ZSH 
-als, C-o (copybuffer), cph (copypath) , cpf (copyfile), z (search directory)
+als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search directory)
 
 - TOOLS
 bc (calc), btop (monitoring), ccze (logs), eza (ls like), fzf (find), jq (json)
