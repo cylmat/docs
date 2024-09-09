@@ -54,6 +54,13 @@ alias grep='grep --color=auto'
 alias egrep='grep -E'
 alias fgrep='grep -F'
 
+### TMUX built'in ###
+# OMZ tmux build_tmux_alias
+alias ta="tmux attach -t"
+alias tad="tmux attach -d -t"
+alias ts="tmux new-session -s"
+alias tkss="tmux kill-session -t"
+
 ### HISTORY ###
 function _historyfzf () {
   $(history | fzf | grep -oE [^0-9]+)
