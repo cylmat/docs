@@ -10,6 +10,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Framework [OhMyZsh](https://ohmyz.sh)
   + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io)
+  + Autosuggestion [docker](https://docs.docker.com/engine/cli/completion), [git](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash), [k8s](https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/#kubectl-autocompletion-2), [zsh](https://github.com/zsh-users/zsh-autosuggestions)
   + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
@@ -66,8 +67,9 @@ Dev tools: [Awesome Docker](https://github.com/veggiemonk/awesome-docker), [Awes
 Editor: [Awesome VSCode](https://github.com/viatsko/awesome-vscode), [Awesome Vim](https://github.com/akrawchyk/awesome-vim), [vimawesome.com](https://vimawesome.com)
 
 Environment
-- Cli [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps), [Cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [Terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
-- Shell [Awesome Bash](https://github.com/awesome-lists/awesome-bash), [Awesome Tmux](https://github.com/rothgar/awesome-tmux), [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html), [Zsh top](https://safjan.com/top-popular-zsh-plugins-on-github-2023)
+- Cli [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps), [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
+- Shell [Awesome Bash](https://github.com/awesome-lists/awesome-bash), [Awesome Tmux](https://github.com/rothgar/awesome-tmux), [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html)
++ [cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [zsh-top](https://safjan.com/top-popular-zsh-plugins-on-github-2023)
 
 Programming
 - Front: [Awesome Js](https://github.com/sorrycc/awesome-javascript), [Awesome React](https://github.com/enaqx/awesome-react), [Awesome React components](https://github.com/brillout/awesome-react-components), [awesome-web-react](https://awesome-web-react.js.org)
