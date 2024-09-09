@@ -17,7 +17,14 @@
 #promptinit
 #prompt adam1
 
+#######
+# ENV #
+#######
+
 export TERM=xterm-256color
+# need for tmuxinator
+export SHELL="zsh"
+export EDITOR='vim'
 
 setopt histignorealldups sharehistory
 
@@ -154,7 +161,7 @@ ENABLE_CORRECTION="true"
 
 # z @https://github.com/ajeetdsouza/zoxide
 
-plugins=(aliases alias-findercopybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # >CTRL-o (copybuffer: copy command to clipboard)
@@ -196,6 +203,4 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-### Cmd not found
-
-source /etc/zsh_command_not_found
+### Cmd not found: # source /etc/zsh_command_not_found
