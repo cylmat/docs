@@ -33,7 +33,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 **Misc:**   
 
 - Useful:
-  + bat (cat), bc (calculator), ccze (color logs), fzf (files), jq (json), uuidgen
+  + bat (cat), bc (calculator), ccze (color logs), fzf (files), jq (json)
+  + snap (apps install), taskmanager, tig (git tree), tree, uuidgen
 - Informations:
   + [btop](https://github.com/aristocratos/btop) (monitoring)
   + [Neofetch](https://github.com/dylanaraps/neofetch)
