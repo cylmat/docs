@@ -23,6 +23,7 @@ alias dce="docker compose exec"
 alias dk="docker"
 alias k="kubectl"
 alias h="helm"
+alias mkb="minikube"
 alias sym="symfony"
 
 ### LIST ###
@@ -72,11 +73,13 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 # see all suggested installed custom tools
 alias my='echo "
 - ZSH 
-als: aliases list
-C-o: copybuffer
-cph: copypath 
-cpf: copyfile 
-z  : search directory
+als, C-o (copybuffer), cph (copypath) , cpf (copyfile), z (search directory)
+
+- TOOLS
+bc (calc), btop (monitoring), ccze (logs), eza (ls like), fzf (find), jq (json)
+mkb (minikube), neofetch (info), nix (packager), tldr (helper), uuidgen
+
 - FUN 
-nms: No more secrets 
+cmatrix, cowsay, figlet, fortune, lolcat, nms (no more secrets), sl (train)
+gtypist, tt, ttyper
 "'
