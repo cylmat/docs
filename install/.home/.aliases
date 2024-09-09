@@ -1,5 +1,5 @@
 # @ref
-# https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+# @https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ### COMMANDS basic ###
 alias ..='cd ..'
@@ -70,6 +70,13 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 ### Resume of custom cmd
 
 # see all suggested installed custom tools
-alias my="echo \
-nms \
-"
+alias my='echo "
+- ZSH 
+als: aliases list
+C-o: copybuffer
+cph: copypath 
+cpf: copyfile 
+z  : search directory
+- FUN 
+nms: No more secrets 
+"'
