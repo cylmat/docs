@@ -77,7 +77,7 @@ als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search direc
 
 - TOOLS
 bc (calc), btop (monitoring), ccze (logs), eza (ls like), fzf (find), jq (json)
-mkb (minikube), neofetch (info), nix (packager), tldr (helper), uuidgen
+mkb (minikube), neofetch (info), nix (packager), tig (git), tldr (helper), uuidgen
 
 - FUN 
 cmatrix, cowsay, figlet, fortune, lolcat, nms (no more secrets), sl (train)
