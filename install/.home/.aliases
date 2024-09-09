@@ -15,6 +15,7 @@ alias cph="copypath"
 alias cpf="copyfile"
 
 ### useful ###
+alias bat="batcat"
 alias c="clear"
 alias dc="docker compose"
 alias dce="docker compose exec"
@@ -83,7 +84,7 @@ alias my='echo "
 als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search directory)
 
 - TOOLS
-bc (calc), btop (monitoring), ccze (logs), eza (ls like), fzf (find), jq (json)
+bat (cat), bc (calc), btop (monitoring), ccze (logs), eza (ls like), fzf (find), jq (json)
 mkb (minikube), neofetch (info), nix (packager), tig (git), tldr (helper), uuidgen
 
 - FUN 
