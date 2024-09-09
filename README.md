@@ -8,7 +8,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 - Shell with auto and colors: [Zsh](https://wiki.ubuntu-fr.org/zsh)
   + Framework [OhMyZsh](https://ohmyz.sh)
-  + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting**)  
+  + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io)
   + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
