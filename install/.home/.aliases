@@ -8,9 +8,6 @@ alias .bashrc="vim ~/.bashrc"
 alias .tmux.conf="vim ~/.tmux.conf"
 alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
-alias c="clear"
-alias dfh='df -h'
-alias home='cd ~'
 
 ### OMZ zsh ###
 # copybuffer is Ctrl-O
@@ -18,11 +15,14 @@ alias cph="copypath"
 alias cpf="copyfile"
 
 ### useful ###
+alias c="clear"
 alias dc="docker compose"
 alias dce="docker compose exec"
+alias dfh='df -h'
 alias dk="docker"
 alias k="kubectl"
 alias h="helm"
+alias home='cd ~'
 alias mkb="minikube"
 alias sym="symfony"
 
