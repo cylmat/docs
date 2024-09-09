@@ -38,23 +38,6 @@ apt install -y tmux tmuxinator
 # Tools #
 #########
 
-### eza ###
-# https://github.com/eza-community/eza
-
-sudo apt update && sudo apt install -y gpg
-
-sudo mkdir -p /etc/apt/keyrings
-wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg
-echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
-sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
-sudo apt update && sudo apt install -y eza
-
-### snapcraft  ###
-# https://snapcraft.io?categories=featured
-# multiple tools 
-
-sudo apt install snap
-
 ### buzyBox ###
 # @https://busybox.net
 
@@ -84,11 +67,38 @@ locales locales-all \
 manpages man-db \
 tldr && tldr --update
 
-echo "source /etc/zsh_command_not_found" >> ~/.zshrc
+# echo "source /etc/zsh_command_not_found" >> ~/.zshrc
+
+# bat: cat like with color
+# taskwarrior manager
+# tig: git logs
+# snap install apps
+sudo apt install -y \
+bat \
+taskwarrior \
+tig \ 
+snap
 
 ### autojump or z ###
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
+
+### Entr
+
+git clone https://github.com/eradman/entr /tmp/entr
+cd /tmp/entr && ./configure && make test && make install && sudo make install
+
+### eza ###
+# https://github.com/eza-community/eza
+
+sudo apt update && sudo apt install -y gpg
+
+sudo mkdir -p /etc/apt/keyrings
+wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg
+echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
+sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
+sudo apt update && sudo apt install -y eza
+
 
 ### Fzf ###
 
@@ -110,6 +120,16 @@ sudo apt install -y neofetch
 ### Nixos @https://nixos.org
 
 sudo apt install -y nix
+
+
+### snapcraft  ###
+# https://snapcraft.io?categories=featured
+# multiple tools 
+
+sudo apt install snap
+
+### zsh bench (benchmark)
+git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
 
 
 ##########################################################################
