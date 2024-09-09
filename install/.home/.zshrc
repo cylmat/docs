@@ -74,7 +74,7 @@ fi
 
 #
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:~/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -162,7 +162,7 @@ ENABLE_CORRECTION="true"
 # z @https://github.com/ajeetdsouza/zoxide
 
 plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose 
-dirhistory eza git fzf kube-ps1 kubectl helm rsync ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
+dirhistory eza git fzf kube-ps1 kubectl helm rsync snap ssh sudo tmux tmuxinator z zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # >CTRL-o (copybuffer: copy command to clipboard)
