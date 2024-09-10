@@ -11,9 +11,7 @@ sudo apt install -y busybox
 ### common ###
 
 # bat: cat like with color
-# btop monitor 
 # ccze : color logs
-# duf disk usage
 # dos2Unix
 # finger (pinky) : user information lookup
 # Json jq
@@ -21,38 +19,43 @@ sudo apt install -y busybox
 # manpages
 # ranger : filesystem
 # rsync
-# TlDr  (Collaborative cheatsheets for console commands)
 
 sudo apt install -y \
 bat \
-btop \
 ccze \
 command-not-found \
 dos2unix \
-duf \
 jq \
 locales locales-all \
 manpages man-db \
 ranger \
 rsync \
-tre-command \
-tldr && tldr --update
+tre-command
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
 ### tools ###
 
 # bc calculator
+# btop monitor 
 # cal (or ncal) calendar
+# duf disk usage
+# navi : helper
+# ncdu : disk manager
+# snap install apps
 # taskwarrior manager
 # tig: git logs
-# snap install apps
+# TlDr : cheatsheets for console commands
 
 sudo apt install -y \
 bc \
+btop \
 cal \
+duf \
+ncdu \
 taskwarrior \
-tig \ 
+tig \  
+tldr && tldr --update \
 snap
 
 ### autojump or z ###
@@ -97,6 +100,11 @@ source <(fzf --zsh)
 
 sudo apt install cargo && cargo install lsd eza
 # install colorls @https://github.com/athityakumar/colorls
+
+### navi ###
+# https://github.com/denisidoro/navi
+
+cargo install navi
 
 ### Neofetch
 # os informations
