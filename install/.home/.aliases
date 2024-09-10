@@ -96,7 +96,7 @@ bc (calc), duf (disk), fzf (find), jq (json),
 ncdu (disk), neofetch (info), nix (packager)
 taskwarrior, tig (git), uuidgen
 
-cht (helper), navi (helper), tldr (helper)
+cht (helper), navi (helper), so (stackoverflow), tldr (helper)
 bandwhich (ip), httpie (curl), kdash, mkb (minikube)
 
 - FUN -
