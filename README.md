@@ -22,21 +22,30 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
  
 **Common**
 
-- [Busybox](https://busybox.net) (toolbox), [TlDr](https://tldr.sh) (helper), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
+- [Busybox](https://busybox.net) (toolbox), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 
-+ [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), bc (calculator), ccze (color logs) 
-+ [duf](https://github.com/muesli/duf), [entr](https://github.com/eradman/entr), [fzf](https://github.com/junegunn/fzf) (files)
++ [bat](https://github.com/sharkdp/bat) (bat-cat)
++ [btop](https://github.com/aristocratos/btop) (monitoring)
++ bc (calculator)
++ [ccze](https://github.com/cornet/ccze) (color logs) 
++ [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
++ [entr](https://github.com/eradman/entr)
++ [fzf](https://github.com/junegunn/fzf) (files)
 + [jq](https://jqlang.github.io/jq) (json), [procs](https://github.com/dalance/procs)
-+ [ranger](https://github.com/ranger/ranger) (filesystem), [rsync](https://doc.ubuntu-fr.org/rsync), [tre](https://github.com/dduan/tre)
++ [ranger](https://github.com/ranger/ranger) (filesystem)
++ [rsync](https://doc.ubuntu-fr.org/rsync)
++ [tre](https://github.com/dduan/tre)
 
 **Tools**
 
 + Ip [bandwhich](https://github.com/imsnif/bandwhich)
-+ [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
++ [Lynx](https://lynx.invisible-island.net) and [W3m](https://doc.ubuntu-fr.org/w3m)
 + [Nix](https://nixos.org) (package manager)
-+ [snap](https://snapcraft.io/) (apps install), taskmanager, uuidgen
-+ [taskwarrior](https://taskwarrior.org)
++ [snap](https://snapcraft.io/) (apps install)
++ [TlDr](https://tldr.sh) or [navi](https://github.com/denisidoro/navi) (helper)
++ [taskwarrior](https://taskwarrior.org) (taskmanager)
 + [tig](https://jonas.github.io/tig) (git tree)
++ uuidgen
 
 
 - [Minikube](https://minikube.sigs.k8s.io) (containers)
