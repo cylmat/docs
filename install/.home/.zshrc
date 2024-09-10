@@ -161,8 +161,11 @@ ENABLE_CORRECTION="true"
 
 # z @https://github.com/ajeetdsouza/zoxide
 
-plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza 
-git fzf kube-ps1 kubectl helm rsync snap ssh sudo symfony6 taskwarrior tig tldr tmux tmuxinator vi-mode web-search z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
+### PLUGINS ###
+plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza git fzf
+kube-ps1 kubectl helm rsync snap ssh sudo symfony6 taskwarrior tig tldr tmux tmuxinator vi-mode web-search z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
+### /PLUGINS ###
+
 source $ZSH/oh-my-zsh.sh
 
 # >CTRL-o (copybuffer: copy command to clipboard)
