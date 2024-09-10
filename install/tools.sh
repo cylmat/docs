@@ -43,38 +43,47 @@ apt install -y tmux tmuxinator
 
 sudo apt install -y busybox
 
-# bc calculator
+### common ###
+
+# bat: cat like with color
 # btop monitor : @https://github.com/aristocratos/btop
-# cal (or ncal) calendar
 # ccze : color logs
+# duf disk usage
 # dos2Unix
 # finger (pinky) : user information lookup
 # Json : commande line @https://jqlang.github.io/jq
 # locales 
 # manpages
+# rsync
 # TlDr @https://github.com/tldr-pages/tldr
 #   (Collaborative cheatsheets for console commands)
 
 sudo apt install -y \
-bc \
+bat \
 btop \
-cal \
 ccze \
 command-not-found \
 dos2unix \
+duf \
 jq \
 locales locales-all \
 manpages man-db \
+rsync \
 tldr && tldr --update
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
-# bat: cat like with color
+### tools ###
+
+# bc calculator
+# cal (or ncal) calendar
 # taskwarrior manager
 # tig: git logs
 # snap install apps
+
 sudo apt install -y \
-bat \
+bc \
+cal \
 taskwarrior \
 tig \ 
 snap
@@ -82,6 +91,17 @@ snap
 ### autojump or z ###
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
+
+### NON APT INSTALL ###
+
+### bandwhich
+# use with Keep current ENV : 
+# sudo -E bandwhich  
+# sudo env "PATH=$PATH" bandwhich 
+# sudo $(command -v bandwhich)
+
+cargo install bandwhich
+
 
 ### Entr
 
