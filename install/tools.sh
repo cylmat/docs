@@ -23,17 +23,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 # git clone https://github.com/neovim/neovim
 # make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
 
-### Tmux ###
-
-# Tmux : @https://doc.ubuntu-fr.org/tmux
-# https://github.com/tmuxinator/tmuxinator
-# https://github.com/rothgar/awesome-tmux
-# use ^b + :, then "set -g mouse on"
-
-apt install -y tmux tmuxinator
-
-### @https://doc.ubuntu-fr.org/awesome
-
 ##########################################################################
 # Tools #
 #########
@@ -92,7 +81,6 @@ snap
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
 
-### NON APT INSTALL ###
 
 ### bandwhich
 # use with Keep current ENV : 
@@ -147,6 +135,17 @@ sudo apt install -y nix
 # multiple tools 
 
 sudo apt install snap
+
+### Tmux ###
+
+# Tmux : @https://doc.ubuntu-fr.org/tmux
+# https://github.com/tmuxinator/tmuxinator
+# https://github.com/rothgar/awesome-tmux
+# use ^b + :, then "set -g mouse on"
+
+apt install -y tmux tmuxinator
+
+### @https://doc.ubuntu-fr.org/awesome
 
 ### zsh bench (benchmark)
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
