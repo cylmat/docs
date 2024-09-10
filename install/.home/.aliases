@@ -92,7 +92,7 @@ busybox, bat (cat), btop (monitoring), ccze (logs), entr (watch), eza (ls like)
 procs (ps), ranger (file), rsync, tre (tree like)
 
 - TOOLS -
-bc (calc), duf (disk), fzf (find), jq (json), 
+bc (calc), duf (disk), fzf (find), fzy (finder), jq (json), 
 ncdu (disk), neofetch (info), nix (packager)
 taskwarrior, tig (git), uuidgen
 
