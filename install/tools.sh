@@ -110,6 +110,9 @@ source <(fzf --zsh)
 sudo apt install cargo && cargo install lsd eza
 # install colorls @https://github.com/athityakumar/colorls
 
+### micro (nano like) ###
+# sudo apt install micro
+
 ### navi ###
 # https://github.com/denisidoro/navi
 
