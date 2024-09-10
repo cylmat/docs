@@ -92,10 +92,11 @@ busybox, bat (cat), btop (monitoring), ccze (logs), entr (watch), eza (ls like)
 procs (ps), ranger (file), rsync, tre (tree like)
 
 - TOOLS -
-bc (calc), duf (disk), fzf (find), jq (json), navi (helper)
+bc (calc), duf (disk), fzf (find), jq (json), 
 ncdu (disk), neofetch (info), nix (packager)
-taskwarrior, tig (git), tldr (helper), uuidgen
+taskwarrior, tig (git), uuidgen
 
+cht (helper), navi (helper), tldr (helper)
 bandwhich (ip), httpie (curl), kdash, mkb (minikube)
 
 - FUN -
