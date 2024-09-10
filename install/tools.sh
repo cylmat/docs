@@ -242,7 +242,7 @@ sudo apt install -y cowsay fortune lolcat
 
 ### WELCOME script
 
-curl -s https://raw.githubusercontent.com/Lissy93/dotfiles/master/utils/welcome-banner.sh | sudo tee $HOME/welcome.sh | chmod a+x $HOME/welcome.sh
+curl -s https://raw.githubusercontent.com/Lissy93/dotfiles/master/utils/welcome-banner.sh | sudo tee ~/welcome.sh | sudo chmod a+x ~/welcome.sh
 
 ### no more secrets ###
 
