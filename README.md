@@ -25,9 +25,9 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - [Busybox](https://busybox.net) (toolbox), [TlDr](https://tldr.sh) (helper), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 
 + [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), bc (calculator), ccze (color logs) 
-+ [duf](https://github.com/muesli/duf), [fzf](https://github.com/junegunn/fzf) (files), jq (json)
-+ [procs](https://github.com/dalance/procs)
-+ [ranger](https://github.com/ranger/ranger) (filesystem), [rsync](https://doc.ubuntu-fr.org/rsync), tree
++ [duf](https://github.com/muesli/duf), [entr](https://github.com/eradman/entr), [fzf](https://github.com/junegunn/fzf) (files)
++ [jq](https://jqlang.github.io/jq) (json), [procs](https://github.com/dalance/procs)
++ [ranger](https://github.com/ranger/ranger) (filesystem), [rsync](https://doc.ubuntu-fr.org/rsync), [tre](https://github.com/dduan/tre)
 
 **Tools**
 
@@ -49,6 +49,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
   + figlet (ascii), cmatrix, asciiquarium
   + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
+
 - Training:
   + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist), [ttyper](https://github.com/max-niederman/ttyper) 
 
