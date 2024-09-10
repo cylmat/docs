@@ -19,9 +19,9 @@ sudo apt install -y busybox
 # Json : commande line @https://jqlang.github.io/jq
 # locales 
 # manpages
+# ranger : filesystem
 # rsync
-# TlDr @https://github.com/tldr-pages/tldr
-#   (Collaborative cheatsheets for console commands)
+# TlDr  (Collaborative cheatsheets for console commands)
 
 sudo apt install -y \
 bat \
@@ -33,6 +33,7 @@ duf \
 jq \
 locales locales-all \
 manpages man-db \
+ranger \
 rsync \
 tldr && tldr --update
 
@@ -104,6 +105,11 @@ sudo apt install -y neofetch
 ### Nixos @https://nixos.org
 
 sudo apt install -y nix
+
+### Procs ###
+# https://github.com/dalance/procs
+
+cargo install procs
 
 
 ### snapcraft  ###
