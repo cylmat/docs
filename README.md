@@ -25,14 +25,18 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - [Busybox](https://busybox.net) (toolbox), [TlDr](https://tldr.sh) (helper), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 
 + [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), bc (calculator), ccze (color logs) 
-+ [duf](https://github.com/muesli/duf), fzf (files), jq (json), [rsync](https://doc.ubuntu-fr.org/rsync), tree
++ [duf](https://github.com/muesli/duf), [fzf](https://github.com/junegunn/fzf) (files), jq (json)
++ [procs](https://github.com/dalance/procs)
++ [ranger](https://github.com/ranger/ranger) (filesystem), [rsync](https://doc.ubuntu-fr.org/rsync), tree
 
 **Tools**
 
++ Ip [bandwhich](https://github.com/imsnif/bandwhich)
 + [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
 + [Nix](https://nixos.org) (package manager)
-+ [snap](https://snapcraft.io/) (apps install), taskmanager, [tig](https://jonas.github.io/tig) (git tree), uuidgen
-+ Ip [bandwhich](https://github.com/imsnif/bandwhich)
++ [snap](https://snapcraft.io/) (apps install), taskmanager, uuidgen
++ [taskwarrior](https://taskwarrior.org)
++ [tig](https://jonas.github.io/tig) (git tree)
 
 
 - [Minikube](https://minikube.sigs.k8s.io) (containers)
