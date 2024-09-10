@@ -40,7 +40,6 @@ tre-command
 # btop monitor 
 # cal (or ncal) calendar
 # duf disk usage
-# navi : helper
 # ncdu : disk manager
 # snap install apps
 # taskwarrior manager
@@ -71,8 +70,13 @@ snap
 
 cargo install bandwhich
 
+### cargo (rust)
+# (cargo use crates.io)
 
-### Entr
+sudo apt install cargo
+
+
+### Entr (use inotify)
 
 git clone https://github.com/eradman/entr /tmp/entr
 cd /tmp/entr && ./configure && make test && make install && sudo make install
