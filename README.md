@@ -45,10 +45,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + [Nix](https://nixos.org) (package manager)
 + [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 + [snap](https://snapcraft.io/) (apps install)
-+ [TlDr](https://tldr.sh) or [navi](https://github.com/denisidoro/navi) (helper)
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + [tig](https://jonas.github.io/tig) (git tree)
 + uuidgen
+
+* [cheat.sh](https://github.com/chubin/cheat.sh)
+* [navi](https://github.com/denisidoro/navi) (helper)
+* [TlDr](https://tldr.sh)
+* [so](https://github.com/samtay/so) (stack overflow)
 
 - [Kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
 - [Minikube](https://minikube.sigs.k8s.io) (containers)
