@@ -18,6 +18,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Tpm plugins: (**tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank**) 
   + Theme (**tmux-colors-solarized**)
  
+## Utils
+ 
 **Common**
 
 - Toolbox: [Busybox](https://busybox.net)
@@ -27,14 +29,13 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), fzf (files), tree
 + bc (calculator), ccze (color logs), jq (json)
 
-**Utils**
+**Tools**
 
 + Browser: [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
 + Package manager: [Nix](https://nixos.org)
 + [snap](https://snapcraft.io/) (apps install), taskmanager, [tig](https://jonas.github.io/tig) (git tree), uuidgen
 
-**Tools **
-
+Specific
 - Containers: [Minikube](https://minikube.sigs.k8s.io)
 - Version manager: [Git](https://git-scm.com)
 
