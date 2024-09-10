@@ -22,9 +22,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
  
 **Common**
 
-- Toolbox: [Busybox](https://busybox.net)
-- Helper man page: [TlDr](https://tldr.sh) 
-- [Neofetch](https://github.com/dylanaraps/neofetch)
+- [Busybox](https://busybox.net) (toolbox), [TlDr](https://tldr.sh) (helper), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 
 + [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), fzf (files), tree
 + bc (calculator), ccze (color logs), jq (json)
@@ -32,12 +30,12 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 **Tools**
 
 + Browser: [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
-+ Package manager: [Nix](https://nixos.org)
++ [Nix](https://nixos.org) (package manager)
 + [snap](https://snapcraft.io/) (apps install), taskmanager, [tig](https://jonas.github.io/tig) (git tree), uuidgen
 
 
-- Containers: [Minikube](https://minikube.sigs.k8s.io)
-- Version manager: [Git](https://git-scm.com)
+- [Minikube](https://minikube.sigs.k8s.io) (containers)
+- [Git](https://git-scm.com) (version manager)
 
 
 **Fun**
