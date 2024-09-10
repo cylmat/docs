@@ -24,14 +24,15 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 - [Busybox](https://busybox.net) (toolbox), [TlDr](https://tldr.sh) (helper), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 
-+ [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), fzf (files), tree
-+ bc (calculator), ccze (color logs), jq (json)
++ [bat](https://github.com/sharkdp/bat) (cat), [btop](https://github.com/aristocratos/btop) (monitoring), bc (calculator), ccze (color logs) 
++ [duf](https://github.com/muesli/duf), fzf (files), jq (json), [rsync](https://doc.ubuntu-fr.org/rsync), tree
 
 **Tools**
 
-+ Browser: [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
++ [Lynx](https://lynx.invisible-island.net) or [W3m](https://doc.ubuntu-fr.org/w3m)
 + [Nix](https://nixos.org) (package manager)
 + [snap](https://snapcraft.io/) (apps install), taskmanager, [tig](https://jonas.github.io/tig) (git tree), uuidgen
++ Ip [bandwhich](https://github.com/imsnif/bandwhich)
 
 
 - [Minikube](https://minikube.sigs.k8s.io) (containers)
