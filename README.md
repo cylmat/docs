@@ -22,7 +22,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
  
 **Common**
 
-- [Busybox](https://busybox.net) (toolbox), [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
+- [Busybox](https://busybox.net) (toolbox)
 
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
 + [btop](https://github.com/aristocratos/btop) (monitoring)
@@ -32,6 +32,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + [entr](https://github.com/eradman/entr)
 + [fzf](https://github.com/junegunn/fzf) (files)
 + [jq](https://jqlang.github.io/jq) (json), [procs](https://github.com/dalance/procs)
++ [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
 + [rsync](https://doc.ubuntu-fr.org/rsync)
 + [tre](https://github.com/dduan/tre)
