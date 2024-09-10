@@ -1,29 +1,5 @@
 
 ##########################################################################
-# Edition & VIM #
-###############
-
-### VIM ###
-
-# Vim @https://www.vim.org
-# @https://vimawesome.com
-apt install -y vim
-
-# vundle: https://github.com/VundleVim/Vundle.vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-# VIM Plug #
-
-# https://github.com/junegunn/vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-### Neovim ###
-
-### Neovim @https://neovim.io
-# git clone https://github.com/neovim/neovim
-# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
-
-##########################################################################
 # Tools #
 #########
 
@@ -149,6 +125,32 @@ apt install -y tmux tmuxinator
 
 ### zsh bench (benchmark)
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
+
+
+##########################################################################
+# Edition & VIM #
+###############
+
+### VIM ###
+
+# Vim @https://www.vim.org
+# @https://vimawesome.com
+apt install -y vim
+
+# vundle: https://github.com/VundleVim/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# VIM Plug #
+
+# https://github.com/junegunn/vim-plug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+### Neovim ###
+
+### Neovim @https://neovim.io
+# git clone https://github.com/neovim/neovim
+# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
+
 
 
 ##########################################################################
