@@ -92,6 +92,12 @@ procs \
 toipe
 
 
+### Cheat.sh ###
+# https://github.com/chubin/cheat.sh
+# use $ cht.sh go reverse a list
+
+curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
 ### Entr (use inotify)
 
 git clone https://github.com/eradman/entr /tmp/entr
