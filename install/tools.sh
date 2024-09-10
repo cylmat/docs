@@ -35,6 +35,7 @@ locales locales-all \
 manpages man-db \
 ranger \
 rsync \
+tre-command \
 tldr && tldr --update
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
