@@ -64,18 +64,32 @@ snap
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
 
 
-### bandwhich
-# use with Keep current ENV : 
-# sudo -E bandwhich  
-# sudo env "PATH=$PATH" bandwhich 
-# sudo $(command -v bandwhich)
-
-cargo install bandwhich
+### cargo ###
 
 ### cargo (rust)
 # (cargo use crates.io)
 
 sudo apt install cargo
+
+# bandwhich
+# - use with Keep current ENV : 
+# - sudo -E bandwhich  
+# - sudo env "PATH=$PATH" bandwhich 
+# - sudo $(command -v bandwhich)
+# eza : list ls replacement https://github.com/eza-community/eza
+# colorls @https://github.com/athityakumar/colorls
+# navi https://github.com/denisidoro/navi
+# Procs : https://github.com/dalance/procs
+# toipe : typing test
+
+
+cargo install \
+bandwhich \
+eza \
+lsd \
+navi \
+procs \
+toipe
 
 
 ### Entr (use inotify)
@@ -83,37 +97,15 @@ sudo apt install cargo
 git clone https://github.com/eradman/entr /tmp/entr
 cd /tmp/entr && ./configure && make test && make install && sudo make install
 
-### eza ###
-# https://github.com/eza-community/eza
-
-sudo apt update && sudo apt install -y gpg
-
-sudo mkdir -p /etc/apt/keyrings
-wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg
-echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
-sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
-sudo apt update && sudo apt install -y eza
-
-
 ### Fzf ###
 
 # https://github.com/junegunn/fzf
 sudo apt install -y fzf
 source <(fzf --zsh)
 
-### list
-# ls replacement
-
-sudo apt install cargo && cargo install lsd eza
-# install colorls @https://github.com/athityakumar/colorls
 
 ### micro (nano like) ###
 # sudo apt install micro
-
-### navi ###
-# https://github.com/denisidoro/navi
-
-cargo install navi
 
 ### Neofetch
 # os informations
@@ -124,11 +116,6 @@ sudo apt install -y neofetch
 
 sudo apt install -y nix
 
-### Procs ###
-# https://github.com/dalance/procs
-
-cargo install procs
-
 
 ### snapcraft  ###
 # https://snapcraft.io?categories=featured
@@ -136,9 +123,6 @@ cargo install procs
 
 sudo apt install snap
 
-### toipe ###
-
-cargo install toipe
 
 ### Tmux ###
 
