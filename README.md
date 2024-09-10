@@ -39,6 +39,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 **Tools**
 
 + Ip [bandwhich](https://github.com/imsnif/bandwhich)
++ [httpie](https://httpie.io) (curl-like)
 + [Lynx](https://lynx.invisible-island.net) and [W3m](https://doc.ubuntu-fr.org/w3m)
 + [Nix](https://nixos.org) (package manager)
 + [snap](https://snapcraft.io/) (apps install)
@@ -47,7 +48,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + [tig](https://jonas.github.io/tig) (git tree)
 + uuidgen
 
-
+- [Kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
 - [Minikube](https://minikube.sigs.k8s.io) (containers)
 - [Git](https://git-scm.com) (version manager)
 
