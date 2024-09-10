@@ -42,10 +42,14 @@ tre-command
 # duf disk usage
 # httpie : curl
 # ncdu : disk manager
-# snap install apps
+# Neofetch os informations
+# Nixos @https://nixos.org
+# snap install apps @https://snapcraft.io
 # taskwarrior manager
 # tig: git logs
 # TlDr : cheatsheets for console commands
+
+
 
 sudo apt install -y \
 bc \
@@ -54,6 +58,8 @@ cal \
 duf \
 httpie \
 ncdu \
+nix \
+neofetch \
 taskwarrior \
 tig \  
 tldr && tldr --update \
@@ -115,22 +121,6 @@ source <(fzf --zsh)
 
 ### micro (nano like) ###
 # sudo apt install micro
-
-### Neofetch
-# os informations
-
-sudo apt install -y neofetch
-
-### Nixos @https://nixos.org
-
-sudo apt install -y nix
-
-
-### snapcraft  ###
-# https://snapcraft.io?categories=featured
-# multiple tools 
-
-sudo apt install snap
 
 
 ### Tmux ###
