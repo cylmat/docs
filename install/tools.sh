@@ -240,6 +240,10 @@ sysvbanner
 
 sudo apt install -y cowsay fortune lolcat
 
+### WELCOME script
+
+curl -s https://raw.githubusercontent.com/Lissy93/dotfiles/master/utils/welcome-banner.sh | sudo tee $HOME/welcome.sh | chmod a+x $HOME/welcome.sh
+
 ### no more secrets ###
 
 # from 1992 hacker movie Sneakers
