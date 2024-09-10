@@ -35,7 +35,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + Package manager: [Nix](https://nixos.org)
 + [snap](https://snapcraft.io/) (apps install), taskmanager, [tig](https://jonas.github.io/tig) (git tree), uuidgen
 
-Specific
+
 - Containers: [Minikube](https://minikube.sigs.k8s.io)
 - Version manager: [Git](https://git-scm.com)
 
