@@ -59,9 +59,6 @@ tig \
 tldr && tldr --update \
 snap
 
-sudo apt install -y \
-kdash
-
 ### autojump or z ###
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
@@ -218,6 +215,8 @@ php -r "unlink('composer-setup.php'); unlink('/tmp/installer.sig');"
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 
+# kdash
+sudo apt install -y kdash
 
 ############
 # TRAINING #
