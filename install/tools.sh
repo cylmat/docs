@@ -14,7 +14,7 @@ sudo apt install -y busybox
 # ccze : color logs
 # dos2Unix
 # finger (pinky) : user information lookup
-# fzy : fzf-like
+# fzy (fzf-like) use cat $(ls *.txt | fzy)
 # Json jq
 # locales 
 # manpages
