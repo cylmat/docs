@@ -136,6 +136,10 @@ cargo install procs
 
 sudo apt install snap
 
+### toipe ###
+
+cargo install toipe
+
 ### Tmux ###
 
 # Tmux : @https://doc.ubuntu-fr.org/tmux
