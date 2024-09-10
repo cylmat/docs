@@ -40,6 +40,7 @@ tre-command
 # btop monitor 
 # cal (or ncal) calendar
 # duf disk usage
+# httpie : curl
 # ncdu : disk manager
 # snap install apps
 # taskwarrior manager
@@ -51,11 +52,15 @@ bc \
 btop \
 cal \
 duf \
+httpie \
 ncdu \
 taskwarrior \
 tig \  
 tldr && tldr --update \
 snap
+
+sudo apt install -y \
+kdash
 
 ### autojump or z ###
 # https://github.com/wting/autojump
