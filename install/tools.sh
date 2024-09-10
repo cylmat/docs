@@ -11,12 +11,12 @@ sudo apt install -y busybox
 ### common ###
 
 # bat: cat like with color
-# btop monitor : @https://github.com/aristocratos/btop
+# btop monitor 
 # ccze : color logs
 # duf disk usage
 # dos2Unix
 # finger (pinky) : user information lookup
-# Json : commande line @https://jqlang.github.io/jq
+# Json jq
 # locales 
 # manpages
 # ranger : filesystem
