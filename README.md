@@ -31,6 +31,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 + [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
 + [entr](https://github.com/eradman/entr)
 + [fzf](https://github.com/junegunn/fzf) (files)
++ [fzy](https://github.com/jhawthorn/fzy) (finder)
 + [jq](https://jqlang.github.io/jq) (json)
 + [procs](https://github.com/dalance/procs)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
