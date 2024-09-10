@@ -1,7 +1,8 @@
 # @ref
 # @https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-### COMMANDS basic ###
+### COMMON ###
+
 alias ..='cd ..'
 alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
@@ -9,18 +10,12 @@ alias .tmux.conf="vim ~/.tmux.conf"
 alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
 
-### OMZ zsh ###
-# copybuffer is Ctrl-O
-alias cph="copypath"
-alias cpf="copyfile"
-
-### system ###
 alias bat="batcat"
 alias c="clear"
 alias dfh='df -h'
 alias home='cd ~'
 
-### useful ###
+### TOOLS ###
 
 alias dc="docker compose"
 alias dce="docker compose exec"
@@ -29,6 +24,12 @@ alias k="kubectl"
 alias h="helm"
 alias mkb="minikube"
 alias sym="symfony"
+
+
+### OMZ zsh ###
+# copybuffer is Ctrl-O
+alias cph="copypath"
+alias cpf="copyfile"
 
 ### LIST ###
 export LS_OPTIONS='--color=auto'
@@ -87,7 +88,8 @@ alias my='echo "
 als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search directory)
 
 - COMMON
-busybox, bat (cat), btop (monitoring), ccze (logs), duf (disk), eza (ls like), procs (ps), ranger (file), rsync
+busybox, bat (cat), btop (monitoring), ccze (logs), duf (disk), entr (watch), eza (ls like)
+procs (ps), ranger (file), rsync, tre (tree like)
 
 - TOOLS
 bc (calc), bandwhich (ip), fzf (find), jq (json), mkb (minikube) 
@@ -95,5 +97,9 @@ neofetch (info), nix (packager), taskwarrior, tig (git), tldr (helper), uuidgen
 
 - FUN 
 cmatrix, cowsay, figlet, fortune, lolcat, nms (no more secrets), sl (train)
+
+- MISC
 gtypist, tt, ttyper
+vimgolf
+
 "'
