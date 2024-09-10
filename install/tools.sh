@@ -14,6 +14,7 @@ sudo apt install -y busybox
 # ccze : color logs
 # dos2Unix
 # finger (pinky) : user information lookup
+# fzy : fzf-like
 # Json jq
 # locales 
 # manpages
@@ -25,6 +26,7 @@ bat \
 ccze \
 command-not-found \
 dos2unix \
+fzy \
 jq \
 locales locales-all \
 manpages man-db \
