@@ -94,7 +94,8 @@ toipe
 
 ### Cheat.sh ###
 # https://github.com/chubin/cheat.sh
-# use $ cht.sh go reverse a list
+# Need : sudo apt install rlwrap
+# use : $ cht.sh go reverse a list
 
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
