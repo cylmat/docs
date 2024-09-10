@@ -80,6 +80,7 @@ sudo apt install cargo
 # colorls @https://github.com/athityakumar/colorls
 # navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
+# so StackOverflow https://github.com/samtay/so
 # toipe : typing test
 
 
@@ -89,6 +90,7 @@ eza \
 lsd \
 navi \
 procs \
+so \
 toipe
 
 
