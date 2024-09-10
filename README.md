@@ -61,7 +61,8 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
 
 - Training:
-  + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist), [ttyper](https://github.com/max-niederman/ttyper) 
+  + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist)
+  + [ttyper](https://github.com/max-niederman/ttyper), [toipe](https://github.com/Samyak2/toipe)
 
 ## Editing
 
