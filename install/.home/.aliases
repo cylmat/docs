@@ -87,10 +87,10 @@ alias my='echo "
 als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search directory)
 
 - COMMON
-busybox, bat (cat), btop (monitoring), ccze (logs), eza (ls like)
+busybox, bat (cat), btop (monitoring), ccze (logs), duf (disk), eza (ls like), rsync
 
 - TOOLS
-bc (calc), fzf (find), jq (json), mkb (minikube) 
+bc (calc), bandwhich (ip), fzf (find), jq (json), mkb (minikube) 
 neofetch (info), nix (packager), tig (git), tldr (helper), uuidgen
 
 - FUN 
