@@ -132,6 +132,9 @@ source <(fzf --zsh)
 sudo apt install python3-pip
 pip install http-prompt
 
+### idea @https://github.com/IonicaBizau/idea
+# npm install --global idea
+
 ### micro (nano like) ###
 # sudo apt install micro
 
