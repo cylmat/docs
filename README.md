@@ -43,10 +43,14 @@ Files & logs
 + [tre](https://github.com/dduan/tre)
 
 Fun  
-+ cowsay (image), fortune (teller)
-+ lolcat (rainbow), sl (train)
-+ figlet (ascii), cmatrix, asciiquarium
-+ [No-more-secrets](https://github.com/bartobri/no-more-secrets)
++ [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
++ [cmatrix](https://github.com/abishekvashok/cmatrix)
++ [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay) (image)
++ figlet (ascii)
++ [fortune](https://doc.ubuntu-fr.org/fortune) (teller)
++ lolcat (rainbow)
++ [no-more-secrets](https://github.com/bartobri/no-more-secrets)
++ sl (train)
 
 Helper & ai  
 * [cheat.sh](https://github.com/chubin/cheat.sh)
