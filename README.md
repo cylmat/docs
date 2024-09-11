@@ -27,6 +27,7 @@ Common
 
 Dev & data  
 - [git](https://git-scm.com) (version manager)
+- [iredis](https://github.com/laixintao/iredis) Redis client with autocompletion and syntax highlighting
 - [jq](https://jqlang.github.io/jq) (json)
 - [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
 - [minikube](https://minikube.sigs.k8s.io) (containers)
