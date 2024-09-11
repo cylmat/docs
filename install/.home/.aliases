@@ -105,10 +105,10 @@ bat(cat), ccze, eza, fzf, fzy, ranger, rsync, tre(-command)
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 - HELPER & AI -
-cht(.sh), grex, navi, so, tldr
+cht(.sh), grex, navi, so, tldr, up
 
 - MONITOR & INFO -
-btop, duf, ncdu, neofetch, procs, ~/welcome.sh
+btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
 
 - NETWORK -
 bandwhich, curlie, httpie, http-prompt, lynx, w3m
