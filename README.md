@@ -46,9 +46,9 @@ Fun
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
 + [cmatrix](https://github.com/abishekvashok/cmatrix)
 + [cowsay](https://github.com/tnalpgge/rank-amateur-cowsay) (image)
-+ figlet (ascii)
++ [figlet](http://www.figlet.org) (ascii)
 + [fortune](https://doc.ubuntu-fr.org/fortune) (teller)
-+ lolcat (rainbow)
++ [lolcat](https://github.com/busyloop/lolcat) (rainbow)
 + [no-more-secrets](https://github.com/bartobri/no-more-secrets)
 + sl (train)
 
