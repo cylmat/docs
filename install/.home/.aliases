@@ -22,7 +22,7 @@ alias dce="docker compose exec"
 alias dk="docker"
 alias k="kubectl"
 alias h="helm"
-alias mkb="minikube"
+alias mnk="minikube"
 alias sym="symfony"
 
 
@@ -84,26 +84,34 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 
 # see all suggested installed custom tools
 alias my='echo "
-- ZSH -
-als (aliases), C-o (copybuffer), cph (copypath), cpf (copyfile), z (search directory)
-
 - COMMON -
-busybox, bat (cat), btop (monitoring), ccze (logs), entr (watch), eza (ls like)
-procs (ps), ranger (file), rsync, tre (tree like)
+busybox, nix, snap
 
-- TOOLS -
-bc (calc), duf (disk), fzf (find), fzy (finder), jq (json), 
-ncdu (disk), neofetch (info), nix (packager)
-taskwarrior, tig (git), uuidgen
+- DEV & DATA -
+jq, kdash, mnk (minikube), tig
 
-cht (helper), navi (helper), so (stackoverflow), tldr (helper)
-bandwhich (ip), httpie (curl), kdash, mkb (minikube)
+- FILES & LOGS -
+bat(cat), ccze, eza, fzf, fzy, ranger, rsync, tre(-command)
 
 - FUN -
-cmatrix, cowsay, figlet, fortune, lolcat, nms (no more secrets), sl (train)
-~/welcome.sh
+cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
-- MISC -
+- HELPER & AI -
+cht(.sh), navi, so, tldr
+
+- MONITOR & INFO -
+btop, duf, ncdu, neofetch, procs, ~/welcome.sh
+
+- NETWORK -
+bandwhich, httpie, lynx, w3m
+
+- TRAIN -
 gtypist, tt, ttyper, toipe, vimgolf
+
+- UTILS & WORK -
+bc, entr, taskwarrior, uuidgen
+
+- ZSH -
+als, C-o (cmd), cph, cpf, z
 
 "'
