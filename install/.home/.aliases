@@ -104,7 +104,7 @@ cht(.sh), grex, navi, so, tldr
 btop, duf, ncdu, neofetch, procs, ~/welcome.sh
 
 - NETWORK -
-bandwhich, curlie, httpie, lynx, w3m
+bandwhich, curlie, httpie, http-prompt, lynx, w3m
 
 - TRAIN -
 gtypist, tt, ttyper, toipe, vimgolf
