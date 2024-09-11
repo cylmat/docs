@@ -150,6 +150,11 @@ apt install -y tmux tmuxinator
 
 ### @https://doc.ubuntu-fr.org/awesome
 
+### UP ULTIMATE PLUMBER
+# @https://github.com/akavel/up
+
+curl -s https://github.com/akavel/up/releases/latest/download/up | sudo touch /usr/local/bin/up && sudo chmod a+x /usr/local/bin/up
+
 ### zsh bench (benchmark)
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
 
