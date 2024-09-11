@@ -71,6 +71,7 @@ Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) (ip)
 + [curlie](https://github.com/rs/curlie) Power of curl with ease of use httpie
 + [httpie](https://httpie.io) (curl-like)
++ [http-prompt](https://http-prompt.com) Interactive cli HTTP client
 + [lynx](https://lynx.invisible-island.net)
 + [w3m](https://doc.ubuntu-fr.org/w3m)
 
