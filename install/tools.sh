@@ -152,6 +152,7 @@ apt install -y tmux tmuxinator
 
 ### UP ULTIMATE PLUMBER
 # @https://github.com/akavel/up
+# use ex: lshw |& ./up
 
 curl -s https://github.com/akavel/up/releases/latest/download/up | sudo touch /usr/local/bin/up && sudo chmod a+x /usr/local/bin/up
 
