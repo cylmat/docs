@@ -20,13 +20,18 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
  
 ## Tools
  
-**Common**
+Common
 - [busybox](https://busybox.net) (toolbox)
 + [nix](https://nixos.org) (package manager)
 + [snap](https://snapcraft.io/) (apps install)
 
-Data  
-+ [jq](https://jqlang.github.io/jq) (json)
+Dev & data  
+- [git](https://git-scm.com) (version manager)
+- [jq](https://jqlang.github.io/jq) (json)
+- [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
+- [minikube](https://minikube.sigs.k8s.io) (containers)
+- [tig](https://jonas.github.io/tig) (git tree)
+
 Files & logs
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
 + [ccze](https://github.com/cornet/ccze) (color logs)
@@ -35,45 +40,41 @@ Files & logs
 + [ranger](https://github.com/ranger/ranger) (filesystem)
 + [rsync](https://doc.ubuntu-fr.org/rsync)
 + [tre](https://github.com/dduan/tre)
+
 Helper & ai
 * [cheat.sh](https://github.com/chubin/cheat.sh)
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [tldr](https://tldr.sh)
 * [so](https://github.com/samtay/so) (stack overflow)
+
 Monitor & info
 + [btop](https://github.com/aristocratos/btop) (monitoring)
 + [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
 + [neofetch](https://github.com/dylanaraps/neofetch) (informations)
 + [procs](https://github.com/dalance/procs)
+
 Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) (ip)
 + [httpie](https://httpie.io) (curl-like)
-+ [Lynx](https://lynx.invisible-island.net) and [W3m](https://doc.ubuntu-fr.org/w3m)
++ [Lynx](https://lynx.invisible-island.net)
++ [W3m](https://doc.ubuntu-fr.org/w3m)
+
 Misc & workflow
 + bc (calculator)
 + [entr](https://github.com/eradman/entr)
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
 
-**Dev**
+Training
++ [tt](https://github.com/lemnos/tt)
++ [gtypist](https://www.gnu.org/software/gtypist)
++ [ttyper](https://github.com/max-niederman/ttyper)
++ [toipe](https://github.com/Samyak2/toipe)
 
-- [git](https://git-scm.com) (version manager)
-- [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
-- [minikube](https://minikube.sigs.k8s.io) (containers)
-- [tig](https://jonas.github.io/tig) (git tree)
-
-**Fun**
-
-- For happy days ^^:
-  + cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
-  + figlet (ascii), cmatrix, asciiquarium
-  + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
-
-- Training:
-  + [tt](https://github.com/lemnos/tt)
-  + [gtypist](https://www.gnu.org/software/gtypist)
-  + [ttyper](https://github.com/max-niederman/ttyper)
-  + [toipe](https://github.com/Samyak2/toipe)
+Fun
++ cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
++ figlet (ascii), cmatrix, asciiquarium
++ [No-more-secrets](https://github.com/bartobri/no-more-secrets)
 
 ## Editing
 
