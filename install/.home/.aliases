@@ -80,10 +80,17 @@ alias hf="_historyfzf"
 alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
 alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 
-### Resume of custom cmd ###
+#####################################
+### Resume of custom cmd for memo ###
+#####################################
+
+# useful cli urls
+alias myurl='echo "
+https://httpbin.org
+"'
 
 
-# see all suggested installed custom tools
+# see all installed custom tools
 alias my='echo "
 - COMMON -
 busybox, nix, snap
