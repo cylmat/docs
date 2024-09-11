@@ -57,8 +57,8 @@ Monitor & info
 Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) (ip)
 + [httpie](https://httpie.io) (curl-like)
-+ [Lynx](https://lynx.invisible-island.net)
-+ [W3m](https://doc.ubuntu-fr.org/w3m)
++ [lynx](https://lynx.invisible-island.net)
++ [w3m](https://doc.ubuntu-fr.org/w3m)
 
 Misc & workflow
 + bc (calculator)
@@ -73,7 +73,8 @@ Training
 + [toipe](https://github.com/Samyak2/toipe)
 
 Fun
-+ cowsay (image), fortune (teller), lolcat (rainbow), sl (train)
++ cowsay (image), fortune (teller)
++ lolcat (rainbow), sl (train)
 + figlet (ascii), cmatrix, asciiquarium
 + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
 
