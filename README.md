@@ -35,6 +35,7 @@ Dev & data
 Files & logs
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
 + [ccze](https://github.com/cornet/ccze) (color logs)
++ [eza](https://github.com/eza-community/eza)
 + [fzf](https://github.com/junegunn/fzf) (files)
 + [fzy](https://github.com/jhawthorn/fzy) (finder)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
