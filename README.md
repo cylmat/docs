@@ -49,7 +49,8 @@ Helper & ai
 
 Monitor & info
 + [btop](https://github.com/aristocratos/btop) (monitoring)
-+ [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
++ [duf](https://github.com/muesli/duf)
++ [ncdu](https://dev.yorhel.nl/ncdu)
 + [neofetch](https://github.com/dylanaraps/neofetch) (informations)
 + [procs](https://github.com/dalance/procs)
 
