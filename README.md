@@ -42,13 +42,19 @@ Files & logs
 + [rsync](https://doc.ubuntu-fr.org/rsync)
 + [tre](https://github.com/dduan/tre)
 
-Helper & ai
+Fun  
++ cowsay (image), fortune (teller)
++ lolcat (rainbow), sl (train)
++ figlet (ascii), cmatrix, asciiquarium
++ [No-more-secrets](https://github.com/bartobri/no-more-secrets)
+
+Helper & ai  
 * [cheat.sh](https://github.com/chubin/cheat.sh)
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [tldr](https://tldr.sh)
 * [so](https://github.com/samtay/so) (stack overflow)
 
-Monitor & info
+Monitor & info  
 + [btop](https://github.com/aristocratos/btop) (monitoring)
 + [duf](https://github.com/muesli/duf)
 + [ncdu](https://dev.yorhel.nl/ncdu)
@@ -61,23 +67,18 @@ Network & net
 + [lynx](https://lynx.invisible-island.net)
 + [w3m](https://doc.ubuntu-fr.org/w3m)
 
-Utils & work
-+ bc (calculator)
-+ [entr](https://github.com/eradman/entr)
-+ [taskwarrior](https://taskwarrior.org) (taskmanager)
-+ uuidgen
-
 Training
 + [tt](https://github.com/lemnos/tt)
 + [gtypist](https://www.gnu.org/software/gtypist)
 + [ttyper](https://github.com/max-niederman/ttyper)
 + [toipe](https://github.com/Samyak2/toipe)
 
-Fun
-+ cowsay (image), fortune (teller)
-+ lolcat (rainbow), sl (train)
-+ figlet (ascii), cmatrix, asciiquarium
-+ [No-more-secrets](https://github.com/bartobri/no-more-secrets)
+Utils & work
++ bc (calculator)
++ [entr](https://github.com/eradman/entr)
++ [taskwarrior](https://taskwarrior.org) (taskmanager)
++ uuidgen
+
 
 ## Editing
 
