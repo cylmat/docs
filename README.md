@@ -18,47 +18,49 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Tpm plugins: (**tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank**) 
   + Theme (**tmux-colors-solarized**)
  
-## Utils
+## Tools
  
 **Common**
+- [busybox](https://busybox.net) (toolbox)
++ [nix](https://nixos.org) (package manager)
++ [snap](https://snapcraft.io/) (apps install)
 
-- [Busybox](https://busybox.net) (toolbox)
-
+Data  
++ [jq](https://jqlang.github.io/jq) (json)
+Files & logs
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
-+ [btop](https://github.com/aristocratos/btop) (monitoring)
-+ bc (calculator)
-+ [ccze](https://github.com/cornet/ccze) (color logs) 
-+ [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
-+ [entr](https://github.com/eradman/entr)
++ [ccze](https://github.com/cornet/ccze) (color logs)
 + [fzf](https://github.com/junegunn/fzf) (files)
 + [fzy](https://github.com/jhawthorn/fzy) (finder)
-+ [jq](https://jqlang.github.io/jq) (json)
-+ [procs](https://github.com/dalance/procs)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
 + [rsync](https://doc.ubuntu-fr.org/rsync)
 + [tre](https://github.com/dduan/tre)
-
-**Tools**
-
-+ Ip [bandwhich](https://github.com/imsnif/bandwhich)
-+ [httpie](https://httpie.io) (curl-like)
-+ [Lynx](https://lynx.invisible-island.net) and [W3m](https://doc.ubuntu-fr.org/w3m)
-+ [Nix](https://nixos.org) (package manager)
-+ [Neofetch](https://github.com/dylanaraps/neofetch) (informations)
-+ [snap](https://snapcraft.io/) (apps install)
-+ [taskwarrior](https://taskwarrior.org) (taskmanager)
-+ [tig](https://jonas.github.io/tig) (git tree)
-+ uuidgen
-
+Helper & ai
 * [cheat.sh](https://github.com/chubin/cheat.sh)
 * [navi](https://github.com/denisidoro/navi) (helper)
-* [TlDr](https://tldr.sh)
+* [tldr](https://tldr.sh)
 * [so](https://github.com/samtay/so) (stack overflow)
+Monitor & info
++ [btop](https://github.com/aristocratos/btop) (monitoring)
++ [duf](https://github.com/muesli/duf) and [ncdu](https://dev.yorhel.nl/ncdu)
++ [neofetch](https://github.com/dylanaraps/neofetch) (informations)
++ [procs](https://github.com/dalance/procs)
+Network & net
++ [bandwhich](https://github.com/imsnif/bandwhich) (ip)
++ [httpie](https://httpie.io) (curl-like)
++ [Lynx](https://lynx.invisible-island.net) and [W3m](https://doc.ubuntu-fr.org/w3m)
+Misc & workflow
++ bc (calculator)
++ [entr](https://github.com/eradman/entr)
++ [taskwarrior](https://taskwarrior.org) (taskmanager)
++ uuidgen
 
-- [Kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
-- [Minikube](https://minikube.sigs.k8s.io) (containers)
-- [Git](https://git-scm.com) (version manager)
+**Dev**
 
+- [git](https://git-scm.com) (version manager)
+- [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
+- [minikube](https://minikube.sigs.k8s.io) (containers)
+- [tig](https://jonas.github.io/tig) (git tree)
 
 **Fun**
 
@@ -68,8 +70,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + [No-more-secrets](https://github.com/bartobri/no-more-secrets)
 
 - Training:
-  + [tt](https://github.com/lemnos/tt), [gtypist](https://www.gnu.org/software/gtypist)
-  + [ttyper](https://github.com/max-niederman/ttyper), [toipe](https://github.com/Samyak2/toipe)
+  + [tt](https://github.com/lemnos/tt)
+  + [gtypist](https://www.gnu.org/software/gtypist)
+  + [ttyper](https://github.com/max-niederman/ttyper)
+  + [toipe](https://github.com/Samyak2/toipe)
 
 ## Editing
 
