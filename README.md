@@ -55,11 +55,11 @@ Fun
 
 Helper & ai !!
 * [cheat.sh](https://github.com/chubin/cheat.sh)
-* [**grex**](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
+* [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
 * [tldr](https://tldr.sh)
-* [**up**](https://github.com/akavel/up) Writing linux pipes with instant live preview
+* [up](https://github.com/akavel/up) Writing linux pipes with instant live preview
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) (monitoring)
