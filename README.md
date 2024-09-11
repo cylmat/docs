@@ -61,7 +61,7 @@ Network & net
 + [lynx](https://lynx.invisible-island.net)
 + [w3m](https://doc.ubuntu-fr.org/w3m)
 
-Misc & workflow
+Utils & work
 + bc (calculator)
 + [entr](https://github.com/eradman/entr)
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
