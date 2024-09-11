@@ -112,6 +112,7 @@ toipe
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 ### curlie @https://github.com/rs/curlie
+# use curlie httpbin.org/headers
 
 curl -sS https://webinstall.dev/curlie | bash
 
@@ -126,6 +127,10 @@ cd /tmp/entr && ./configure && make test && make install && sudo make install
 sudo apt install -y fzf
 source <(fzf --zsh)
 
+### HTTP PROMPT @https://http-prompt.com
+
+sudo apt install python3-pip
+pip install http-prompt
 
 ### micro (nano like) ###
 # sudo apt install micro
