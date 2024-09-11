@@ -97,7 +97,7 @@ bat(cat), ccze, eza, fzf, fzy, ranger, rsync, tre(-command)
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 - HELPER & AI -
-cht(.sh), navi, so, tldr
+cht(.sh), grex, navi, so, tldr
 
 - MONITOR & INFO -
 btop, duf, ncdu, neofetch, procs, ~/welcome.sh
