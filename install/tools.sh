@@ -84,8 +84,8 @@ sudo apt install cargo
 # - sudo -E bandwhich  
 # - sudo env "PATH=$PATH" bandwhich 
 # - sudo $(command -v bandwhich)
-# eza : list ls replacement https://github.com/eza-community/eza
-# colorls @https://github.com/athityakumar/colorls
+# eza : (colorls-like) list ls replacement https://github.com/eza-community/eza
+# grex regex generator
 # navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
 # so StackOverflow https://github.com/samtay/so
@@ -95,6 +95,7 @@ sudo apt install cargo
 cargo install \
 bandwhich \
 eza \
+grex \
 lsd \
 navi \
 procs \
