@@ -58,6 +58,7 @@ bc \
 btop \
 cal \
 duf \
+iredis \
 httpie \
 ncdu \
 nix \
