@@ -154,7 +154,9 @@ apt install -y tmux tmuxinator
 # @https://github.com/akavel/up
 # use ex: lshw |& ./up
 
-curl -s https://github.com/akavel/up/releases/latest/download/up | sudo touch /usr/local/bin/up && sudo chmod a+x /usr/local/bin/up
+wget https://github.com/akavel/up/releases/latest/download/up -O /tmp/up
+chmod a+x /tmp/up
+sudo mv /tmp/up /usr/local/bin/up
 
 ### zsh bench (benchmark)
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
