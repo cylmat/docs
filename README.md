@@ -21,9 +21,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 ## Tools
  
 Common
+- [brew](https://brew.sh)
 - [busybox](https://busybox.net) (toolbox)
 + [nix](https://nixos.org) (package manager)
-+ [snap](https://snapcraft.io/) (apps install)
++ [snap](https://snapcraft.io) (apps install)
 
 Dev & data  
 - [git](https://git-scm.com) (version manager)
