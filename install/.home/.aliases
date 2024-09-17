@@ -3,23 +3,21 @@
 
 ### COMMON ###
 
-alias ..='cd ..'
 alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
 alias .tmux.conf="vim ~/.tmux.conf"
 alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
-
-alias bat="batcat"
 alias c="clear"
 alias dfh='df -h'
-alias home='cd ~'
 
 ### TOOLS ###
 
+alias bat="batcat"
 alias dc="docker compose"
 alias dce="docker compose exec"
 alias dk="docker"
+alias fdf="fdfind"
 alias k="kubectl"
 alias h="helm"
 alias mnk="minikube"
