@@ -85,20 +85,21 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 # useful cli urls
 alias myurl='echo "
 https://httpbin.org
+http://headers.jsontest.com
 "'
 
 
 # see all installed custom tools
 alias my='echo "
 - COMMON -
-busybox, nix, snap
+busybox, brew, nix, snap
 
 - DEV & DATA -
-iredis, jq, kdash, mnk (minikube), tig
-tmux, tmuxinator, vim
+gron, iredis, jq, k9s, kdash, mnk (minikube)
+tig, tmux, tmuxinator, vim
 
 - FILES & LOGS -
-bat(cat), ccze, eza, fzf, fzy, ranger, rsync, tre(-command)
+bat(cat), ccze, eza, fdfind, fzf, fzy, ranger, rsync, tre(-command)
 
 - FUN -
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
@@ -116,7 +117,7 @@ bandwhich, curlie, httpie, http-prompt, lynx, w3m
 gtypist, tt, ttyper, toipe, vimgolf
 
 - UTILS & WORK -
-bc, entr, taskwarrior, uuidgen
+bc, entr, pass, taskwarrior, uuidgen
 
 - ZSH -
 als, C-o (cmd), cph, cpf, z \
