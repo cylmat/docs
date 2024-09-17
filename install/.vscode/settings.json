@@ -13,7 +13,12 @@
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
+
+    // @https://www.alveeakand.com/how-to-modify-themes-in-vscode
+    // (optional) "editor.semanticHighlighting.enabled": false, 
+    // get attributes with "Developer Inspect Editor Tokens And Scope"
     "editor.tokenColorCustomizations": {
+        // global
         "textMateRules": [
             {
                 "scope": [
@@ -29,7 +34,18 @@
                     "fontStyle": "italic"
                 }
             }
-        ]
+        ],
+        // specific theme
+        "[Default Dark Modern]": {
+            "textMateRules": [{
+                // Change color of php attributes
+                "scope": "meta.attribute.php",
+                "settings": {
+                    "foreground": "#6a6",
+                    "fontStyle": "italic"
+                }
+            }]
+        },
     },
     "files.eol": "\n",
     "files.autoSave": "afterDelay",
