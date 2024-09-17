@@ -13,11 +13,13 @@ sudo apt install -y busybox
 # bat: cat like with color
 # ccze : color logs
 # dos2Unix
+# fd-find
 # finger (pinky) : user information lookup
 # fzy (fzf-like) use cat $(ls *.txt | fzy)
 # Json jq
 # locales 
 # manpages
+# pass (manager)
 # ranger : filesystem
 # rsync
 
@@ -26,13 +28,16 @@ bat \
 ccze \
 command-not-found \
 dos2unix \
+fd-find \
 fzy \
 jq \
 locales locales-all \
 manpages man-db \
+pass \
 ranger \
 rsync \
 tre-command
+
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
@@ -51,8 +56,6 @@ tre-command
 # tig: git logs
 # TlDr : cheatsheets for console commands
 
-
-
 sudo apt install -y \
 bc \
 btop \
@@ -68,14 +71,18 @@ tig \
 tldr && tldr --update \
 snap
 
+
+# gron (grep json)
+# k9s 
+brew install \
+derailed/k9s/k9s
+gron
+
 ### autojump or z ###
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
 
-
-### cargo ###
-
-### cargo (rust)
+### cargo (rust) ###
 # (cargo use crates.io)
 
 sudo apt install cargo
@@ -126,6 +133,12 @@ cd /tmp/entr && ./configure && make test && make install && sudo make install
 # https://github.com/junegunn/fzf
 sudo apt install -y fzf
 source <(fzf --zsh)
+
+### Homebrew ###
+# @https://brew.sh
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 
 ### HTTP PROMPT @https://http-prompt.com
 
