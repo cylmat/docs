@@ -97,6 +97,7 @@ busybox, nix, snap
 
 - DEV & DATA -
 iredis, jq, kdash, mnk (minikube), tig
+tmux, tmuxinator, vim
 
 - FILES & LOGS -
 bat(cat), ccze, eza, fzf, fzy, ranger, rsync, tre(-command)
