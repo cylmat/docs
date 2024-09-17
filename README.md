@@ -27,8 +27,10 @@ Common
 
 Dev & data  
 - [git](https://git-scm.com) (version manager)
+- [gron](https://github.com/tomnomnom/gron) Make JSON greppable
 - [iredis](https://github.com/laixintao/iredis) Redis client with autocompletion and syntax highlighting
 - [jq](https://jqlang.github.io/jq) (json)
+- [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
 - [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
 - [minikube](https://minikube.sigs.k8s.io) (containers)
 - [tig](https://jonas.github.io/tig) (git tree)
@@ -37,6 +39,7 @@ Files & logs
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
 + [ccze](https://github.com/cornet/ccze) (color logs)
 + [eza](https://github.com/eza-community/eza)
++ [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) (files)
 + [fzy](https://github.com/jhawthorn/fzy) (finder)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
@@ -85,6 +88,7 @@ Training
 Utils & work
 + bc (calculator)
 + [entr](https://github.com/eradman/entr)
++ [pass](https://www.passwordstore.org) The standard unix password manager
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
 
