@@ -91,7 +91,7 @@ Training
 + [toipe](https://github.com/Samyak2/toipe)
 
 Utils & work
-+ bc (calculator)
++ [bc](https://doc.ubuntu-fr.org/bc) Une calculatrice en ligne de commande
 + [entr](https://github.com/eradman/entr)
 + [pass](https://www.passwordstore.org) The standard unix password manager
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
