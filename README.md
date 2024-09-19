@@ -21,22 +21,22 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 ## Tools
  
 Common
-- [brew](https://brew.sh)
-- [busybox](https://busybox.net) (toolbox)
-+ [nix](https://nixos.org) (package manager)
-+ [snap](https://snapcraft.io) (apps install)
+- [brew](https://brew.sh) Package Manager for Linux
+- [busybox](https://busybox.net) Swiss Army Knife of Embedded Linux
++ [nix](https://nixos.org) Declarative builds and deployments
++ [snap](https://snapcraft.io) The app store for Linux
 
 Dev & data  
-- [git](https://git-scm.com) (version manager)
+- [git](https://git-scm.com) Distributed version control system
 - [gron](https://github.com/tomnomnom/gron) Make JSON greppable
 - [iredis](https://github.com/laixintao/iredis) Redis client with autocompletion and syntax highlighting
-- [jq](https://jqlang.github.io/jq) (json)
+- [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
-- [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
+- [kdash](https://github.com/kdash-rs/kdash) Simple and fast dashboard for Kubernetes 
 - [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
 - [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
-- [minikube](https://minikube.sigs.k8s.io) (containers)
-- [tig](https://jonas.github.io/tig) (git tree)
+- [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
+- [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
 + [bat](https://github.com/sharkdp/bat) (bat-cat)
