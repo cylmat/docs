@@ -100,6 +100,7 @@ sudo apt install cargo
 # grex regex generator
 # navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
+# sd : sed-like
 # so StackOverflow https://github.com/samtay/so
 # toipe : typing test
 
@@ -111,6 +112,7 @@ grex \
 lsd \
 navi \
 procs \
+sd \
 so \
 toipe
 
