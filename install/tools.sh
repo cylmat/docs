@@ -74,9 +74,12 @@ snap
 
 # gron (grep json)
 # k9s 
+# lazygit
+
 brew install \
-derailed/k9s/k9s
-gron
+gron \
+derailed/k9s/k9s \
+lazygit
 
 ### autojump or z ###
 # https://github.com/wting/autojump
