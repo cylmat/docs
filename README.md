@@ -47,6 +47,7 @@ Files & logs
 + [fzy](https://github.com/jhawthorn/fzy) (finder)
 + [ranger](https://github.com/ranger/ranger) (filesystem)
 + [rsync](https://doc.ubuntu-fr.org/rsync)
++ [sd](https://github.com/chmln/sd) Intuitive find & replace CLI (sed alternative) 
 + [tre](https://github.com/dduan/tre)
 
 Fun  
