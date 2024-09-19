@@ -33,6 +33,7 @@ Dev & data
 - [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
 - [kdash](https://github.com/kdash-rs/kdash) Simple and fast dashboard for Kubernetes 
+- [krew](https://krew.sigs.k8s.io) Find and install kubectl plugins 
 - [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
 - [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
