@@ -95,7 +95,8 @@ alias my='echo "
 busybox, brew, nix, snap
 
 - DEV & DATA -
-gron, iredis, jq, k9s, kdash, mnk (minikube)
+gron, iredis, jq, mnk (minikube)
+k9s, kdash, krew (ctx, ns)
 lazygit, lazydocker
 tig, tmux, tmuxinator, vim
 
