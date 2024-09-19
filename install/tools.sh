@@ -78,7 +78,7 @@ snap
 
 brew install \
 gron \
-derailed/k9s/k9s \
+k9s \
 lazydocker \
 lazygit
 
