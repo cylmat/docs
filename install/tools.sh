@@ -71,14 +71,18 @@ tig \
 tldr && tldr --update \
 snap
 
+########
+# BREW #
 
 # gron (grep json)
 # k9s 
+# krew (ctx and ns)
 # lazygit
 
 brew install \
 gron \
 k9s \
+krew \
 lazydocker \
 lazygit
 
@@ -86,8 +90,9 @@ lazygit
 # https://github.com/wting/autojump
 # https://github.com/agkozak/zsh-z (omz's "z" plugin)
 
-### cargo (rust) ###
-# (cargo use crates.io)
+#########
+# cargo #
+# rust (cargo use crates.io)
 
 sudo apt install cargo
 
