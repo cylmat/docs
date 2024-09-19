@@ -96,6 +96,7 @@ busybox, brew, nix, snap
 
 - DEV & DATA -
 gron, iredis, jq, k9s, kdash, mnk (minikube)
+lazygit
 tig, tmux, tmuxinator, vim
 
 - FILES & LOGS -
