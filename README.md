@@ -33,6 +33,7 @@ Dev & data
 - [jq](https://jqlang.github.io/jq) (json)
 - [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
 - [kdash](https://github.com/kdash-rs/kdash) (kube dashboard)
+- [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands 
 - [minikube](https://minikube.sigs.k8s.io) (containers)
 - [tig](https://jonas.github.io/tig) (git tree)
 
