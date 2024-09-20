@@ -6,9 +6,8 @@
 ### buzyBox ###
 # @https://busybox.net
 # Nixos @https://nixos.org
-# https://wslutiliti.es/wslu
 
-sudo apt install -y busybox nix wslu
+sudo apt install -y busybox nix
 
 ### common ###
 
