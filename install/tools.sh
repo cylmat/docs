@@ -5,8 +5,10 @@
 
 ### buzyBox ###
 # @https://busybox.net
+# Nixos @https://nixos.org
+# https://wslutiliti.es/wslu
 
-sudo apt install -y busybox
+sudo apt install -y busybox nix wslu
 
 ### common ###
 
@@ -52,7 +54,6 @@ ugrep
 # httpie : curl
 # ncdu : disk manager
 # Neofetch os informations
-# Nixos @https://nixos.org
 # snap install apps @https://snapcraft.io
 # taskwarrior manager
 # tig: git logs
@@ -66,7 +67,6 @@ duf \
 iredis \
 httpie \
 ncdu \
-nix \
 neofetch \
 taskwarrior \
 tig \  
