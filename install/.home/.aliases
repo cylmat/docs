@@ -92,7 +92,7 @@ http://headers.jsontest.com
 # see all installed custom tools
 alias my='echo "
 - COMMON -
-busybox, brew, nix, nu(shell), snap, wslu, zsh
+busybox, brew, nix, nu(shell), snap, zsh
 
 - DEV & DATA -
 gron, iredis, jq, mnk (minikube)
