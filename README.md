@@ -26,6 +26,7 @@ Common
 - [busybox](https://busybox.net) Swiss Army Knife of Embedded Linux
 + [nix](https://nixos.org) Declarative builds and deployments
 + [snap](https://snapcraft.io) The app store for Linux
++ [wslu](https://wslutiliti.es/wslu) Collection of utilities for WSL
 
 Dev & data  
 - [git](https://git-scm.com) Distributed version control system
