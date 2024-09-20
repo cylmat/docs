@@ -123,7 +123,7 @@ Editor: [Awesome VSCode](https://github.com/viatsko/awesome-vscode), [Awesome Vi
 Environment
 - Cli [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps), [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
 - Shell [Awesome Bash](https://github.com/awesome-lists/awesome-bash), [Awesome Tmux](https://github.com/rothgar/awesome-tmux), [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html)
-+ [cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [zsh-top](https://safjan.com/top-popular-zsh-plugins-on-github-2023)
++ [cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [zsh-top](https://safjan.com/top-popular-zsh-plugins-on-github-2023), [tools-alternatives](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
 Programming
 - Front: [Awesome Js](https://github.com/sorrycc/awesome-javascript), [Awesome React](https://github.com/enaqx/awesome-react), [Awesome React components](https://github.com/brillout/awesome-react-components), [awesome-web-react](https://awesome-web-react.js.org)
