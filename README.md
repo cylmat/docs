@@ -50,7 +50,7 @@ Files & logs
 + [rsync](https://doc.ubuntu-fr.org/rsync)
 + [sd](https://github.com/chmln/sd) Intuitive find & replace CLI (sed alternative) 
 + [tre](https://github.com/dduan/tre)
-+ [ugrep](https://github.com/Genivia/ugrep) Powerful, ultra fast, user-friendly, compatible grep
++ [ugrep](https://ugrep.com) Powerful, ultra fast, user-friendly, compatible grep
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
