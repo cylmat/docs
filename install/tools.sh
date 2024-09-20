@@ -88,6 +88,7 @@ k9s \
 krew \
 lazydocker \
 lazygit \
+nushell \
 ripgrep
 
 ### autojump or z ###
