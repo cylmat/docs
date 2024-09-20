@@ -6,13 +6,14 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 ## Shell
 
-- Shell with auto and colors: [Zsh](https://wiki.ubuntu-fr.org/zsh)
+- Shell with auto and colors:
+  + [Zsh](https://wiki.ubuntu-fr.org/zsh) and [Nushell](https://www.nushell.sh)
   + Framework [OhMyZsh](https://ohmyz.sh)
   + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io)
   + Autosuggestion [docker](https://docs.docker.com/engine/cli/completion), [git](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash), [k8s](https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/#kubectl-autocompletion-2), [zsh](https://github.com/zsh-users/zsh-autosuggestions)
   + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
-- Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
+- Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev) or [Power10k](https://github.com/romkatv/powerlevel10k)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) (see [plugins list](https://github.com/tmux-plugins/list))
   + Tpm plugins: (**tmux-autoreload, continuum, fzf, jump, menus, resurrect, sensible, sessionist, sidebar, yank**) 
@@ -143,4 +144,4 @@ Most used:
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
 --- 
-Try: Prezto plugin manager, Powerlevel10k theme, zellij multiplexer, nushell, alacritty terminal..  
+Try: Prezto plugin manager, zellij multiplexer
