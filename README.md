@@ -15,7 +15,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) (see [plugins list](https://github.com/tmux-plugins/list))
-  + Tpm plugins: (**tmux-autoreload,continuum,fzf,jump,menus,pomodoro-plus,resurrect,sensible,sessionist,sidebar,yank**) 
+  + Tpm plugins: (**tmux-autoreload, continuum, fzf, jump, menus, resurrect, sensible, sessionist, sidebar, yank**) 
   + Theme (**tmux-colors-solarized**)
  
 ## Tools
@@ -123,12 +123,18 @@ Editor: [Awesome VSCode](https://github.com/viatsko/awesome-vscode), [Awesome Vi
 Environment
 - Cli [Awesome Cli-apps](https://github.com/agarrharr/awesome-cli-apps), [Awesome Shell](https://awesomerank.github.io/lists/alebcay/awesome-shell.html)
 - Shell [Awesome Bash](https://github.com/awesome-lists/awesome-bash), [Awesome Tmux](https://github.com/rothgar/awesome-tmux), [Awesome Zsh](https://awesomerank.github.io/lists/unixorn/awesome-zsh-plugins.html)
-+ [cli-tools](https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6), [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [zsh-top](https://safjan.com/top-popular-zsh-plugins-on-github-2023), [tools-alternatives](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
++ [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy), [zsh-top](https://safjan.com/top-popular-zsh-plugins-on-github-2023), [tools-alternatives](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
 Programming
 - Front: [Awesome Js](https://github.com/sorrycc/awesome-javascript), [Awesome React](https://github.com/enaqx/awesome-react), [Awesome React components](https://github.com/brillout/awesome-react-components), [awesome-web-react](https://awesome-web-react.js.org)
 - Back: [Awesome Php](https://github.com/ziadoz/awesome-php), [Awesome ymfony](https://github.com/sitepoint-editors/awesome-symfony), [Symfony 30](https://symfony.com/blog/the-30-most-useful-symfony-bundles-and-making-them-even-better)
 
+---
+Suggested:
+- https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
+- https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
+- https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
+- https://pixxlisation.tech.blog/2020/04/15/ohmyzsh-tmux-powerline-un-terminal-pour-les-gouverner-tous
 
 ---
 Most used:
@@ -136,6 +142,5 @@ Most used:
 - [Utils](https://github.com/cylmat/docs/tree/main/Utils) : Coding, security, project useful tools...
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
----
-See too: [terminal-beautiful-productive](https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d)  
+--- 
 Try: Prezto plugin manager, Powerlevel10k theme, zellij multiplexer, nushell, alacritty terminal..  
