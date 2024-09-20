@@ -88,6 +88,9 @@ https://httpbin.org
 http://headers.jsontest.com
 "'
 
+# helpers urls
+alias helpnnn="xdg-open https://github.com/jarun/nnn/wiki/Usage"
+
 
 # see all installed custom tools
 alias my='echo "
