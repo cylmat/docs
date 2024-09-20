@@ -98,6 +98,7 @@ Utils & work
 + [pass](https://www.passwordstore.org) The standard unix password manager
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
++ [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
 
 
 ## Editing
