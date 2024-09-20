@@ -89,6 +89,7 @@ http://headers.jsontest.com
 "'
 
 # helpers urls
+alias help nix="xdg-open https://nix.dev/manual/nix/2.24"
 alias helpnnn="xdg-open https://github.com/jarun/nnn/wiki/Usage"
 alias helpnushell="xsg-open https://nushell.sh/book"
 
