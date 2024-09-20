@@ -80,13 +80,15 @@ snap
 # k9s 
 # krew (ctx and ns)
 # lazygit
+# ripgrep
 
 brew install \
 gron \
 k9s \
 krew \
 lazydocker \
-lazygit
+lazygit \
+ripgrep
 
 ### autojump or z ###
 # https://github.com/wting/autojump
