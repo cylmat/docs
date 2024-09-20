@@ -40,16 +40,17 @@ Dev & data
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
-+ [bat](https://github.com/sharkdp/bat) (bat-cat)
-+ [ccze](https://github.com/cornet/ccze) (color logs)
-+ [eza](https://github.com/eza-community/eza)
++ [bat](https://github.com/sharkdp/bat) A cat clone with wings
++ [ccze](https://github.com/cornet/ccze) Fast log colorizer
++ [eza](https://github.com/eza-community/eza) A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
-+ [fzf](https://github.com/junegunn/fzf) (files)
-+ [fzy](https://github.com/jhawthorn/fzy) (finder)
-+ [ranger](https://github.com/ranger/ranger) (filesystem)
-+ [rsync](https://doc.ubuntu-fr.org/rsync)
++ [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
++ [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
++ [ranger](https://github.com/ranger/ranger) A VIM-inspired filemanager for the console 
++ [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
++ [rsync](https://rsync.samba.org) Fast incremental file transfer
 + [sd](https://github.com/chmln/sd) Intuitive find & replace CLI (sed alternative) 
-+ [tre](https://github.com/dduan/tre)
++ [tre](https://github.com/dduan/tre) Tree command, improved
 + [ugrep](https://ugrep.com) Powerful, ultra fast, user-friendly, compatible grep
 
 Fun  
@@ -60,7 +61,7 @@ Fun
 + [fortune](https://doc.ubuntu-fr.org/fortune) (teller)
 + [lolcat](https://github.com/busyloop/lolcat) (rainbow)
 + [no-more-secrets](https://github.com/bartobri/no-more-secrets)
-+ sl (train)
++ [sl](https://github.com/mtoyoda/sl) Cure your bad habit of mistyping
 
 Helper & ai !!
 * [cheat.sh](https://github.com/chubin/cheat.sh)
