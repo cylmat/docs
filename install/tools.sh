@@ -22,6 +22,7 @@ sudo apt install -y busybox
 # pass (manager)
 # ranger : filesystem
 # rsync
+# ugrep
 
 sudo apt install -y \
 bat \
@@ -36,7 +37,8 @@ manpages man-db \
 pass \
 ranger \
 rsync \
-tre-command
+tre-command \
+ugrep
 
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
