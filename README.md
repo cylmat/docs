@@ -99,6 +99,7 @@ Utils & work
 + [pass](https://www.passwordstore.org) The standard unix password manager
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
++ [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Ouvrir un fichier avec le logiciel par défaut
 + [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
 
 
