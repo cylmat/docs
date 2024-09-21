@@ -48,6 +48,7 @@ Files & logs
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
++ [git-delta](https://dandavison.github.io/delta) A syntax-highlighting pager for git, diff, and grep
 + [ranger](https://github.com/ranger/ranger) A VIM-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
