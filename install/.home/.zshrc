@@ -21,6 +21,19 @@
 # ENV #
 #######
 
+
+# PATH
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
+export PATH=/snap/bin:$PATH
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH="$HOME/.symfony5/bin:$PATH"
+
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+
 export TERM=xterm-256color
 # need for tmuxinator
 export SHELL="zsh"
@@ -71,10 +84,6 @@ fi
 #################
 ### Oh MY ZSH ###
 #################
-
-#
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.cargo/bin:/usr/local/bin:/snap/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
