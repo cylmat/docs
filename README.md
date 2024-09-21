@@ -38,6 +38,7 @@ Dev & data
 - [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
 - [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
+- [symfony](https://symfony.com/download) Build, run, and manage Symfony applications
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
