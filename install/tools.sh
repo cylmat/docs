@@ -167,6 +167,10 @@ pip install http-prompt
 # sudo apt install micro
 
 
+### Symfony-cli
+# @https://symfony.com/download
+wget https://get.symfony.com/cli/installer -O - | bash
+
 ### Tmux ###
 
 # Tmux : @https://doc.ubuntu-fr.org/tmux
