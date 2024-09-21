@@ -108,7 +108,7 @@ lazygit, lazydocker
 sym(fony), tig, tmux, tmuxinator, vim
 
 - FILES & LOGS -
-bat(cat), ccze, eza, fdf(ind), fzf, fzy, ranger
+bat(cat), ccze, delta, eza, fdf(ind), fzf, fzy, ranger
 rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 
 - FUN -
