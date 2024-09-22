@@ -99,6 +99,7 @@ Utils & work
 + [bc](https://doc.ubuntu-fr.org/bc) Une calculatrice en ligne de commande
 + [entr](https://github.com/eradman/entr)
 + [pass](https://www.passwordstore.org) The standard unix password manager
++ [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Ouvrir un fichier avec le logiciel par défaut
