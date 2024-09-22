@@ -102,6 +102,7 @@ Utils & work
 + [taskwarrior](https://taskwarrior.org) (taskmanager)
 + uuidgen
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Ouvrir un fichier avec le logiciel par défaut
++ [xsel](http://www.kfish.org/software/xsel) Get/set the contents of the clipboard selection
 + [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
 
 
