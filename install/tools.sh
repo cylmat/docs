@@ -150,6 +150,12 @@ curl -sS https://webinstall.dev/curlie | bash
 git clone https://github.com/eradman/entr /tmp/entr
 cd /tmp/entr && ./configure && make test && make install && sudo make install
 
+### Explain ###
+# @https://github.com/benjamine/explain.sh
+
+curl -s https://benjamine.github.io/explain.sh/install.sh | sh
+sudo cp /usr/bin/explain.sh /usr/bin/explain
+
 ### Fzf ###
 
 # https://github.com/junegunn/fzf
