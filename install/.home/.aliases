@@ -90,10 +90,14 @@ http://headers.jsontest.com
 
 # helpers urls
 alias docs='echo "
+- DOCS -
 delta: \thttps://dandavison.github.io/delta
 nix:   \thttps://nix.dev/manual/nix/2.24
 nnn:   \thttps://github.com/jarun/nnn/wiki/Usage
 nushell:https://nushell.sh/book
+
+- HELPERS -
+shell: https://explainshell.com
 "'
 
 
