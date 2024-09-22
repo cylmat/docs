@@ -66,8 +66,9 @@ Fun
 + [no-more-secrets](https://github.com/bartobri/no-more-secrets)
 + [sl](https://github.com/mtoyoda/sl) Cure your bad habit of mistyping
 
-Helper & ai !!
+Helper & ai
 * [cheat.sh](https://github.com/chubin/cheat.sh)
+* [explain.sh](https://github.com/benjamine/explain.sh)
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
