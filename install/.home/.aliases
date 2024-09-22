@@ -98,6 +98,11 @@ nushell:https://nushell.sh/book
 
 - HELPERS -
 shell: https://explainshell.com
+
+- GENERAL -
+docs:   https://github.com/cylmat/docs
+cheats: https://github.com/cylmat/cheats
+useful: https://cylmat.github.io/useful
 "'
 
 
