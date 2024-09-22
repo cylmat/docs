@@ -92,7 +92,8 @@ lazydocker \
 lazygit \
 nushell \
 ripgrep \
-scc
+scc \
+tokei
 
 ### autojump or z ###
 # https://github.com/wting/autojump
