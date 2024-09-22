@@ -82,6 +82,7 @@ snap
 # krew (ctx and ns)
 # lazygit
 # ripgrep
+# scc
 
 brew install \
 gron \
@@ -90,7 +91,8 @@ krew \
 lazydocker \
 lazygit \
 nushell \
-ripgrep
+ripgrep \
+scc
 
 ### autojump or z ###
 # https://github.com/wting/autojump
