@@ -24,6 +24,7 @@ sudo apt install -y busybox nix
 # ranger : filesystem
 # rsync
 # ugrep
+# xsel
 
 sudo apt install -y \
 bat \
@@ -39,7 +40,8 @@ pass \
 ranger \
 rsync \
 tre-command \
-ugrep
+ugrep \
+xsel
 
 
 # echo "source /etc/zsh_command_not_found" >> ~/.zshrc
