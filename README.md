@@ -97,11 +97,12 @@ Training
 
 Utils & work
 + [bc](https://doc.ubuntu-fr.org/bc) Une calculatrice en ligne de commande
-+ [entr](https://github.com/eradman/entr)
-+ [pass](https://www.passwordstore.org) The standard unix password manager
++ [entr](https://github.com/eradman/entr) Run arbitrary commands when files change 
++ [pass](https://passwordstore.org) The standard unix password manager
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
-+ [taskwarrior](https://taskwarrior.org) (taskmanager)
-+ uuidgen
++ [taskwarrior](https://taskwarrior.org) Manages your TODO list from the command line
++ [tokei](https://github.com/XAMPPRocky/tokei) Count your code, quickly
++ uuidgen UUID generator
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Ouvrir un fichier avec le logiciel par défaut
 + [xsel](http://www.kfish.org/software/xsel) Get/set the contents of the clipboard selection
 + [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
