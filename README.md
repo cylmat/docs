@@ -42,19 +42,19 @@ Dev & data
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
-+ [bat](https://github.com/sharkdp/bat) **_Better Cat!_** - A cat clone with wings
++ [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
-+ [eza](https://github.com/eza-community/eza) **-Better Ls-** A modern alternative to ls 
++ [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
-+ [git-delta](https://dandavison.github.io/delta) **-Better diff-** A syntax-highlighting pager for git, diff, and grep
++ [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
-+ [sd](https://github.com/chmln/sd) **-Better sed-** Intuitive find & replace CLI
-+ [tre](https://github.com/dduan/tre) **-Better tree**- Tree command, improved
-+ [ugrep](https://ugrep.com) **-Better grep-** Powerful, ultra fast, user-friendly, compatible grep
++ [sd](https://github.com/chmln/sd) **_Better sed!_** Intuitive find & replace CLI
++ [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
++ [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
@@ -72,23 +72,23 @@ Helper & ai
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
-* [tldr](https://tldr.sh) **Better man**- Simplified and community-driven man page
+* [tldr](https://tldr.sh) **_Better man!_** Simplified and community-driven man page
 * [up](https://github.com/akavel/up) Writing linux pipes with instant live preview !
 
 Monitor & info  
-+ [btop](https://github.com/aristocratos/btop) **-Better top-** A monitor of resources 
-+ [duf](https://github.com/muesli/duf) **-Better du-** Disk Usage/Free Utility
++ [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources 
++ [duf](https://github.com/muesli/duf) **_Better du!_** Disk Usage/Free Utility
 + [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
 + [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
-+ [procs](https://github.com/dalance/procs) **-Better ps-** A modern replacement for ps
++ [procs](https://github.com/dalance/procs) **_Better ps!_** A modern replacement for ps
 
 Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) Terminal bandwidth utilization tool 
-+ [curlie](https://github.com/rs/curlie) Power of curl with ease of use httpie
++ [curlie](https://github.com/rs/curlie) **_Better curl!_** Power of curl with ease of use httpie
 + [httpie](https://httpie.io) Making APIs simple and intuitive
 + [http-prompt](https://http-prompt.com) Interactive cli HTTP client
-+ [lynx](https://lynx.invisible-island.net)
-+ [w3m](https://doc.ubuntu-fr.org/w3m)
++ [lynx](https://lynx.invisible-island.net) Text web browser
++ [w3m](https://doc.ubuntu-fr.org/w3m) Web browser
 
 Training
 + [tt](https://github.com/lemnos/tt)
@@ -97,14 +97,14 @@ Training
 + [toipe](https://github.com/Samyak2/toipe)
 
 Utils & work
-+ [bc](https://doc.ubuntu-fr.org/bc) Une calculatrice en ligne de commande
++ [bc](https://doc.ubuntu-fr.org/bc) Command line calculator
 + [entr](https://github.com/eradman/entr) Run arbitrary commands when files change 
 + [pass](https://passwordstore.org) The standard unix password manager
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
 + [taskwarrior](https://taskwarrior.org) Manages your TODO list from the command line
 + [tokei](https://github.com/XAMPPRocky/tokei) Count your code, quickly
 + uuidgen UUID generator
-+ [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Ouvrir un fichier avec le logiciel par défaut
++ [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Open file with default app
 + [xsel](http://www.kfish.org/software/xsel) Get/set the contents of the clipboard selection
 + [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
 
