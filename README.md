@@ -42,19 +42,19 @@ Dev & data
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
-+ [bat](https://github.com/sharkdp/bat) A cat clone with wings
++ [bat](https://github.com/sharkdp/bat) **-Better Cat-** - A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
-+ [eza](https://github.com/eza-community/eza) A modern alternative to ls 
++ [eza](https://github.com/eza-community/eza) **-Better Ls-** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
-+ [git-delta](https://dandavison.github.io/delta) A syntax-highlighting pager for git, diff, and grep
-+ [ranger](https://github.com/ranger/ranger) A VIM-inspired filemanager for the console 
++ [git-delta](https://dandavison.github.io/delta) **-Better diff-** A syntax-highlighting pager for git, diff, and grep
++ [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
-+ [sd](https://github.com/chmln/sd) Intuitive find & replace CLI (sed alternative) 
-+ [tre](https://github.com/dduan/tre) Tree command, improved
-+ [ugrep](https://ugrep.com) Powerful, ultra fast, user-friendly, compatible grep
++ [sd](https://github.com/chmln/sd) **-Better sed-** Intuitive find & replace CLI
++ [tre](https://github.com/dduan/tre) **-Better tree**- Tree command, improved
++ [ugrep](https://ugrep.com) **-Better grep-** Powerful, ultra fast, user-friendly, compatible grep
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
@@ -67,25 +67,25 @@ Fun
 + [sl](https://github.com/mtoyoda/sl) Cure your bad habit of mistyping
 
 Helper & ai
-* [cheat.sh](https://github.com/chubin/cheat.sh)
+* [cheat.sh](https://github.com/chubin/cheat.sh) The only cheat sheet you need
 * [explain.sh](https://github.com/benjamine/explain.sh)
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
-* [tldr](https://tldr.sh)
-* [up](https://github.com/akavel/up) Writing linux pipes with instant live preview
+* [tldr](https://tldr.sh) **Better man**- Simplified and community-driven man page
+* [up](https://github.com/akavel/up) Writing linux pipes with instant live preview !
 
 Monitor & info  
-+ [btop](https://github.com/aristocratos/btop) (monitoring)
-+ [duf](https://github.com/muesli/duf)
-+ [ncdu](https://dev.yorhel.nl/ncdu)
-+ [neofetch](https://github.com/dylanaraps/neofetch) (informations)
-+ [procs](https://github.com/dalance/procs)
++ [btop](https://github.com/aristocratos/btop) **-Better top-** A monitor of resources 
++ [duf](https://github.com/muesli/duf) **-Better du-** Disk Usage/Free Utility
++ [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
++ [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
++ [procs](https://github.com/dalance/procs) **-Better ps-** A modern replacement for ps
 
 Network & net
-+ [bandwhich](https://github.com/imsnif/bandwhich) (ip)
++ [bandwhich](https://github.com/imsnif/bandwhich) Terminal bandwidth utilization tool 
 + [curlie](https://github.com/rs/curlie) Power of curl with ease of use httpie
-+ [httpie](https://httpie.io) (curl-like)
++ [httpie](https://httpie.io) Making APIs simple and intuitive
 + [http-prompt](https://http-prompt.com) Interactive cli HTTP client
 + [lynx](https://lynx.invisible-island.net)
 + [w3m](https://doc.ubuntu-fr.org/w3m)
