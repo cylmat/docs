@@ -113,6 +113,7 @@ sudo apt install cargo
 # eza : (colorls-like) list ls replacement https://github.com/eza-community/eza
 # git-delta
 # grex regex generator
+# just
 # navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
 # sd : sed-like
@@ -125,6 +126,7 @@ bandwhich \
 git-delta \
 eza \
 grex \
+just \
 lsd \
 navi \
 procs \
