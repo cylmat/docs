@@ -42,7 +42,7 @@ Dev & data
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
-+ [bat](https://github.com/sharkdp/bat) **_-Better Cat-_** - A cat clone with wings
++ [bat](https://github.com/sharkdp/bat) **_Better Cat!_** - A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [eza](https://github.com/eza-community/eza) **-Better Ls-** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
