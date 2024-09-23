@@ -137,7 +137,7 @@ bandwhich, curlie, httpie, http-prompt, lynx, w3m
 gtypist, tt, ttyper, toipe, vimgolf
 
 - UTILS & WORK -
-bc, entr, pass, scc, taskwarrior
+bc, entr, just, pass, scc, taskwarrior
 tokei, uuidgen, xdg-open, xsel
 
 - ZSH -
