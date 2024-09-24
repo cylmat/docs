@@ -12,6 +12,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="vim"
 
+
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -74,16 +76,35 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+###############
+### PLUGINS ###
+###############
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-# PLUGINS #
+
+# --- Autosuggestion :
+# git config --global core.autocrlf false
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# --- syntax highlighting
+# git config --global core.autocrlf false
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# z @https://github.com/ajeetdsouza/zoxide
+
+
+### PLUGINS LIST ###
+
 # Need install eza: sudo cargo install eza
 plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza 
 git fzf kube-ps1 kubectl helm rsync snap ssh sudo symfony6 taskwarrior tig tldr tmux tmuxinator vi-mode web-search z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
+
+### /PLUGINS LIST ###
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,6 +126,7 @@ fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 
+######
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
