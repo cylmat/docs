@@ -24,15 +24,17 @@
 
 [[ -f ~/.omz.zsh ]] && source ~/.omz.zsh 
 
+#############
+### THEME top ###
+#############
 
-####################
-## Powerlevel 10k ##
-####################
+### POWERLEVEL 10K ###
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/ zshrc. 
 # Initialization code that may require console input (password prompts) [y/n]
 # confirmations, etc.) must go above this block; everything else may go below. 
-
 [[ -f ~/.p10k-top.zsh ]] && source ~/.p10k-top.zsh
+
 
 #######
 # ENV #
@@ -114,6 +116,16 @@ fi
 #############
 ### THEME ###
 #############
+
+### POWERLEVEL 10K ###
+# @https://github.com/romkatv/powerlevel10k
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme   
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.  
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+### STARSHIP ###
+# @https://starship.rs1 
+# curl -sS https://starship.rs/install.sh | sh   
+
+# eval "$(starship init zsh)"
