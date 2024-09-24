@@ -17,12 +17,21 @@
 #promptinit
 #prompt adam1
 
+
+#################
+### Oh MY ZSH ###
+#################
+
+[[ -f ~/.omz.zsh ]] && source ~/.omz.zsh 
+
+
 ####################
 ## Powerlevel 10k ##
 ####################
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/ zshrc. 
 # Initialization code that may require console input (password prompts) [y/n]
 # confirmations, etc.) must go above this block; everything else may go below. 
+
 [[ -f ~/.p10k-top.zsh ]] && source ~/.p10k-top.zsh
 
 #######
@@ -93,12 +102,6 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 if [ -f ~/.aliases ]; then
 	source ~/.aliases
 fi
-
-#################
-### Oh MY ZSH ###
-#################
-
-[[ -f ~/.omz.zsh ]] && source ~/.omz.zsh 
 
 
 
