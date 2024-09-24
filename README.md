@@ -13,7 +13,9 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Plugins manager [Antidote](https://getantidote.github.io)
   + Autosuggestion for [docker](https://docs.docker.com/engine/cli/completion), [git](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash), [k8s](https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/#kubectl-autocompletion-2), [zsh](https://github.com/zsh-users/zsh-autosuggestions)
   + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
-- Prompt colorfull: [Starship](https://starship.rs) or [OhMyPosh](https://ohmyposh.dev) or [Power10k](https://github.com/romkatv/powerlevel10k)
+- Prompt colorfull:
+  + [Starship](https://starship.rs) or [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  + or use [OhMyPosh](https://ohmyposh.dev)
 - Terminal sessions: [Tmux](https://doc.ubuntu-fr.org/tmux) + [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
   + Plugins manager [Tpm](https://github.com/tmux-plugins/tpm) (see [plugins list](https://github.com/tmux-plugins/list))
   + Tpm plugins: (**tmux-autoreload, continuum, fzf, jump, menus, resurrect, sensible, sessionist, sidebar, yank**) 
