@@ -44,6 +44,9 @@ Proxy
 * http://www.squid-cache.org
 * https://varnish-cache.org: HTTP cache
 
+Remote
+- https://mremoteng.org
+
 Security
 * https://aquasecurity.github.io/trivy: Docker scanner
 
