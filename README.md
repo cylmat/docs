@@ -69,6 +69,8 @@ Fun
 + [sl](https://github.com/mtoyoda/sl) Cure your bad habit of mistyping
 
 Helper & ai
+* [aishell](https://github.com/BuilderIO/ai-shell) A CLI that converts natural language to shell commands
+* [chatgpt](https://github.com/0xacx/chatGPT-shell-cli) Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal
 * [cheat.sh](https://github.com/chubin/cheat.sh) The only cheat sheet you need
 * [explain.sh](https://github.com/benjamine/explain.sh)
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
