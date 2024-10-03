@@ -117,9 +117,9 @@ Utils & work
 ## Editing
 
 - Windows editing: VSCode
-  + Plugins: ..
+  + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
 - Mouseless edition: Vim
-  + Plugins: ..
+  + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
 ## Awesome !
 
