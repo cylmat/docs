@@ -182,6 +182,20 @@ pip install http-prompt
 # sudo apt install micro
 
 
+### OPENAI ###
+
+# ai-shell
+https://github.com/BuilderIO/ai-shell
+curl https://get.volta.sh | bash
+volta install node
+npm install -g @builder.io/ai-shell
+ai config set OPENAI_KEY=<your token>
+
+# chatGPT-shell-cli
+sudo apt install jq
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
+
+
 ### Symfony-cli
 # @https://symfony.com/download
 wget https://get.symfony.com/cli/installer -O - | bash
