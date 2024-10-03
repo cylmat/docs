@@ -14,6 +14,7 @@ alias dfh='df -h'
 ### TOOLS ###
 
 alias bat="batcat"
+alias chat="chatgpt"
 alias dc="docker compose"
 alias dce="docker compose exec"
 alias dk="docker"
@@ -125,7 +126,8 @@ rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 - HELPER & AI -
-cht(.sh), explain(.sh), grex, navi, so, tldr, up
+ai, chat, cht(.sh), explain(.sh)
+grex, navi, so, tldr, up
 
 - MONITOR & INFO -
 btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
