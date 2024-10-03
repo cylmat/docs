@@ -105,6 +105,10 @@
         "dossantosgabriel.linux-cheatsheet",
         "dzhavat.git-cheatsheet",
 
+        // ai & autocomplete
+        "andrewbutson.vscode-openai",
+        "danielsanmedium.dscodegpt",
+
         // tools
         "alefragnani.Bookmarks",
         "formulahendry.code-runner",
