@@ -15,6 +15,7 @@ alias dfh='df -h'
 
 alias bat="batcat"
 alias chat="chatgpt"
+alias cheat="cht"
 alias dc="docker compose"
 alias dce="docker compose exec"
 alias dk="docker"
@@ -24,6 +25,10 @@ alias h="helm"
 alias mnk="minikube"
 alias sym="symfony"
 
+### create
+alias createcomp="composer create-project symfony/skeleton"
+alias createsym="symfony new myproject"
+alias createvite="npm create vite@latest"
 
 ### OMZ zsh ###
 # copybuffer is Ctrl-O
