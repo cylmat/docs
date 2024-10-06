@@ -29,7 +29,7 @@ Logging and monitoring
 
 Security
 * https://www.cvedetails.com
-* https://application.security/
+* https://application.security
 
 Testing
 * https://github.com/symm/vape: HTTP smoke tests
@@ -40,6 +40,7 @@ Testing
 * https://testproject.io: Test recorder
 * https://tideways.com/profiler/features
 - https://playwright.dev: End-to-end testing
+- https://github.com/easy-coding-standard/easy-coding-standard: PhpCs made easy
 
 Versionning
 * https://alx.github.io/gitbook
