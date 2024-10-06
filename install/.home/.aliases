@@ -106,8 +106,9 @@ nnn:   https://github.com/jarun/nnn/wiki/Usage
 nush:  https://nushell.sh/book
 
 - HELPERS -
-cheat: https://cheat.sh
-shell: https://explainshell.com
+cheat:  https://cheat.sh
+shell:  https://explainshell.com
+yeoman: https://yeoman.io
 
 - STACK BOX -
 devilbox:  http://devilbox.org
