@@ -10,7 +10,7 @@ Communication
 * https://zeromq.org: Open-source universal messaging library
 
 Email
-* https://github.com/mailhog/MailHog: Golang web and API based SMTP testing 
+* https://github.com/mailhog/MailHog: Golang web and API based SMTP testing
 
 Jobs
 * http://resque.github.io
