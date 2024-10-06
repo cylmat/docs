@@ -59,7 +59,6 @@
         "wongjn.php-sniffer",
         "swordev.phpstan",
         "breezelin.phpstan",
-        "ikappas.phpcs",
         "sonarsource.sonarlint-vscode",
         "fterrag.vscode-php-cs-fixer",
         "ecodes.vscode-phpmd",
@@ -112,7 +111,6 @@
         // tools
         "alefragnani.Bookmarks",
         "formulahendry.code-runner",
-        "Shan.code-settings-sync",
         "adpyke.codesnap",
         "ryu1kn.edit-with-shell",
         "EditorConfig.EditorConfig",
