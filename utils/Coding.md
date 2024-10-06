@@ -24,7 +24,8 @@ Editor
 * http://lighttable.com: The next generation code editor
 * https://replit.com: Collaborator online browser IDE
 * https://fig.io: Your terminal, reimagined
-* https://vscode.dev/
+* https://vscode.dev
+* https://phpsandbox.io: Php cloud editor
 
 Fake data
 * https://www.generatedata.com
