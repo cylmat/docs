@@ -15,6 +15,9 @@ Browser E2E testing
 * https://github.com/puppeteer/puppeteer: Headless Chrome Node.js API 
 * https://www.selenium.dev
 
+CMS    
+* http://boltcms.io: The starting point of your new website
+
 E-commerce
 * https://thelia.net: Open-source Symfony framework
 
