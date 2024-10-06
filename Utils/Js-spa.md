@@ -11,16 +11,19 @@ Docs
 * https://standardjs.com
 * https://nodejs.org/api/modules.html : CommonJS
 
-Format
-* https://www.json.org
-* https://jwt.io: RFC 7519 standard
-
 Design
 * https://plotly.com/javascript
 * https://sencha.com: JS grid
 
 Editor
 - https://jsoneditoronline.org
+
+Form
+- https://rjsf-team.github.io/react-jsonschema-form
+
+Format
+* https://www.json.org
+* https://jwt.io: RFC 7519 standard
 
 Framework
 + https://reactjs.org
