@@ -110,7 +110,10 @@ cheat: https://cheat.sh
 shell: https://explainshell.com
 
 - STACK BOX -
-devilbox: http://devilbox.org
+devilbox:  http://devilbox.org
+meanjs:    http://meanjs.org
+openresty: https://openresty.org
+phpdocker: https://phpdocker.io
 
 - GENERAL -
 docs:   https://github.com/cylmat/docs
@@ -146,7 +149,7 @@ btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
 
 - NETWORK -
 bandwhich, curlie, httpie, http-prompt, lynx, w3m
-lsof, netstat, nmap, tcpdump, ss
+netstat, nmap, tcpdump, ss
 
 - TRAIN -
 gtypist, tt, ttyper, toipe, vimgolf
