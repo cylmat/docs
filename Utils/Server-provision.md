@@ -17,11 +17,11 @@ Environment dev
 * https://www.vagrantup.com
 
 Monitoring
-- https://www.cloudpanel.io/
-- https://ajenti.org/
+- https://www.cloudpanel.io
+- https://ajenti.org
 - https://www.aapanel.com
-- https://vestacp.com/
-- https://www.virtualmin.com/
+- https://vestacp.com
+- https://www.virtualmin.com
 
 Provisionning
 * https://www.ansible.com
