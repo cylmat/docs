@@ -18,12 +18,12 @@ Diagram:
 * https://www.websequencediagrams.com
 * https://yuml.me: Diagram generator language
 * https://www.yworks.com/yed-live
-
 - https://chatuml.com: UML assisted
 
 Format
 - https://asciidoc.org : presentation-rich content
 - https://docs.framasoft.org/fr/grav/markdown.html
+- https://mermaid.js.org: Diagramming and charting tool
 
 Prototype
 + https://penpot.app : Design and code beautiful products
