@@ -10,7 +10,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + [Zsh](https://wiki.ubuntu-fr.org/zsh) by default, with help of [Nushell](https://www.nushell.sh)
   + Framework [OhMyZsh](https://ohmyz.sh)
   + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting**)  
-  + Plugins manager [Antidote](https://getantidote.github.io)
+  + Plugins manager [Antidote](https://getantidote.github.io) (or Prezto)
   + Autosuggestion for [docker](https://docs.docker.com/engine/cli/completion), [git](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash), [k8s](https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/#kubectl-autocompletion-2), [zsh](https://github.com/zsh-users/zsh-autosuggestions)
   + Benchmark [Zsh-bench](https://github.com/romkatv/zsh-bench)
 - Prompt colorfull:
@@ -155,5 +155,4 @@ Most used:
 - [Utils](https://github.com/cylmat/docs/tree/main/utils) : Coding, security, project useful tools...
 - App refs: [Cloud-Delivery-Models](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
---- 
-Try: Prezto plugin manager, zellij multiplexer
+
