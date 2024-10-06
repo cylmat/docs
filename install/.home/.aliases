@@ -25,10 +25,14 @@ alias h="helm"
 alias mnk="minikube"
 alias sym="symfony"
 
-### create
-alias createcomp="composer create-project symfony/skeleton"
-alias createsym="symfony new myproject"
-alias createvite="npm create vite@latest"
+### CREATE
+alias create_comp="composer create-project symfony/skeleton"
+alias create_sym="symfony new myproject"
+alias create_vite="npm create vite@latest"
+
+### INSTALL
+alias busy_install="sudo apt install -y busybox"
+alias cht_install="curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh"
 
 ### OMZ zsh ###
 # copybuffer is Ctrl-O
@@ -77,8 +81,6 @@ function _historyfzf () {
 alias hf="_historyfzf"
 
 
-
-
 ##### # others
 
 alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
@@ -97,13 +99,18 @@ http://headers.jsontest.com
 # helpers urls
 alias docs='echo "
 - DOCS -
-delta: \thttps://dandavison.github.io/delta
-nix:   \thttps://nix.dev/manual/nix/2.24
-nnn:   \thttps://github.com/jarun/nnn/wiki/Usage
-nushell:https://nushell.sh/book
+busy:  https://busybox.net
+delta: https://dandavison.github.io/delta
+nix:   https://nix.dev/manual/nix/2.24
+nnn:   https://github.com/jarun/nnn/wiki/Usage
+nush:  https://nushell.sh/book
 
 - HELPERS -
+cheat: https://cheat.sh
 shell: https://explainshell.com
+
+- STACK BOX -
+devilbox: http://devilbox.org
 
 - GENERAL -
 docs:   https://github.com/cylmat/docs
@@ -139,6 +146,7 @@ btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
 
 - NETWORK -
 bandwhich, curlie, httpie, http-prompt, lynx, w3m
+lsof, netstat, nmap, tcpdump, ss
 
 - TRAIN -
 gtypist, tt, ttyper, toipe, vimgolf
