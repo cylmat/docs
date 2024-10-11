@@ -32,7 +32,8 @@ docker exec sh -c "
 
 docker exec sh -c "
   cat composer.json | jq '.extra."public-dir"="html"' > /tmp/composer.json && \
-  rm composer.json && mv /tmp/composer.json .
+  rm composer.json && mv /tmp/composer.json . && \
+  composer req --dev maker
 "
 
 # run
