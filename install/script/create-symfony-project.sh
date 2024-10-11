@@ -5,7 +5,7 @@ docker run -dit -v .:/var/www/html -p 8123:80 --name phpapache php:8.3-apache
 
 # apt
 docker exec sh -c "
-  apt update && apt install -y git vim zip &&
+  apt update && apt install -y git vim zip && \
   git config --global user.email 'you@example.com' && \
   git config --global user.name 'Your Name'
 "
