@@ -27,7 +27,8 @@ docker exec sh -c "
   symfony new project && \
   mv project/* . && mv project/.* . && rm -r project && \
   mv project html
-  chmod a+w -R . 
+  chmod a+w -R . && \
+  curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.htaccess -o html/.htaccess
 "
 
 docker exec sh -c "
