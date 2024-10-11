@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # docker container stop phpapache && docker container remove phpapache
-docker run -it -d -v .:/var/www/html -p 8123:80 --name phpapache php:8.3-apache
+docker run -dit -v .:/var/www/html -p 8123:80 --name phpapache php:8.3-apache
 
 # apt
 docker exec sh -c "
@@ -26,9 +26,8 @@ docker exec sh -c "
 docker exec sh -c "
   symfony new project && \
   mv project/* . && mv project/.* . && rm -r project && \
-  chmod a+w -R . && \
-  curl -O https://github.com/cylmat/symplay/blob/main/.htaccess && \
-  curl https://github.com/symfony/recipes-contrib/blob/main/symfony/apache-pack/1.0/public/.htaccess -o public/.htaccess
+  mv project html
+  chmod a+w -R . 
 "
 
 # run
