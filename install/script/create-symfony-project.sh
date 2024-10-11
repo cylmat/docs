@@ -30,6 +30,10 @@ docker exec sh -c "
   chmod a+w -R . 
 "
 
+docker exec sh -c "
+  cat composer.json | jq '.extra."public-dir"="html"' > composer.json
+"
+
 # run
 docker exec -it phpapache bash
 
