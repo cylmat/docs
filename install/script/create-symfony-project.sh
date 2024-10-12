@@ -42,7 +42,7 @@ EOF
 tee Dockerfile <<EOF
 FROM php:8.3-apache
 RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
-CP ./scripts/install.sh /usr/local/bin/
+COPY ./scripts/install.sh /usr/local/bin/
 RUN source /etc/apache2/envvars
 EOF
 
