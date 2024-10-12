@@ -20,10 +20,12 @@ git config --global user.name 'Your Name'
 # composer
 curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/composer-install.sh | bash
 mv ./composer.phar /usr/local/bin/composer
+chmod a+x /usr/local/bin/composer
 
 # symfony
 curl -sS https://get.symfony.com/cli/installer | bash
 mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
+chmod a+x /usr/local/bin/symfony
 EOF
 
 ### CREATE ###
@@ -35,13 +37,14 @@ tee scripts/create.sh <<EOF
 symfony new project
 mv project/* . && mv project/.* . && rm -r project
 mv project html
-chmod a+w -R .
 curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.htaccess -o html/.htaccess
 
 # make
 cat composer.json | jq '.extra."public-dir"="html"' > /tmp/composer.json
 rm composer.json && mv /tmp/composer.json .
 composer req --dev maker
+
+chmod a+w -R .
 EOF
 
 #######
