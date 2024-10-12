@@ -43,6 +43,7 @@ curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.ht
 # make
 cat composer.json | jq '.extra."public-dir"="public"' > /tmp/composer.json
 rm composer.json && mv /tmp/composer.json .
+composer req doctrine --no-interaction
 composer req --dev maker
 chmod a+w -R .
 echo 'Test' | bin/console make:controller
