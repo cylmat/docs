@@ -103,19 +103,10 @@ scripts/db_install.sh
 scripts/test_install.sh
 EOF
 
-#######
-# Run #
-#######
+### Usage doc ###
 
 chmod a+x -R ./scripts 
-docker build -t php-apache-img .
-docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
-
-echo 'Usage:'
-echo 'docker exec -it phpapache bash  to get into container.'
-echo 'scripts/create_prj.sh           to create a new Symfony project.'
-echo 'scripts/db_install.sh           to install Doctrine & forms.'
-echo 'scripts/test_install.sh         to install Quality tests.'
+cat Readme.md
 
 return 0
 
