@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # docker container stop phpapache && docker container remove phpapache
+# TODO change user root
 
 ##########
 # Script #
