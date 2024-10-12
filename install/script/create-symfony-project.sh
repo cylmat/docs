@@ -47,7 +47,7 @@ EOF
 
 ### TESTS ###
 
-tee scripts/test_install.sh <<EOF
+tee scripts/qa_install.sh <<EOF
 #!/usr/bin/env bash
 
 mkdir -p tools
@@ -80,33 +80,38 @@ EOF
 
 ### README ###
 
-tee Readme.md <<EOF
-# Usage
+tee Makefile <<EOF
+SHELL := /bin/bash
+PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa
 
-### Docker container
-- Build container
-docker build -t php-apache-img .
-- Run container
-docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
-- Connect to container
-docker exec -it phpapache bash
-- Stop and remove container
-docker container stop phpapache  
-docker container remove phpapache
+build_container:
+  docker build -t php-apache-img .
+run_container:
+  docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
+connect_container:
+  docker exec -it phpapache bash
+stop_container:
+  docker container stop phpapache  
+remove_container:
+  docker container remove phpapache
 
-### Inside container
-- Create a new Symfony project
-scripts/create_prj.sh
-- Install Doctrine & forms.
-scripts/db_install.sh
-- Install Quality tests.
-scripts/test_install.sh
+# Create a new Symfony project.
+create_project:
+  ${SHELL} scripts/create_prj.sh
+# Install Doctrine & forms.
+install_db:
+  ${SHELL} scripts/db_install.sh
+# Install Quality tests.
+install_qa:
+  ${SHELL} scripts/qa_install.sh
 EOF
 
 ### Usage doc ###
 
 chmod a+x -R ./scripts 
-cat Readme.md
+echo "Usage: make <cmd>"
+echo "build_container run_container connect_container stop_container remove_container"
+echo "create_project install_db install_qa"
 
 return 0
 
