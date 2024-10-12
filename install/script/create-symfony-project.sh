@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-# echo "FROM php:8.3-apache\nRUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/" > Dockerfile
+echo "
+FROM php:8.3-apache
+
+RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
+" > Dockerfile
 # docker build -t php-8.3-apache-img  .
 # docker exec source /etc/apache2/envvars
 # docker container stop phpapache && docker container remove phpapache
