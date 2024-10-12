@@ -45,6 +45,7 @@ rm composer.json && mv /tmp/composer.json .
 composer req --dev maker
 chmod a+w -R .
 echo 'Test' | bin/console make:controller
+echo 'Access test page on "http://localhost:8123/test"'
 EOF
 
 #######
