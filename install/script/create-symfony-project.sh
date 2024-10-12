@@ -29,14 +29,18 @@ echo 'Test' | bin/console make:controller
 echo 'Access test page on "http://localhost:8123/test"'
 EOF
 
-### DB ###
+### DB & FORM ###
 
 tee scripts/db_install.sh <<EOF
 #!/usr/bin/env bash
 
+# doctrine
 composer req doctrine --no-interaction
 sed -ie 's/DATABASE_URL="postgresql/# DATABASE_URL="postgresql/' .env
 sed -ie 's/# DATABASE_URL="sqlite/DATABASE_URL="sqlite/' .env
+# form
+composer require form validator twig-bundle security-csrf
+echo 'Use bin/console make:entity or bin/console make:crud'
 EOF
 
 ### TESTS ###
@@ -83,7 +87,7 @@ docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 echo 'Usage:'
 echo 'docker exec -it phpapache bash  to get into container.'
 echo 'scripts/create_prj.sh           to create a new Symfony project.'
-echo 'scripts/db_install.sh           to install Doctrine.'
+echo 'scripts/db_install.sh           to install Doctrine & forms.'
 echo 'scripts/test_install.sh         to install Quality tests.'
 
 return 0
