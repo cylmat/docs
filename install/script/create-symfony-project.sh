@@ -43,11 +43,18 @@ curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.ht
 # make
 cat composer.json | jq '.extra."public-dir"="public"' > /tmp/composer.json
 rm composer.json && mv /tmp/composer.json .
-composer req doctrine --no-interaction
 composer req --dev maker
 chmod a+w -R .
 echo 'Test' | bin/console make:controller
 echo 'Access test page on "http://localhost:8123/test"'
+EOF
+
+### DB ###
+
+tee scripts/install_db.sh <<EOF
+#!/usr/bin/env bash
+
+composer req doctrine --no-interaction
 EOF
 
 ### TESTS ###
@@ -82,6 +89,7 @@ docker build -t php-apache-img  .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 echo 'docker exec -it phpapache bash  to get into container.'
 echo 'scripts/create.sh               to create a new Symfony project.'
+echo 'scripts/install_db.sh           to install Doctrine.'
 echo 'scripts/install_tests.sh        to install Quality tests.'
 
 # run
