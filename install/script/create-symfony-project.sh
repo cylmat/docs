@@ -63,7 +63,7 @@ WORKDIR /var/www
 EOF
 
 docker build -t php-8.3-apache-img  .
-docker run -it -d -v .:/var/www/html -p 8123:80 --name phpapache php-8.3-apache-img
+docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-8.3-apache-img
 docker exec phpapache sh -c "scripts/create.sh"
 
 # run
