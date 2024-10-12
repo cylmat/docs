@@ -14,7 +14,6 @@ tee scripts/install.sh <<EOF
 #!/usr/bin/env bash
 
 # apt
-apt update && apt install -y git jq vim zip
 git config --global user.email 'you@example.com'
 git config --global user.name 'Your Name'
 
@@ -54,12 +53,13 @@ EOF
 #######
 tee Dockerfile <<EOF
 FROM php:apache
+RUN apt update && apt install -y git jq sqlite3 vim zip
+RUN sed -ie 's#/var/www/html#/var/www/public#' /etc/apache2/sites-enabled/000-default.conf
 RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 COPY ./scripts/install.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/install.sh
 RUN /usr/local/bin/install.sh
 RUN . /etc/apache2/envvars
-RUN apt update
 WORKDIR /var/www
 EOF
 
