@@ -82,20 +82,25 @@ EOF
 
 tee Readme.md <<EOF
 # Usage
-docker exec -it phpapache bash to get into container.
-- Builder container
+
+### Docker container
+- Build container
 docker build -t php-apache-img .
-- Connect to container
+- Run container
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
+- Connect to container
+docker exec -it phpapache bash
+- Stop and remove container
+docker container stop phpapache  
+docker container remove phpapache
+
+### Inside container
 - Create a new Symfony project
 scripts/create_prj.sh
 - Install Doctrine & forms.
 scripts/db_install.sh
 - Install Quality tests.
 scripts/test_install.sh
-- Stop and remove container
-docker container stop phpapache  
-docker container remove phpapache
 EOF
 
 #######
