@@ -58,6 +58,7 @@ COPY ./scripts/install.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/install.sh
 RUN /usr/local/bin/install.sh
 RUN . /etc/apache2/envvars
+RUN apt update
 WORKDIR /var/www
 EOF
 
