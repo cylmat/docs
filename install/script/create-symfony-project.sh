@@ -36,8 +36,8 @@ tee scripts/create.sh <<EOF
 # create
 symfony new symfony_project
 mv symfony_project/* . && mv symfony_project/.* . && rm -r symfony_project
+curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.htaccess -o public/.htaccess
 mv public html
-curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.htaccess -o html/.htaccess
 
 # make
 cat composer.json | jq '.extra."public-dir"="html"' > /tmp/composer.json
