@@ -55,6 +55,8 @@ tee Dockerfile <<EOF
 FROM php:8.3-apache
 RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 COPY ./scripts/install.sh /usr/local/bin/
+RUN chmod a+x /usr/local/bin/install.sh
+RUN /usr/local/bin/install.sh
 RUN . /etc/apache2/envvars
 WORKDIR /var/www
 EOF
