@@ -8,7 +8,7 @@
 # Script #
 ##########
 
-mkdir -p scripts
+mkdir -p scripts && chmod a+x scripts
 
 ### INSTALL ###
 
