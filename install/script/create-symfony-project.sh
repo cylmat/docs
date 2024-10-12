@@ -7,6 +7,8 @@
 ##########
 mkdir -p scripts
 
+### INSTALL ###
+
 tee scripts/install.sh <<EOF
 #!/usr/bin/env bash
 
@@ -23,6 +25,8 @@ mv ./composer.phar /usr/local/bin/composer
 curl -sS https://get.symfony.com/cli/installer | bash
 mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
 EOF
+
+### CREATE ###
 
 tee scripts/create.sh <<EOF
 #!/usr/bin/env bash
