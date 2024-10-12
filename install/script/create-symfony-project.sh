@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# docker container stop phpapache && docker container remove phpapache
 # @todo change user root
 # @todo add openssl
 
