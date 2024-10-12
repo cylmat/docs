@@ -113,6 +113,4 @@ echo "Usage: make <cmd>"
 echo "build_container run_container connect_container stop_container remove_container"
 echo "create_project install_db install_qa"
 
-return 0
-
 # npm if needed
