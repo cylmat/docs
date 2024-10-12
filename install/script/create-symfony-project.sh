@@ -48,6 +48,7 @@ EOF
 
 docker build -t php-8.3-apache-img  .
 docker run -it -d -v .:/var/www/html -p 8123:80 --name phpapache php-8.3-apache-img
+docker exec phpapache sh -c "/usr/local/bin/install.sh"
 
 # run
 docker exec -it phpapache bash
