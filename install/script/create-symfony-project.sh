@@ -87,13 +87,12 @@ EOF
 chmod a+x -R ./scripts 
 docker build -t php-apache-img  .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
+
+echo 'Usage:'
 echo 'docker exec -it phpapache bash  to get into container.'
 echo 'scripts/create.sh               to create a new Symfony project.'
 echo 'scripts/install_db.sh           to install Doctrine.'
 echo 'scripts/install_tests.sh        to install Quality tests.'
-
-# run
-docker exec -it phpapache bash
 
 return 0
 
