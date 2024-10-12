@@ -64,7 +64,7 @@ EOF
 
 docker build -t php-8.3-apache-img  .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-8.3-apache-img
-docker exec phpapache sh -c "scripts/create.sh"
+docker exec phpapache sh -c "chmod a+x scripts/create.sh && scripts/create.sh"
 
 # run
 docker exec -it phpapache bash
