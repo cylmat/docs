@@ -34,9 +34,9 @@ tee scripts/create.sh <<EOF
 #!/usr/bin/env bash
 
 # create
-symfony new project
-mv project/* . && mv project/.* . && rm -r project
-mv project html
+symfony new symfony_project
+mv symfony_project/* . && mv symfony_project/.* . && rm -r symfony_project
+mv public html
 curl https://raw.githubusercontent.com/cylmat/symplay/refs/heads/main/public/.htaccess -o html/.htaccess
 
 # make
