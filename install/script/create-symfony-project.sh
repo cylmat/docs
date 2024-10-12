@@ -44,6 +44,7 @@ cat composer.json | jq '.extra."public-dir"="html"' > /tmp/composer.json
 rm composer.json && mv /tmp/composer.json .
 composer req --dev maker
 
+# mod
 chmod a+w -R .
 EOF
 
