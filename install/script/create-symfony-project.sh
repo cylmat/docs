@@ -82,7 +82,7 @@ EOF
 
 tee Makefile <<EOF
 SHELL := /bin/bash
-PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa
+PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa see_doc
 
 build_container:
   docker build -t php-apache-img .
@@ -104,6 +104,17 @@ install_db:
 # Install Quality tests.
 install_qa:
   bash scripts/qa_install.sh
+see_doc:
+  @cat Readme.md
+EOF
+
+### README ###
+
+tee Readme.md <<EOF
+# Usage
+Usage: make <cmd>
+build_container run_container connect_container stop_container remove_container
+create_project install_db install_qa
 EOF
 
 ### Usage doc ###
@@ -111,6 +122,6 @@ EOF
 chmod a+x -R ./scripts 
 echo "Usage: make <cmd>"
 echo "build_container run_container connect_container stop_container remove_container"
-echo "create_project install_db install_qa"
+echo "create_project install_db install_qa see_doc"
 
 # npm if needed
