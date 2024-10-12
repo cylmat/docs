@@ -76,12 +76,32 @@ RUN . /etc/apache2/envvars
 WORKDIR /var/www
 EOF
 
+### README ###
+
+tee Readme.md <<EOF
+# Usage
+docker exec -it phpapache bash  to get into container.
+- Builder container
+docker build -t php-apache-img .
+- Connect to container
+docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
+- Create a new Symfony project
+scripts/create_prj.sh
+- Install Doctrine & forms.
+scripts/db_install.sh
+- Install Quality tests.
+scripts/test_install.sh
+- Stop and remove container
+docker container stop phpapache  
+docker container remove phpapache
+EOF
+
 #######
 # Run #
 #######
 
 chmod a+x -R ./scripts 
-docker build -t php-apache-img  .
+docker build -t php-apache-img .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 
 echo 'Usage:'
