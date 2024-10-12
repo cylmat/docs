@@ -8,31 +8,11 @@
 # Script #
 ##########
 
-mkdir -m a+x -p scripts 
-
-### INSTALL ###
-
-tee scripts/install.sh <<EOF
-#!/usr/bin/env bash
-
-# apt
-git config --global user.email 'you@example.com'
-git config --global user.name 'Your Name'
-
-# composer
-curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/composer-install.sh | bash
-mv ./composer.phar /usr/local/bin/composer
-chmod a+x /usr/local/bin/composer
-
-# symfony
-curl -sS https://get.symfony.com/cli/installer | bash
-mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
-chmod a+x /usr/local/bin/symfony
-EOF
+mkdir -p scripts 
 
 ### CREATE ###
 
-tee scripts/create.sh <<EOF
+tee scripts/create_prj.sh <<EOF
 #!/usr/bin/env bash
 
 # create
@@ -51,7 +31,7 @@ EOF
 
 ### DB ###
 
-tee scripts/install_db.sh <<EOF
+tee scripts/db_install.sh <<EOF
 #!/usr/bin/env bash
 
 composer req doctrine --no-interaction
@@ -61,24 +41,34 @@ EOF
 
 ### TESTS ###
 
-tee scripts/install_tests.sh <<EOF
+tee scripts/test_install.sh <<EOF
 #!/usr/bin/env bash
 
 mkdir -p tools
 composer req --dev --working-dir=tools friendsofphp/php-cs-fixer phpmd/phpmd phpunit/phpunit phpstan/phpstan
 EOF
 
+### INSTALL ###
+
 tee Dockerfile <<EOF
 FROM php:apache
+# app
+RUN apt update && apt install -y git jq sqlite3 vim zip
+RUN git config --global user.email 'you@example.com'
+RUN git config --global user.name 'Your Name'
+# composer
+RUN curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/composer-install.sh | bash
+RUN mv ./composer.phar /usr/local/bin/composer
+RUN chmod a+x /usr/local/bin/composer
+# symfony
+RUN curl -sS https://get.symfony.com/cli/installer | bash
+RUN mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
+RUN chmod a+x /usr/local/bin/symfony
 # apache
 RUN sed -ie 's#/var/www/html#/var/www/public#' /etc/apache2/sites-enabled/000-default.conf
 RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 RUN . /etc/apache2/envvars
-# app
-RUN apt update && apt install -y git jq sqlite3 vim zip
-COPY ./scripts/install.sh /usr/local/bin/
-RUN chmod a+x /usr/local/bin/install.sh
-RUN /usr/local/bin/install.sh
+# dir
 WORKDIR /var/www
 EOF
 
@@ -92,9 +82,9 @@ docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 
 echo 'Usage:'
 echo 'docker exec -it phpapache bash  to get into container.'
-echo 'scripts/create.sh               to create a new Symfony project.'
-echo 'scripts/install_db.sh           to install Doctrine.'
-echo 'scripts/install_tests.sh        to install Quality tests.'
+echo 'scripts/create_prj.sh           to create a new Symfony project.'
+echo 'scripts/db_install.sh           to install Doctrine.'
+echo 'scripts/test_install.sh         to install Quality tests.'
 
 return 0
 
