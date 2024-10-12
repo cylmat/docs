@@ -73,7 +73,7 @@ EOF
 
 docker build -t php-apache-img  .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
-docker exec phpapache sh -c "chmod a+x scripts/create.sh && scripts/create.sh"
+echo "Run scripts/create.sh to create a new Symfony project."
 
 # run
 docker exec -it phpapache bash
