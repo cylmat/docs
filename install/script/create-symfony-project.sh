@@ -53,7 +53,7 @@ EOF
 # Run #
 #######
 tee Dockerfile <<EOF
-FROM php:8.3-apache
+FROM php:apache
 RUN cp /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 COPY ./scripts/install.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/install.sh
@@ -63,8 +63,8 @@ RUN apt update
 WORKDIR /var/www
 EOF
 
-docker build -t php-8.3-apache-img  .
-docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-8.3-apache-img
+docker build -t php-apache-img  .
+docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 docker exec phpapache sh -c "chmod a+x scripts/create.sh && scripts/create.sh"
 
 # run
