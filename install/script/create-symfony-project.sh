@@ -35,8 +35,8 @@ tee scripts/db_install.sh <<EOF
 #!/usr/bin/env bash
 
 composer req doctrine --no-interaction
-sed -ie 's/DATABASE_URL="postgresql/# DATABASE_URL="postgresql/'
-sed -ie 's/# DATABASE_URL="sqlite/DATABASE_URL="sqlite/'
+sed -ie 's/DATABASE_URL="postgresql/# DATABASE_URL="postgresql/' .env
+sed -ie 's/# DATABASE_URL="sqlite/DATABASE_URL="sqlite/' .env
 EOF
 
 ### TESTS ###
