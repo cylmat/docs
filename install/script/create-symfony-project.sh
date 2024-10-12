@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Use
+# curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh | bash
+
 # @todo change user root
 # @todo add openssl
 
@@ -79,7 +82,7 @@ EOF
 
 tee Readme.md <<EOF
 # Usage
-docker exec -it phpapache bash  to get into container.
+docker exec -it phpapache bash to get into container.
 - Builder container
 docker build -t php-apache-img .
 - Connect to container
