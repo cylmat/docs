@@ -5,6 +5,8 @@
 ##########
 # Script #
 ##########
+mkdir -p scripts
+
 tee scripts/install.sh <<EOF
 #!/usr/bin/env bash
 
