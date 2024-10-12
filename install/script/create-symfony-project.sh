@@ -97,13 +97,13 @@ remove_container:
 
 # Create a new Symfony project.
 create_project:
-  ${SHELL} scripts/create_prj.sh
+  bash scripts/create_prj.sh
 # Install Doctrine & forms.
 install_db:
-  ${SHELL} scripts/db_install.sh
+  bash scripts/db_install.sh
 # Install Quality tests.
 install_qa:
-  ${SHELL} scripts/qa_install.sh
+  bash scripts/qa_install.sh
 EOF
 
 ### Usage doc ###
