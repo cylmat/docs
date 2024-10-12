@@ -6,6 +6,7 @@
 ##########
 # Script #
 ##########
+
 mkdir -p scripts
 
 ### INSTALL ###
@@ -56,9 +57,6 @@ mkdir -p tools
 composer req --dev --working-dir=tools friendsofphp/php-cs-fixer phpmd/phpmd phpunit/phpunit phpstan/phpstan
 EOF
 
-#######
-# Run #
-#######
 tee Dockerfile <<EOF
 FROM php:apache
 RUN apt update && apt install -y git jq sqlite3 vim zip
@@ -70,6 +68,10 @@ RUN /usr/local/bin/install.sh
 RUN . /etc/apache2/envvars
 WORKDIR /var/www
 EOF
+
+#######
+# Run #
+#######
 
 docker build -t php-apache-img  .
 docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
