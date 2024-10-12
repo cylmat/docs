@@ -22,6 +22,10 @@ mv ./composer.phar /usr/local/bin/composer
 # symfony
 curl -sS https://get.symfony.com/cli/installer | bash
 mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
+EOF
+
+tee scripts/create.sh <<EOF
+#!/usr/bin/env bash
 
 # create
 symfony new project
@@ -48,7 +52,7 @@ EOF
 
 docker build -t php-8.3-apache-img  .
 docker run -it -d -v .:/var/www/html -p 8123:80 --name phpapache php-8.3-apache-img
-docker exec phpapache sh -c "/usr/local/bin/install.sh"
+docker exec phpapache sh -c "cd /var/www && sh ./scripts/create.sh"
 
 # run
 docker exec -it phpapache bash
