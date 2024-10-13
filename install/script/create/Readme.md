@@ -9,6 +9,7 @@ Usage: make <cmd>
 - connect_container
 - stop_container
 - remove_container
+- stop_and_remove
 
 ### Project
 - create_project
