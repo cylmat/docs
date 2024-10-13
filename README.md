@@ -153,6 +153,6 @@ Suggested:
 Most used:
 - [Install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
 - [Utils](https://github.com/cylmat/docs/tree/main/utils) : Coding, security, project useful tools...
-- [Create clean Symfony project](https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh)
+- [Create clean Symfony project](https://github.com/cylmat/docs/blob/main/install/script/create-symfony-project.sh)
 - [Delivery apps reference](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 
