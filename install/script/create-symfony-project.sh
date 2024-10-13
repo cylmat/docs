@@ -6,7 +6,7 @@
 # @todo change user root
 # @todo add openssl
 
-GITURL_CREATE=https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create
+GITURL_CREATE=
 
 ##########
 # Script #
@@ -14,13 +14,13 @@ GITURL_CREATE=https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/inst
 
 mkdir -p scripts 
 
-curl ${GITURL_CREATE}/scripts/create_prj.sh -o scripts/create_prj.sh 
-curl ${GITURL_CREATE}/scripts/db_install.sh -o scripts/db_install.sh
-curl ${GITURL_CREATE}/scripts/qa_install.sh -o scripts/qa_install.sh 
+curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/scripts/create_prj.sh -o scripts/create_prj.sh 
+curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/scripts/db_install.sh -o scripts/db_install.sh
+curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/scripts/qa_install.sh -o scripts/qa_install.sh 
 
-curl -O ${GITURL_CREATE}/Dockerfile
-curl -O ${GITURL_CREATE}/Makefile
-curl -O ${GITURL_CREATE}/Readme.md
+curl -O https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/Dockerfile
+curl -O https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/Makefile
+curl -O https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create/Readme.md
 
 ### Usage doc ###
 
