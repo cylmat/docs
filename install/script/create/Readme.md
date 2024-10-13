@@ -3,12 +3,12 @@
 Usage: make <cmd>  
 
 ### Docker
-- build
-- buildrun
-- run
-- connect
-- stop
-- remove
+- build_container
+- build_and_run
+- run_container
+- connect_container
+- stop_container
+- remove_container
 
 ### Project
 - create_project
