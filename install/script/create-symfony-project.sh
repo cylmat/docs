@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Use
+# Install scripts and clean project
 # curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh | bash
 
 # @todo change user root
