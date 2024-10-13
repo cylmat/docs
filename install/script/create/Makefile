@@ -14,6 +14,9 @@ stop_container:
 	docker container stop phpapache  
 remove_container:
 	docker container remove phpapache
+stop_and_remove:
+	{MAKE} stop_container
+	{MAKE} remove_container
 
 # Create a new Symfony project.
 create_project:
