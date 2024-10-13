@@ -6,8 +6,8 @@ build_container:
 run_container:
 	docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
 build_and_run:
-	{MAKE} build_container
-	{MAKE} run_container
+	${MAKE} build_container
+	${MAKE} run_container
 connect_container:
 	docker exec -it phpapache bash
 stop_container:
@@ -15,8 +15,8 @@ stop_container:
 remove_container:
 	docker container remove phpapache
 stop_and_remove:
-	{MAKE} stop_container
-	{MAKE} remove_container
+	${MAKE} stop_container
+	${MAKE} remove_container
 
 # Create a new Symfony project.
 create_project:
