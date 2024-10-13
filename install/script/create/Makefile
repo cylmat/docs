@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa see_doc
+.PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa doc
 
 build_container:
   docker build -t php-apache-img .
@@ -21,5 +21,5 @@ install_db:
 # Install Quality tests.
 install_qa:
   bash scripts/qa_install.sh
-see_doc:
+doc:
   @cat Readme.md
