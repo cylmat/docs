@@ -43,8 +43,8 @@ Testing
 - https://github.com/easy-coding-standard/easy-coding-standard: PhpCs made easy
 
 QA
-- https://github.com/EdgedesignCZ/phpqa
-- https://github.com/jakzal/toolbox
+- https://edgedesigncz.github.io/phpqa
+- https://jakzal.github.io/toolbox
 
 Versionning
 * https://alx.github.io/gitbook
