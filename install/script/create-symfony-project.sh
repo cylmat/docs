@@ -6,8 +6,6 @@
 # @todo change user root
 # @todo add openssl
 
-GITURL_CREATE=
-
 ##########
 # Script #
 ##########
