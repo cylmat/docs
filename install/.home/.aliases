@@ -29,6 +29,7 @@ alias sym="symfony"
 alias create_comp="composer create-project symfony/skeleton"
 alias create_sym="symfony new myproject"
 alias create_vite="npm create vite@latest"
+alias create_symfony_project="curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh | bash"
 
 ### INSTALL
 alias busy_install="sudo apt install -y busybox"
@@ -42,9 +43,9 @@ alias cpf="copyfile"
 ### LIST ###
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
-alias ls='ls $LS_OPTIONS'
-alias ll='ls $LS_OPTIONS -l'
-alias l='ls $LS_OPTIONS -lA'
+# alias ls='ls $LS_OPTIONS'
+# alias ll='ls $LS_OPTIONS -l'
+# alias l='ls $LS_OPTIONS -lA'
 
 # use eza
 # https://github.com/eza-community/eza
