@@ -5,6 +5,9 @@ build_container:
 	docker build -t php-apache-img .
 run_container:
 	docker run -it -d -v .:/var/www -p 8123:80 --name phpapache php-apache-img
+build_and_run:
+	{MAKE} build_container
+	{MAKE} run_container
 connect_container:
 	docker exec -it phpapache bash
 stop_container:
