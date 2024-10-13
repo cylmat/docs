@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 .PHONY: build_container run_container connect_container stop_container remove_container create_project install_db install_qa doc
-test
+
 build_container:
 	docker build -t php-apache-img .
 run_container:
