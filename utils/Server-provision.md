@@ -11,6 +11,7 @@ Environment dev
 * https://www.docker.com
   + https://phpdocker.io: PHP development environment generator built with Docker
   + https://docs.docker.com/engine/swarm/secrets: Secrets swarm
+  + https://www.compose-generator.com: Generating docker-compose file
 * https://kubernetes.io: Open-source system for automating deployment
   + https://pinniped.dev: K8s auth
   + https://k9scli.io/
