@@ -42,6 +42,10 @@ Testing
 - https://playwright.dev: End-to-end testing
 - https://github.com/easy-coding-standard/easy-coding-standard: PhpCs made easy
 
+QA
+- https://edgedesigncz.github.io/phpqa/
+- https://jakzal.github.io/toolbox/
+
 Versionning
 * https://alx.github.io/gitbook
 * https://git-scm.com
