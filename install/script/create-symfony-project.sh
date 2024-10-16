@@ -8,7 +8,7 @@
 
 git clone https://github.com/cylmat/clean-symfony .
 rm -r .git
-chmod a+wr ./*
+chmod 0755 ./*
 
 ### Usage doc ###
 
