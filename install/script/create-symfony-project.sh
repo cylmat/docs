@@ -6,7 +6,7 @@
 # @todo change user root
 # @todo add openssl
 
-https://github.com/cylmat/clean-symfony .
+git clone https://github.com/cylmat/clean-symfony .
 rm -r .git
 
 ### Usage doc ###
