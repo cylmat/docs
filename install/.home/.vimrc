@@ -63,6 +63,11 @@ Plug 'tpope/vim-repeat'
 " runtime! make it load earlier, that we can override config after it
 " runtime! plugin/sensible.vim
 
+" Sneak
+" https://github.com/justinmk/vim-sneak
+" Use s{char}{char}
+Plug 'justinmk/vim-sneak'
+
 " Surround https://github.com/tpope/vim-surround
 " USE cs"'
 Plug 'tpope/vim-surround'
