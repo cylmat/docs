@@ -10,6 +10,8 @@ Api
 * https://packagist.org/packages/willdurand/hateoas-bundle
 * https://github.com/FriendsOfSymfony/FOSRestBundle
 
+* https://github.com/zircote/swagger-php : Swagger doc @SWG
+
 Cache
 * https://www.phpfastcache.com: Building reactive apps
 * https://www.stashphp.com: Cache process
