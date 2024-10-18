@@ -21,6 +21,13 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Tpm plugins: (**tmux-autoreload, continuum, fzf, jump, menus, resurrect, sensible, sessionist, sidebar, yank**) 
   + Theme (**tmux-colors-solarized**)
  
+## Editing
+
+- Windows editing: VSCode
+  + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
+- Mouseless edition: Vim
+  + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
+
 ## Tools
  
 Common
@@ -112,14 +119,6 @@ Utils & work
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Open file with default app
 + [xsel](http://www.kfish.org/software/xsel) Get/set the contents of the clipboard selection
 + [zshbench](https://github.com/romkatv/zsh-bench) Benchmark for interactive Zsh
-
-
-## Editing
-
-- Windows editing: VSCode
-  + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
-- Mouseless edition: Vim
-  + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
 ## Awesome !
 
