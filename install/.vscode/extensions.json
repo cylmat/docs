@@ -72,6 +72,11 @@
         "donjayamanne.githistory",
         "eamodio.gitlens",
 
+        // AWS
+        "amazonwebservices.amazon-q-vscode",
+        "amazonwebservices.aws-toolkit-vscode",
+        "mark-tucker.aws-cli-configure",
+
         // format
         "yhpnoraa.beauty",
         "mikestead.dotenv",
