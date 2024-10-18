@@ -10,7 +10,8 @@ Api
 * https://packagist.org/packages/willdurand/hateoas-bundle
 * https://github.com/FriendsOfSymfony/FOSRestBundle
 
-* https://github.com/zircote/swagger-php : Swagger doc @SWG
+* https://github.com/zircote/swagger-php: Swagger doc @SWG
+* https://github.com/nelmio/NelmioApiDocBundle: Generates documentation for your REST API from annotations 
 
 Cache
 * https://www.phpfastcache.com: Building reactive apps
