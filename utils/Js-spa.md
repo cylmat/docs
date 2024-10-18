@@ -60,6 +60,7 @@ Library
 * https://www.chartjs.org
 * https://createjs.com
 * https://jquery.com
+* https://fullcalendar.io: JavaScript Calendar
 * https://mootools.net
 * https://nativescript.org
 * https://pixijs.com
