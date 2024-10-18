@@ -25,6 +25,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 
 - Windows editing: VSCode
   + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
+  + [VsCodeVim](https://aka.ms/vscodevim)
 - Mouseless edition: Vim
   + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
