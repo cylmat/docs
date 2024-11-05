@@ -110,7 +110,8 @@ Playground
 * https://liveweave.com
 * https://playcode.io/
 
-- https://cssdeck.com/
+- https://stackblitz.com
+- https://cssdeck.com
 
 Testing framework
 * https://www.cypress.io
