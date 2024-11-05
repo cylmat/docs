@@ -43,6 +43,8 @@
         "recca0120.vscode-phpunit",
         "phproberto.vscode-php-getters-setters",
         "hbenl.vscode-test-explorer",
+        "phiter.phpstorm-snippets",
+        "mrchetan.phpstorm-parameter-hints-in-vscode",
 
         // snippets
         "thekalinga.bootstrap4-vscode",
@@ -112,6 +114,9 @@
         // ai & autocomplete
         "andrewbutson.vscode-openai",
         "danielsanmedium.dscodegpt",
+        "sourcegraph.cody-ai",
+        "genieai.chatgpt-vscode",
+        "danielsanmedium.dscodegpt",
 
         // tools
         "alefragnani.Bookmarks",
@@ -135,13 +140,6 @@
         "yatki.vscode-surround",
         "konstantin.wrapSelection",
         "MS-vsliveshare.vsliveshare",
-
-        /////////////// java
-        "redhat.java",
-        "vscjava.vscode-java-debug",
-        "vscjava.vscode-java-dependency",
-        "vscjava.vscode-java-pack",
-        "vscjava.vscode-java-test",
-        "vscjava.vscode-maven",
+        "SharashchandraDesai.simple-scratch"
     ]
 }
