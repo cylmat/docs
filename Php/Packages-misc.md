@@ -8,6 +8,7 @@
 Api
 * https://github.com/Tobion/OpenAPI-Symfony-Routing: Loads routes in Symfony based on OpenAPI/Swagger
 * https://packagist.org/packages/willdurand/hateoas-bundle
+* https://github.com/willdurand/Hateoas
 * https://github.com/FriendsOfSymfony/FOSRestBundle
 
 * https://github.com/zircote/swagger-php: Swagger doc @SWG
