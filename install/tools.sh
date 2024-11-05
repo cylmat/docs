@@ -77,6 +77,7 @@ snap
 ########
 # BREW #
 
+# diff-so-fancy
 # gron (grep json)
 # k9s 
 # krew (ctx and ns)
@@ -85,6 +86,7 @@ snap
 # scc
 
 brew install \
+diff-so-fancy \
 gron \
 k9s \
 krew \
