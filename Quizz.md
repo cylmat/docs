@@ -32,6 +32,7 @@ Misc
 - https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base
 - https://www.codequizzes.com/git/beginner/branches
 - https://blog.silarhi.fr/symfony-double-authentification-2fa/
+- https://welovedevs.com/app/tests
 
 Web
 - https://www.sporcle.com/games/Mucleus/httpcodes
