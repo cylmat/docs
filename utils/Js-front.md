@@ -119,6 +119,7 @@ Testing framework
 * https://mochajs.org
 * https://playwright.dev
 
-## SPA
+---
+SPA
 * https://hotwired.dev: Turbo - Stimulus - Strada for SPA
-  + https://turbo.hotwired.dev 
++ https://turbo.hotwired.dev 
