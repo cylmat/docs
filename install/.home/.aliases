@@ -86,14 +86,11 @@ alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 #####################################
 
 # useful cli urls
-alias myurl='echo "
+alias my='echo "
+- URL -
 https://httpbin.org
 http://headers.jsontest.com
-"'
 
-
-# see all installed custom tools
-alias my='echo "
 - COMMON -
 busybox, brew, nix, nu(shell), snap, zsh
 
