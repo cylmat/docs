@@ -1,0 +1,25 @@
+# helpers urls
+alias docs='echo "
+- DOCS -
+busy:  https://busybox.net
+delta: https://dandavison.github.io/delta
+nix:   https://nix.dev/manual/nix/2.24
+nnn:   https://github.com/jarun/nnn/wiki/Usage
+nush:  https://nushell.sh/book
+
+- HELPERS -
+cheat:  https://cheat.sh
+shell:  https://explainshell.com
+yeoman: https://yeoman.io
+
+- STACK BOX -
+devilbox:  http://devilbox.org
+meanjs:    http://meanjs.org
+openresty: https://openresty.org
+phpdocker: https://phpdocker.io
+
+- GENERAL -
+docs:   https://github.com/cylmat/docs
+cheats: https://github.com/cylmat/cheats
+useful: https://cylmat.github.io/useful
+"'
