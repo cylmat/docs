@@ -25,12 +25,6 @@ alias h="helm"
 alias mnk="minikube"
 alias sym="symfony"
 
-### CREATE
-alias create_comp="composer create-project symfony/skeleton"
-alias create_sym="symfony new myproject"
-alias create_vite="npm create vite@latest"
-alias create_symfony_project="curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh | bash"
-
 ### INSTALL
 alias busy_install="sudo apt install -y busybox"
 alias cht_install="curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh"
