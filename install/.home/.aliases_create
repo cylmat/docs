@@ -1,0 +1,5 @@
+### CREATE
+alias create_symcomp="composer create-project symfony/skeleton"
+alias create_sym="symfony new myproject"
+alias create_vite="npm create vite@latest"
+alias clone_clean_project="curl -sS https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/create-symfony-project.sh | bash"
