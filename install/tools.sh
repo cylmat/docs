@@ -94,6 +94,7 @@ snap
 # ripgrep
 # scc
 # tokei (count your code)
+# vifm
 
 brew install \
 diff-so-fancy \
@@ -107,7 +108,8 @@ lazygit \
 nushell \
 ripgrep \
 scc \
-tokei
+tokei \
+vifm
 
 ### autojump or z ###
 # https://github.com/wting/autojump
