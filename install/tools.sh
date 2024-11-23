@@ -132,6 +132,7 @@ sudo apt install cargo
 # Procs : https://github.com/dalance/procs
 # sd : sed-like
 # so StackOverflow https://github.com/samtay/so
+# tidy-viewer (CSV viewer)
 # toipe : typing test
 
 
@@ -146,6 +147,7 @@ navi \
 procs \
 sd \
 so \
+tidy-viewer \
 toipe
 
 
