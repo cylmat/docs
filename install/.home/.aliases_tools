@@ -14,15 +14,16 @@ busybox, brew, nix, nu(shell), snap, zsh
 - DEV & DATA -
 gron, iredis, jq, mnk (minikube)
 k9s, kdash, krew (ctx, ns)
-lazygit, lazydocker
 sym(fony), tig, tmux, tmuxinator, vim
+>lazygit, lazydocker
 
 - ENCRYPT
 gnupg, openssl
 
 - FILES & LOGS -
-ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf, fzy, 
-joshuto, lsof, ranger, rsync, sd, tre(-command), ugrep, r(ip)g(rep), vifm
+ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
+fzy, lsof, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
+>joshuto, ranger, vifm
 
 - FUN -
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
