@@ -39,7 +39,7 @@ netstat, nmap, tcpdump, ss
 gtypist, tt, ttyper, toipe, vimgolf
 
 - UTILS & WORK -
-bc, entr, just, pass, scc, taskwarrior
+bc, entr, glow, just, pass, scc, taskwarrior
 tokei, uuidgen, xdg-open, xsel
 
 - ZSH -
