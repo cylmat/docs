@@ -11,15 +11,18 @@ sudo apt install -y busybox nix
 
 ### common ###
 
+# acl
 # bat: cat like with color
 # ccze : color logs
 # dos2Unix
 # fd-find
 # finger (pinky) : user information lookup
 # fzy (fzf-like) use cat $(ls *.txt | fzy)
+# gnupg
 # Json jq
 # locales 
 # manpages
+# openssl
 # pass (manager)
 # ranger : filesystem
 # rsync
@@ -34,9 +37,11 @@ command-not-found \
 dos2unix \
 fd-find \
 fzy \
+gnupg \
 jq \
 locales locales-all \
 manpages man-db \
+openssl \
 pass \
 ranger \
 rsync \
