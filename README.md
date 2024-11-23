@@ -49,7 +49,9 @@ Dev & data
 - [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
 - [symfony](https://symfony.com/download) Build, run, and manage Symfony applications
++ [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
+- [visidata](https://www.visidata.org) Interactive multitool for tabular data
 
 Encrypt
 - [gnupg](https://gnupg.org) Allows to encrypt and sign data
@@ -125,7 +127,6 @@ Utils & work
 + [pass](https://passwordstore.org) The standard unix password manager
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
 + [taskwarrior](https://taskwarrior.org) Manages your TODO list from the command line
-+ [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
 + [tokei](https://github.com/XAMPPRocky/tokei) Count your code, quickly
 + uuidgen UUID generator
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Open file with default app
