@@ -121,6 +121,7 @@ Training
 
 Utils & work
 + [bc](https://doc.ubuntu-fr.org/bc) Command line calculator
++ [dnote](https://github.com/dnote/dnote) Simple command line notebook for programmers 
 + [entr](https://github.com/eradman/entr) Run arbitrary commands when files change
 + [glow](https://github.com/charmbracelet/glow) Render markdown on the CLI
 + [just](https://github.com/casey/just) **_Better make!_** Just a command runner
