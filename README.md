@@ -52,6 +52,7 @@ Dev & data
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
 Files & logs
++ [ack](https://linux.die.net/man/1/ack) Grep-like text finder 
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
