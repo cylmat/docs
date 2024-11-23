@@ -12,9 +12,8 @@ http://headers.jsontest.com
 busybox, brew, nix, nu(shell), snap, zsh
 
 - DEV & DATA -
-gron, iredis, jq, mnk (minikube)
-k9s, kdash, krew (ctx, ns)
-sym(fony), tig, tmux, tmuxinator, vim
+gron, iredis, jq, mnk (minikube), k9s, kdash, krew (ctx, ns)
+sym(fony), tidy-viewer(csv), tig, tmux, tmuxinator, vim
 >lazygit, lazydocker
 
 - ENCRYPT
@@ -44,7 +43,7 @@ gtypist, tt, ttyper, toipe, vimgolf
 
 - UTILS & WORK -
 bc, entr, glow, just, pass, scc, taskwarrior
-tidy-viewer(csv), tokei, uuidgen, xdg-open, xsel
+tokei, uuidgen, xdg-open, xsel
 
 - ZSH -
 als, C-o (cmd), cph, cpf, z, zsh-bench
