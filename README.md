@@ -123,6 +123,7 @@ Utils & work
 + [pass](https://passwordstore.org) The standard unix password manager
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
 + [taskwarrior](https://taskwarrior.org) Manages your TODO list from the command line
++ [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
 + [tokei](https://github.com/XAMPPRocky/tokei) Count your code, quickly
 + uuidgen UUID generator
 + [xdg-open](https://doc.ubuntu-fr.org/xdg-open) Open file with default app
