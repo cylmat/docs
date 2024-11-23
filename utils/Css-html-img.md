@@ -42,6 +42,9 @@ Css dev
 * https://lesscss.org
 * https://sass-lang.com
 
+Icon
+* https://mui.com/material-ui/material-icons: MaterialUi icons
+
 Html templating
 * http://www.99lime.com/elements
 * https://haml.info
