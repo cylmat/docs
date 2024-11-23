@@ -53,6 +53,7 @@ Dev & data
 
 Encrypt
 - [gnupg](https://gnupg.org) Allows to encrypt and sign data
+- [openssl](https://www.openssl.org) Full-featured toolkit for general-purpose cryptography
 
 Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder 
