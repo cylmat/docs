@@ -51,6 +51,9 @@ Dev & data
 - [symfony](https://symfony.com/download) Build, run, and manage Symfony applications
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 
+Encrypt
+- [gnupg](https://gnupg.org) Allows to encrypt and sign data
+
 Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder 
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
