@@ -113,6 +113,7 @@ Training
 Utils & work
 + [bc](https://doc.ubuntu-fr.org/bc) Command line calculator
 + [entr](https://github.com/eradman/entr) Run arbitrary commands when files change
++ [glow](https://github.com/charmbracelet/glow) Render markdown on the CLI
 + [just](https://github.com/casey/just) **_Better make!_** Just a command runner
 + [pass](https://passwordstore.org) The standard unix password manager
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
