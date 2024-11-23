@@ -84,17 +84,22 @@ snap
 # BREW #
 
 # diff-so-fancy
+# glow
 # gron (grep json)
+# joshuto
 # k9s 
 # krew (ctx and ns)
 # lazygit
+# nushell
 # ripgrep
 # scc
+# tokei (count your code)
 
 brew install \
 diff-so-fancy \
 glow \
 gron \
+joshuto \
 k9s \
 krew \
 lazydocker \
