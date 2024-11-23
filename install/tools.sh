@@ -66,6 +66,7 @@ xsel
 # taskwarrior manager
 # tig: git logs
 # TlDr : cheatsheets for console commands
+# visidata
 
 sudo apt install -y \
 bc \
@@ -80,7 +81,8 @@ nnn \
 taskwarrior \
 tig \  
 tldr && tldr --update \
-snap
+snap \
+visidata
 
 ########
 # BREW #
