@@ -27,6 +27,7 @@ sudo apt install -y busybox nix
 # xsel
 
 sudo apt install -y \
+ack \
 bat \
 ccze \
 command-not-found \
