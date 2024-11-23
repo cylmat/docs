@@ -66,12 +66,13 @@ Files & logs
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
-+ [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
++ [ranger](https://github.com/ranger/ranger) **!** A Vim-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
 + [sd](https://github.com/chmln/sd) **_Better sed!_** Intuitive find & replace CLI
 + [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
 + [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
++ [vifm](http://braumeister.org/formula/vifm) **!** Vim-like environment file manager
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
