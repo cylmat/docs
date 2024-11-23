@@ -72,7 +72,7 @@ Files & logs
 + [sd](https://github.com/chmln/sd) **_Better sed!_** Intuitive find & replace CLI
 + [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
 + [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
-+ [vifm](http://braumeister.org/formula/vifm) **!** Vim-like environment file manager
++ [vifm](https://vifm.info) **!** Vim-like environment file manager
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
