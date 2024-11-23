@@ -103,7 +103,6 @@ visidata
 
 brew install \
 diff-so-fancy \
-dnote \
 glow \
 gron \
 joshuto \
@@ -116,6 +115,8 @@ ripgrep \
 scc \
 tokei \
 vifm
+
+brew tap dnote/dnote && brew install dnote
 
 ### autojump or z ###
 # https://github.com/wting/autojump
