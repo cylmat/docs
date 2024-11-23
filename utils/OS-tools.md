@@ -20,6 +20,7 @@ Portals
 - https://github.com/oh-my-fish/oh-my-fish
 - https://github.com/ohmybash/oh-my-bash
 - https://github.com/unixorn/awesome-zsh-plugins
+- https://sw.kovidgoyal.net/kitt: Kitty terminal emulator
 
 Monitoring
 * https://nmap.org: Security scanner
