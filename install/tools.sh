@@ -88,6 +88,7 @@ snap
 
 brew install \
 diff-so-fancy \
+glow \
 gron \
 k9s \
 krew \
