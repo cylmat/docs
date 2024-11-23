@@ -21,8 +21,8 @@ sym(fony), tig, tmux, tmuxinator, vim
 gnupg, openssl
 
 - FILES & LOGS -
-ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf, fzy
-lsof, ranger, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
+ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf, fzy, 
+joshuto, lsof, ranger, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 
 - FUN -
 cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
