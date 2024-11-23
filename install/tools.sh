@@ -88,6 +88,7 @@ visidata
 # BREW #
 
 # diff-so-fancy
+# dnote
 # glow
 # gron (grep json)
 # joshuto
@@ -102,6 +103,7 @@ visidata
 
 brew install \
 diff-so-fancy \
+dnote \
 glow \
 gron \
 joshuto \
