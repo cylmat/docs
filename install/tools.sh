@@ -60,6 +60,7 @@ xsel
 # duf disk usage
 # httpie : curl
 # ncdu : disk manager
+# nnn file manager
 # Neofetch os informations
 # snap install apps @https://snapcraft.io
 # taskwarrior manager
@@ -75,6 +76,7 @@ iredis \
 httpie \
 ncdu \
 neofetch \
+nnn \
 taskwarrior \
 tig \  
 tldr && tldr --update \
