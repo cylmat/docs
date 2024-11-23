@@ -42,8 +42,8 @@ netstat, nmap, tcpdump, ss
 gtypist, tt, ttyper, toipe, vimgolf
 
 - UTILS & WORK -
-bc, entr, glow, just, pass, scc, taskwarrior
-tokei, uuidgen, xdg-open, xsel
+bc, dnote, entr, glow, just, pass, scc
+taskwarrior, tokei, uuidgen, xdg-open, xsel
 
 - ZSH -
 als, C-o (cmd), cph, cpf, z, zsh-bench
