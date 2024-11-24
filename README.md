@@ -172,7 +172,6 @@ Suggested:
 
 ---
 Ref:
-- [Atomic Design](https://atomicdesign.bradfrost.com)
-- [Delivery apps reference](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
-- [Roadmap full-stack](https://roadmap.sh/full-stack)
+- [Atomic Design](https://atomicdesign.bradfrost.com) - [Roadmap full-stack](https://roadmap.sh/full-stack)
++ [Cloud-delivery-models.png](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png) - [Top-cyber-attack.png](https://github.com/cylmat/docs/blob/main/Form/Archilog/top-cyber-attack.png)
 
