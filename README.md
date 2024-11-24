@@ -67,7 +67,7 @@ Training
 
 ---
 
-# Other very nice tools
+# Other useful tools
  
 Common
 + [nix](https://nixos.org) Declarative builds and deployments
