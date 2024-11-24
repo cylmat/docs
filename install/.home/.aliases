@@ -52,9 +52,10 @@ eval "`dircolors`"
 
 ### NET ##
 alias ipme="curl -L ipconfig.me"
-alias nsplunt="netstat -plunt | grep LISTEN"
-# e.g. lsof -i tcp:3306
-alias lsofpni="lsof -P -n -i"
+# e.g. lsof -i:22 tcp:3306
+alias lsofpni="lsof -nP -i"
+alias nsplunt="netstat -plunt"
+alias net="lsof,nc,netstat"
 
 ### GREP ###
 # https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
