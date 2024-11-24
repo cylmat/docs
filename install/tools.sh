@@ -248,6 +248,9 @@ wget https://github.com/akavel/up/releases/latest/download/up -O /tmp/up
 chmod a+x /tmp/up
 sudo mv /tmp/up /usr/local/bin/up
 
+### YAI ai assistant ###
+curl -sS https://raw.githubusercontent.com/ekkinox/yai/main/install.sh | bash
+
 ### zsh bench (benchmark)
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
 
