@@ -1,4 +1,33 @@
-# helpers urls
+
+### NET cheats ###
+
+echo "
+curl -L ipconfig.me"
+
+sudo apt install net-tools
+
+# lsof -i:22 tcp:3306
+lsof -nP -i
+
+# netcat
+nc -v -n 8.8.8.8 1-1000  # (n)o domain resolv
+nc -l localhost 80       # (l)isten on 80
+
+# (p)rog (l)isten (u)dp (n)um (t)cp 
+netstat -plunt
+ss -plunt
+
+# (a)ll (n)um (o)timer
+netstat -ano
+
+# scan TCP, scan UDP, enable OS detect
+sudo nmap -sTU -O 127.0.0.1
+
+tcpdump -n -i ppp0
+"
+
+### Helpers urls ###
+
 alias docs='echo "
 - DOCS -
 busy:  https://busybox.net
