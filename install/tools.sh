@@ -91,6 +91,7 @@ visidata
 ########
 # BREW #
 
+# autojump
 # diff-so-fancy
 # dnote
 # glow
@@ -104,9 +105,11 @@ visidata
 # scc
 # tokei (count your code)
 # vifm
+# wtfutil
 
 brew install \
 
+autojump \
 diff-so-fancy \
 glow \
 gron \
