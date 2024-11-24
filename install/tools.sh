@@ -106,6 +106,7 @@ visidata
 # vifm
 
 brew install \
+
 diff-so-fancy \
 glow \
 gron \
@@ -118,7 +119,8 @@ nushell \
 ripgrep \
 scc \
 tokei \
-vifm
+vifm \
+wtfutil
 
 brew tap dnote/dnote && brew install dnote
 
