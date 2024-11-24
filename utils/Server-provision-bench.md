@@ -23,6 +23,7 @@ Monitoring
 - https://www.aapanel.com
 - https://vestacp.com
 - https://www.virtualmin.com
+- https://trippy.cli.rs: combines the functionality of traceroute and ping
 
 Provisionning
 * https://www.ansible.com
