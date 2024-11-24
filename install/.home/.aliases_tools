@@ -32,7 +32,7 @@ ai, chat, cht(.sh), explain(.sh)
 grex, navi, so, tldr, up, yai
 
 - MONITOR & INFO -
-btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
+btop, duf, lshw, ncdu, neofetch, procs, wtfutil, ~/welcome.sh
 
 - NETWORK -
 bandwhich, curlie, httpie, http-prompt, lynx, w3m
