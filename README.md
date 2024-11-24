@@ -170,5 +170,7 @@ Suggested:
 
 ---
 Ref:
+- [Atomic Design](https://blog-ux.com/quest-ce-que-latomic-design)
 - [Delivery apps reference](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png)
 - [Roadmap full-stack](https://roadmap.sh/full-stack)
+
