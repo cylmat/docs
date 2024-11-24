@@ -59,7 +59,9 @@ alias lsofpni="lsof -nP -i"
 alias nsplunt="netstat -plunt"
 # (a)ll (n)um (o)timer
 alias nsano="netstat -ano"
-alias net="lsof,nc,netstat,nmap,tcpdump"
+# sudo nmap -sTU -O 127.0.0.1
+alias nmapstuo="nmap -sTU -O"
+alias net="lsof,nc,netstat,nmap,ss,tcpdump"
 
 ### GREP ###
 # https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
