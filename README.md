@@ -180,17 +180,18 @@ Programming
 - Back: [Awesome Php](https://github.com/ziadoz/awesome-php), [Awesome Symfony](https://github.com/sitepoint-editors/awesome-symfony), [Symfony top30](https://symfony.com/blog/the-30-most-useful-symfony-bundles-and-making-them-even-better)
 
 ---
-Most used:
-- [Install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
-- [Utils](https://github.com/cylmat/docs/tree/main/utils) : Coding, security, project useful tools...
-- [Create clean Symfony project](https://github.com/cylmat/docs/blob/main/install/script/create-symfony-project.sh)
-
----
 Suggested:
 - https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
 - https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
 - https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
+- https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit
 - https://pixxlisation.tech.blog/2020/04/15/ohmyzsh-tmux-powerline-un-terminal-pour-les-gouverner-tous
+
+---
+Most used:
+- [Install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
+- [Utils](https://github.com/cylmat/docs/tree/main/utils) : Coding, security, project useful tools...
+- [Create clean Symfony project](https://github.com/cylmat/docs/blob/main/install/script/create-symfony-project.sh)
 
 ---
 Ref:
