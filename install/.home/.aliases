@@ -54,6 +54,7 @@ eval "`dircolors`"
 alias ipme="curl -L ipconfig.me"
 # e.g. lsof -i:22 tcp:3306
 alias lsofpni="lsof -nP -i"
+# sudo apt install net-tools
 alias nsplunt="netstat -plunt"
 alias net="lsof,nc,netstat"
 
