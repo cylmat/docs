@@ -68,6 +68,7 @@ Files & logs
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
++ [lnav](https://lnav.org) The logfile navigator
 + [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
 + [peco](https://github.com/peco/peco) Simplistic interactive filtering tool 
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
