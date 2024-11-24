@@ -62,6 +62,7 @@ xsel
 # ncdu : disk manager
 # nnn file manager
 # Neofetch os informations
+# peco (filter)
 # snap install apps @https://snapcraft.io
 # taskwarrior manager
 # tig: git logs
@@ -78,6 +79,7 @@ httpie \
 ncdu \
 neofetch \
 nnn \
+peco \
 taskwarrior \
 tig \  
 tldr && tldr --update \
