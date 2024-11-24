@@ -29,7 +29,7 @@ cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 - HELPER & AI -
 ai, chat, cht(.sh), explain(.sh)
-grex, navi, so, tldr, up
+grex, navi, so, tldr, up, yai
 
 - MONITOR & INFO -
 btop, duf, lshw, ncdu, neofetch, procs, ~/welcome.sh
