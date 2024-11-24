@@ -69,6 +69,7 @@ Files & logs
 + [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
 + [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
++ [peco](https://github.com/peco/peco) Simplistic interactive filtering tool 
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
