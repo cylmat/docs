@@ -1,7 +1,7 @@
 
 ### NET cheats ###
 
-echo "
+alias netcheat='echo "
 curl -L ipconfig.me"
 
 sudo apt install net-tools
@@ -24,7 +24,7 @@ netstat -ano
 sudo nmap -sTU -O 127.0.0.1
 
 tcpdump -n -i ppp0
-"
+"'
 
 ### Helpers urls ###
 
