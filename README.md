@@ -106,6 +106,8 @@ Monitor & info
 + [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
 + [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
 + [procs](https://github.com/dalance/procs) **_Better ps!_** A modern replacement for ps
++ [procps](https://gitlab.com/procps-ng/procps) Provide information of filesystem on /proc
++ [wtfutil](https://wtfutil.com) Personal information dashboard for your terminal
 
 Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) Terminal bandwidth utilization tool 
@@ -128,7 +130,6 @@ Utils & work
 + [glow](https://github.com/charmbracelet/glow) Render markdown on the CLI
 + [just](https://github.com/casey/just) **_Better make!_** Just a command runner
 + [pass](https://passwordstore.org) The standard unix password manager
-+ [procps](https://gitlab.com/procps-ng/procps) Provide information of filesystem on /proc
 + [scc](https://github.com/boyter/scc) Fast accurate code counter with complexity calculations
 + [taskwarrior](https://taskwarrior.org) Manages your TODO list from the command line
 + [tokei](https://github.com/XAMPPRocky/tokei) Count your code, quickly
