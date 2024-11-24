@@ -3,10 +3,15 @@
 ##############
 
 echo "SAMPLE:
-echo 'test' | sha1sum
-echo 'test' | md5sum
 echo -n 'test' | git hash-object --stdin
 git hash-object file.txt
+
+echo 'test' | md5sum
+echo 'test' | sha1sum
+echo 'test' | base64 --encode
+
+echo -n 'test' | openssl enc -base64
+echo -n "test" | openssl enc -e -aes-256-cbc -a -salt
 "
 
 ##################
