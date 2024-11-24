@@ -115,6 +115,7 @@ k9s \
 krew \
 lazydocker \
 lazygit \
+lnav \
 nushell \
 ripgrep \
 scc \
