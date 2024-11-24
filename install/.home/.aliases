@@ -51,16 +51,19 @@ eval "`dircolors`"
 # lt=’eza -al --sort=modified’
 
 ### NET ##
+# sudo apt install net-tools
+
 alias ipme="curl -L ipconfig.me"
 # e.g. lsof -i:22 tcp:3306
 alias lsofpni="lsof -nP -i"
-# sudo apt install net-tools
+# nc 127.0.0.1 80
 # (p)rog (l)isten (u)dp (n)um (t)cp 
 alias nsplunt="netstat -plunt"
 # (a)ll (n)um (o)timer
 alias nsano="netstat -ano"
 # sudo nmap -sTU -O 127.0.0.1
 alias nmapstuo="nmap -sTU -O"
+alias ssplunt="ss -plunt"
 alias net="lsof,nc,netstat,nmap,ss,tcpdump"
 
 ### GREP ###
