@@ -55,7 +55,10 @@ alias ipme="curl -L ipconfig.me"
 # e.g. lsof -i:22 tcp:3306
 alias lsofpni="lsof -nP -i"
 # sudo apt install net-tools
+# (p)rog (l)isten (u)dp (n)um (t)cp 
 alias nsplunt="netstat -plunt"
+# (a)ll (n)um (o)timer
+alias nsano="netstat -ano"
 alias net="lsof,nc,netstat,nmap,tcpdump"
 
 ### GREP ###
