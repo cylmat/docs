@@ -5,6 +5,7 @@ I like adding a lot of usefull and time-saving plugins that gave me a lot of flu
 I share here an overview of tools and utils installed on my workspace. Enjoy!   
 
 ### Shell
+--
 
 - Shell with auto and colors:
   + [Zsh](https://wiki.ubuntu-fr.org/zsh) by default, with help of [Nushell](https://www.nushell.sh)
@@ -22,6 +23,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Theme (**tmux-colors-solarized**)
  
 ### Editing
+--
 
 - Windows editing: VSCode
   + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
@@ -30,6 +32,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
 ### Tools
+--
 
 Common
 - [brew](https://brew.sh) Package Manager for Linux
