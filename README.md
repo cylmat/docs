@@ -98,6 +98,7 @@ Helper & ai
 * [so](https://github.com/samtay/so) (stack overflow)
 * [tldr](https://tldr.sh) **_Better man!_** Simplified and community-driven man page
 * [up](https://github.com/akavel/up) Writing linux pipes with instant live preview !
+* [yai](https://github.com/ekkinox/yai) Your AI powered terminal assistant
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources 
