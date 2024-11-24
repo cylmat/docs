@@ -4,7 +4,7 @@ This is my current day by day configuration as a fullstack Symfony/React develop
 I like adding a lot of usefull and time-saving plugins that gave me a lot of fluidity in my workflow.    
 I share here an overview of tools and utils installed on my workspace. Enjoy!   
 
-## Shell
+### Shell
 
 - Shell with auto and colors:
   + [Zsh](https://wiki.ubuntu-fr.org/zsh) by default, with help of [Nushell](https://www.nushell.sh)
@@ -21,7 +21,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Tpm plugins: (**tmux-autoreload, continuum, fzf, jump, menus, resurrect, sensible, sessionist, sidebar, yank**) 
   + Theme (**tmux-colors-solarized**)
  
-## Editing
+### Editing
 
 - Windows editing: VSCode
   + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
@@ -29,7 +29,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 - Mouseless edition: Vim
   + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
-## Tools
+### Tools
 
 Common
 - [brew](https://brew.sh) Package Manager for Linux
@@ -64,7 +64,7 @@ Training
 
 ---
 
-### Other very nice tools
+# Other very nice tools
  
 Common
 + [nix](https://nixos.org) Declarative builds and deployments
