@@ -24,6 +24,7 @@ sudo apt install -y busybox nix
 # manpages
 # openssl
 # pass (manager)
+# procps
 # ranger : filesystem
 # rsync
 # ugrep
@@ -43,6 +44,7 @@ locales locales-all \
 manpages man-db \
 openssl \
 pass \
+procps \
 ranger \
 rsync \
 tre-command \
