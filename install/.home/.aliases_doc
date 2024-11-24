@@ -2,7 +2,7 @@
 ### NET cheats ###
 
 alias netcheat='echo "
-curl -L ipconfig.me"
+curl -L ipconfig.me
 
 sudo apt install net-tools
 
