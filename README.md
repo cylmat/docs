@@ -145,7 +145,7 @@ Utils & work
 
 Awesome lists: [Awesome rank](https://awesomerank.github.io), [Awesome lists](https://github.com/sindresorhus/awesome), [Awesome all tracked lists](https://www.trackawesomelist.com/#all-tracked-list), [Awesome top 50](https://www.trackawesomelist.com/#top-50-awesome-list)
 
-Data: [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
+Data: [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets) - [Awesome DB tools](https://project-awesome.org/mgramin/awesome-db-tools)
 
 Dev tools: [Awesome Docker](https://github.com/veggiemonk/awesome-docker), [Awesome Git](https://github.com/dictcp/awesome-git), [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
 
