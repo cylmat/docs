@@ -1,5 +1,17 @@
+##############
+### Crypto ###
+##############
 
+echo "SAMPLE:
+echo 'test' | sha1sum
+echo 'test' | md5sum
+echo -n 'test' | git hash-object --stdin
+git hash-object file.txt
+"
+
+##################
 ### NET cheats ###
+##################
 
 alias netcheat='echo "
 curl -L ipconfig.me
@@ -25,7 +37,9 @@ nmap -sTU -O 127.0.0.1
 tcpdump -n -i eth0
 "'
 
+####################
 ### Helpers urls ###
+####################
 
 alias docs='echo "
 - DOCS -
