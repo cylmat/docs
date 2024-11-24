@@ -56,7 +56,7 @@ alias ipme="curl -L ipconfig.me"
 alias lsofpni="lsof -nP -i"
 # sudo apt install net-tools
 alias nsplunt="netstat -plunt"
-alias net="lsof,nc,netstat"
+alias net="lsof,nc,netstat,nmap,tcpdump"
 
 ### GREP ###
 # https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
