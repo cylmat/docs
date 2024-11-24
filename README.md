@@ -58,7 +58,8 @@ Encrypt
 - [openssl](https://www.openssl.org) Full-featured toolkit for general-purpose cryptography
 
 Files & logs
-+ [ack](https://linux.die.net/man/1/ack) Grep-like text finder 
++ [ack](https://linux.die.net/man/1/ack) Grep-like text finder
++ [autojump](https://github.com/wting/autojump) A cd command that learns
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
