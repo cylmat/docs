@@ -30,27 +30,55 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
   + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
 ## Tools
- 
+
 Common
 - [brew](https://brew.sh) Package Manager for Linux
 - [busybox](https://busybox.net) Swiss Army Knife of Embedded Linux
+
+Dev
+- [git](https://git-scm.com) Distributed version control system
+- [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
+- [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
+- [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
+
+Files & logs
++ [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
++ [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
++ [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
++ [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
++ [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
++ [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
++ [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
++ [vifm](https://vifm.info) Vim-like environment file manager
+
+Helper & ai
+* [cheat.sh](https://github.com/chubin/cheat.sh) **_Can't live without!_** The only cheat sheet you need
+
+Monitor & info  
++ [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
++ [duf](https://github.com/muesli/duf) **_Better du!_** Disk Usage/Free Utility
++ [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
+
+Training
++ [ttyper](https://github.com/max-niederman/ttyper)
+
+---
+
+### Other very nice tools
+ 
+Common
 + [nix](https://nixos.org) Declarative builds and deployments
 + [snap](https://snapcraft.io) The app store for Linux
 
 Dev & data  
-- [git](https://git-scm.com) Distributed version control system
 - [gron](https://github.com/tomnomnom/gron) Make JSON greppable
 - [iredis](https://github.com/laixintao/iredis) Redis client with autocompletion and syntax highlighting
-- [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
 - [kdash](https://github.com/kdash-rs/kdash) Simple and fast dashboard for Kubernetes 
 - [krew](https://krew.sigs.k8s.io) Find and install kubectl plugins 
 - [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
 - [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
-- [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
-- [symfony](https://symfony.com/download) Build, run, and manage Symfony applications
 + [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
-- [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
 - [visidata](https://www.visidata.org) Interactive multitool for tabular data
 
 Encrypt
@@ -60,25 +88,17 @@ Encrypt
 Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder
 + [autojump](https://github.com/wting/autojump) A cd command that learns
-+ [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
-+ [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
-+ [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
-+ [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
 + [lnav](https://lnav.org) The logfile navigator
-+ [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
 + [peco](https://github.com/peco/peco) Simplistic interactive filtering tool 
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
 + [rsync](https://rsync.samba.org) Fast incremental file transfer
 + [sd](https://github.com/chmln/sd) **_Better sed!_** Intuitive find & replace CLI
-+ [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
-+ [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
-+ [vifm](https://vifm.info) Vim-like environment file manager
 
 Fun  
 + [asciiquarium](https://github.com/cmatsuoka/asciiquarium)
@@ -93,7 +113,6 @@ Fun
 Helper & ai
 * [aishell](https://github.com/BuilderIO/ai-shell) A CLI that converts natural language to shell commands
 * [chatgpt](https://github.com/0xacx/chatGPT-shell-cli) Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal
-* [cheat.sh](https://github.com/chubin/cheat.sh) The only cheat sheet you need
 * [explain.sh](https://github.com/benjamine/explain.sh)
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
@@ -103,10 +122,7 @@ Helper & ai
 * [yai](https://github.com/ekkinox/yai) Your AI powered terminal assistant
 
 Monitor & info  
-+ [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources 
-+ [duf](https://github.com/muesli/duf) **_Better du!_** Disk Usage/Free Utility
 + [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
-+ [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
 + [procs](https://github.com/dalance/procs) **_Better ps!_** A modern replacement for ps
 + [procps](https://gitlab.com/procps-ng/procps) Provide information of filesystem on /proc
 + [wtfutil](https://wtfutil.com) Personal information dashboard for your terminal
@@ -122,7 +138,6 @@ Network & net
 Training
 + [tt](https://github.com/lemnos/tt)
 + [gtypist](https://www.gnu.org/software/gtypist)
-+ [ttyper](https://github.com/max-niederman/ttyper)
 + [toipe](https://github.com/Samyak2/toipe)
 
 Utils & work
