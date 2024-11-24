@@ -4,8 +4,6 @@
 alias netcheat='echo "
 curl -L ipconfig.me
 
-sudo apt install net-tools
-
 # lsof -i:22 tcp:3306
 lsof -nP -i
 
