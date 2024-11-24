@@ -33,6 +33,8 @@ grex, navi, so, tldr, up, yai
 
 - MONITOR & INFO -
 btop, duf, lshw, ncdu, neofetch, procs, wtfutil, ~/welcome.sh
+>procps (free, hugetop, kill, pgrep, pkill, pmap, ps, pwdx, skill
+slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
 
 - NETWORK -
 bandwhich, curlie, httpie, http-prompt, lynx, w3m
@@ -44,8 +46,6 @@ gtypist, tt, ttyper, toipe, vimgolf
 - UTILS & WORK -
 bc, dnote, entr, glow, just, pass, scc
 taskwarrior, tokei, uuidgen, xdg-open, xsel
->procps (free, hugetop, kill, pgrep, pkill, pmap, ps, pwdx, skill
-slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
 
 - ZSH -
 als, C-o (cmd), cph, cpf, z, zsh-bench
