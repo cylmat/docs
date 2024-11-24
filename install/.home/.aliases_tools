@@ -20,7 +20,7 @@ sym(fony), tidy-viewer(csv), tig, tmux, tmuxinator, vim
 gnupg, openssl
 
 - FILES & LOGS -
-ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
+autojump, ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
 fzy, lnav, lsof, peco, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 >joshuto, ranger, vifm
 
