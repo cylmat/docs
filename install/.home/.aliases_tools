@@ -21,7 +21,7 @@ gnupg, openssl
 
 - FILES & LOGS -
 autojump, ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
-fzy, fpp, lnav, lsof, peco, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
+fzy, fpp, icdiff, lnav, lsof, peco, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 >joshuto, ranger, vifm
 
 - FUN -
