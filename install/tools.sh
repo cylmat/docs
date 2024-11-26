@@ -148,6 +148,8 @@ sudo apt install cargo
 # git-delta
 # grex regex generator
 # just
+# lsd
+# loop-rs
 # navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
 # sd : sed-like
@@ -164,6 +166,7 @@ eza \
 grex \
 just \
 lsd \
+loop-rs \
 navi \
 procs \
 sd \
