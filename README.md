@@ -94,6 +94,7 @@ Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder
 + [autojump](https://github.com/wting/autojump) A cd command that learns
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
++ [fpp](https://github.com/facebook/PathPicker) Nice UI to select which files you're interested in
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
 + [lnav](https://lnav.org) The logfile navigator
