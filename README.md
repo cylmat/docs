@@ -52,6 +52,7 @@ Files & logs
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
++ [icdiff](https://github.com/jeffkaufman/icdiff) Improved colored diff 
 + [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
 + [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
 + [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
