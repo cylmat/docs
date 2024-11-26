@@ -20,6 +20,7 @@ sudo apt install -y busybox nix
 # finger (pinky) : user information lookup
 # fzy (fzf-like) use cat $(ls *.txt | fzy)
 # gnupg
+# icdiff 
 # Json jq
 # locales 
 # manpages
@@ -41,6 +42,7 @@ dos2unix \
 fd-find \
 fzy \
 gnupg \
+icdiff \
 jq \
 locales locales-all \
 manpages man-db \
