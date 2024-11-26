@@ -94,7 +94,8 @@ visidata
 # autojump
 # diff-so-fancy
 # dnote
-# glow
+# fpp (file PathPicker)
+# glow (render markdown)
 # gron (grep json)
 # joshuto
 # k9s 
@@ -111,6 +112,7 @@ brew install \
 
 autojump \
 diff-so-fancy \
+fpp \
 glow \
 gron \
 joshuto \
