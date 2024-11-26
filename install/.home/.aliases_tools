@@ -37,8 +37,8 @@ btop, duf, dust, lshw, ncdu, neofetch, procs, wtfutil, ~/welcome.sh
 slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
 
 - NETWORK -
-bandwhich, curlie, httpie, http-prompt, lynx, w3m
-netstat, nmap, tcpdump, ss
+bandwhich, curlie, dig, httpie, http-prompt
+lynx, w3m, netstat, nmap, tcpdump, ss
 
 - TRAIN -
 gtypist, tt, ttyper, toipe, vimgolf
