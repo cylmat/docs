@@ -143,6 +143,7 @@ sudo apt install cargo
 # - sudo -E bandwhich  
 # - sudo env "PATH=$PATH" bandwhich 
 # - sudo $(command -v bandwhich)
+# dust
 # eza : (colorls-like) list ls replacement https://github.com/eza-community/eza
 # git-delta
 # grex regex generator
@@ -157,6 +158,7 @@ sudo apt install cargo
 
 cargo install \
 bandwhich \
+dust \
 git-delta \
 eza \
 grex \
