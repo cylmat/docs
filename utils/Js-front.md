@@ -7,6 +7,9 @@ Build
 * https://brunch.io
 * https://babeljs.io
 
+Database
+* https://github.com/typicode/lowdb: Simple and fast JSON database
+
 Docs
 * http://es6-features.org
 * https://eloquentjavascript.net
