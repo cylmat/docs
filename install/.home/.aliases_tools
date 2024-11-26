@@ -7,6 +7,7 @@ alias my='echo "
 - URL -
 https://httpbin.org
 http://headers.jsontest.com
+https://jsonplaceholder.typicode.com
 
 - COMMON -
 busybox, brew, nix, nu(shell), snap, zsh
