@@ -37,6 +37,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 Common
 - [brew](https://brew.sh) Package Manager for Linux
 - [busybox](https://busybox.net) Swiss Army Knife of Embedded Linux
+- [nix](https://nixos.org) Declarative builds and deployments
 
 Dev
 - [git](https://git-scm.com) Distributed version control system
@@ -46,6 +47,7 @@ Dev
 
 Files & logs
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
++ [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
@@ -71,7 +73,6 @@ Training
 # Other useful tools
  
 Common
-+ [nix](https://nixos.org) Declarative builds and deployments
 + [snap](https://snapcraft.io) The app store for Linux
 
 Dev & data  
@@ -92,7 +93,6 @@ Encrypt
 Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder
 + [autojump](https://github.com/wting/autojump) A cd command that learns
-+ [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
