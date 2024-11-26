@@ -32,7 +32,7 @@ ai, chat, cht(.sh), explain(.sh)
 grex, navi, so, tldr, up, yai
 
 - MONITOR & INFO -
-btop, duf, lshw, ncdu, neofetch, procs, wtfutil, ~/welcome.sh
+btop, duf, dust, lshw, ncdu, neofetch, procs, wtfutil, ~/welcome.sh
 >procps (free, hugetop, kill, pgrep, pkill, pmap, ps, pwdx, skill
 slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
 
