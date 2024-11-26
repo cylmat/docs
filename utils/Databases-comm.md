@@ -26,6 +26,10 @@ In-memory
 - https://relay.so: Redis-like with concurency 
 - https://www.teamblue.unicomsi.com/products/soliddb: SolidDB is designed for extreme speed as a persistent
 
+Light
+- https://github.com/typicode/lowdb
+- https://www.sqlite.org
+
 No-Sql
 - https://docs.couchdb.org: Open-source document-oriented NoSQL database
 - https://www.elastic.co
