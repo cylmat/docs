@@ -118,7 +118,7 @@ Fun
 Helper & ai
 * [aishell](https://github.com/BuilderIO/ai-shell) A CLI that converts natural language to shell commands
 * [chatgpt](https://github.com/0xacx/chatGPT-shell-cli) Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal
-* [explain.sh](https://github.com/benjamine/explain.sh)
+* [explain.sh](https://github.com/benjamine/explain.sh) Explainshell cli
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
