@@ -125,6 +125,7 @@ Helper & ai
 * [yai](https://github.com/ekkinox/yai) Your AI powered terminal assistant
 
 Monitor & info  
++ [dust](https://github.com/bootandy/dust) A more intuitive version of du in rust
 + [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
 + [procs](https://github.com/dalance/procs) **_Better ps!_** A modern replacement for ps
 + [procps](https://gitlab.com/procps-ng/procps) Provide information of filesystem on /proc
