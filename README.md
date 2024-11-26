@@ -135,6 +135,7 @@ Monitor & info
 Network & net
 + [bandwhich](https://github.com/imsnif/bandwhich) Terminal bandwidth utilization tool 
 + [curlie](https://github.com/rs/curlie) **_Better curl!_** Power of curl with ease of use httpie
++ [dig](https://manpages.debian.org/bullseye/bind9-dnsutils/dig.1.en.html) DNS lookup utility
 + [httpie](https://httpie.io) Making APIs simple and intuitive
 + [http-prompt](https://http-prompt.com) Interactive cli HTTP client
 + [lynx](https://lynx.invisible-island.net) Text web browser
