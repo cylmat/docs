@@ -14,6 +14,7 @@ sudo apt install -y busybox nix
 # acl
 # bat: cat like with color
 # ccze : color logs
+# dnsutils (dig) nslookup
 # dos2Unix
 # fd-find
 # finger (pinky) : user information lookup
@@ -35,6 +36,7 @@ ack \
 bat \
 ccze \
 command-not-found \
+dnsutils \
 dos2unix \
 fd-find \
 fzy \
