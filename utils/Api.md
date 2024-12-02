@@ -33,10 +33,13 @@ Tests & mock app
 - https://swagger.io/tools/swagger-codegen/
 
 Fake and mock online
-- https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20
-- https://data.opendatasoft.com/explore/dataset/tco-bus-circulation-passages-tr%40keolis-rennes/api/
 - https://jsonplaceholder.typicode.com/
 - https://dummyjson.com/products
 - https://www.wiremock.io
 - https://mocki.io/fake-json-api
 - https://mockapi.io/
+
+Openapi
+- https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20
+- https://data.opendatasoft.com/explore/dataset/tco-bus-circulation-passages-tr%40keolis-rennes/api/
+- https://www.omdbapi.com/
