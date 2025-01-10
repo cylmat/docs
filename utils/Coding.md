@@ -8,6 +8,10 @@ AI
 * https://kodezi.co
 * https://www.tabnine.com: Code faster with AI code
 
+- https://copilot.microsoft.com
+- https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai
+- https://codeium.com/
+
 Analysis
 * https://astexplorer.net: Explore your code
 
