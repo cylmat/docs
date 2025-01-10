@@ -25,9 +25,10 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 ### Editing
 --
 
-- Windows editing: VSCode
+- Windows editing: VsCode
   + Plugins: [extensions.json](https://github.com/cylmat/docs/blob/main/install/.vscode/extensions.json)
-  + [VsCodeVim](https://aka.ms/vscodevim)
+    - [Sourcegraph.cody-ai](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai) 
+    - [VsCodeVim](https://aka.ms/vscodevim)  
 - Mouseless edition: Vim
   + Plugins: [.vimrc](https://github.com/cylmat/docs/blob/main/install/.home/.vimrc)
 
