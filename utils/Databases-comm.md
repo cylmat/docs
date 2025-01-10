@@ -33,6 +33,7 @@ Light
 No-Sql
 - https://docs.couchdb.org: Open-source document-oriented NoSQL database
 - https://www.elastic.co
+  - https://elasticvue.com: free and open-source elasticsearch gui
 - https://www.mongodb.com
 
 Object storage
