@@ -8,6 +8,7 @@ alias my='echo "
 https://httpbin.org/legacy
 https://jsonplaceholder.typicode.com/todos/1
 https://hn.algolia.com/api/v1/search?query=react
+https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets
 
 - COMMON -
 busybox, brew, nix, nu(shell), snap, zsh
