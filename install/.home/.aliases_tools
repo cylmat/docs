@@ -5,9 +5,9 @@
 # useful cli urls
 alias my='echo "
 - URL -
-https://httpbin.org
-http://headers.jsontest.com
-https://jsonplaceholder.typicode.com
+https://httpbin.org/legacy
+https://jsonplaceholder.typicode.com/todos/1
+https://hn.algolia.com/api/v1/search?query=react
 
 - COMMON -
 busybox, brew, nix, nu(shell), snap, zsh
