@@ -5,6 +5,7 @@
 # useful cli urls
 alias my='echo "
 - URL -
+https://designer.mocky.io
 https://httpbin.org/legacy
 https://jsonplaceholder.typicode.com/todos/1
 https://hn.algolia.com/api/v1/search?query=react
