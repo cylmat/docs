@@ -33,5 +33,8 @@ test -d $PLUGIN_DIR/vim-surround   || git clone https://github.com/tpope/vim-sur
 echo "Listing..."
 ls -al $PLUGIN_DIR
 
-echo 'Should run: vim -c "helptag ALL" -c q'
-
+echo "Use in Vim:"
+echo ':set runtimepath?'
+echo ''
+echo 'Should run:'
+echo 'vim -c "helptag ALL" -c q'
