@@ -5,7 +5,7 @@
 # apt install -y curl git
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/vim-express.sh | bash
 
-PLUGIN_DIR=~/.vim/pack/plugins/start
+export PLUGIN_DIR=~/.vim/pack/plugins/start
 
 # create 
 echo "Run"
@@ -16,7 +16,8 @@ echo ""
 mkdir -p $PLUGIN_DIR
 
 # plugins
-test -d $PLUGIN_DIR/nerdtree && git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
+
+test -d $PLUGIN_DIR/nerdtree || git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
 
 echo ""
 ls -al $PLUGIN_DIR
