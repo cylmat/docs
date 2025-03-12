@@ -17,6 +17,7 @@ mkdir -p $PLUGIN_DIR
 
 # plugins
 
+# :helptags ~/.vim/pack/plugins/start/nerdtree
 test -d $PLUGIN_DIR/nerdtree || git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
 
 echo ""
