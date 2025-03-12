@@ -17,10 +17,20 @@ mkdir -p $PLUGIN_DIR
 
 # plugins
 
-# :helptags ~/.vim/pack/plugins/start/nerdtree
-test -d $PLUGIN_DIR/nerdtree || git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
+echo "Installing..."
 
-echo ""
+echo "nerdtree"
+test -d $PLUGIN_DIR/nerdtree       || git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
+echo "vim-easymotion"
+test -d $PLUGIN_DIR/vim-easymotion || git clone https://github.com/easymotion/vim-easymotion.git $PLUGIN_DIR/vim-easymotion
+echo "vim-sneak"
+test -d $PLUGIN_DIR/vim-sneak      || git clone https://github.com/justinmk/vim-sneak $PLUGIN_DIR/vim-sneak
+echo "vim-surround"
+test -d $PLUGIN_DIR/vim-surround   || git clone https://github.com/tpope/vim-surround $PLUGIN_DIR/vim-surround
+
+# :helptags ~/.vim/pack/plugins/start/nerdtree
+
+echo "Listing..."
 ls -al $PLUGIN_DIR
 
 echo 'vim -c "helptag ALL" -c q'
