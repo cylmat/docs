@@ -16,4 +16,7 @@ echo ""
 mkdir -p $PLUGIN_DIR
 
 # plugins
-git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR
+git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
+
+echo ""
+ls -al $PLUGIN_DIR
