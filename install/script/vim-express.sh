@@ -21,3 +21,6 @@ test -d $PLUGIN_DIR/nerdtree || git clone https://github.com/scrooloose/nerdtree
 
 echo ""
 ls -al $PLUGIN_DIR
+
+echo 'vim -c "helptag ALL" -c q'
+vim -c "helptag ALL" -c q
