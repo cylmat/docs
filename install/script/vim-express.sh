@@ -33,5 +33,5 @@ test -d $PLUGIN_DIR/vim-surround   || git clone https://github.com/tpope/vim-sur
 echo "Listing..."
 ls -al $PLUGIN_DIR
 
-echo 'vim -c "helptag ALL" -c q'
-vim -c "helptag ALL" -c q
+echo 'Should run: vim -c "helptag ALL" -c q'
+
