@@ -2,7 +2,7 @@
 
 # usage:
 #
-# apt install -y curl git
+# apt update && apt install -y curl git vim
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/vim-express.sh | bash
 
 export PLUGIN_DIR=~/.vim/pack/plugins/start
