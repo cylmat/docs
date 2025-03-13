@@ -55,6 +55,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/vim-easy-align'
 
 " EasyMotion 
+" default leader is '\'
 " e.g.: <Leader><Leader>fo
 Plug 'easymotion/vim-easymotion'
 
