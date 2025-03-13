@@ -13,11 +13,17 @@
 " 
 " - see also:
 " neoclide/coc.nvim
+" romainl/vim-qf: Tame the quickfix window
+" stefandtw/quickfix-reflector.vim: Change code right in the quickfix window
 " tpope/vim-eunuch: Helpers for UNIX
 " tpope/vim-obsession: continuously updated session files
 " tpope/vim-unimpaired: Pairs of handy bracket mappings 
 " unblevable/quick-scope: fast left-right movement
 " vim-test/vim-test
+"
+" - color
+" junegunn/goyo.vim: Distraction-free writing in Vim
+" junegunn/limelight.vim: Hyperfocus-writing in Vim
 """"""""""""""""
 "
 " Load plugins:
