@@ -11,9 +11,12 @@
 """"""""""""""""
 " https://vimawesome.com !!!
 " 
-" see also:
-" sheerun/vim-polyglot
-" tpope/vim-eunuch
+" - see also:
+" neoclide/coc.nvim
+" tpope/vim-eunuch: Helpers for UNIX
+" tpope/vim-obsession: continuously updated session files
+" tpope/vim-unimpaired: Pairs of handy bracket mappings 
+" unblevable/quick-scope: fast left-right movement
 " vim-test/vim-test
 """"""""""""""""
 "
