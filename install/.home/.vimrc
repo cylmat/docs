@@ -21,9 +21,14 @@
 " unblevable/quick-scope: fast left-right movement
 " vim-test/vim-test
 "
-" - color
+" - color & tab
+" bagrat/vim-buffet: IDE-like Vim tabline
+" ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder 
+" itchyny/lightline.vim: statusline/tabline plugin for Vim 
 " junegunn/goyo.vim: Distraction-free writing in Vim
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
+" powerline/powerline
+" tpope/vim-flagship: Configurable and extensible tab line and status line 
 """"""""""""""""
 "
 " Load plugins:
@@ -88,6 +93,10 @@ Plug 'tpope/vim-repeat'
 " Sneak
 " Use s{char}{char} or s{char}{Enter}
 Plug 'justinmk/vim-sneak'
+
+" Startify
+" The fancy start screen for Vim
+Plug 'mhinz/vim-startify'
 
 " Surround https://github.com/tpope/vim-surround
 " USE cs"'
