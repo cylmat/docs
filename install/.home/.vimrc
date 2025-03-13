@@ -10,6 +10,11 @@
 "
 """"""""""""""""
 " https://vimawesome.com !!!
+" 
+" see also:
+" sheerun/vim-polyglot
+" tpope/vim-eunuch
+" vim-test/vim-test
 """"""""""""""""
 "
 " Load plugins:
@@ -23,25 +28,27 @@
 
 call plug#begin()
 
-" Airline : Lean & mean status/tabline
+" Airline
+" Lean & mean status/tabline
 Plug 'vim-airline/vim-airline'
 
-" Colors-solarized: Precision colorscheme for the vim text editor
+" Colors-solarized
+" Precision colorscheme for the vim text editor
 Plug 'altercation/vim-colors-solarized'
 
-" Easy-align A Vim alignment plugin
+" Easy-align 
+" A Vim alignment plugin
 Plug 'junegunn/vim-easy-align'
 
-" EasyMotion https://github.com/easymotion/vim-easymotion
+" EasyMotion 
 " e.g.: <Leader><Leader>fo
 Plug 'easymotion/vim-easymotion'
 
-" Fugitive.vim: A Git wrapper so awesome
+" Fugitive.vim
+" A Git wrapper so awesome
 Plug 'tpope/vim-fugitive'
 
 " Fzf : A command-line fuzzy finder
-" https://github.com/junegunn/fzf
-" USE Plug 'junegunn/fzf'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -49,12 +56,18 @@ Plug 'junegunn/fzf.vim'
 " extended % matching for HTML and other..
 " Plug 'vim-scripts/matchit.zip'
 
-" NERDTree : A tree explorer
-" Run with :NERDTree
+" NERDTree
+" A tree explorer
+" :NERDTree
 " :help NERDTree
 Plug 'scrooloose/nerdtree'
 
-" Repeat.vim: enable repeating supported plugin maps with "."
+" Polyglot
+" A collection of language packs for Vim.
+Plug 'sheerun/vim-polyglot'
+
+" Repeat.vim
+" enable repeating supported plugin maps with "."
 Plug 'tpope/vim-repeat'
 
 " Sensible
@@ -64,8 +77,7 @@ Plug 'tpope/vim-repeat'
 " runtime! plugin/sensible.vim
 
 " Sneak
-" https://github.com/justinmk/vim-sneak
-" Use s{char}{char}
+" Use s{char}{char} or s{char}{Enter}
 Plug 'justinmk/vim-sneak'
 
 " Surround https://github.com/tpope/vim-surround
