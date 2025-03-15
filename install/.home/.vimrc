@@ -8,6 +8,10 @@
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
 "
+" samples:
+" https://github.com/javiersalcedopuyo/DOT-Files/blob/master/init.vim
+" https://dev.to/javiersalcedopuyo/turn-vim-into-a-comfy-and-modern-editor-with-these-plugins-53k3
+"
 """"""""""""""""
 " https://vimawesome.com !!!
 " 
