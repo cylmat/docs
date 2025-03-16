@@ -1,20 +1,25 @@
 """"""""""""""""""
-" VIMPLUG : Lightweight plugin manager
-"     @https://github.com/junegunn/vim-plug
+" Configuration
+" - https://github.com/amix/vimrc
+" - https://github.com/javiersalcedopuyo/DOT-Files/blob/master/init.vim
 "
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"
-" The default plugin directory will be as follows:
-"   - Vim (Linux/macOS): '~/.vim/plugged'
-"
-" samples:
-" https://github.com/javiersalcedopuyo/DOT-Files/blob/master/init.vim
-" https://dev.to/javiersalcedopuyo/turn-vim-into-a-comfy-and-modern-editor-with-these-plugins-53k3
-"
-""""""""""""""""
-" https://vimawesome.com !!!
+""""""""""""""""""
+" Plugins
+" - https://dev.to/javiersalcedopuyo/turn-vim-into-a-comfy-and-modern-editor-with-these-plugins-53k3
+" - https://vimawesome.com
 " 
+" VIMPLUG : Lightweight plugin manager
+" - https://github.com/junegunn/vim-plug
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+" - https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" The default plugin directory will be as follows:
+" - Vim (Linux/macOS): '~/.vim/plugged'
+"
+" Load plugins:
+" :source %
+" :PlugInstall
+"
+""""""""""""""""""
 " - see also:
 " neoclide/coc.nvim
 " romainl/vim-qf: Tame the quickfix window
@@ -33,11 +38,6 @@
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
-""""""""""""""""
-"
-" Load plugins:
-" :source %
-" :PlugInstall
 """"""""""""""""""
 
 """""""""""""""
