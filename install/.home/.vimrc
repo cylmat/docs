@@ -29,8 +29,6 @@
 " tpope/vim-unimpaired: Pairs of handy bracket mappings 
 " unblevable/quick-scope: fast left-right movement
 " vim-test/vim-test
-"
-" - color & tab
 " bagrat/vim-buffet: IDE-like Vim tabline
 " ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder 
 " itchyny/lightline.vim: statusline/tabline plugin for Vim 
@@ -38,6 +36,7 @@
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
+" clever-f.vim: use fff instead of f;;
 """""""""""""""""""""""""""""""""""""""""""""" config
 
 
