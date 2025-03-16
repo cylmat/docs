@@ -1,4 +1,4 @@
-""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""
 " Configuration
 " - https://github.com/amix/vimrc
 " - https://github.com/javiersalcedopuyo/DOT-Files/blob/master/init.vim
@@ -38,119 +38,13 @@
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
-""""""""""""""""""
-
-"""""""""""""""
-""" PLUGINS """
-"""""""""""""""
-
-call plug#begin()
-
-" Airline
-" Lean & mean status/tabline
-Plug 'vim-airline/vim-airline'
-
-" Colors-solarized
-" Precision colorscheme for the vim text editor
-Plug 'altercation/vim-colors-solarized'
-
-" Easy-align 
-" A Vim alignment plugin
-Plug 'junegunn/vim-easy-align'
-
-" EasyMotion 
-" default leader is '\'
-" e.g.: <Leader><Leader>fo
-Plug 'easymotion/vim-easymotion'
-
-" Fugitive.vim
-" A Git wrapper so awesome
-Plug 'tpope/vim-fugitive'
-
-" Fzf : A command-line fuzzy finder
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-
-" Matchit
-" extended % matching for HTML and other..
-" Plug 'vim-scripts/matchit.zip'
-
-" NERDTree
-" A tree explorer
-" :NERDTree
-" :help NERDTree
-Plug 'scrooloose/nerdtree'
-
-" Polyglot
-" A collection of language packs for Vim.
-Plug 'sheerun/vim-polyglot'
-
-" Repeat.vim
-" enable repeating supported plugin maps with "."
-Plug 'tpope/vim-repeat'
-
-" Sensible
-" One step above 'nocompatible' mode
-" a universal set of defaults that (hopefully) everyone can agree on.
-" runtime! make it load earlier, that we can override config after it
-" runtime! plugin/sensible.vim
-
-" Sneak
-" Use s{char}{char} or s{char}{Enter}
-Plug 'justinmk/vim-sneak'
-
-" Startify
-" The fancy start screen for Vim
-Plug 'mhinz/vim-startify'
-
-" Surround https://github.com/tpope/vim-surround
-" USE cs"'
-Plug 'tpope/vim-surround'
-
-" Syntastic : a syntax checking
-Plug 'scrooloose/syntastic'
-
-" Tagbar: Class outline viewer
-Plug 'majutsushi/tagbar'
-
-" Tcomment: https://github.com/tomtom/tcomment_vim
-" :help tcomment-operator
-" e.g.: gc{motion}
-Plug 'tomtom/tcomment_vim'
-
-" Unimpaired: https://tpope.io/vim/unimpaired.git
-Plug 'tpope/vim-unimpaired'
+"""""""""""""""""""""""""""""""""""""""""""""" config
 
 
-" Lightline : A light and configurable statusline/tabline
-" Plug 'itchyny/lightline.vim'
-" set laststatus=2 " add color in simple window
-" set noshowmode " remove double information bar
 
-call plug#end()
-
-"""""""""""""""
-""" MAPPING """
-"""""""""""""""
-
-"-------
-" @ref:
-" - https://vim.fandom.com/wiki/Example_vimrc
-" - https://github.com/wellbredgrapefruit/vim_config
-
-" Reset to vim-defaults, ward off unexpected things 
-if &compatible
-  set nocompatible 
-endif
-
-" Enable syntax highlighting
-if has('syntax')
-  syntax on
-endif
-
-"------------------------------------------------------------
-" Options
-"--------
+""""""""""""""""""""""""""""""""""""""""""""""
+""" OPTIONS                                """
+""""""""""""""""""""""""""""""""""""""""""""""
 " Display the cursor position
 set ruler
 
@@ -170,9 +64,123 @@ set visualbell
 " Better command-line completion
 set wildmenu
 
-"------------------------------------------------------------
-" Useful mappings
-"----------------
+
+
+""""""""""""""""""""""""""""""""""""""""""""""
+""" PLUGINS                                """
+""""""""""""""""""""""""""""""""""""""""""""""
+
+call plug#begin()
+
+""" COLORS & TABS """""""""""""""""""
+
+""" Airline
+" Lean & mean status/tabline
+Plug 'vim-airline/vim-airline'
+
+""" Colors-solarized
+" Precision colorscheme for the vim text editor
+Plug 'altercation/vim-colors-solarized'
+
+""" Lightline : A light and configurable statusline/tabline
+" Plug 'itchyny/lightline.vim'
+" set laststatus=2 " add color in simple window
+" set noshowmode " remove double information bar
+
+""" NERDTree
+" A tree explorer
+" :NERDTree
+" :help NERDTree
+Plug 'scrooloose/nerdtree'
+
+""" Sensible
+" One step above 'nocompatible' mode
+" a universal set of defaults that (hopefully) everyone can agree on.
+" runtime! make it load earlier, that we can override config after it
+" runtime! plugin/sensible.vim
+
+""" Startify
+" The fancy start screen for Vim
+Plug 'mhinz/vim-startify'
+
+""" MOVING """""""""""""""""""
+
+""" Easy-align 
+" A Vim alignment plugin
+Plug 'junegunn/vim-easy-align'
+
+""" EasyMotion 
+" default leader is '\'
+" e.g.: <Leader><Leader>fo
+Plug 'easymotion/vim-easymotion'
+
+""" Matchit
+" extended % matching for HTML and other..
+" Plug 'vim-scripts/matchit.zip'
+
+""" Repeat.vim
+" enable repeating supported plugin maps with "."
+Plug 'tpope/vim-repeat'
+
+""" Sneak
+" Use s{char}{char} or s{char}{Enter}
+Plug 'justinmk/vim-sneak'
+
+""" Surround https://github.com/tpope/vim-surround
+" USE cs"'
+Plug 'tpope/vim-surround'
+
+""" USEFUL """""""""""""""""""
+
+""" Fugitive.vim
+" A Git wrapper so awesome
+Plug 'tpope/vim-fugitive'
+
+""" Fzf : A command-line fuzzy finder
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+""" Polyglot
+" A collection of language packs for Vim.
+Plug 'sheerun/vim-polyglot'
+
+""" Syntastic : a syntax checking
+Plug 'scrooloose/syntastic'
+
+""" Tagbar: Class outline viewer
+Plug 'majutsushi/tagbar'
+
+""" Tcomment: https://github.com/tomtom/tcomment_vim
+" :help tcomment-operator
+" e.g.: gc{motion}
+Plug 'tomtom/tcomment_vim'
+
+""" Unimpaired: https://tpope.io/vim/unimpaired.git
+Plug 'tpope/vim-unimpaired'
+
+call plug#end()
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""
+""" MAPPING                                """
+""""""""""""""""""""""""""""""""""""""""""""""
+
+" @ref:
+" - https://vim.fandom.com/wiki/Example_vimrc
+" - https://github.com/wellbredgrapefruit/vim_config
+
+" Reset to vim-defaults, ward off unexpected things 
+if &compatible
+  set nocompatible 
+endif
+
+" Enable syntax highlighting
+if has('syntax')
+  syntax on
+endif
+
+""""""""""""""" Useful mappings
 
 " Escape in insert mode
 inoremap qq <Esc>
@@ -185,10 +193,12 @@ map Y y$
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
 
-""""""""""""""""
-"    VSCODE    "
-" on Windows C:\...home\.vimrc
-""""""""""""""""
+
+
+"""""""""""""""""""""
+"""     VSCODE    """
+" C:\...home\.vimrc "
+"""""""""""""""""""""
  " Change VScode Ctrl binding to Space 
 
 " Leader to <Space>
