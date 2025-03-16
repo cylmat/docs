@@ -46,19 +46,49 @@
 """"""""""""""""""""""""""""""""""""""""""""""
 
 """ info """
-" hlsearch   - Highlight searches (use <C-L> to temporarily turn off highlighting
-" showcmd    - Show partial commands in the last line of the screen
-" visualbell - Use visual bell instead of beeping when doing something wrong
-:set hls sc vb
+" syntax highlighting, theme, encoding, fileformat
+syntax enable 
+colorscheme desert
+set encoding=utf8 ffs=unix,dos
+
+" errorbells - eb Ring the bell (beep or screen flash) for error messages.
+" lazyredraw - lz Don't redraw while executing macros
+" ruler      - ru Display the cursor position
+" showcmd    - sc Show partial commands in the last line of the screen
+" showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
+" visualbell - vb Use visual bell instead of beeping when doing something wrong
+" wildmenu   - wmnu Better command-line completion
+:set lazyredraw noeb ruler showcmd showmatch visualbell wildmenu
 
 """ edition """
-" (r)number  - Display line numbers on the left
-" ruler      - Display the cursor position
-:set nu rnu ru
+" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
+" ignorecase - ic Ignore case when searching
+" incsearch  - is incremental search, show matches as typing
+" (r)number  - nu rnu Display line numbers on the left
+" smartcase  - scs smart searching 
+:set hlsearch ignorecase incsearch number rnumber smartcase
 
-""" command line """
-" wildmenu   - Better command-line completion
-:set wmnu
+" expandtab  - et use spaces instead of tabs
+" shiftwidth - -> tabstop
+" smarttab   - sta smart tabs
+" tabstop    - ts number of tab spaces
+:set expandtab shiftwidth=4 smarttab tabstop=4
+
+" autoindent - ai
+" smartindent- si
+" wrap       - wrap lines longer than window width
+:set autoindent smartindent wrap
+
+
+""" magic
+" https://vim.fandom.com/wiki/Simplifying_regular_expressions_using_magic_and_no-magic
+" - Use of "\m" makes the pattern after it be interpreted as if 'magic' is set (like grep)
+" - After very "\v", all ASCII chars except '09','az','AZ','_' has special meaning (egrep)
+:set magic
+
+""" other
+" hid backspace=eol,start,indent whichwrap+=<,>,h,l
+
 
 
 
