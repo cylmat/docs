@@ -44,24 +44,21 @@
 """"""""""""""""""""""""""""""""""""""""""""""
 """ OPTIONS                                """
 """"""""""""""""""""""""""""""""""""""""""""""
-" Display the cursor position
-set ruler
 
-" Highlight searches (use <C-L> to temporarily turn off highlighting; see the
-" mapping of <C-L> below)
-set hlsearch
+""" info """
+" hlsearch   - Highlight searches (use <C-L> to temporarily turn off highlighting
+" showcmd    - Show partial commands in the last line of the screen
+" visualbell - Use visual bell instead of beeping when doing something wrong
+:set hls sc vb
 
-" Display line numbers on the left
-set number
+""" edition """
+" (r)number  - Display line numbers on the left
+" ruler      - Display the cursor position
+:set nu rnu ru
 
-" Show partial commands in the last line of the screen
-set showcmd
-
-" Use visual bell instead of beeping when doing something wrong
-set visualbell
-
-" Better command-line completion
-set wildmenu
+""" command line """
+" wildmenu   - Better command-line completion
+:set wmnu
 
 
 
