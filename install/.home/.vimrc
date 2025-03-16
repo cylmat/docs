@@ -102,6 +102,12 @@ Plug 'scrooloose/nerdtree'
 " The fancy start screen for Vim
 Plug 'mhinz/vim-startify'
 
+""" Tagbar: <Tags> outline viewer
+" :TagbarToggle
+Plug 'majutsushi/tagbar'
+
+
+
 """ MOVING """""""""""""""""""
 
 """ Easy-align 
@@ -129,6 +135,11 @@ Plug 'justinmk/vim-sneak'
 " USE cs"'
 Plug 'tpope/vim-surround'
 
+""" Unimpaired: https://tpope.io/vim/unimpaired.git
+Plug 'tpope/vim-unimpaired'
+
+
+
 """ USEFUL """""""""""""""""""
 
 """ Fugitive.vim
@@ -146,16 +157,10 @@ Plug 'sheerun/vim-polyglot'
 """ Syntastic : a syntax checking
 Plug 'scrooloose/syntastic'
 
-""" Tagbar: Class outline viewer
-Plug 'majutsushi/tagbar'
-
 """ Tcomment: https://github.com/tomtom/tcomment_vim
 " :help tcomment-operator
 " e.g.: gc{motion}
 Plug 'tomtom/tcomment_vim'
-
-""" Unimpaired: https://tpope.io/vim/unimpaired.git
-Plug 'tpope/vim-unimpaired'
 
 call plug#end()
 
