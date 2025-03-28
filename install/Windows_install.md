@@ -37,6 +37,7 @@ https://fonts.google.com/specimen/Fira+Code
 - https://bitwarden.com/browser-start
 - https://proton.me/fr/pass
 - https://chromewebstore.google.com/detail/secure-shell
+- https://chromewebstore.google.com/detail/talend-api-tester-free-ed
 
 -
 
