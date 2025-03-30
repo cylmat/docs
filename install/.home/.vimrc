@@ -148,6 +148,8 @@ Plug 'junegunn/vim-easy-align'
 
 """ EasyMotion 
 " default leader is '\'
+" :let mapleader="\"
+" :echo mapleader
 " e.g.: <Leader><Leader>fo
 Plug 'easymotion/vim-easymotion'
 
@@ -161,6 +163,7 @@ Plug 'tpope/vim-repeat'
 
 """ Sneak
 " Use s{char}{char} or s{char}{Enter}
+" Copy, delete, yank... <cdy>z{char}{char}
 Plug 'justinmk/vim-sneak'
 
 """ Surround https://github.com/tpope/vim-surround
