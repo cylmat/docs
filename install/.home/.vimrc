@@ -37,6 +37,17 @@
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
 " clever-f.vim: use fff instead of f;;
+"""""""""""""""""""
+tpope/vim-repeat
+mhinz/vim-signify
+tpope/vim-fugitive
+sheerun/vim-polyglot
+ludovicchabant/vim-gutentags
+luochen1990/rainbow
+dominikduda/vim_current_word
+kshenoy/vim-signature
+skim-rs/skim (fzf)
+tomasiser/vim-code-dark (color)
 """""""""""""""""""""""""""""""""""""""""""""" config
 
 
