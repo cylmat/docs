@@ -108,6 +108,11 @@ Plug 'vim-airline/vim-airline'
 " Precision colorscheme for the vim text editor
 Plug 'altercation/vim-colors-solarized'
 
+""" DevIcons
+" :help devicons
+" set encoding=UTF-8
+Plug 'ryanoasis/vim-devicons'
+
 """ Lightline : A light and configurable statusline/tabline
 " Plug 'itchyny/lightline.vim'
 " set laststatus=2 " add color in simple window
