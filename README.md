@@ -114,13 +114,15 @@ Fun
 + [fortune](https://doc.ubuntu-fr.org/fortune) (teller)
 + [lolcat](https://github.com/busyloop/lolcat) (rainbow)
 + [no-more-secrets](https://github.com/bartobri/no-more-secrets)
++ [paclear](https://github.com/orangekame3/paclear) clear command with PacMan animation
 + [sl](https://github.com/mtoyoda/sl) Cure your bad habit of mistyping
 
 Helper & ai
 * [aishell](https://github.com/BuilderIO/ai-shell) A CLI that converts natural language to shell commands
 * [chatgpt](https://github.com/0xacx/chatGPT-shell-cli) Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal
 * [explain.sh](https://github.com/benjamine/explain.sh) Explainshell cli
-* [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases 
+* [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases
+* [howdoi](https://github.com/gleitz/howdoi) Instant coding answers via the command line 
 * [navi](https://github.com/denisidoro/navi) (helper)
 * [so](https://github.com/samtay/so) (stack overflow)
 * [tldr](https://tldr.sh) **_Better man!_** Simplified and community-driven man page
