@@ -31,9 +31,22 @@ sudo groupadd docker
 sudo usermod -aG docker $USER 
 
 
+## check
+
+sudo service docker start   # start the engine
+sudo service docker status  # print some nice status information
+# docker run hello-world      # run a test docker container
 
 
+# IF ERROR
+# sudo update-alternatives --config iptables
+# SELECT CHOICE 1 (legacy)
 
+# compose 
+sudo curl -L https://github.com/docker/compose/releases/download/2.4.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+#############################################################
 
 # ### (or see https://docs.docker.com/engine/install/ubuntu)
 
