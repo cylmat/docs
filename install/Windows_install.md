@@ -20,6 +20,8 @@ Install Zsh
 sudo apt install -y zsh && zsh --version
 chsh -s $(which zsh)
 echo $SHELL && $SHELL --version
+
+touch ~/.zshrc
 ```
 
 ## Windows app
