@@ -30,6 +30,10 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
 
+# maybe  is error
+# sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+# sudo chmod g+rwx "$HOME/.docker" -R
+
 
 ## check
 
