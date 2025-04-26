@@ -15,7 +15,7 @@ Enable VsCode
 ```
 ```
 
-Install Zsh, Starship, OhMyZsh
+Install Zsh and OhMyZsh
 ```
 # ZSH
 sudo apt install -y zsh && zsh --version
@@ -29,10 +29,18 @@ touch ~/.zshrc
 
 # OMZ
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
+Other
+```
 # Starship
 # use Omz or add in ~/.zshrc: eval "$(starship init zsh)"
 curl -sS https://starship.rs/install.sh | sh
+
+# Clear
+apt clean
+apt autoclean
+apt autoremove
 ```
 
 ## Windows app
