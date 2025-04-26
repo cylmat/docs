@@ -22,6 +22,8 @@ chsh -s $(which zsh)
 echo $SHELL && $SHELL --version
 
 touch ~/.zshrc
+# add at the beginning and end:
+# zmodload zsh/zprof  ... ~/.zshrc content...  zprof
 ```
 
 ## Windows app
