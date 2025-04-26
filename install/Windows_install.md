@@ -2,8 +2,24 @@
 
 ## From scratch
 
+Install Wsl2
+```
+```
+
+Install Docker
 ```
 echo https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh
+```
+
+Enable VsCode
+```
+```
+
+Install Zsh
+```
+sudo apt install -y zsh && zsh --version
+chsh -s $(which zsh)
+echo $SHELL && $SHELL --version
 ```
 
 ## Windows app
