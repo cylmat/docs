@@ -1,5 +1,11 @@
 # Install
 
+## From scratch
+
+```
+echo https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh
+```
+
 ## Windows app
 * https://www.docker.com/products/docker-desktop
 * https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
