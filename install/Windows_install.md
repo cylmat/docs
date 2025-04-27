@@ -2,15 +2,17 @@
 
 ## From scratch
 
-Install Wsl2
+Install Wsl2 in HOST
 ```
 wsl -l
 wsl --unregister Ubuntu-22.04
 (https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
 wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-22.04.tar
 wsl -l -v
+wsl --manage Ubuntu-22.04 --set-default-user username
 ```
 
+in WSL
 ```
 sudo adduser username
 echo "[user]" >> /etc/wsl.conf
