@@ -28,7 +28,20 @@ echo https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.
 ```
 
 Enable VsCode
+
+remove Windows C:\Users\username\vscode-remote-wsl  
+remove C:\Users\username\.vscodewsl --shutdownwslconfig /setdefault Ubuntu-22.04  
+wslconfig /setdefault Ubuntu-22.04  
 ```
+sudo apt-get update && sudo apt-get install wget ca-certificates
+
+# (happen /mnt/xxx features and .vscode-server in PATH)
+echo '[automount]
+enabled = true
+options = "metadata,uid=1000,gid=1000,umask=0022,fmask=11,case=off"
+[interop]
+enabled=true
+appendWindowsPath=true' >> /etc/wsl.conf
 ```
 
 Install Zsh and OhMyZsh
@@ -81,7 +94,7 @@ apt autoremove
 ```
 * choco install k9s
 ```
-https://alacritty.org/index.html
+
 
 Useful
 - https://learn.microsoft.com/en-us/training/modules/wsl-introduction
