@@ -53,6 +53,28 @@ echo "Check docker run hello-world"
 
 
 
+# If needed
+
+# sudo chmod 666 /var/run/docker.sock
+# echo "nameserver 1.1.1.1" | sudo tee resolv.conf
+# apt search nftables | grep ^i
+
+# # `/usr/sbin/iptables-legacy, 20, manual mode`
+# update-alternatives --config iptables
+# iptables-save
+# sudo systemd docker start
+
+# export DOCKER_HOST=unix:///var/run/docker.sock
+# %docker ALL=(ALL) NOPASSWD: /usr/bin/dockerd
+# export DOCKER_SOCK=/var/run/docker.sock
+# export PUID=$(id -u)
+# export PGID=$(id -g)
+
+
+
+
+
+
 
 
 
@@ -60,7 +82,7 @@ echo "Check docker run hello-world"
 
 #############################################################
 
-# ### (or see https://docs.docker.com/engine/install/ubuntu)
+# ### (https://docs.docker.com/engine/install/ubuntu)
 
 
 #sudo apt-get update
