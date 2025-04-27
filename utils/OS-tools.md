@@ -63,6 +63,7 @@ Console
 * https://cmder.net: Nice console emulators
 * https://hyper.is
 * https://mremoteng.org: Remote connections manager
+* https://alacritty.org: modern terminal emulator 
 
 HTTP sniffer
 - https://httptoolkit.tech
