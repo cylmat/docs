@@ -7,7 +7,7 @@ Install Wsl2 in HOST
 wsl -l
 wsl --unregister Ubuntu-22.04
 (https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
-wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-22.04.tar
+wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-export-22.04.tar
 wsl -l -v
 wsl --manage Ubuntu-22.04 --set-default-user username
 ```
@@ -80,25 +80,18 @@ apt autoremove
 ```
 
 ## Windows app
-* https://www.docker.com/products/docker-desktop
+
 * https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
 * https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
+* https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+* https://www.docker.com/products/docker-desktop
+* https://insomnia.rest
 * https://notepad-plus-plus.org/downloads
 * https://portswigger.net/burp/communitydownload
 * https://www.postman.com/downloads
 * https://code.visualstudio.com/download
 * https://www.wireshark.org/download.html
-* https://insomnia.rest/
 
-* https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
-```
-* choco install k9s
-```
-
-
-Useful
-- https://learn.microsoft.com/en-us/training/modules/wsl-introduction
-- https://learn.microsoft.com/en-us/windows/wsl/install
 
 ### VSCode
 
@@ -129,17 +122,23 @@ https://fonts.google.com/specimen/Fira+Code
 
 https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de page via script
 
-### WSL
+## Doc
 
+**Wsl**
+- https://dev.to/mefaba/installing-wsl-on-another-drive-in-windows-5c4a
+
+- https://learn.microsoft.com/en-us/training/modules/wsl-introduction
+- https://learn.microsoft.com/en-us/windows/wsl/install
 - https://learn.microsoft.com/en-us/windows/wsl/install-manual
-  + installer WSL2 : https://docs.microsoft.com/fr-fr/windows/wsl/install
-- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
-- https://docs.docker.com/engine/install/ubuntu
-- Installer Docker : https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
-  + ou directement utiliser le site de docker: https://docs.docker.com/engine/install/ubuntu/?ref=paulsblog.dev#install-using-the-repository
-- https://docs.docker.com/engine/install/linux-postinstall
-  + Si problème de DNS : https://gist.github.com/coltenkrauter/608cfe02319ce60facd76373249b8ca6
 - https://docs.microsoft.com/fr-fr/windows/wsl/file-permissions
+  
+- Fix DNS resolution in WSL2 : https://gist.github.com/coltenkrauter/608cfe02319ce60facd76373249b8ca6
+- https://www.cloudflare.com/fr-fr/learning/dns/what-is-1.1.1.1
+
+**Docker**
+- Installer Docker : https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
+- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.docker.com/engine/install/linux-postinstall
 
 ```
 - sudo chmod 666 /var/run/docker.sock
@@ -157,33 +156,3 @@ export DOCKER_SOCK=/var/run/docker.sock
 export PUID=$(id -u)
 export PGID=$(id -g)
 ```
-
-### Docker
-
-* wsl from other dir
- https://dev.to/mefaba/installing-wsl-on-another-drive-in-windows-5c4a
-  wsl --import Ubuntu-22.04 D:\Ubuntu D:\Ubuntu-22.04-wsl-export.tar
-  
-* install docker 
-  
-https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows/
-
-
-* 1. Required dependencies 
-sudo apt-get update 
-sudo apt-get -y install apt-transport-https ca-certificates curl gnupg lsb-release 
-
-* 2. GPG key 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg 
-
-* 3. Use stable repository for Docker  
-  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
-
-sudo apt-get update 
-sudo apt-get -y install docker-ce docker-ce-cli containerd.io 
-
-* 4. Add user to docker group 
-sudo groupadd docker 
-sudo usermod -aG docker $USER sudo chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg
-sudo update-alternatives --config iptables
-
