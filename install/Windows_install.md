@@ -4,6 +4,20 @@
 
 Install Wsl2
 ```
+wsl -l
+wsl --unregister Ubuntu-22.04
+(https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
+wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-22.04.tar
+wsl -l -v
+```
+
+```
+sudo adduser username
+echo "[user]" >> /etc/wsl.conf
+echo "default=username" >> /etc/wsl.conf
+# disable wsl info
+touch /username/.hushlogin
+sudo systemctl disable snapd
 ```
 
 Install Docker
