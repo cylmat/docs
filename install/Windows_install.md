@@ -24,8 +24,9 @@ sudo systemctl disable snapd
 
 Install Docker
 ```
-echo https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh
+curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh | bash
 ```
+
 
 Enable VsCode
 
@@ -140,19 +141,3 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
 - https://docs.docker.com/engine/install/ubuntu/
 - https://docs.docker.com/engine/install/linux-postinstall
 
-```
-- sudo chmod 666 /var/run/docker.sock
-  - echo "nameserver 1.1.1.1" | sudo tee resolv.conf
-- aptitude search nftables | grep ^i
-- update-alternatives --config iptables
-  +  il faut être en `/usr/sbin/iptables-legacy, 20, manual mode`
-- iptables-save
-
-sudo systemd docker start
-
-export DOCKER_HOST=unix:///var/run/docker.sock
-%docker ALL=(ALL) NOPASSWD: /usr/bin/dockerd
-export DOCKER_SOCK=/var/run/docker.sock
-export PUID=$(id -u)
-export PGID=$(id -g)
-```
