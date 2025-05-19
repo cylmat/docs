@@ -45,6 +45,7 @@ Tools
 * http://landley.net/toybox
 * https://www.gnu.org/software/coreutils
 * https://jqlang.github.io/jq: Json
+* https://fx.wtf: JQ alternative
 
 Security
 * https://www.stunnel.org
