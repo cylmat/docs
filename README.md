@@ -186,13 +186,6 @@ Programming
 - Front: [Awesome Js](https://github.com/sorrycc/awesome-javascript), [Awesome React](https://github.com/enaqx/awesome-react), [Awesome React components](https://github.com/brillout/awesome-react-components), [awesome-web-react](https://awesome-web-react.js.org)
 - Back: [Awesome Php](https://github.com/ziadoz/awesome-php), [Awesome Symfony](https://github.com/sitepoint-editors/awesome-symfony), [Symfony top30](https://symfony.com/blog/the-30-most-useful-symfony-bundles-and-making-them-even-better)
 
----
-Suggested:
-- https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
-- https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
-- https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
-- https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit
-- https://pixxlisation.tech.blog/2020/04/15/ohmyzsh-tmux-powerline-un-terminal-pour-les-gouverner-tous
 
 ---
 Most used:
@@ -205,3 +198,11 @@ Ref:
 - [Atomic Design](https://atomicdesign.bradfrost.com) - [Roadmap full-stack](https://roadmap.sh/full-stack)
 + [Cloud-delivery-models.png](https://github.com/cylmat/docs/blob/main/Form/Archilog/Cloud-Delivery-Models.png) - [Top-cyber-attack.png](https://github.com/cylmat/docs/blob/main/Form/Archilog/top-cyber-attack.png)
 
+---
+Suggested:
+- https://thevaluable.dev/zsh-install-configure-mouseless
+- https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
+- https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
+- https://dev.to/yogeshdev/make-your-unix-terminal-beautiful-productive-c1d
+- https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit
+- https://pixxlisation.tech.blog/2020/04/15/ohmyzsh-tmux-powerline-un-terminal-pour-les-gouverner-tous
