@@ -22,6 +22,9 @@ Portals
 - https://github.com/unixorn/awesome-zsh-plugins
 - https://sw.kovidgoyal.net/kitt: Kitty terminal emulator
 
+Prompt
+- https://github.com/sindresorhus/pure
+
 Monitoring
 * https://nmap.org: Security scanner
 * https://www.ntop.org: Network monitor
