@@ -1,5 +1,38 @@
 # Quizz techniques
 
+Symfony Php
+-----------
+1. Quelle est la différence entre un service et un contrôleur dans Symfony ?
+2. Qu’est-ce que l’injection de dépendance et comment Symfony la met-il en œuvre ?
+3. À quoi sert le fichier services.yaml dans un projet Symfony ?
+4. Expliquez la différence entre les annotations @Route et la configuration de routes via YAML ou PHP.
+5. Que fait la commande php bin/console cache:clear ?
+6. Quelle est la différence entre paramConverter et un service qui charge manuellement une entité ?
+7. Qu’est-ce que Doctrine dans Symfony et à quoi sert l’EntityManager ?
+8. Différence entre persist() et flush() dans Doctrine ?
+9. Quelle est la différence entre une entité Symfony et un DTO (Data Transfer Object) ?
+10. Qu’est-ce qu’un EventSubscriber dans Symfony ? Donnez un cas d’usage.
+11. À quoi sert le fichier security.yaml ?
+12. Quelle est la différence entre un firewall et un access control dans Symfony ?
+13. Comment fonctionne le système d’authentification via JWT dans un projet Symfony ?
+14. À quoi sert le composant Validator dans Symfony ?
+15. Comment définir un middleware (EventListener) global dans Symfony ?
+16. Quelle est la différence entre un contrôleur API (JsonResponse) et un contrôleur classique (Response) ?
+17. Comment gérer les erreurs 404 ou 403 dans Symfony proprement ?
+18. Quelles sont les bonnes pratiques pour paginer des résultats dans une API Symfony ?
+19. Expliquez comment utiliser les environnements (.env, .env.local) dans Symfony.
+20. Quelle est la commande pour créer une migration et appliquer les changements de schéma en base ?
+21. Quelle est la différence entre le hashage et le cryptage ?
+22. Que fait une requête HTTP de type PUT par rapport à POST ?
+23. Quelle est la différence entre une API REST et une API GraphQL ?
+24. Expliquez le principe de fonctionnement d'un token JWT.
+25. Quelle est la différence entre une base de données relationnelle et NoSQL ?
+26. Que signifie l’acronyme ACID en base de données ?
+27. À quoi sert un ORM (comme Sequelize ou TypeORM) ?
+28. Quel est le rôle d’un middleware dans un framework comme Express.js ?
+29. Quelle est la différence entre == et === en JavaScript ?
+30. Expliquez la notion d’"asynchrone" et la différence entre async/await et promises en JavaScript.
+
 React Js
 --------
 1. Quelle est la différence entre un composant fonctionnel et un composant de classe en React ?
@@ -22,6 +55,10 @@ React Js
 18. Quelle est la différence entre useRef et useState ?
 19. Comment faire un appel API dans React de manière propre et gérer les erreurs ?
 20. Quels sont les risques de sécurité courants dans React (ex : XSS) et comment les prévenir ?
+21. Quelle est la différence entre le DOM et le Virtual DOM ?
+22. Pourquoi utilise-t-on useEffect dans React ?
+23. Quelle est la différence entre localStorage, sessionStorage et les cookies ?
+24. Expliquez le concept de Single Page Application (SPA).
 
 Linux
 -----
@@ -68,7 +105,11 @@ Dev Sec Ops
 18. Quelle est la différence entre Infrastructure as Code (IaC) et configuration manuelle ?
 19. Qu’est-ce que le “blue-green deployment” ?
 20. Pourquoi surveille-t-on les logs avec des outils comme ELK ou Grafana Loki ?
-
+21. Que signifie CORS et pourquoi cela peut-il poser problème ?
+22. Que sont les variables d’environnement et pourquoi les utilise-t-on ?
+23. Qu’est-ce que le debouncing ou throttling ?
+24. Donnez un cas d’usage.Quelle est la différence entre une requête synchrone et une requête asynchrone ?
+25. Quelles sont les bonnes pratiques pour sécuriser une API REST ?
 
 Sécurité Web 
 ------------
