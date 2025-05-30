@@ -31,6 +31,7 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 # 5. Add user to docker group 
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
+cat /etc/group
 
 # maybe  is error
 # sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
