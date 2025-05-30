@@ -77,7 +77,23 @@ echo "Check docker run hello-world"
 # export PUID=$(id -u)
 # export PGID=$(id -g)
 
+# systemctl start docker
+# systemctl status docker.service
 
+# journalctl -xeu docker.service
+# sudo tail -f /var/log/syslog
+# ---
+# sudo service docker stop
+# sudo service docker start 
+# sudo service --status-all 
+
+# docker context ls 
+# docker context use default 
+
+# sudo su
+# systemctl start docker
+# systemctl enable docker
+# systemctl restart docker
 
 
 
