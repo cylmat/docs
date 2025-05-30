@@ -43,7 +43,7 @@ echo "Reload WSL"
 
 
 ## check
-
+ls -l /var/run/docker.sock
 sudo service docker start   # start the engine
 sudo service docker status  # print some nice status information
 # docker run hello-world      # run a test docker container
