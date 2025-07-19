@@ -1,6 +1,6 @@
 # Install
 
-## From scratch
+## Wsl2 from scratch
 
 Install Wsl2 in HOST
 ```
@@ -20,6 +20,15 @@ echo "default=username" >> /etc/wsl.conf
 # disable wsl info
 touch /username/.hushlogin
 sudo systemctl disable snapd
+```
+
+how to shrink (reduce) Wsl size
+```
+ # https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/
+> wsl --shutdown
+> diskpart
+      - select vdisk file="C:\Users\rhc7\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79\LocalState\ext4.vhdx"
+      - compact vdisk
 ```
 
 Install Docker
