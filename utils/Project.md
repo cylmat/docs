@@ -59,8 +59,12 @@ Mind mapping
 * https://thebrain.com
 * https://www.wisemapping.com
 
+
 ---
 ### Websites
+
+Bookmarks
+- https://raindrop.io
 
 Free pictures
 * https://commons.wikimedia.org/wiki/Category:Images
