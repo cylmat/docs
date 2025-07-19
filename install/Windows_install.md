@@ -2,7 +2,7 @@
 
 ## Wsl2 from scratch
 
-Install Wsl2 in HOST
+### Install Wsl2 in HOST
 ```
 wsl -l
 wsl --unregister Ubuntu-22.04
@@ -12,7 +12,7 @@ wsl -l -v
 wsl --manage Ubuntu-22.04 --set-default-user username
 ```
 
-in WSL
+### in WSL
 ```
 sudo adduser username
 echo "[user]" >> /etc/wsl.conf
@@ -22,7 +22,7 @@ touch /username/.hushlogin
 sudo systemctl disable snapd
 ```
 
-how to shrink (reduce) Wsl size
+### > How to shrink (reduce) Wsl size
 ```
  # https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/
 > wsl --shutdown
