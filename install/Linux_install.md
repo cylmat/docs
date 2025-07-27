@@ -40,3 +40,8 @@ apt clean
 apt autoclean
 apt autoremove
 ```
+
+## Docs
+
+- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.docker.com/engine/install/linux-postinstall
