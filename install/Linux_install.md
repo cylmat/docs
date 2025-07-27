@@ -14,6 +14,8 @@ curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.
 
 
 Install Zsh and OhMyZsh
+
+- [cylmat/shell_zsh.sh](https://github.com/cylmat/docs/blob/main/install/shell_zsh.sh)
 ```
 # ZSH
 sudo apt install -y zsh && zsh --version
