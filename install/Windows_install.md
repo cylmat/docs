@@ -17,6 +17,7 @@ wsl --manage Ubuntu-22.04 --set-default-user username
 sudo adduser username
 echo "[user]" >> /etc/wsl.conf
 echo "default=username" >> /etc/wsl.conf
+
 # disable wsl info
 touch /username/.hushlogin
 sudo systemctl disable snapd
@@ -31,10 +32,9 @@ sudo systemctl disable snapd
       - compact vdisk
 ```
 
-### linux
+### linux install
 
 - [cylmat/Linux_install.md](https://github.com/cylmat/docs/blob/main/install/Linux_install.md)
-
 
 
 
@@ -57,15 +57,20 @@ appendWindowsPath=true' >> /etc/wsl.conf
 
 ## Windows app
 
-* https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
-* https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
-* https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
-* https://www.docker.com/products/docker-desktop
-* https://insomnia.rest
-* https://notepad-plus-plus.org/downloads
-* https://portswigger.net/burp/communitydownload
-* https://www.postman.com/downloads
+Manager
+* MS Store Ubuntu : https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
+* MS Store PowerToys : https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD
+* Choco : https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+
+Dev
 * https://code.visualstudio.com/download
+* https://www.postman.com/downloads
+* https://notepad-plus-plus.org/downloads
+
+App
+* https://www.docker.com/products/docker-desktop
+* https://portswigger.net/burp/communitydownload
+* https://insomnia.rest
 * https://www.wireshark.org/download.html
 
 
@@ -81,22 +86,22 @@ https://fonts.google.com/specimen/Fira+Code
 
 ### Extensions
 
-* Chrome : https://chromewebstore.google.com/category/extensions/productivity/developer
-- https://bitwarden.com/browser-start
-- https://proton.me/fr/pass
-- https://chromewebstore.google.com/detail/secure-shell
-- https://chromewebstore.google.com/detail/talend-api-tester-free-ed
+Chrome
+- Dev apps : https://chromewebstore.google.com/category/extensions/productivity/developer
+- Password manager : https://bitwarden.com/browser-start (or https://proton.me/fr/pass)
+- Secure shell : https://chromewebstore.google.com/detail/secure-shell
+- Api tester : https://chromewebstore.google.com/detail/talend-api-tester-free-ed
 
--
++
 
-* Firefox : https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
-* https://addons.mozilla.org/fr/firefox/addon  
+Firefox
+* Web dev ext : https://addons.mozilla.org/fr/firefox/extensions/category/web-development/  
+* Add ons : https://addons.mozilla.org/fr/firefox/addon  
   - cookie-quick-manager, feedbroreader, firephp, modify-header-value, notes-by-firefox
   - switchyomega, tweak-extension, vue-js-devtools, xdebug-helper-for-firefox
   - html-validator, colorzilla, fireshot, measure-it, firephp, http-header-live
   - firebug-and-web-development, web-developer, Dark Reader, RESTClient
 
-https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de page via script
 
 ## Doc
 
@@ -113,6 +118,5 @@ https://addons.mozilla.org/fr/firefox/addon/greasemonkey : personnalisation de p
 
 **Docker**
 - Installer Docker : https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows
-- https://docs.docker.com/engine/install/ubuntu/
-- https://docs.docker.com/engine/install/linux-postinstall
+
 
