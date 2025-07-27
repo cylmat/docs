@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # build-prerequisites
 # can use too : apt install ninja-build
@@ -50,15 +50,6 @@ antidote load
 ###
 https://github.com/sorin-ionescu/prezto
 
-###
-### Zsh unplugged (un)plugin manager
-###
-https://github.com/mattmc3/zsh_unplugged
-
-###########################################################################
-# Other & suggestions
-######################
-
 
 ### ---docker completion
 # @https://docs.docker.com/engine/cli/completion/#zsh
@@ -78,48 +69,8 @@ fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 
-##########################################################################
-# Prompt #
-#########
 
-# Powerline FONT
-sudo apt install -y fonts-powerline
-sudo wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
-sudo mv PowerlineSymbols.otf /usr/share/fonts/
-sudo fc-cache -vf
-sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
-
-### Starship @https://starship.rs
-sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-echo 'eval "$(starship init bash)"' >> ~/.bashrc
-mkdir -p ~/.config && touch ~/.config/starship.toml
-
-### @https://ohmyposh.dev
-curl -s https://ohmyposh.dev/install.sh | bash -s
-oh-my-posh get shell
-echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
-
-
-
-##########################################################################
-# Shell other #
-#########
-
-### Bash @https://www.gnu.org/software/bash
-# @https://github.com/ohmybash/oh-my-bash
-# @https://github.com/awesome-lists/awesome-bash
-
-### Fish @https://fishshell.com
-# @https://github.com/oh-my-fish/oh-my-fish
-apt install -y fish
-
-# BASH-it #
-# https://github.com/Bash-it/bash-it
-git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it && ~/.bash_it/install.sh
-
-### ble.sh
-# https://github.com/akinomyoga/ble.sh
-apt update && apt install -y gawk
-git clone --recursive https://github.com/akinomyoga/ble.sh.git
-make -C ble.sh install PREFIX=~/.local
-echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
+###
+### Zsh unplugged (un)plugin manager
+###
+https://github.com/mattmc3/zsh_unplugged
