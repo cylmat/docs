@@ -14,6 +14,7 @@ wsl --manage Ubuntu-22.04 --set-default-user username
 
 # change pass
 wsl -d Ubuntu-22.04 -u root
+passwd root
 passwd username
 ```
 
