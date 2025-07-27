@@ -50,13 +50,22 @@ sudo service docker status  # print some nice status information
 ## ...check
 ls -l /var/run/docker.sock
 
+echo
+echo 'Docker installed'
+echo
+echo 'Use "sudo update-alternatives --config iptables" if errors'
 echo 'Check with "docker run hello-world"'      # run a test docker container
 
 
+# 7. Install docker-compose
+echo
+echo "Install docker compose with:"
+echo "sudo curl -L https://github.com/docker/compose/releases/download/2.4.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose"
+echo "sudo chmod +x /usr/local/bin/docker-compose"
 
 
-
-
+# Install Portainer in docker compose
+# image: portainer/portainer-ce:latest
 
 
 #############################################################
