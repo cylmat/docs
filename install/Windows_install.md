@@ -11,6 +11,10 @@ wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-e
 wsl -l -v
 wsl --update
 wsl --manage Ubuntu-22.04 --set-default-user username
+
+# change pass
+wsl -d Ubuntu-22.04 -u root
+passwd username
 ```
 
 ### in WSL
