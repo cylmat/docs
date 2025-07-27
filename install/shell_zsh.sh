@@ -9,7 +9,15 @@
 
 
 ### Zsh @https://www.zsh.org
+
 sudo apt install -y zsh && zsh --version
+# change shell to zsh
+chsh -s $(which zsh)
+
+# go to zsh, then follow zsh configuration (zsh-newuser-install.)
+zsh
+
+echo $SHELL && $SHELL --version
 
 
 ### zsh-autosuggestions:
@@ -37,6 +45,47 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### OhMyZsh : @https://ohmyz.sh
 # zsh-omz:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# OMZ
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# Speed up OMZ
+# from https://scottspence.com/posts/speeding-up-my-zsh-shell
+
+# Top of .zshrc
+DISABLE_AUTO_UPDATE="true"
+DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_COMPFIX="true"
+
+# Smarter completion once a day
+autoload -Uz compinit
+if [ "$(date +'%j')" != "$(stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)" ]; then
+    compinit
+else
+    compinit -C
+fi
+
+# omz
+plugins=(
+    ...
+    zsh-syntax-highlighting  # Always last!
+)
+
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
+ZSH_AUTOSUGGEST_USE_ASYNC=1
+
+# spaceship
+SPACESHIP_PROMPT_ASYNC=false
+
+
+
+
+
+
+
+
+
 
 ###
 ### Antidote Zsh plugin Manager
