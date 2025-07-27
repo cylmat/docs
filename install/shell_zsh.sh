@@ -19,6 +19,11 @@ zsh
 
 echo $SHELL && $SHELL --version
 
+### bench
+# add at the beginning and end of .zshrc :
+# "zmodload zsh/zprof"  ... ~/.zshrc content...  "zprof" EOF
+# see https://github.com/romkatv/zsh-bench
+
 
 ### zsh-autosuggestions:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
