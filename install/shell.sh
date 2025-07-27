@@ -3,7 +3,7 @@
 # build-prerequisites
 # can use too : apt install ninja-build
 sudo apt-get install gettext cmake unzip curl
-sudo apt install -y software-properties-common
+sudo apt install -y build-essential software-properties-common
 
 ##########################################################################
 # Zsh #
