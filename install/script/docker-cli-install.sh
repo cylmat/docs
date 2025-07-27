@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ###
 # Install from:
 # https://www.paulsblog.dev/how-to-install-docker-without-docker-desktop-on-windows/
 # ###
+
 
 # 1. Required dependencies 
 sudo apt-get update 
@@ -13,50 +14,61 @@ sudo apt-get -y install apt-transport-https ca-certificates curl gnupg lsb-relea
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg 
 
 # 3. Use stable repository for Docker 
+#echo \ 
+#  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ 
+#  $(lsb_release -cs) stable" | \
+#  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+
+# ...use last docker archive
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-  
-#echo \ 
-#  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ 
-#  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
 
-# 4. Install Docker 
+# ... purge previous installed version if any
 sudo apt-get purge docker-ce docker-ce-cli containerd.io
 sudo apt autoremove && sudo apt autoclean
 
+# 4. Install Docker 
 sudo apt-get update 
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io 
-
 
 # 5. Add user to docker group 
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
 cat /etc/group
 
-# maybe  is error
+# Use it if errors
 # sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
 # sudo chmod g+rwx "$HOME/.docker" -R
 
-echo "Reload WSL"
 
-
-## check
-ls -l /var/run/docker.sock
+# 6. Run docker
 sudo service docker start   # start the engine
 sudo service docker status  # print some nice status information
-# docker run hello-world      # run a test docker container
+
+## ...check
+ls -l /var/run/docker.sock
+
+echo 'Check with "docker run hello-world"'      # run a test docker container
+
+
+
+
+
+
+
+
+#############################################################
+
+
 # journalctl -xeu docker.service
 # cat /usr/lib/systemd/system/docker.service
-
 
 # IF ERROR
 # sudo update-alternatives --config iptables
 # SELECT CHOICE 1 (legacy)
 
-
-echo "Check docker run hello-world"
 
 
 
@@ -94,11 +106,6 @@ echo "Check docker run hello-world"
 # systemctl start docker
 # systemctl enable docker
 # systemctl restart docker
-
-
-
-
-
 
 
 
