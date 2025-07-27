@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # build-prerequisites
-sudo apt-get install ninja-build gettext cmake unzip curl
+# can use too : apt install ninja-build
+sudo apt-get install gettext cmake unzip curl
 sudo apt install -y software-properties-common
 
 ##########################################################################
