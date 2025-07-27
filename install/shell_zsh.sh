@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 
-
-
-##########
+#######
 # Zsh #
-#########
+#######
+
+# @https://github.com/unixorn/awesome-zsh-plugins
+
+
 
 ### Zsh @https://www.zsh.org
-# @https://github.com/unixorn/awesome-zsh-plugins
-sudo apt install -y zsh
+sudo apt install -y zsh && zsh --version
 
 ### OhMyZsh : @https://ohmyz.sh
 # zsh-omz:
