@@ -103,7 +103,7 @@ Firefox
   - firebug-and-web-development, web-developer, Dark Reader, RESTClient
 
 
-## Doc
+## Docs
 
 **Wsl**
 - https://dev.to/mefaba/installing-wsl-on-another-drive-in-windows-5c4a
