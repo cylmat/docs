@@ -1,5 +1,12 @@
 # Linux install
 
+
+## Pre-prerequisites
+```
+# sudo apt-get install gettext cmake zip curl
+# sudo apt install -y build-essential software-properties-common
+```
+
 ## Install Docker
 ```
 curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh | bash
