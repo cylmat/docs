@@ -7,59 +7,18 @@
 # sudo apt install -y build-essential software-properties-common
 ```
 
+Install Zsh and OhMyZsh
+
+- [cylmat/shell_zsh.sh](https://github.com/cylmat/docs/blob/main/install/shell_zsh.sh)
+```
+
+
+
 ## Install Docker
 ```
 curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh | bash
 ```
 
-
-Install Zsh and OhMyZsh
-
-- [cylmat/shell_zsh.sh](https://github.com/cylmat/docs/blob/main/install/shell_zsh.sh)
-```
-# ZSH
-sudo apt install -y zsh && zsh --version
-chsh -s $(which zsh)
-echo $SHELL && $SHELL --version
-
-touch ~/.zshrc
-
-# add at the beginning and end: "zmodload zsh/zprof"  ... ~/.zshrc content...  "zprof" EOF
-# see https://github.com/romkatv/zsh-bench
-
-# OMZ
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-Speed up OMZ
-```
-# from https://scottspence.com/posts/speeding-up-my-zsh-shell
-
-# Top of .zshrc
-DISABLE_AUTO_UPDATE="true"
-DISABLE_MAGIC_FUNCTIONS="true"
-DISABLE_COMPFIX="true"
-
-# Smarter completion once a day
-autoload -Uz compinit
-if [ "$(date +'%j')" != "$(stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)" ]; then
-    compinit
-else
-    compinit -C
-fi
-
-# omz
-plugins=(
-    ...
-    zsh-syntax-highlighting  # Always last!
-)
-
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
-ZSH_AUTOSUGGEST_USE_ASYNC=1
-
-# spaceship
-SPACESHIP_PROMPT_ASYNC=false
-```
 
 Other
 ```
