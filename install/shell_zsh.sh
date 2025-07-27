@@ -5,7 +5,7 @@
 sudo apt-get install gettext cmake unzip curl
 sudo apt install -y build-essential software-properties-common
 
-##########################################################################
+##########
 # Zsh #
 #########
 
@@ -33,22 +33,40 @@ git config --global core.autocrlf false
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # plugins=( ...zsh-syntax-highlighting)
 
+
+######################
+### Plugin Manager ###
+######################
+
 ###
 ### Antidote Zsh plugin Manager
 ###
-git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
+#git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
 
 # in ~/.zshrc
 # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
-source ${ZDOTDIR:-~}/.antidote/antidote.zsh
-[[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
-antidote load
+#source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+#[[ -f ${zsh_plugins}.txt ]] || touch ${zsh_plugins}.txt
+#antidote load
 
 ###
 ### Prezto Zsh plugin Manager
 # http://jeromedalbert.com/migrate-from-oh-my-zsh-to-prezto/
 ###
-https://github.com/sorin-ionescu/prezto
+# https://github.com/sorin-ionescu/prezto
+
+
+###
+### Zsh unplugged (un)plugin manager
+###
+# https://github.com/mattmc3/zsh_unplugged
+
+
+
+#######################
+# Completion & suggestions
+######################
+
 
 
 ### ---docker completion
@@ -68,9 +86,3 @@ zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath) 
 autoload -Uz compinit && compinit
 
-
-
-###
-### Zsh unplugged (un)plugin manager
-###
-https://github.com/mattmc3/zsh_unplugged
