@@ -10,6 +10,7 @@
 # Tips
 # - https://www.twilio.com/fr-fr/blog/astuces-zsh
 #
+# Remove it with sudo apt-get --purge remove zsh
 
 # Set up the prompt
 # Disable it with OMZ !
