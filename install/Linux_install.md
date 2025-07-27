@@ -10,8 +10,6 @@
 Install Zsh and OhMyZsh
 
 - [cylmat/shell_zsh.sh](https://github.com/cylmat/docs/blob/main/install/shell_zsh.sh)
-```
-
 
 
 ## Install Docker
