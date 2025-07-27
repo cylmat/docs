@@ -18,11 +18,6 @@
 #promptinit
 #prompt adam1
 
-###########
-### KEY ###
-###########
-
-#alias secretcommand='ENVVAR=$(echo "c2stcHJUUEK" | base64 -d -); <mycommand>' 
 
 #################
 ### Oh MY ZSH ###
