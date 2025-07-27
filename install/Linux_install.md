@@ -7,14 +7,10 @@
 # sudo apt install -y build-essential software-properties-common
 ```
 
-## Install Zsh and OhMyZsh
+## Install Zsh, OhMyZsh and colored prompt
 
 - [cylmat/shell_zsh.sh](https://github.com/cylmat/docs/blob/main/install/shell_zsh.sh)
 
-
-## Starship prompt
-
-- [cylmat/prompt_starship.sh](https://github.com/cylmat/docs/blob/main/install/prompt_starship.sh)
 
 
 ## Install Docker
