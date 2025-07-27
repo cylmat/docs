@@ -140,10 +140,11 @@ zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath) 
 autoload -Uz compinit && compinit
 
-###
+##########
 # PROMPT #
-###
+##########
 
 # Starship
-# use Omz or add in ~/.zshrc: eval "$(starship init zsh)"
+# use Omz or add in ~/.zshrc: 
+eval "$(starship init zsh)"
 
