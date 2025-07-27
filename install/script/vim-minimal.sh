@@ -7,8 +7,8 @@
 
 # ###
 # usage:
-# apt update && DEBIAN_FRONTEND=noninteractive TZ=Europe/Paris apt-get -y install tzdata curl git vim
-# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/vim-express.sh | bash
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/vim-minimal.sh | bash
+# ###
 
 apt update && apt install curl
 
@@ -45,6 +45,6 @@ ls -al $PLUGIN_DIR
 
 echo "Use in Vim:"
 echo ':set runtimepath?'
-echo ''
+echo
 echo 'Should run:'
 echo 'vim -c "helptag ALL" -c q'
