@@ -11,9 +11,6 @@
 ### Zsh @https://www.zsh.org
 sudo apt install -y zsh && zsh --version
 
-### OhMyZsh : @https://ohmyz.sh
-# zsh-omz:
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ### zsh-autosuggestions:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -35,6 +32,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ######################
 ### Plugin Manager ###
 ######################
+
+
+### OhMyZsh : @https://ohmyz.sh
+# zsh-omz:
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ###
 ### Antidote Zsh plugin Manager
