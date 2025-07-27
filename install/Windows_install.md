@@ -9,6 +9,7 @@ wsl --unregister Ubuntu-22.04
 (https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
 wsl --import Ubuntu-22.04 D:\Applications\Ubuntu D:\Applications\Ubuntu\Ubuntu-export-22.04.tar
 wsl -l -v
+wsl --update
 wsl --manage Ubuntu-22.04 --set-default-user username
 ```
 
