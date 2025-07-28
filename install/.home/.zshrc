@@ -3,7 +3,6 @@
 # - https://wiki.archlinux.org/title/zsh
 #
 # Plugins
-# - https://github.com/ohmyzsh/ohmyzsh
 # - https://github.com/jeffreytse/zsh-vi-mode
 # - https://github.com/unixorn/awesome-zsh-plugins
 #
