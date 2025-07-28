@@ -56,7 +56,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### Speed up OMZ
 - from https://scottspence.com/posts/speeding-up-my-zsh-shell
 
-.zshrc
+in .zshrc
 ```shell
 # Top of .zshrc
 DISABLE_AUTO_UPDATE="true"
