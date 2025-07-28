@@ -23,22 +23,6 @@ echo $SHELL && $SHELL --version
 # "zmodload zsh/zprof"  ... ~/.zshrc content...  "zprof" EOF
 # see https://github.com/romkatv/zsh-bench
 
-
-### zsh-autosuggestions:
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-# zsh-syntax-highlighting:
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-
-# --- zsh Autosuggestion :
-git config --global core.autocrlf false
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-# plugins=(zsh-autosuggestions)
-
-# --- zsh syntax highlighting
-git config --global core.autocrlf false
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-# plugins=( ...zsh-syntax-highlighting)
 ```
 
 
@@ -112,6 +96,17 @@ SPACESHIP_PROMPT_ASYNC=false
 
 ### Completion & suggestions
 --------------------------
+
+```
+#  zsh Autosuggestion 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# plugins=(...zsh-autosuggestions)
+
+#  zsh Syntax highlighting
+# ! Always in last plugin section !
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# plugins=( ...zsh-syntax-highlighting)
+```
 
 ```
 ### ---docker completion
