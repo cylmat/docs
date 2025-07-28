@@ -48,12 +48,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### Plugin Manager 
 ------------------
 
-```
-### OhMyZsh : @https://ohmyz.sh
-# zsh-omz:
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+### OhMyZsh
+- @https://ohmyz.sh
 
-# OMZ
+```
+# zsh-omz:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
