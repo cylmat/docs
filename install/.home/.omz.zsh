@@ -23,7 +23,9 @@ export EDITOR="vim"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 # Overrided in .zshrc
-# ZSH_THEME="robbyrussell"
+if [[ -z "$ZSH_THEME" ]]; then
+ZSH_THEME="robbyrussell"
+fi
 
 
 # Set list of themes to pick from when loading at random
