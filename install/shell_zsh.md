@@ -1,8 +1,5 @@
 # Zsh install
 
-- @https://github.com/unixorn/awesome-zsh-plugins
-
-
 
 ## Install
 - https://www.zsh.org
@@ -143,3 +140,7 @@ autoload -Uz compinit && compinit
 # use Omz or add in ~/.zshrc: 
 eval "$(starship init zsh)"
 ```
+
+## Plugins
+
+- @https://github.com/unixorn/awesome-zsh-plugins
