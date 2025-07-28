@@ -1,3 +1,6 @@
+ZSH_THEME="cloud"
+# Override ~/.omz.zsh and allow use of "omz theme enable <plugin>"
+
 # ###
 # Doc
 # - https://doc.ubuntu-fr.org/zsh
