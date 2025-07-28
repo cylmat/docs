@@ -15,8 +15,8 @@
 # ###
 
 
-# Copy file
-# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.zshrc
+# Use file
+# mv ~/.zshrc ~/.zshrc.bak && curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.zshrc > ~/.zshrc 
 
 
 #################
