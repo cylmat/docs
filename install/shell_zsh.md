@@ -1,22 +1,24 @@
-#!/usr/bin/env bash
+# Zsh install
 
-#######
-# Zsh #
-#######
-
-# @https://github.com/unixorn/awesome-zsh-plugins
+- @https://github.com/unixorn/awesome-zsh-plugins
 
 
 
-### Zsh @https://www.zsh.org
+## Install
+- https://www.zsh.org
 
+```
 sudo apt install -y zsh && zsh --version
 # change shell to zsh
 chsh -s $(which zsh)
 
 # go to zsh, then follow zsh configuration (zsh-newuser-install.)
 zsh
+```
 
+## In Zsh
+
+```
 echo $SHELL && $SHELL --version
 
 ### bench
@@ -40,24 +42,26 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git config --global core.autocrlf false
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # plugins=( ...zsh-syntax-highlighting)
+```
 
 
-######################
-### Plugin Manager ###
-######################
+### Plugin Manager 
+------------------
 
-
+```
 ### OhMyZsh : @https://ohmyz.sh
 # zsh-omz:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # OMZ
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
+### Speed up OMZ
+- from https://scottspence.com/posts/speeding-up-my-zsh-shell
 
-# Speed up OMZ
-# from https://scottspence.com/posts/speeding-up-my-zsh-shell
-
+.zshrc
+```shell
 # Top of .zshrc
 DISABLE_AUTO_UPDATE="true"
 DISABLE_MAGIC_FUNCTIONS="true"
@@ -82,20 +86,13 @@ ZSH_AUTOSUGGEST_USE_ASYNC=1
 
 # spaceship
 SPACESHIP_PROMPT_ASYNC=false
+```
 
 
-
-
-
-
-
-
-
-
-###
 ### Antidote Zsh plugin Manager
-###
-#git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
+
+```
+# git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
 
 # in ~/.zshrc
 # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
@@ -114,15 +111,13 @@ SPACESHIP_PROMPT_ASYNC=false
 ### Zsh unplugged (un)plugin manager
 ###
 # https://github.com/mattmc3/zsh_unplugged
+```
 
 
+### Completion & suggestions
+--------------------------
 
-#######################
-# Completion & suggestions
-######################
-
-
-
+```
 ### ---docker completion
 # @https://docs.docker.com/engine/cli/completion/#zsh
 
@@ -139,12 +134,13 @@ curl -o git-completion.zsh https://raw.githubusercontent.com/git/git/master/cont
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath) 
 autoload -Uz compinit && compinit
+```
 
-##########
-# PROMPT #
-##########
 
+### PROMPT 
+
+```
 # Starship
 # use Omz or add in ~/.zshrc: 
 eval "$(starship init zsh)"
-
+```
