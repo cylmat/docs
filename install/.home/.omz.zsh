@@ -2,6 +2,9 @@
 # OMZ #
 # From source
 # @https://github.com/ohmyzsh/ohmyzsh/blob/master/templates/zshrc.zsh-template
+#
+# Plugins
+# - https://github.com/ohmyzsh/ohmyzsh
 # ###
 
 
