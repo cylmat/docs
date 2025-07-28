@@ -26,11 +26,13 @@
 
 USE_OMZ=0
 if [[ -f $HOME/.omz.zsh ]]; then
+
+USE_OMZ=1
+source $HOME/.omz.zsh 
+
 # Override ~/.omz.zsh and allow use of "omz plugin enable <plugin>"
 plugins=(git)
 
-source $HOME/.omz.zsh 
-USE_OMZ=1
 fi
 
 #################
