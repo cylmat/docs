@@ -11,11 +11,6 @@
 #
 # Remove it with chsh -s /bin/bash && apt-get --purge remove zsh
 
-# Set up the prompt
-# Disable it with OMZ !
-#autoload -Uz promptinit
-#promptinit
-#prompt adam1
 
 
 #################
@@ -24,15 +19,16 @@
 
 [[ -f ~/.omz.zsh ]] && source ~/.omz.zsh 
 
-#############
+#################
 ### THEME top ###
-#############
+#################
 
 ### POWERLEVEL 10K ###
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/ zshrc. 
 # Initialization code that may require console input (password prompts) [y/n]
 # confirmations, etc.) must go above this block; everything else may go below. 
+
 [[ -f ~/.p10k-top.zsh ]] && source ~/.p10k-top.zsh
 
 
@@ -47,7 +43,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="$HOME/.symfony5/bin:$PATH"
-export PATH=/snap/bin:$PATH
 export PATH=$HOME/.volta/bin:$PATH
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
@@ -55,29 +50,47 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
 export TERM=xterm-256color
-# need for tmuxinator
 export SHELL="zsh"
 export EDITOR='vim'
 
-setopt histignorealldups sharehistory
-
-# Use vi keybindings even if our EDITOR is set to vi
+# Use vi keybindings even if our EDITOR is set to other
 bindkey -v
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=2000
 SAVEHIST=2000
 HISTFILE=~/.zsh_history
+# ignore duplicate and share history between zsh terminals
+setopt histignorealldups sharehistory
 
 # remove ending '%' on partial line (ex print -n "test")
 PROMPT_EOL_MARK=''
+
+
+###########
+# ALIASES #
+###########
+
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
 
 
 ########################
 ## AUTOCOMPLETION ZSH ##
 ########################
 
-# Use modern completion system
+USE_OMZ=false
+if [[ USE_OMZ -e 1 ]]; then
+
+# Set up the prompt
+
+### Disable it with OMZ !
+autoload -Uz promptinit
+promptinit
+prompt adam1
+
+# Use modern completion system	
 autoload -Uz compinit
 compinit
 
@@ -99,33 +112,25 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-###########
-# ALIASES #
-###########
-if [ -f ~/.aliases ]; then
-	source ~/.aliases
 fi
+# -end (use_omz)
 
 
-
-### command not found 
-# Cmd not found: # source /etc/zsh_command_not_found
-
-# Generated for envman. Do not edit. 
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"    
 
 #############
 ### THEME ###
 #############
 
 ### POWERLEVEL 10K ###
-# @https://github.com/romkatv/powerlevel10k
 
+# @https://github.com/romkatv/powerlevel10k
 source ~/powerlevel10k/powerlevel10k.zsh-theme   
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.  
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+
 ### STARSHIP ###
+
 # @https://starship.rs1 
 # curl -sS https://starship.rs/install.sh | sh   
 
