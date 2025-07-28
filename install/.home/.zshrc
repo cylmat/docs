@@ -1,4 +1,4 @@
-ZSH_THEME="cloud"
+ZSH_THEME="cloud"  # set by `omz`
 # Override ~/.omz.zsh and allow use of "omz theme enable <plugin>"
 
 # ###
