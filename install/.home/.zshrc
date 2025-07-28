@@ -17,7 +17,12 @@
 ### Oh MY ZSH ###
 #################
 
-[[ -f ~/.omz.zsh ]] && source ~/.omz.zsh 
+USE_OMZ=0
+if [[ -f $HOME/.omz.zsh ]]; then
+    USE_OMZ=1
+    source $HOME/.omz.zsh 
+fi
+
 
 #################
 ### THEME top ###
@@ -80,8 +85,8 @@ fi
 ## AUTOCOMPLETION ZSH ##
 ########################
 
-USE_OMZ=false
-if [[ USE_OMZ -e 1 ]]; then
+
+if [[ "$USE_OMZ" -eq 0 ]]; then
 
 # Set up the prompt
 
