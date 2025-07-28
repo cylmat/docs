@@ -21,18 +21,11 @@ sudo systemctl disable snapd
 curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh | bash
 ```
 
-Other
-```
+## Install tools
 
-# fzf
-apt install fzf
+- [cylmat/tools_essential.sh](https://github.com/cylmat/docs/blob/main/install/tools_essential.sh)
 
 
-# Clear
-apt clean
-apt autoclean
-apt autoremove
-```
 
 ## Docs
 
