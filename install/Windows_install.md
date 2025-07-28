@@ -16,6 +16,8 @@ wsl --manage Ubuntu-22.04 --set-default-user username
 wsl -d Ubuntu-22.04 -u root
 passwd root
 passwd username
+
+wslconfig /setdefault Ubuntu-22.04  
 ```
 
 ### in WSL
@@ -130,9 +132,9 @@ command = service docker start
 
 ### Enable VsCode
 
-remove Windows C:\Users\username\vscode-remote-wsl  
-remove C:\Users\username\.vscodewsl --shutdownwslconfig /setdefault Ubuntu-22.04  
-wslconfig /setdefault Ubuntu-22.04  
+- remove Windows C:\Users\username\vscode-remote-wsl  
+- remove C:\Users\username\.vscodewsl --shutdownwslconfig /setdefault Ubuntu-22.04  
+
 ```
 sudo apt-get update && sudo apt-get install wget ca-certificates
 
@@ -140,6 +142,7 @@ sudo apt-get update && sudo apt-get install wget ca-certificates
 echo '[automount]
 enabled = true
 options = "metadata,uid=1000,gid=1000,umask=0022,fmask=11,case=off"
+
 [interop]
 enabled=true
 appendWindowsPath=true' >> /etc/wsl.conf
