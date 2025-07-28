@@ -5,6 +5,9 @@
 ```
 # sudo apt-get install gettext cmake zip curl
 # sudo apt install -y build-essential software-properties-common
+
+
+sudo systemctl disable snapd
 ```
 
 ## Install Zsh, OhMyZsh and colored prompt
