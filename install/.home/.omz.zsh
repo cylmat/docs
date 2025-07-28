@@ -79,9 +79,9 @@ ENABLE_CORRECTION="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-###############
-### PLUGINS ###
-###############
+
+### PLUGINS LIST ###
+
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -89,47 +89,11 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-
-# --- Autosuggestion :
-# git config --global core.autocrlf false
-# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-# --- syntax highlighting
-# git config --global core.autocrlf false
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-# z @https://github.com/ajeetdsouza/zoxide
-
-
-### PLUGINS LIST ###
-
-# Need install eza: sudo cargo install eza
 plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza 
 git fzf kube-ps1 kubectl helm rsync snap ssh sudo symfony6 taskwarrior tig tldr tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
 
-### /PLUGINS LIST ###
-
 source $ZSH/oh-my-zsh.sh
 
-# >CTRL-o (copybuffer: copy command to clipboard)
-# >ALT-left, right, up (dirhistory: navigate directories)
-# >copyfile <file>
-# >copypath (into clipboard)
-# >z <jump around dirs: go to find path>
-
-zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
-zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
-zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
-zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
-
-
-### Git Autocompletion
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
-fpath=(~/.zsh $fpath)
-autoload -Uz compinit && compinit
-
-
-######
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -159,4 +123,40 @@ autoload -Uz compinit && compinit
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
+
+#####################
+####### CUSTOM ######
+#####################
+
+
+# Need install eza: sudo cargo install eza
+
+# --- Autosuggestion :
+# git config --global core.autocrlf false
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# --- syntax highlighting
+# git config --global core.autocrlf false
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# z @https://github.com/ajeetdsouza/zoxide
+
+# >CTRL-o (copybuffer: copy command to clipboard)
+# >ALT-left, right, up (dirhistory: navigate directories)
+# >copyfile <file>
+# >copypath (into clipboard)
+# >z <jump around dirs: go to find path>
+
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+
+
+### Git Autocompletion
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit && compinit
 
