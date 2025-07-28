@@ -56,8 +56,10 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="$HOME/.symfony5/bin:$PATH"
 export PATH="$HOME/.volta/bin:$PATH"
 
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if [[ -d /home/linuxbrew ]]; then
+  export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
 
 export TERM=xterm-256color
 export SHELL="zsh"
