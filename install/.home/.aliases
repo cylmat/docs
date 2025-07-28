@@ -1,6 +1,9 @@
 # @ref
 # @https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
+# Copy file
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.aliases > ~/.aliases
+
 ### COMMON ###
 
 alias .aliases="vim ~/.aliases"
