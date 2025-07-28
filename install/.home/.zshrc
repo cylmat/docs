@@ -16,7 +16,7 @@
 
 
 # Copy file
-# curl https://github.com/cylmat/docs/blob/main/install/.home/.zshrc
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.zshrc
 
 
 #################
