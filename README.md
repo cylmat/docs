@@ -133,7 +133,6 @@ Monitor & info
 + [dust](https://github.com/bootandy/dust) A more intuitive version of du in rust
 + [ncdu](https://dev.yorhel.nl/ncdu) Disk usage analyzer with a text-mode user interface
 + [procs](https://github.com/dalance/procs) **_Better ps!_** A modern replacement for ps
-+ [procps](https://gitlab.com/procps-ng/procps) Provide information of filesystem on /proc
 + [wtfutil](https://wtfutil.com) Personal information dashboard for your terminal
 
 Network & net
