@@ -112,6 +112,12 @@ fastfetch \
 nushell
 
 
+### useful
+# rlwrap (allow the editing of keyboard input for any command)
+# socat (relay for bidirectional data transfers)
+###
+
+
 # Clear
 
 sudo apt clean
