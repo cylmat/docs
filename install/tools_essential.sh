@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+###
+### Essential and common tools for day-by-day work
+### Keep simple and light, without cargo or npm install
+### 
+
 #############
 ### Shell ###
 # busybox.net
