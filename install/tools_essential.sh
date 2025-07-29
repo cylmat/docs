@@ -88,6 +88,9 @@ tre-command \
 ugrep
 
 
+### Fzf ###
+#source <(fzf --zsh)
+
 ### Cheat.sh ###
 
 # https://github.com/chubin/cheat.sh
@@ -103,13 +106,15 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 #######
 # App #
+# eza.rocks (A modern, maintained replacement for ls)
 # fastfetch-cli (neofetch like system information tool)
 # nushell.sh (shell pipelines to control any OS)
 #######
 
 brew install \
+eza \
 fastfetch \
-nushell
+nushell 
 
 
 ### useful
