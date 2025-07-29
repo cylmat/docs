@@ -40,16 +40,27 @@ btop, duf, dust, fastfetch, lshw, ncdu, procs, wtfutil, ~/welcome.sh
 slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
 
 - NETWORK -
-bandwhich, curlie, dig, httpie, http-prompt
-lynx, w3m, netstat, nmap, tcpdump, ss
+dig, httpie, netstat, nmap, tcpdump, ss
 
 - TRAIN -
-gtypist, tt, ttyper, toipe, vimgolf
+ttyper, vimgolf
 
 - UTILS & WORK -
-bc, dnote, entr, glow, just, pass, scc
-taskwarrior, tokei, uuidgen, xdg-open, xsel
+uuidgen
 
 - ZSH -
 als, C-o (cmd), cph, cpf, z, zsh-bench
 "'
+
+
+### Other tools ###
+
+# - NETWORK -
+# bandwhich, curlie, http-prompt, lynx, w3m
+
+# - TRAIN -
+# gtypist, tt, ttyper, toipe, vimgolf
+
+# - UTILS & WORK -
+# bc, dnote, entr, glow, just, pass, scc
+# taskwarrior, tokei, xdg-open, xsel
