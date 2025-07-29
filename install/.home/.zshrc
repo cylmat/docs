@@ -98,13 +98,17 @@ fi
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
 
-### STARSHIP ###
+### Starship prompt ###
 
 # @https://starship.rs1 
 # curl -sS https://starship.rs/install.sh | sh   
 
 # eval "$(starship init zsh)"
 
+
+### FastFetch ###
+
+# fastfetch (os informations)
 
 
 ###################
