@@ -91,13 +91,8 @@ ugrep \
 vifm
 
 
-### Fzf ###
+# Fzf #
 #source <(fzf --zsh)
-
-### Cheat.sh ###
-
-# https://github.com/chubin/cheat.sh
-curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 
 ############
@@ -120,6 +115,18 @@ btop \
 eza \
 fastfetch \
 nushell
+
+
+
+### Cheat.sh ###
+# https://github.com/chubin/cheat.sh
+curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
+
+### TT ###
+# https://github.com/lemnos/tt
+sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
+sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
 
 
 ### useful
