@@ -21,6 +21,12 @@ sudo systemctl disable snapd
 curl https://github.com/cylmat/docs/blob/main/install/script/docker-cli-install.sh | bash
 ```
 
+## Install minikube
+```
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+```
+
 ## Install tools
 
 - [cylmat/tools_essential.sh](https://github.com/cylmat/docs/blob/main/install/tools_essential.sh)
