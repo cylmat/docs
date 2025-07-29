@@ -11,11 +11,11 @@
 # nixos.org
 #############
 
-# busybox : du, nc, netstat (net-tools), ps (procps), wget...
+# busybox : dos2unix, du, nc, netstat (net-tools), ps (procps), wget...
 
 sudo apt install -y \
 busybox \
-nix
+nix # heavy !
 
 
 #############
@@ -49,10 +49,10 @@ sudo apt install -y \
 curl \
 dnsutils \
 duf \
-git \
+git \ # heavy !
 htop \
 lsof \
-openssl \
+openssl \ # heavy !
 sqlite3
 
 # locales and man
@@ -72,7 +72,6 @@ man-db
 
 # bat (cat with color)
 # ccze (color logs)
-# dos2Unix
 # fd-find (user-friendly alternative to 'find')
 # fzf (command-line fuzzy finder | fzf)
 # fzy (fzf-like | fzy)
@@ -89,7 +88,6 @@ sudo apt install -y \
 bat \
 ccze \
 command-not-found \
-dos2unix \
 fd-find \
 fzf \
 fzy \
