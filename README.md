@@ -39,6 +39,7 @@ Common
 - [brew](https://brew.sh) Package Manager for Linux
 - [busybox](https://busybox.net) Swiss Army Knife of Embedded Linux
 - [nix](https://nixos.org) Declarative builds and deployments
+- [nushell](https://www.nushell.sh) Pipelines to control any OS
 
 Dev
 - [git](https://git-scm.com) Distributed version control system
