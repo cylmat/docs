@@ -13,7 +13,7 @@ https://hn.algolia.com/api/v1/search?query=react
 https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets
 
 - COMMON -
-busybox, brew, nix, nu(shell), snap, zsh
+busybox, nix, nu(shell), zsh
 
 - DEV & DATA -
 gron, iredis, jq, mnk (minikube), k9s, kdash, krew (ctx, ns)
@@ -27,9 +27,6 @@ gnupg, openssl
 autojump, ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
 fzy, fpp, icdiff, lnav, lsof, peco, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
 >joshuto, ranger, vifm
-
-- FUN -
-cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 - HELPER & AI -
 ai, chat, cht(.sh), explain(.sh), grex, navi, so, tldr, up, yai
@@ -55,12 +52,19 @@ als, C-o (cmd), cph, cpf, z, zsh-bench
 
 ### Other tools ###
 
-# - NETWORK -
+# COMMON
+# busybox, brew, nix, nu(shell), snap, zsh
+
+# FUN
+# cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
+
+# NETWORK
 # bandwhich, curlie, http-prompt, lynx, w3m
 
-# - TRAIN -
+# TRAIN
 # gtypist, tt, ttyper, toipe, vimgolf
 
-# - UTILS & WORK -
+# UTILS & WORK
 # bc, dnote, entr, glow, just, pass, scc
 # taskwarrior, tokei, xdg-open, xsel
+
