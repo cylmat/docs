@@ -24,6 +24,7 @@ build-essential \
 cmake \
 make \
 gcc \
+gnupg \
 software-properties-common
 
 
@@ -31,7 +32,6 @@ software-properties-common
 ### Common ###
 # dnsutils (dig + nslookup)
 # duf : disk usage
-# gnupg
 # htop
 # locales 
 # manpages
@@ -43,12 +43,14 @@ software-properties-common
 sudo apt install -y \
 dnsutils \
 duf \
-locales locales-all \
-gnupg \
-manpages man-db \
 openssl \
 procps \
 sqlite3
+
+# heavy !
+sudo apt install -y \
+locales locales-all \
+manpages man-db 
 
 
 #############
