@@ -24,9 +24,8 @@ sym(fony), tidy-viewer(csv), tig, tmux, tmuxinator, vim
 gnupg, openssl
 
 - FILES & LOGS -
-autojump, ack, bat(cat), ccze, diff-so-fancy, delta, eza, fdf(ind), fzf
-fzy, fpp, icdiff, lnav, lsof, peco, rsync, sd, tre(-command), ugrep, r(ip)g(rep)
->joshuto, ranger, vifm
+bat(cat), ccze, eza, fdf(ind), fzf, fzy, icdiff, 
+lsof, rsync, tre(-command), ugrep, ranger, vifm
 
 - HELPER & AI -
 ai, chat, cht(.sh), explain(.sh), grex, navi, so, tldr, up, yai
@@ -54,6 +53,10 @@ als, C-o (cmd), cph, cpf, z, zsh-bench
 
 # COMMON
 # busybox, brew, nix, nu(shell), snap, zsh
+
+# FILES & LOGS -
+# autojump, ack, diff-so-fancy, delta, joshuto
+# fpp, lnav, peco, sd, r(ip)g(rep)
 
 # FUN
 # cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
