@@ -55,7 +55,6 @@ eval "`dircolors`"
 # lt=’eza -al --sort=modified’
 
 ### GREP ###
-# https://www.malekal.com/grep-egrep-fgrep-rgrep-quelles-sont-les-differences
 alias grep='grep --color=auto'
 alias egrep='grep -E'
 alias fgrep='grep -F'
