@@ -1,73 +1,20 @@
-
-##########################################################################
-# Tools #
-#########
-
-### buzyBox ###
-# @https://busybox.net
-# Nixos @https://nixos.org
-
-sudo apt install -y busybox nix
-
-### common ###
-
-# acl
-# bat: cat like with color
-# ccze : color logs
-# dnsutils (dig) nslookup
-# dos2Unix
-# fd-find
-# finger (pinky) : user information lookup
-# fzy (fzf-like) use cat $(ls *.txt | fzy)
-# gnupg
-# icdiff 
-# Json jq
-# locales 
-# manpages
-# openssl
-# pass (manager)
-# procps
-# ranger : filesystem
-# rsync
-# ugrep
-# xsel
-
-sudo apt install -y \
-ack \
-bat \
-ccze \
-command-not-found \
-dnsutils \
-dos2unix \
-fd-find \
-fzy \
-gnupg \
-icdiff \
-jq \
-locales locales-all \
-manpages man-db \
-openssl \
-pass \
-procps \
-ranger \
-rsync \
-tre-command \
-ugrep \
-xsel
+#!/usr/bin/env bash
 
 
-# echo "source /etc/zsh_command_not_found" >> ~/.zshrc
 
-### tools ###
+### Utils ###
 
+
+# ack
 # bc calculator
 # btop monitor 
 # cal (or ncal) calendar
-# duf disk usage
 # httpie : curl
+# finger : user information lookup
 # ncdu : disk manager
 # nnn file manager
 # Neofetch os informations
+# pass (password manager)
 # peco (filter)
 # snap install apps @https://snapcraft.io
 # taskwarrior manager
@@ -76,15 +23,17 @@ xsel
 # visidata
 
 sudo apt install -y \
+ack \
 bc \
 btop \
 cal \
-duf \
 iredis \
 httpie \
+finger \
 ncdu \
 neofetch \
 nnn \
+pass \
 peco \
 taskwarrior \
 tig \  
