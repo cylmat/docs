@@ -65,7 +65,7 @@ Helper & ai
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
 + [duf](https://github.com/muesli/duf) **_Better du!_** Disk Usage/Free Utility
-+ [neofetch](https://github.com/dylanaraps/neofetch) A command-line system information tool
++ [fastfetch](https://github.com/fastfetch-cli/fastfetch) A command-line system information tool
 
 Training
 + [ttyper](https://github.com/max-niederman/ttyper)
