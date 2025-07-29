@@ -59,7 +59,6 @@ xsel
 # scc
 # tokei (count your code)
 # twf (Standalone tree view file explorer, inspired by fzf)
-# vifm
 # wtfutil
 
 brew install \
@@ -78,7 +77,6 @@ lnav \
 ripgrep \
 scc \
 tokei \
-vifm \
 wtfutil
 
 brew install --HEAD wvanlint/twf/twf
