@@ -13,7 +13,6 @@
 # finger : user information lookup
 # ncdu : disk manager
 # nnn file manager
-# Neofetch os informations
 # pass (password manager)
 # peco (filter)
 # snap install apps @https://snapcraft.io
@@ -32,7 +31,6 @@ iredis \
 httpie \
 finger \
 ncdu \
-neofetch \
 nnn \
 pass \
 peco \
