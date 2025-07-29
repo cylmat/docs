@@ -15,9 +15,7 @@
 # nnn file manager
 # pass (password manager)
 # peco (filter)
-# snap install apps (https://snapcraft.io)
 # taskwarrior manager
-# tig: git logs
 # TlDr (cheatsheets for console commands)
 # visidata
 # xsel (manipulate X selection)
@@ -35,11 +33,14 @@ nnn \
 pass \
 peco \
 taskwarrior \
-tig \  
 tldr && tldr --update \
-snap \
 visidata \
 xsel
+
+
+### snap
+# snap install apps (https://snapcraft.io)
+# sudo apt install -y snap
 
 ########
 # BREW #
@@ -54,7 +55,6 @@ xsel
 # k9s 
 # krew (ctx and ns)
 # lazygit
-# nushell
 # ripgrep
 # scc
 # tokei (count your code)
@@ -75,7 +75,6 @@ krew \
 lazydocker \
 lazygit \
 lnav \
-nushell \
 ripgrep \
 scc \
 tokei \
@@ -150,16 +149,6 @@ cd /tmp/entr && ./configure && make test && make install && sudo make install
 curl -s https://benjamine.github.io/explain.sh/install.sh | sh
 sudo cp /usr/bin/explain.sh /usr/bin/explain
 
-### Fzf ###
-
-# https://github.com/junegunn/fzf
-sudo apt install -y fzf
-source <(fzf --zsh)
-
-### Homebrew ###
-# @https://brew.sh
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 ### HTTP PROMPT @https://http-prompt.com
