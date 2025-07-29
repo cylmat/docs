@@ -21,6 +21,7 @@
 # tig: git logs
 # TlDr : cheatsheets for console commands
 # visidata
+# xsel (manipulate X selection)
 
 sudo apt install -y \
 ack \
@@ -39,7 +40,8 @@ taskwarrior \
 tig \  
 tldr && tldr --update \
 snap \
-visidata
+visidata \
+xsel
 
 ########
 # BREW #
@@ -130,12 +132,6 @@ tidy-viewer \
 toipe
 
 
-### Cheat.sh ###
-# https://github.com/chubin/cheat.sh
-# Need : sudo apt install rlwrap
-# use : $ cht.sh go reverse a list
-
-curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 ### curlie @https://github.com/rs/curlie
 # use curlie httpbin.org/headers
