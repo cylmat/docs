@@ -55,10 +55,15 @@ lsof \
 openssl \
 sqlite3
 
-# heavy !
+# locales and man
 sudo apt install -y \
-locales locales-all \
-manpages man-db 
+locales \
+manpages \
+man-db 
+
+
+# heavy !
+# sudo apt install -y locales-all 
 
 
 #############
