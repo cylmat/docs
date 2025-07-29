@@ -61,7 +61,7 @@ Files & logs
 + [vifm](https://vifm.info) Vim-like environment file manager
 
 Helper & ai
-* [cheat.sh](https://github.com/chubin/cheat.sh) **_Can't live without!_** The only cheat sheet you need
+* [cheat.sh](https://github.com/chubin/cheat.sh) **_Cheats_** The only cheat sheet you need
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
