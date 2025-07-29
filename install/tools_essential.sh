@@ -4,15 +4,11 @@
 ### Shell ###
 # busybox.net
 # nixos.org
-# nushell.sh
 #############
 
 sudo apt install -y \
 busybox \
 nix
-
-brew install \
-nushell
 
 
 #############
@@ -96,6 +92,24 @@ curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /u
 
 # rlwrap (allow the editing of keyboard input for any command)
 # socat (relay for bidirectional data transfers)
+
+
+############
+### Brew ###
+############
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+
+#######
+# App #
+# fastfetch-cli (neofetch like system information tool)
+# nushell.sh (shell pipelines to control any OS)
+#######
+
+brew install \
+fastfetch \
+nushell
 
 
 # Clear
