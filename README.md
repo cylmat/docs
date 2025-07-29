@@ -42,6 +42,7 @@ Common
 - [nushell](https://www.nushell.sh) Pipelines to control any OS
 
 Dev
+- [docker](https://www.docker.com) Container application
 - [git](https://git-scm.com) Distributed version control system
 - [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
