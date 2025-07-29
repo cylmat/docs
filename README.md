@@ -70,7 +70,8 @@ Monitor & info
 + [htop](https://htop.dev) Interactive process viewer
 
 Training
-+ [ttyper](https://github.com/max-niederman/ttyper)
++ [tt](https://github.com/lemnos/tt) A terminal based typing test
++ [vimgolf](https://www.vimgolf.com) Vim ninjas count every keystroke
 
 ---
 
@@ -148,9 +149,9 @@ Network & net
 + [w3m](https://doc.ubuntu-fr.org/w3m) Web browser
 
 Training
-+ [tt](https://github.com/lemnos/tt)
 + [gtypist](https://www.gnu.org/software/gtypist)
 + [toipe](https://github.com/Samyak2/toipe)
++ [ttyper](https://github.com/max-niederman/ttyper)
 
 Utils & work
 + [bc](https://doc.ubuntu-fr.org/bc) Command line calculator
