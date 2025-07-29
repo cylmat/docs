@@ -70,6 +70,7 @@ manpages man-db
 # tig (git logs)
 # tre (tree improved)
 # ugrep (user-friendly faster grep)
+# vifm (Vim-like environment files)
 
 sudo apt install -y \
 bat \
@@ -85,7 +86,8 @@ ranger \
 rsync \
 tig \  
 tre-command \
-ugrep
+ugrep \
+vifm
 
 
 ### Fzf ###
