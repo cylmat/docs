@@ -87,20 +87,17 @@ ugrep
 ### Cheat.sh ###
 
 # https://github.com/chubin/cheat.sh
-# use : $ cht.sh go
-
-curl https://cht.sh/:cht.sh > ~/bin/cht.sh
-    chmod +x ~/bin/cht.sh
-       cht.sh --standalone-install
-
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
+
 ### useful ###
+
 # rlwrap (allow the editing of keyboard input for any command)
 # socat (relay for bidirectional data transfers)
 
 
 # Clear
+
 sudo apt clean
 sudo apt autoclean
 sudo apt autoremove
