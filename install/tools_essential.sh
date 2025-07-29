@@ -43,6 +43,7 @@ curl \
 dnsutils \
 duf \
 git \
+htop \
 openssl \
 procps \
 sqlite3
@@ -108,15 +109,17 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 #######
 # App #
+# btop (A monitor of resources)
 # eza.rocks (A modern, maintained replacement for ls)
 # fastfetch-cli (neofetch like system information tool)
 # nushell.sh (shell pipelines to control any OS)
 #######
 
 brew install \
+btop \
 eza \
 fastfetch \
-nushell 
+nushell
 
 
 ### useful
