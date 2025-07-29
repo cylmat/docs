@@ -54,8 +54,7 @@ Files & logs
 + [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
-+ [git-delta](https://dandavison.github.io/delta) **_Better diff!_** A syntax-highlighting pager for git, diff, and grep
-+ [icdiff](https://github.com/jeffkaufman/icdiff) Improved colored diff 
++ [icdiff](https://github.com/jeffkaufman/icdiff) **_Better diff!_** Improved colored diff 
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
 + [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
 + [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
@@ -100,6 +99,7 @@ Files & logs
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
 + [fpp](https://github.com/facebook/PathPicker) Nice UI to select which files you're interested in
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
++ [git-delta](https://dandavison.github.io/delta) A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
 + [lnav](https://lnav.org) The logfile navigator
 + [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
