@@ -15,10 +15,10 @@
 # nnn file manager
 # pass (password manager)
 # peco (filter)
-# snap install apps @https://snapcraft.io
+# snap install apps (https://snapcraft.io)
 # taskwarrior manager
 # tig: git logs
-# TlDr : cheatsheets for console commands
+# TlDr (cheatsheets for console commands)
 # visidata
 # xsel (manipulate X selection)
 
@@ -58,6 +58,7 @@ xsel
 # ripgrep
 # scc
 # tokei (count your code)
+# twf (Standalone tree view file explorer, inspired by fzf)
 # vifm
 # wtfutil
 
@@ -80,6 +81,8 @@ scc \
 tokei \
 vifm \
 wtfutil
+
+brew install --HEAD wvanlint/twf/twf
 
 brew tap dnote/dnote && brew install dnote
 
