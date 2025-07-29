@@ -30,7 +30,9 @@ software-properties-common
 ##############
 ### Common ###
 # dnsutils (dig + nslookup)
+# duf : disk usage
 # gnupg
+# htop
 # locales 
 # manpages
 # openssl
@@ -40,6 +42,7 @@ software-properties-common
 
 sudo apt install -y \
 dnsutils \
+duf \
 locales locales-all \
 gnupg \
 manpages man-db \
@@ -52,40 +55,49 @@ sqlite3
 ### Utils ###
 #############
 
-# bat : cat with color
-# ccze : color logs
+# bat (cat with color)
+# ccze (color logs)
 # dos2Unix
-# duf : disk usage
 # fd-find
+# fzf
 # fzy (fzf-like) use cat $(ls *.txt | fzy)
-# icdiff 
+# icdiff (colored diff)
 # Json jq
-# ranger : filesystem
+# ranger (filesystem manager)
 # rsync
-# ugrep
-# xsel
+# tre (tree command, improved)
+# ugrep (user-friendly faster grep)
 
 sudo apt install -y \
 bat \
 ccze \
 command-not-found \
 dos2unix \
-duf \
 fd-find \
+fzf \
 fzy \
 icdiff \
 jq \
 ranger \
 rsync \
 tre-command \
-ugrep \
-xsel
+ugrep
 
 
+### Cheat.sh ###
 
-### fzf ###
-sudo apt install fzf
+# https://github.com/chubin/cheat.sh
+# use : $ cht.sh go
 
+curl https://cht.sh/:cht.sh > ~/bin/cht.sh
+    chmod +x ~/bin/cht.sh
+       cht.sh --standalone-install
+
+curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
+### useful ###
+# rlwrap (allow the editing of keyboard input for any command)
+# socat (relay for bidirectional data transfers)
 
 
 # Clear
