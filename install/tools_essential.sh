@@ -26,8 +26,10 @@ software-properties-common
 
 ##############
 ### Common ###
+# curl
 # dnsutils (dig + nslookup)
 # duf : disk usage
+# git
 # htop
 # locales 
 # manpages
@@ -37,8 +39,10 @@ software-properties-common
 ##############
 
 sudo apt install -y \
+curl \
 dnsutils \
 duf \
+git \
 openssl \
 procps \
 sqlite3
@@ -56,14 +60,15 @@ manpages man-db
 # bat (cat with color)
 # ccze (color logs)
 # dos2Unix
-# fd-find
-# fzf
-# fzy (fzf-like) use cat $(ls *.txt | fzy)
+# fd-find (user-friendly alternative to 'find')
+# fzf (command-line fuzzy finder | fzf)
+# fzy (fzf-like | fzy)
 # icdiff (colored diff)
-# Json jq
+# jq (json formatter)
 # ranger (filesystem manager)
-# rsync
-# tre (tree command, improved)
+# rsync (remote synchronization)
+# tig (git logs)
+# tre (tree improved)
 # ugrep (user-friendly faster grep)
 
 sudo apt install -y \
@@ -78,6 +83,7 @@ icdiff \
 jq \
 ranger \
 rsync \
+tig \  
 tre-command \
 ugrep
 
@@ -86,12 +92,6 @@ ugrep
 
 # https://github.com/chubin/cheat.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
-
-
-### useful ###
-
-# rlwrap (allow the editing of keyboard input for any command)
-# socat (relay for bidirectional data transfers)
 
 
 ############
