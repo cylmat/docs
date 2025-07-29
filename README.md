@@ -67,6 +67,7 @@ Monitor & info
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
 + [duf](https://github.com/muesli/duf) **_Better du!_** Disk Usage/Free Utility
 + [fastfetch](https://github.com/fastfetch-cli/fastfetch) A command-line system information tool
++ [htop](https://htop.dev) Interactive process viewer
 
 Training
 + [ttyper](https://github.com/max-niederman/ttyper)
