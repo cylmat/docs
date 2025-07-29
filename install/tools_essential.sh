@@ -6,6 +6,8 @@
 # nixos.org
 #############
 
+# busybox : du, nc, netstat (net-tools), ps (procps), wget...
+
 sudo apt install -y \
 busybox \
 nix
@@ -32,9 +34,9 @@ software-properties-common
 # git
 # htop
 # locales 
+# lsof
 # manpages
 # openssl
-# procps
 # sqlite3
 ##############
 
@@ -44,8 +46,8 @@ dnsutils \
 duf \
 git \
 htop \
+lsof \
 openssl \
-procps \
 sqlite3
 
 # heavy !
