@@ -69,6 +69,12 @@ if [[ -d /home/linuxbrew ]]; then
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
 
+# https://github.com/0xacx/chatGPT-shell-cli
+if [[ -f /usr/local/bin/chatgpt.sh ]]; then
+  export PATH=$PATH:/usr/local/bin/chatgpt.sh
+  [[ -f ~/.openai.key ]] && export OPENAI_KEY=$(cat ~/.openai.key | base64 -d) 
+fi
+
 export TERM=xterm-256color
 export SHELL="zsh"
 export EDITOR='vim'
