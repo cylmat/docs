@@ -72,6 +72,14 @@ function _historyfzf () {
 }
 alias hf="_historyfzf"
 
+### ChatGpt
+_ai() {
+  tmpfile=$(mktemp /tmp/chatgpt.req.XXXXXX)
+  trap 'rm -f "$tmpfile"' EXIT
+  echo "$@" > "$tmpfile"
+  chatgpt --prompt-from-file "$tmpfile"
+}
+alias ai=_ai
 
 ##### # others
 
