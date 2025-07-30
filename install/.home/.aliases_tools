@@ -13,64 +13,36 @@ https://hn.algolia.com/api/v1/search?query=react
 https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets
 
 - COMMON -
-busybox, nix, nu(shell), zsh
+busybox, nix, nu(shell)
 
 - DEV & DATA -
-gron, iredis, jq, mnk (minikube), k9s, kdash, krew (ctx, ns)
-sym(fony), tidy-viewer(csv), tig, tmux, tmuxinator, vim
+gron, iredis, jq, minikube, k9s, kdash, krew (ctx, ns)
+tidy-viewer, tig, tmux, tmuxinator, vim
 >lazygit, lazydocker
 
 - ENCRYPT
-gnupg, openssl
+gnupg, openssl, uuidgen
 
 - FILES & LOGS -
-bat(cat), ccze, eza, fdf(ind), fzf, fzy, icdiff, 
-lsof, rsync, tre(-command), ugrep, ranger, vifm
+bat, ccze, eza, fdf, fzf, fzy, icdiff, 
+rsync, tre, ugrep, ranger, vifm
+
+- FUN -
+cmatrix, cowsay, figlet, fortune, lolcat, paclear, nms, sl
 
 - HELPER & AI -
-cht(.sh), navi
+cht(.sh), yai
 
 - MONITOR & INFO -
-btop, duf, dust, fastfetch, lshw, ncdu, procs, wtfutil, ~/welcome.sh
->procps (free, hugetop, kill, pgrep, pkill, pmap, ps, pwdx, skill
-slabtop, snice, sysctl, tload, top, uptime, vmstat, w, watch)
+btop, duf, fastfetch, lshw, ncdu, procs, sampler
 
 - NETWORK -
-dig, httpie, netstat, nmap, tcpdump, ss
+bandwhich, dig, lsof, netstat, nmap, tcpdump, ss
 
 - TRAIN -
 ttyper, vimgolf
 
-- UTILS & WORK -
-uuidgen
-
 - ZSH -
-als, C-o (cmd), cph, cpf, z, zsh-bench
+als, C-o, cph, cpf, z, zsh-bench
 "'
-
-
-### Other tools ###
-
-# COMMON
-# busybox, brew, nix, nu(shell), snap, zsh
-
-# FILES & LOGS -
-# autojump, ack, diff-so-fancy, delta, joshuto
-# fpp, lnav, peco, sd, r(ip)g(rep)
-
-# FUN
-# cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
-
-# HELPER & AI -
-# ai(shell), chat, explain(.sh), grex, so, tldr, up, yai
-
-# NETWORK
-# bandwhich, curlie, http-prompt, lynx, w3m
-
-# TRAIN
-# gtypist, tt, ttyper, toipe, vimgolf
-
-# UTILS & WORK
-# bc, dnote, entr, glow, just, pass, scc
-# taskwarrior, tokei, xdg-open, xsel
 
