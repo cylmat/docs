@@ -26,7 +26,7 @@ sudo apt install -y \
 build-essential \
 cmake \
 make \
-gcc \
+gcc \ # heavy !
 gnupg \
 software-properties-common
 
@@ -55,6 +55,7 @@ lsof \
 openssl \ # heavy !
 sqlite3
 
+
 # locales and man
 sudo apt install -y \
 locales \
@@ -80,9 +81,12 @@ man-db
 # ranger (filesystem manager)
 # rsync (remote synchronization)
 # tig (git logs)
+# tmux (terminal multiplexer)
+# tmuxinator
 # tre (tree improved)
 # ugrep (user-friendly faster grep)
 # vifm (Vim-like environment files)
+
 
 sudo apt install -y \
 bat \
@@ -95,7 +99,9 @@ icdiff \
 jq \
 ranger \
 rsync \
-tig \  
+tig \ 
+tmux \
+tmuxinator \
 tre-command \
 ugrep \
 vifm
@@ -103,6 +109,29 @@ vifm
 
 # Fzf #
 #source <(fzf --zsh)
+
+
+###########
+### VIM ###
+
+# Vim @https://www.vim.org
+# @https://vimawesome.com
+apt install -y vim
+
+# vundle: https://github.com/VundleVim/Vundle.vim
+# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# VIM Plug #
+
+# https://github.com/junegunn/vim-plug
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+### Neovim ###
+
+### Neovim @https://neovim.io
+# git clone https://github.com/neovim/neovim
+# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
+
 
 
 ############
@@ -117,6 +146,7 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 # btop (A monitor of resources)
 # eza.rocks (A modern, maintained replacement for ls)
 # fastfetch-cli (neofetch like system information tool)
+# navi https://github.com/denisidoro/navi
 # nushell.sh (shell pipelines to control any OS)
 #######
 
@@ -124,13 +154,31 @@ brew install \
 btop \
 eza \
 fastfetch \
+navi \
 nushell
 
+# Docker, git, k8s
+brew install \
+lazydocker \
+lazygit \
+k9s \
+kdash-rs/kdash/kdash
+
+# brew install sampler
+# curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
 
 
 ### Cheat.sh ###
 # https://github.com/chubin/cheat.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
+
+############
+# TRAINING #
+############
+
+# @see https://www.vimgolf.com  
+# apt install -y rubygems && gem install vimgolf
 
 
 ### TT ###
