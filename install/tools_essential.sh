@@ -114,10 +114,10 @@ vifm
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 ### chatGPT-shell-cli
-# need curl & jq
 curl https://github.com/0xacx/chatGPT-shell-cli/blob/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh  
-export PATH=$PATH:/usr/local/bin/chatgpt.sh
-export OPENAI_KEY=your_key_here
+# add in .zshrc :
+# export PATH=$PATH:/usr/local/bin/chatgpt.sh
+# export OPENAI_KEY=your_key_here
 
 
 
