@@ -26,7 +26,7 @@ sudo apt install -y \
 build-essential \
 cmake \
 make \
-gcc \ # heavy !
+# gcc \ # heavy !
 gnupg \
 software-properties-common
 
@@ -107,8 +107,14 @@ ugrep \
 vifm
 
 
-# Fzf #
+### Fzf 
 #source <(fzf --zsh)
+
+
+### Cheat.sh 
+# https://github.com/chubin/cheat.sh
+curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
 
 
 ###########
@@ -157,20 +163,16 @@ fastfetch \
 navi \
 nushell
 
-# Docker, git, k8s
-brew install \
-lazydocker \
-lazygit \
-k9s \
-kdash-rs/kdash/kdash
+### Docker, git, k8s
+brew install lazygit 
+brew install derailed/k9s/k9s
+brew install kdash-rs/kdash/kdash
+
+# lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
 
 # brew install sampler
 # curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
-
-
-### Cheat.sh ###
-# https://github.com/chubin/cheat.sh
-curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 
 ############
