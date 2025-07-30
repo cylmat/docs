@@ -46,7 +46,15 @@ Dev
 - [git](https://git-scm.com) Distributed version control system
 - [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
-- [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for git
+- [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for gitEncrypt
++
+- [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
+- [kdash](https://github.com/kdash-rs/kdash) Simple and fast dashboard for Kubernetes
+- [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
+- [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
+
+Encrypt
+- [openssl](https://www.openssl.org) Full-featured toolkit for general-purpose cryptography
 
 Files & logs
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
@@ -54,8 +62,10 @@ Files & logs
 + [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
 + [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
++ [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [icdiff](https://github.com/jeffkaufman/icdiff) **_Better diff!_** Improved colored diff 
 + [ranger](https://github.com/ranger/ranger) A Vim-inspired filemanager for the console 
++ [rsync](https://rsync.samba.org) Fast incremental file transfer
 + [tre](https://github.com/dduan/tre) **_Better tree!_** Tree command, improved
 + [ugrep](https://ugrep.com) **_Better grep!_** Powerful, ultra fast, user-friendly, compatible grep
 + [vifm](https://vifm.info) Vim-like environment file manager
@@ -83,31 +93,21 @@ Common
 Dev & data  
 - [gron](https://github.com/tomnomnom/gron) Make JSON greppable
 - [iredis](https://github.com/laixintao/iredis) Redis client with autocompletion and syntax highlighting
-- [k9s](https://github.com/derailed/k9s) Kubernetes CLI To Manage Your Clusters
-- [kdash](https://github.com/kdash-rs/kdash) Simple and fast dashboard for Kubernetes 
 - [krew](https://krew.sigs.k8s.io) Find and install kubectl plugins 
-- [lazydocker](https://github.com/jesseduffield/lazydocker) The lazier way to manage everything docker 
-- [lazygit](https://github.com/jesseduffield/lazygit) Simple terminal UI for git commands
-+ [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
+- [tidy-viewer](https://github.com/alexhallam/tv) CSV pretty printer 
 - [visidata](https://www.visidata.org) Interactive multitool for tabular data
-
-Encrypt
-- [gnupg](https://gnupg.org) Allows to encrypt and sign data
-- [openssl](https://www.openssl.org) Full-featured toolkit for general-purpose cryptography
 
 Files & logs
 + [ack](https://linux.die.net/man/1/ack) Grep-like text finder
 + [autojump](https://github.com/wting/autojump) A cd command that learns
 + [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) The best-lookin' diffs
 + [fpp](https://github.com/facebook/PathPicker) Nice UI to select which files you're interested in
-+ [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [git-delta](https://dandavison.github.io/delta) A syntax-highlighting pager for git, diff, and grep
 + [joshuto](https://github.com/kamiyaa/joshuto) Ranger-like terminal file manager written in Rust
 + [lnav](https://lnav.org) The logfile navigator
 + [nnn](https://github.com/jarun/nnn) **!** n³ The unorthodox terminal file manager
 + [peco](https://github.com/peco/peco) Simplistic interactive filtering tool 
 + [ripgrep](https://github.com/BurntSushi/ripgrep) Fast searches directories for a regex pattern
-+ [rsync](https://rsync.samba.org) Fast incremental file transfer
 + [sd](https://github.com/chmln/sd) **_Better sed!_** Intuitive find & replace CLI
 
 Fun  
@@ -127,7 +127,7 @@ Helper & ai
 * [explain.sh](https://github.com/benjamine/explain.sh) Explainshell cli
 * [grex](https://github.com/pemistahl/grex) Generating regular expressions from user-provided test cases
 * [howdoi](https://github.com/gleitz/howdoi) Instant coding answers via the command line 
-* [navi](https://github.com/denisidoro/navi) (helper)
+* [navi](https://github.com/denisidoro/navi) (interactive cheats)
 * [so](https://github.com/samtay/so) (stack overflow)
 * [tldr](https://tldr.sh) **_Better man!_** Simplified and community-driven man page
 * [up](https://github.com/akavel/up) Writing linux pipes with instant live preview !
