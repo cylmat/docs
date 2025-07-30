@@ -34,7 +34,7 @@ rsync, tre, ugrep, ranger, vifm
 cmatrix, cowsay, figlet, fortune, lolcat, paclear, nms, sl
 
 - HELPER & AI -
-cht(.sh), yai
+cht(.sh), chatgpt, yai
 
 - MONITOR & INFO -
 btop, duf, fastfetch, lshw, ncdu, procs, sampler
