@@ -19,9 +19,9 @@ https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets
 busybox, nix, nu(shell)
 
 - DEV & DATA -
-gron, iredis, jq, minikube, k9s, kdash, krew (ctx, ns)
-tidy-viewer, tig, tmux, tmuxinator, vim
->lazygit, lazydocker
+gron, iredis, jq, minikube, tidy-viewer
+tig, tmux, tmuxinator, vim
+> k9s, kdash, lazygit, lazydocker
 
 - ENCRYPT
 openssl, uuidgen
