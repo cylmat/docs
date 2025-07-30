@@ -28,7 +28,7 @@ bat(cat), ccze, eza, fdf(ind), fzf, fzy, icdiff,
 lsof, rsync, tre(-command), ugrep, ranger, vifm
 
 - HELPER & AI -
-cht(.sh)
+cht(.sh), navi
 
 - MONITOR & INFO -
 btop, duf, dust, fastfetch, lshw, ncdu, procs, wtfutil, ~/welcome.sh
@@ -62,7 +62,7 @@ als, C-o (cmd), cph, cpf, z, zsh-bench
 # cmatrix, cowsay, figlet, fortune, lolcat, nms, sl
 
 # HELPER & AI -
-# ai(shell), chat, explain(.sh), grex, navi, so, tldr, up, yai
+# ai(shell), chat, explain(.sh), grex, so, tldr, up, yai
 
 # NETWORK
 # bandwhich, curlie, http-prompt, lynx, w3m
