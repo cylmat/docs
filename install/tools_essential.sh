@@ -106,14 +106,16 @@ tre-command \
 ugrep \
 vifm
 
-
 ### Fzf 
 #source <(fzf --zsh)
-
 
 ### Cheat.sh 
 # https://github.com/chubin/cheat.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+
+### chatGPT-shell-cli
+sudo apt install jq
+curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
 
 
 
