@@ -23,7 +23,6 @@
 sudo apt install -y \
 ack \
 bc \
-btop \
 cal \
 iredis \
 httpie \
@@ -69,10 +68,7 @@ fpp \
 glow \
 gron \
 joshuto \
-k9s \
 krew \
-lazydocker \
-lazygit \
 lnav \
 ripgrep \
 scc \
@@ -99,13 +95,11 @@ sudo apt install cargo
 # - sudo env "PATH=$PATH" bandwhich 
 # - sudo $(command -v bandwhich)
 # dust
-# eza : (colorls-like) list ls replacement https://github.com/eza-community/eza
 # git-delta
 # grex regex generator
 # just
 # lsd
 # loop-rs
-# navi https://github.com/denisidoro/navi
 # Procs : https://github.com/dalance/procs
 # sd : sed-like
 # so StackOverflow https://github.com/samtay/so
@@ -117,12 +111,10 @@ cargo install \
 bandwhich \
 dust \
 git-delta \
-eza \
 grex \
 just \
 lsd \
 loop-rs \
-navi \
 procs \
 sd \
 so \
@@ -175,28 +167,16 @@ sudo apt install jq
 curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
 
 
-### Symfony-cli
-# @https://symfony.com/download
-wget https://get.symfony.com/cli/installer -O - | bash
-
-### Tmux ###
-
-# Tmux : @https://doc.ubuntu-fr.org/tmux
-# https://github.com/tmuxinator/tmuxinator
-# https://github.com/rothgar/awesome-tmux
-# use ^b + :, then "set -g mouse on"
-
-apt install -y tmux tmuxinator
 
 ### @https://doc.ubuntu-fr.org/awesome
 
-### UP ULTIMATE PLUMBER
+### UP ultimate plumber (abandoned)
 # @https://github.com/akavel/up
 # use ex: lshw |& ./up
 
-wget https://github.com/akavel/up/releases/latest/download/up -O /tmp/up
-chmod a+x /tmp/up
-sudo mv /tmp/up /usr/local/bin/up
+#wget https://github.com/akavel/up/releases/latest/download/up -O /tmp/up
+#chmod a+x /tmp/up
+#sudo mv /tmp/up /usr/local/bin/up
 
 ### YAI ai assistant ###
 curl -sS https://raw.githubusercontent.com/ekkinox/yai/main/install.sh | bash
@@ -205,33 +185,8 @@ curl -sS https://raw.githubusercontent.com/ekkinox/yai/main/install.sh | bash
 git clone https://github.com/romkatv/zsh-bench ~/zsh-bench
 
 
-##########################################################################
-# Edition & VIM #
-###############
 
-### VIM ###
-
-# Vim @https://www.vim.org
-# @https://vimawesome.com
-apt install -y vim
-
-# vundle: https://github.com/VundleVim/Vundle.vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-# VIM Plug #
-
-# https://github.com/junegunn/vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-### Neovim ###
-
-### Neovim @https://neovim.io
-# git clone https://github.com/neovim/neovim
-# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
-
-
-
-##########################################################################
+#######################
 # Network & Server #
 ####################
 
@@ -253,16 +208,9 @@ sudo apt install -y w3m w3m-img
 curl https://get.volta.sh | bash
 volta install node
 
-##########################################################################
+#########
 # DEV #
 #######
-
-# composer-bin:
-php -r 'copy("https://composer.github.io/installer.sig", "/tmp/installer.sig");'
-php -r 'copy("https://getcomposer.org/installer", "composer-setup.php");'
-php -r "if (hash_file('sha384', 'composer-setup.php') === file_get_contents('/tmp/installer.sig')) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('/tmp/composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php --install-dir=bin --filename=composer
-php -r "unlink('composer-setup.php'); unlink('/tmp/installer.sig');"
 
 ### Kubectl & minikube ###
 
@@ -271,17 +219,10 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 
 ### kdash
 # brew install kdash-rs/kdash/kdash
-sudo apt install -y kdash
+# sudo apt install -y kdash
+
 
 ############
-# TRAINING #
-############
-
-# @see https://www.vimgolf.com  
-apt install -y rubygems && gem install vimgolf
-
-
-#####################
 ### FUN ###
 ###########
 
@@ -300,6 +241,7 @@ cmatrix cbonsai \
 figlet \
 sl \
 sysvbanner
+
 
 ### fortune ###
 # fortune -s | cowsay | lolcat
