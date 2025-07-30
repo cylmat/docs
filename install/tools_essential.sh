@@ -115,7 +115,7 @@ curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /u
 
 ### chatGPT-shell-cli
 curl https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh
-# add in /usr/local/bin/chatgpt.sh on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)
+# add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)
 # add in .zshrc :
 # export PATH=$PATH:/usr/local/bin/chatgpt.sh
 # export OPENAI_KEY=your_base64_key_here
