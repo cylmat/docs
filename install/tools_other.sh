@@ -162,10 +162,6 @@ volta install node
 npm install -g @builder.io/ai-shell
 ai config set OPENAI_KEY=<your token>
 
-# chatGPT-shell-cli
-sudo apt install jq
-curl -sS https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/main/install.sh | sudo -E bash
-
 
 
 ### @https://doc.ubuntu-fr.org/awesome
