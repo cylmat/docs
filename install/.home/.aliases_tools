@@ -2,6 +2,9 @@
 ### Resume of custom cmd for memo ###
 #####################################
 
+# use
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.aliases_tools > ~/.aliases_tools
+
 # useful cli urls
 alias my='echo "
 - URL -
