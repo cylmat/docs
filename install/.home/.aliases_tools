@@ -24,7 +24,7 @@ tidy-viewer, tig, tmux, tmuxinator, vim
 >lazygit, lazydocker
 
 - ENCRYPT
-gnupg, openssl, uuidgen
+openssl, uuidgen
 
 - FILES & LOGS -
 bat, ccze, eza, fdf, fzf, fzy, icdiff, 
