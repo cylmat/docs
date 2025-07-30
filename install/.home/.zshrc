@@ -56,7 +56,7 @@ fi
 #######
 
 
-# PATH
+### PATH
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -64,11 +64,13 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="$HOME/.symfony5/bin:$PATH"
 export PATH="$HOME/.volta/bin:$PATH"
 
+# Linuxbrew
 if [[ -d /home/linuxbrew ]]; then
   export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
 
+# Openai Chatgpt shell
 # https://github.com/0xacx/chatGPT-shell-cli
 if [[ -f /usr/local/bin/chatgpt.sh ]]; then
   export PATH=$PATH:/usr/local/bin/chatgpt.sh
