@@ -51,9 +51,7 @@ xsel
 # glow (render markdown)
 # gron (grep json)
 # joshuto
-# k9s 
-# krew (ctx and ns)
-# lazygit
+# navi (cheats list by denisidoro/navi)
 # ripgrep
 # scc
 # tokei (count your code)
@@ -70,6 +68,7 @@ gron \
 joshuto \
 krew \
 lnav \
+navi \
 ripgrep \
 scc \
 tokei \
