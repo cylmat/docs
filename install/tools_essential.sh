@@ -175,10 +175,12 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #######
 # App #
+#######
+# gcc >600Mo
+# binutils >400Mo
 # btop (A monitor of resources)
 # eza.rocks (A modern, maintained replacement for ls)
 # fastfetch-cli (neofetch like system information tool)
-# navi https://github.com/denisidoro/navi
 # nushell.sh (shell pipelines to control any OS)
 #######
 
@@ -186,7 +188,6 @@ brew install \
 btop \
 eza \
 fastfetch \
-navi \
 nushell
 
 ### Docker, git, k8s
@@ -199,6 +200,13 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 
 # brew install sampler
 # curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
+
+
+### check size
+# brew list --formula | xargs -n1 -P8 -I {} \
+# sh -c "brew info {} | egrep '[0-9]* files, ' | sed 's/^.*[0-9]* files, \(.*\)).*$/{} \1/'" | \
+# sort -h -r -k2 - | column -t
+###
 
 
 ############
