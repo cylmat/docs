@@ -167,6 +167,9 @@ curl https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/c
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+echo >> $HOME/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 #######
 # App #
