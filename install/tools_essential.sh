@@ -7,6 +7,7 @@
 
 #############
 ### Shell ###
+#############
 # busybox.net
 # nixos.org
 #############
@@ -39,6 +40,7 @@ gnupg
 
 ##############
 ### Common ###
+##############
 # curl
 # dnsutils (dig + nslookup)
 # duf : disk usage
@@ -58,11 +60,9 @@ htop \
 lsof \
 sqlite3
 
-
 ### heavy !
 # sudo apt install -y \
 # dnsutils \
-# git \
 # openssl
 
 
@@ -72,9 +72,31 @@ locales \
 manpages \
 man-db 
 
-
-# heavy !
+### heavy !
 # sudo apt install -y locales-all 
+
+
+###########
+### DEV ###
+###########
+# git-scm.com
+# neovim.io
+# vim.org
+###########
+
+# git >100Mo
+# vim >40Mo
+
+sudo apt install -y \
+git \
+vim
+
+### minikube
+# curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+# sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+
+### kube
+# https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 
 #############
@@ -136,27 +158,6 @@ curl https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/c
 # export OPENAI_KEY=your_base64_key_here
 
 
-
-###########
-### VIM ###
-
-# Vim @https://www.vim.org
-# @https://vimawesome.com
-apt install -y vim
-
-# vundle: https://github.com/VundleVim/Vundle.vim
-# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-# VIM Plug #
-
-# https://github.com/junegunn/vim-plug
-# curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-### Neovim ###
-
-### Neovim @https://neovim.io
-# git clone https://github.com/neovim/neovim
-# make CMAKE_BUILD_TYPE=RelWithDebInfo && make install
 
 
 
