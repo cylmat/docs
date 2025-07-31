@@ -15,7 +15,7 @@
 sudo apt install -y \
 busybox
 
-### heavy !
+### >100Mo !
 # sudo apt install \ 
 # nix
 
@@ -29,7 +29,7 @@ sudo apt install -y \
 make \
 gnupg
 
-### > 300Mo !
+### >300Mo !
 # sudo apt install \
 # build-essential \
 # cmake \
