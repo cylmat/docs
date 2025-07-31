@@ -10,12 +10,15 @@
 # busybox.net
 # nixos.org
 #############
-
 # busybox : dos2unix, du, nc, netstat (net-tools), ps (procps), wget...
 
 sudo apt install -y \
-busybox \
-nix # heavy !
+busybox
+
+### heavy !
+# sudo apt install \ 
+# nix
+
 
 
 #############
@@ -23,12 +26,15 @@ nix # heavy !
 #############
 
 sudo apt install -y \
-build-essential \
-cmake \
 make \
-# gcc \ # heavy !
-gnupg \
-software-properties-common
+gnupg
+
+### > 300Mo !
+# sudo apt install \
+# build-essential \
+# cmake \
+# gcc \
+# software-properties-common
 
 
 ##############
@@ -47,13 +53,17 @@ software-properties-common
 
 sudo apt install -y \
 curl \
-dnsutils \
 duf \
-git \ # heavy !
 htop \
 lsof \
-openssl \ # heavy !
 sqlite3
+
+
+### heavy !
+# sudo apt install -y \
+# dnsutils \
+# git \
+# openssl
 
 
 # locales and man
@@ -91,20 +101,25 @@ man-db
 sudo apt install -y \
 bat \
 ccze \
-command-not-found \
 fd-find \
 fzf \
 fzy \
-icdiff \
+icdiff \ # >20Mo
 jq \
-ranger \
 rsync \
-tig \ 
 tmux \
-tmuxinator \
+tmuxinator \ # >40Mo
 tre-command \
-ugrep \
-vifm
+ugrep
+
+
+### > 100Mo !
+# sudo apt install \
+# command-not-found \
+# ranger \
+# tig \
+# vifm
+
 
 ### Fzf 
 #source <(fzf --zsh)
