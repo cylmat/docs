@@ -83,7 +83,6 @@ man-db
 # neovim.io
 # vim.org
 ###########
-
 # git >100Mo
 # vim >40Mo
 
@@ -96,13 +95,12 @@ vim
 # sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 
 ### kube
-# https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+### https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 
 #############
 ### Utils ###
 #############
-
 # bat (cat with color)
 # ccze (color logs)
 # fd-find (user-friendly alternative to 'find')
@@ -118,6 +116,7 @@ vim
 # tre (tree improved)
 # ugrep (user-friendly faster grep)
 # vifm (Vim-like environment files)
+#############
 
 
 sudo apt install -y \
@@ -144,18 +143,18 @@ ugrep
 
 
 ### Fzf 
-#source <(fzf --zsh)
+# source <(fzf --zsh)
 
 ### Cheat.sh 
-# https://github.com/chubin/cheat.sh
+### https://github.com/chubin/cheat.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 ### chatGPT-shell-cli
 curl https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh
-# add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)
-# add in .zshrc :
-# export PATH=$PATH:/usr/local/bin/chatgpt.sh
-# export OPENAI_KEY=your_base64_key_here
+### add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)
+### add in .zshrc :
+### export PATH=$PATH:/usr/local/bin/chatgpt.sh
+### export OPENAI_KEY=your_base64_key_here
 
 
 
@@ -187,17 +186,22 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install \
 btop \
 eza \
-fastfetch \
-nushell
+fastfetch
+
+
+### >100Mo
+# brew install \
+# nushell
 
 ### Docker, git, k8s
-brew install lazygit 
-brew install derailed/k9s/k9s
-brew install kdash-rs/kdash/kdash
+# brew install lazygit 
+# brew install derailed/k9s/k9s
+# brew install kdash-rs/kdash/kdash
 
-# lazydocker
-curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+### lazydocker
+# curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
 
+### sampler
 # brew install sampler
 # curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
 
@@ -213,23 +217,23 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 # TRAINING #
 ############
 
-# @see https://www.vimgolf.com  
+### @see https://www.vimgolf.com  
 # apt install -y rubygems && gem install vimgolf
 
 
 ### TT ###
-# https://github.com/lemnos/tt
+### https://github.com/lemnos/tt
 sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
 sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
 
 
 ### useful
-# rlwrap (allow the editing of keyboard input for any command)
-# socat (relay for bidirectional data transfers)
+### rlwrap (allow the editing of keyboard input for any command)
+### socat (relay for bidirectional data transfers)
 ###
 
 
-# Clear
+### Clear
 
 sudo apt clean
 sudo apt autoclean
