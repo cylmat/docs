@@ -170,6 +170,8 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 echo >> $HOME/.bashrc
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# sudo apt-get install build-essential
+# brew install gcc
 
 #######
 # App #
