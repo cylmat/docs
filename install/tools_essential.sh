@@ -142,11 +142,11 @@ ugrep
 
 ### Cheat.sh 
 ### https://github.com/chubin/cheat.sh
-curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
+curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht > /dev/null
 
 ### chatGPT-shell-cli
 echo "installing ChatGPT shell cli"
-curl -s https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh
+curl -s https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh > /dev/null
 echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)'
 echo 'add in .zshrc :'
 echo 'export PATH=$PATH:/usr/local/bin/chatgpt.sh'
@@ -160,13 +160,7 @@ echo 'export OPENAI_KEY=your_base64_key_here'
 ### Brew ###
 ############
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-echo >> $HOME/.bashrc
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bashrc
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-# sudo apt-get install build-essential
-# brew install gcc
+curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/homebrew-install.sh | bash
 
 
 #######
