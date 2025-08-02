@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
-# use:
-# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > ~/.tools_essential.sh
-
 ###
 ### Essential and common tools for day-by-day work
 ### Keep simple and light, without cargo or npm install
 ### 
+# use:
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > ~/.tools_essential.sh
+
+# Uncomment to install heavy (>100Mo) packages
+# WITH_HEAVY=1
+
+
 
 #############
 ### Shell ###
@@ -20,8 +24,9 @@ sudo apt install -y \
 busybox
 
 ### >100Mo !
-# sudo apt install \ 
-# nix
+[[ ! -z "$WITH_HEAVY" ]] &&
+sudo apt install \ 
+nix
 
 
 
@@ -34,11 +39,12 @@ make \
 gnupg
 
 ### >300Mo !
-# sudo apt install \
-# build-essential \
-# cmake \
-# gcc \
-# software-properties-common
+[[ ! -z "$WITH_HEAVY" ]] &&
+sudo apt install \
+build-essential \
+cmake \
+gcc \
+software-properties-common
 
 
 ##############
@@ -64,9 +70,10 @@ lsof \
 sqlite3
 
 ### heavy !
-# sudo apt install -y \
-# dnsutils \
-# openssl
+[[ ! -z "$WITH_HEAVY" ]] &&
+sudo apt install -y \
+dnsutils \
+openssl
 
 
 # locales and man
@@ -138,11 +145,12 @@ ugrep
 
 
 ### > 100Mo !
-# sudo apt install \
-# command-not-found \
-# ranger \
-# tig \
-# vifm
+[[ ! -z "$WITH_HEAVY" ]] &&
+sudo apt install \
+command-not-found \
+ranger \
+tig \
+vifm
 
 
 ### Fzf 
@@ -175,6 +183,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # sudo apt-get install build-essential
 # brew install gcc
 
+
 #######
 # App #
 #######
@@ -193,8 +202,9 @@ fastfetch
 
 
 ### >100Mo
-# brew install \
-# nushell
+[[ ! -z "$WITH_HEAVY" ]] &&
+brew install \
+nushell
 
 ### Docker, git, k8s
 # brew install lazygit 
