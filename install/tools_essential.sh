@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# use:
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > ~/.tools_essential.sh
+
 ###
 ### Essential and common tools for day-by-day work
 ### Keep simple and light, without cargo or npm install
