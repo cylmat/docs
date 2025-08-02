@@ -145,11 +145,12 @@ ugrep
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht
 
 ### chatGPT-shell-cli
-curl https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh
-### add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)
-### add in .zshrc :
-### export PATH=$PATH:/usr/local/bin/chatgpt.sh
-### export OPENAI_KEY=your_base64_key_here
+echo "installing ChatGPT shell cli"
+curl -s https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh
+echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)'
+echo 'add in .zshrc :'
+echo 'export PATH=$PATH:/usr/local/bin/chatgpt.sh'
+echo 'export OPENAI_KEY=your_base64_key_here'
 
 
 
