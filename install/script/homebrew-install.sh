@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# use
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/homebrew-install.sh | bash
+
 RC="$HOME/.bashrc"
 if [[ "$SHELL" == '/bin/zsh' ]]; then
     RC="$HOME/.zshrc"
