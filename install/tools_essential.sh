@@ -179,8 +179,8 @@ fastfetch
 # curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
 
 ### sampler
-# brew install sampler
-# curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
+# config : curl https://github.com/sqshq/sampler/blob/master/example.yml > ~/.config/sampler.yml
+brew install sampler
 
 
 ### check size
