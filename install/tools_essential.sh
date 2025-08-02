@@ -4,9 +4,10 @@
 ### Essential and common tools for day-by-day work
 ### Keep simple and light, without cargo or npm install
 ### 
-# use:
-# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > ~/.tools_essential.sh
 
+# use:
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > /tmp/tools_essential.sh
+# bash /tmp/tools_essential.sh
 
 
 
@@ -90,9 +91,13 @@ vim
 ### https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/docker-cli-install.sh
 
 
-### Minikube
-# curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
-# sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+### Kubectl (50Mo)
+### https://kubernetes.io/docs/tasks/tools/install-kubectl-linux
+curl -L -o /tmp/kubectl "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+curl -L -o /tmp/kubectl.sha256 "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+echo "$(cat /tmp/kubectl.sha256) /tmp/kubectl" | sha256sum --check
+sudo install -o root -g root -m 0755 /tmp/kubectl /usr/local/bin/kubectl
+kubectl version --client
 
 
 #############
@@ -221,9 +226,16 @@ sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/release
 ### Heavy packages >100Mo ! ###
 ### ####################### ###
 
-### shell
+### shell ###
 # sudo apt install -y nix
 # brew install nushell
+
+### dev ###
+
+### Minikube
+### https://minikube.sigs.k8s.io/docs/start
+# curl -L -o /tmp/minikube-linux-amd64 https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+# sudo install /tmp/minikube-linux-amd64 /usr/local/bin/minikube && rm /tmp/minikube-linux-amd64
 
 ### build
 # sudo apt install -y build-essential cmake gcc software-properties-common
