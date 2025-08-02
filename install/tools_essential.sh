@@ -7,8 +7,6 @@
 # use:
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/tools_essential.sh > ~/.tools_essential.sh
 
-# Uncomment to install heavy (>100Mo) packages
-# WITH_HEAVY=1
 
 
 
@@ -23,12 +21,6 @@
 sudo apt install -y \
 busybox
 
-### >100Mo !
-[[ ! -z "$WITH_HEAVY" ]] &&
-sudo apt install \ 
-nix
-
-
 
 #############
 ### Build ###
@@ -37,14 +29,6 @@ nix
 sudo apt install -y \
 make \
 gnupg
-
-### >300Mo !
-[[ ! -z "$WITH_HEAVY" ]] &&
-sudo apt install \
-build-essential \
-cmake \
-gcc \
-software-properties-common
 
 
 ##############
@@ -69,12 +53,6 @@ htop \
 lsof \
 sqlite3
 
-### heavy !
-[[ ! -z "$WITH_HEAVY" ]] &&
-sudo apt install -y \
-dnsutils \
-openssl
-
 
 # locales and man
 sudo apt install -y \
@@ -82,8 +60,6 @@ locales \
 manpages \
 man-db 
 
-### heavy !
-# sudo apt install -y locales-all 
 
 
 ###########
@@ -144,14 +120,6 @@ tre-command \
 ugrep
 
 
-### > 100Mo !
-[[ ! -z "$WITH_HEAVY" ]] &&
-sudo apt install \
-command-not-found \
-ranger \
-tig \
-vifm
-
 
 ### Fzf 
 # source <(fzf --zsh)
@@ -201,10 +169,6 @@ eza \
 fastfetch
 
 
-### >100Mo
-[[ ! -z "$WITH_HEAVY" ]] &&
-brew install \
-nushell
 
 ### Docker, git, k8s
 # brew install lazygit 
@@ -240,10 +204,32 @@ sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /
 sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
 
 
+
+
+### ####################### ###
+### Heavy packages >100Mo ! ###
+### ####################### ###
+
+### shell
+# sudo apt install -y nix
+# brew install nushell
+
+### build
+# sudo apt install -y build-essential cmake gcc software-properties-common
+
+### common
+# sudo apt install -y dnsutils openssl
+
+### tools and manager
+# sudo apt install -y command-not-found ranger tig vifm
+
+
+
+
 ### useful
 ### rlwrap (allow the editing of keyboard input for any command)
 ### socat (relay for bidirectional data transfers)
-###
+
 
 
 ### Clear
