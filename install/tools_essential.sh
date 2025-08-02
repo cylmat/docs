@@ -257,7 +257,11 @@ sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/release
 
 ### Clear
 
+echo "Clear APT"
+
 sudo apt clean
 sudo apt autoclean
 sudo apt autoremove
 
+echo "Tools essential installed"
+echo
