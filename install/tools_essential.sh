@@ -205,16 +205,10 @@ brew install sampler
 # TRAINING #
 ############
 
-### @see https://www.vimgolf.com  
-# apt install -y rubygems && gem install vimgolf
-
-
-### TT ###
+### TT 
 ### https://github.com/lemnos/tt
 sudo curl -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt-linux -o /usr/local/bin/tt && sudo chmod +x /usr/local/bin/tt
 sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/releases/download/v0.4.2/tt.1.gz
-
-
 
 
 ### ####################### ###
