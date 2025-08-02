@@ -83,6 +83,7 @@ alias ai=_ai
 
 ##### # others
 
-alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
+# @https://www.vimgolf.com
+# alias vimgolf="vimgolf || sudo apt install -y rubygems && sudo gem install vimgolf && vimgolf setup && sudo gem install vimgolf-finder"
 alias vimgolfd="docker run --rm -it ghcr.io/filbranden/vimgolf" # <vimgolf_id>
 
