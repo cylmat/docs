@@ -13,10 +13,9 @@
 #############
 ### Shell ###
 #############
-# busybox.net
+# busybox.net : dos2unix, du, nc, netstat (net-tools), ps (procps), wget...
 # nixos.org
 #############
-# busybox : dos2unix, du, nc, netstat (net-tools), ps (procps), wget...
 
 sudo apt install -y \
 busybox
@@ -50,11 +49,19 @@ sudo apt install -y \
 curl \
 duf \
 htop \
-lsof \
+procps \
 sqlite3
 
+### networks
+### iproute2 (ip), iputils-ping
+sudo apt install -y \
+lsof \
+net-tools \ # ifconfig
+netcat \
+telnet
 
-# locales and man
+
+### locales and man
 sudo apt install -y \
 locales \
 manpages \
@@ -71,17 +78,21 @@ man-db
 ###########
 # git >100Mo
 # vim >40Mo
+###########
 
 sudo apt install -y \
 git \
 vim
 
-### minikube
+
+### Docker
+### follow :
+### https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/docker-cli-install.sh
+
+
+### Minikube
 # curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 # sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
-
-### kube
-### https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 
 #############
