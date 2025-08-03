@@ -3,6 +3,11 @@
 # https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation
 # https://www.nerdfonts.com
 
+if [[ -f ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf ]]; then
+  echo "FireCode already installed"
+  exit 0
+fi
+
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 
