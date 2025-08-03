@@ -17,7 +17,7 @@ fc-list | grep -i "nerd"
 fc-list | grep -i "firacode"
 echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 
-
+# (🗲 https://www.compart.com/fr/unicode/U+F0E7)
 
 
 
