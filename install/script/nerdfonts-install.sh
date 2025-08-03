@@ -6,7 +6,7 @@
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 
-# Download and unzip
+# Download and unzip (FiraCode.zip / JetBrainsMono.zip)
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
 unzip FiraCode.zip
 rm FiraCode.zip
