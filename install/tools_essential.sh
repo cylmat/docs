@@ -217,6 +217,7 @@ sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/release
 
 ### shell ###
 # sudo apt install -y nix
+# (or) curl -L https://nixos.org/nix/install | sh -s -- --daemon
 # brew install nushell
 
 ### dev ###
