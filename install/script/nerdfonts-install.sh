@@ -1,13 +1,25 @@
 #!/bin/bash
 
 # https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation
-# https://www.nerdfonts.com/
+# https://www.nerdfonts.com
 
-sudo add-apt-repository universe
-sudo apt-get update
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+
+# Download and unzip
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+unzip FiraCode.zip
+rm FiraCode.zip
+fc-cache -fv
+
+
+### old way
+
+#sudo add-apt-repository universe
+#sudo apt-get update
 # or sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
 
-sudo apt install fonts-firacode
+#sudo apt install fonts-firacode
 
 
 
