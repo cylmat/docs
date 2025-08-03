@@ -12,7 +12,16 @@ unzip FiraCode.zip
 rm FiraCode.zip
 fc-cache -fv
 
+# test
+fc-list | grep -i "nerd"
+fc-list | grep -i "firacode"
+echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 
+
+
+
+
+############################
 ### old way
 
 #sudo add-apt-repository universe
