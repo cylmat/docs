@@ -20,7 +20,10 @@ echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 # (🗲 https://www.compart.com/fr/unicode/U+F0E7)
 
 
+
 ######### Powerline FONT
+sudo apt-get install fonts-powerline
+
 # sudo apt install -y fonts-powerline
 # sudo wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 # sudo mv PowerlineSymbols.otf /usr/share/fonts/
