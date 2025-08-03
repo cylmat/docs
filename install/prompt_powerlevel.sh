@@ -14,3 +14,13 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 
 p10k configure
+
+
+
+############
+# @https://vaibhavsblog.hashnode.dev/customise-your-z-shellzsh-without-using-oh-my-zsh
+# 
+# git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/powerlevel10k echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+# curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz     (FiraCode.tar.xz)
+# p10k configure
+# ###
