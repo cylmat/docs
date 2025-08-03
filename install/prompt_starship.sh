@@ -11,8 +11,12 @@ sudo mv PowerlineSymbols.otf /usr/share/fonts/
 sudo fc-cache -vf
 sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 
+RC="$HOME/.bashrc"
+if [[ "$SHELL" == '/bin/zsh' ]]; then
+    RC="$HOME/.zshrc"
+fi
 
 ### Starship @https://starship.rs
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-echo 'eval "$(starship init bash)"' >> ~/.bashrc
+echo 'eval "$(starship init bash)"' >> $RC
 mkdir -p ~/.config && touch ~/.config/starship.toml
