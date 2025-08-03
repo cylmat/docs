@@ -4,6 +4,9 @@
 # Starship #
 ############
 
+# FONT
+# curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/nerdfonts-install.sh | bash
+
 # Powerline FONT
 sudo apt install -y fonts-powerline
 sudo wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
