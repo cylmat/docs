@@ -53,3 +53,17 @@ Databases
 - https://www.postgresql.org/docs/13/index.html
 - https://university.mongodb.com/courses/M001/about
 - http://web-algarve.com/books/MySQL%20&%20PHP/MySQL%205%200%20Certification%20Study%20Guide.pdf
+
+
+---
+formation 
+---
+
+- https://grafikart.fr/formations/react 
+- https://www.udemy.com/fr/topic/react/
+- https://www.udemy.com/fr/topic/mongodb
+- https://www.udemy.com/course/nodejs-the-complete-guide/
+
+certif
+- https://learn.mongodb.com/pages/certification-program
+- https://courses.angulartraining.com/course/react-level-1-certification-exam
