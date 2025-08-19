@@ -215,9 +215,14 @@ sudo curl -o /usr/share/man/man1/tt.1.gz -L https://github.com/lemnos/tt/release
 ### Heavy packages >100Mo ! ###
 ### ####################### ###
 
-### shell ###
+### nix 
 # sudo apt install -y nix
-# (or) curl -L https://nixos.org/nix/install | sh -s -- --daemon
+#   (or) 
+# curl -L https://nixos.org/nix/install | sh -s -- --daemon
+#   (or) 
+# sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+
+### nu
 # brew install nushell
 
 ### dev ###
