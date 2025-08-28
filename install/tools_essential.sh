@@ -145,6 +145,7 @@ ugrep
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht > /dev/null
 
 ### chatGPT-shell-cli
+### https://github.com/0xacx/chatGPT-shell-cli
 echo "installing ChatGPT shell cli"
 curl -s https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt.sh > /dev/null
 echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)'
