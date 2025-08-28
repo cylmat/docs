@@ -144,7 +144,10 @@ ugrep
 ### https://github.com/chubin/cheat.sh
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht && sudo chmod +x /usr/local/bin/cht > /dev/null
 
-### chatGPT-shell-cli
+###
+### chatGPT-shell-cli ###
+###
+
 ### https://github.com/0xacx/chatGPT-shell-cli
 echo "installing ChatGPT shell cli"
 sudo apt install -y jq
@@ -153,7 +156,17 @@ echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY |
 echo 'add in .zshrc or .bashrc :'
 echo 'export OPENAI_KEY=your_base64_key_here'
 
-
+# to use argument prompt, add in .zshrc
+_chat() {
+  # echo "$@" > /tmp/chatgpt.req
+  # chatgpt --prompt-from-file /tmp/chatgpt.req
+  # rm /tmp/chatgpt.req
+  tmpfile=$(mktemp /tmp/chatgpt.req.XXXXXX)
+  trap 'rm -f "$tmpfile"' EXIT
+  echo "$@" > "$tmpfile"
+  chatgpt --prompt-from-file "$tmpfile"
+}
+alias chat=_chat
 
 
 
