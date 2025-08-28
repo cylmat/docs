@@ -150,8 +150,7 @@ echo "installing ChatGPT shell cli"
 sudo apt install -y jq
 curl -s https://raw.githubusercontent.com/0xacx/chatGPT-shell-cli/refs/heads/main/chatgpt.sh | sudo tee /usr/local/bin/chatgpt > /dev/null
 echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY | base64 -d)'
-echo 'add in .zshrc :'
-echo 'export PATH=$PATH:/usr/local/bin'
+echo 'add in .zshrc or .bashrc :'
 echo 'export OPENAI_KEY=your_base64_key_here'
 
 
