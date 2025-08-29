@@ -83,9 +83,7 @@ PROMPT_EOL_MARK=''
 # ALIASES #
 ###########
 
-if [ -f ~/.aliases ]; then
-    source ~/.aliases
-fi
+[[ -f ~/.aliases ]] && source ~/.aliases
 
 
 #############
