@@ -87,5 +87,8 @@ Profiling visualizer
 Screen capture
 * https://www.screenpresso.com
 
+Tools
+- https://devtoys.app
+
 ## Material computer
 - https://frame.work
