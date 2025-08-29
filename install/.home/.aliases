@@ -4,11 +4,13 @@
 # Copy file
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.aliases > ~/.aliases
 
+if [ -f ~/.aliases_tools ]; then source ~/.aliases_tools; fi
+
 ### COMMON ###
 
 alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
-alias .tmux.conf="vim ~/.tmux.conf"
+alias .tmux="vim ~/.tmux.conf"
 alias .vimrc="vim ~/.vimrc"
 alias .zshrc="vim ~/.zshrc"
 alias c="clear"
@@ -18,7 +20,6 @@ alias dev="git checkout dev || git checkout develop"
 ### TOOLS ###
 
 alias bat="batcat"
-alias chat="chatgpt"
 alias cheat="cht"
 alias dc="docker compose"
 alias dce="docker compose exec"
