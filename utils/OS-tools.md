@@ -90,5 +90,9 @@ Screen capture
 Tools
 - https://devtoys.app
 
+## Fun
+
+- https://ambiph.one/
+
 ## Material computer
 - https://frame.work
