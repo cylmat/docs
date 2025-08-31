@@ -3,6 +3,8 @@
 # https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation
 # https://www.nerdfonts.com
 
+echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
+
 if [[ -f ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf ]]; then
   echo "FireCode already installed"
   echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
@@ -29,7 +31,7 @@ echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 
 
 ######### Powerline FONT
-sudo apt-get install fonts-powerline
+# sudo apt-get install fonts-powerline
 
 # sudo apt install -y fonts-powerline
 # sudo wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
