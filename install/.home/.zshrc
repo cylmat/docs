@@ -106,9 +106,9 @@ PROMPT_EOL_MARK=''
 # eval "$(starship init zsh)"
 
 
-### FastFetch ###
+### FastFetch (os informations) ###
 
-# fastfetch (os informations)
+# fastfetch 
 
 
 ###################
