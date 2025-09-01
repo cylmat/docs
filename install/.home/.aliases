@@ -31,7 +31,6 @@ alias mnk="minikube"
 alias sym="symfony"
 
 ### INSTALL
-alias busy_install="sudo apt install -y busybox"
 alias cht_install="curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh"
 
 ### OMZ zsh ###
@@ -78,7 +77,7 @@ _chat() {
   tmpfile=$(mktemp /tmp/chatgpt.req.XXXXXX)
   trap 'rm -f "$tmpfile"' EXIT
   echo "$@" > "$tmpfile"
-  chatgpt --prompt-from-file "$tmpfile"
+  chatgpt -m gpt-4o-mini --prompt-from-file "$tmpfile"
 }
 alias chat=_chat
 
@@ -87,7 +86,7 @@ _shat() {
   tmpfile=$(mktemp /tmp/chatgpt.req.XXXXXX)
   trap 'rm -f "$tmpfile"' EXIT
   echo "$@. Reply as a directly usable bash command line, with a quick explaination of the command, options and arguments, without other text." > "$tmpfile" 
-  chatgpt --prompt-from-file "$tmpfile"
+  chatgpt -m gpt-4o-mini --prompt-from-file "$tmpfile"
 }
 alias shat=_shat
 
