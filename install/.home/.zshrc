@@ -134,6 +134,7 @@ if [[ "$USE_OMZ" -eq 0 ]]; then
 # Set up the prompt (Disable it with OMZ !)
 autoload -Uz promptinit
 promptinit
+# UNCOMMENT IT for other prompt (starship, omz, etc..)
 prompt adam1
 
 # Use modern completion system	
