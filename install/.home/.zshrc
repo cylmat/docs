@@ -112,13 +112,5 @@ PROMPT_EOL_MARK=''
 
 
 
-## ZSH PLUGINS WITHOUT MANAGER ##
-
-if [[ "$USE_OMZ" -eq 0 ]]; then
-
-    [[ -f ~/.plugins ]] && source ~/.plugins
-
-fi
-
 ## original .zshrc
-[[ -f ~/.zshrc.bak ]] && source ~/.zshrc.bak
+[[ -f ~/.zshrc.orig ]] && source ~/.zshrc.orig
