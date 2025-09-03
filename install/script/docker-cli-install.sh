@@ -61,19 +61,14 @@ echo 'Use "sudo update-alternatives --config iptables" if errors'
 echo 'Check with "docker run hello-world"'      # run a test docker container
 
 
-# 7. Install docker-compose
-echo
-echo "Install docker compose with:"
-echo "sudo curl -L https://github.com/docker/compose/releases/download/2.4.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose"
-echo "sudo chmod +x /usr/local/bin/docker-compose"
 
-
-# Install Portainer in docker compose
-# image: portainer/portainer-ce:latest
 
 
 #############################################################
 
+
+# Install Portainer in docker compose
+# image: portainer/portainer-ce:latest
 
 # journalctl -xeu docker.service
 # cat /usr/lib/systemd/system/docker.service
@@ -120,6 +115,12 @@ echo "sudo chmod +x /usr/local/bin/docker-compose"
 # systemctl enable docker
 # systemctl restart docker
 
+
+# Install docker-compose
+# echo
+# echo "Install docker compose with:"
+# echo "sudo curl -L https://github.com/docker/compose/releases/download/2.4.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose"
+# echo "sudo chmod +x /usr/local/bin/docker-compose"
 
 
 
