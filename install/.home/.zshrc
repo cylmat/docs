@@ -111,6 +111,16 @@ PROMPT_EOL_MARK=''
 # fastfetch 
 
 
+
+## ZSH PLUGINS WITHOUT MANAGER ##
+
+if [[ "$USE_OMZ" -eq 0 ]]; then
+
+    [[ -f ~/.plugins ]] && source ~/.plugins
+
+fi
+
+
 ###################
 # ORIGINAL .zshrc #
 ###################
