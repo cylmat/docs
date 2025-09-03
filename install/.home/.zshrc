@@ -111,6 +111,6 @@ PROMPT_EOL_MARK=''
 # fastfetch 
 
 
-
 ## original .zshrc
 [[ -f ~/.zshrc.orig ]] && source ~/.zshrc.orig
+
