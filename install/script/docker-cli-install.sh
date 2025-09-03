@@ -37,8 +37,9 @@ sudo apt autoremove && sudo apt autoclean
 sudo apt-get update 
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io 
 
-# 5. Add user to docker group  (newgrp docker)
-# then RESTART shell
+# 5. Add user to docker group
+# then RESTART shell   
+# (newgrp docker) does it
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
 cat /etc/group
