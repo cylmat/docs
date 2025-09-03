@@ -38,13 +38,17 @@ sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io 
 
 # 5. Add user to docker group
-# then RESTART shell   
 # (newgrp docker) does it
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
 cat /etc/group
 
-# check groups
+# then RESTART shell   
+# exec su -l $USER
+# sudo reboot
+
+# check groups 
+# groups is for session, for user: groups $USER
 groups
 id -nG
 
