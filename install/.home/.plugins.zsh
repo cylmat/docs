@@ -8,5 +8,32 @@
 # zsh-syntax-highlighting
 # ...
 
-source $HOME/.oh-my-zsh/plugins/aliases/aliases.plugin.zsh
+OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
+
+source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
+source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
+source $OMZ_PLUGINS_DIR/brew/brew.plugin.zsh
+source $OMZ_PLUGINS_DIR/colorize/colorize.plugin.zsh
+source $OMZ_PLUGINS_DIR/colored-man-pages/colored-man-pages.plugin.zsh
+source $OMZ_PLUGINS_DIR/command-not-found/command-not-found.plugin.zsh
+source $OMZ_PLUGINS_DIR/common-aliases/common-aliases.plugin.zsh
+source $OMZ_PLUGINS_DIR/composer/composer.plugin.zsh
+source $OMZ_PLUGINS_DIR/copybuffer/copybuffer.plugin.zsh
+source $OMZ_PLUGINS_DIR/copyfile/copyfile.plugin.zsh
+source $OMZ_PLUGINS_DIR/copypath/copypath.plugin.zsh
+source $OMZ_PLUGINS_DIR/docker/docker.plugin.zsh
+source $OMZ_PLUGINS_DIR/eza/eza.plugin.zsh
+source $OMZ_PLUGINS_DIR/fzf/fzf.plugin.zsh
+source $OMZ_PLUGINS_DIR/git/git.plugin.zsh
+source $OMZ_PLUGINS_DIR/git-flow/git-flow.plugin.zsh
+source $OMZ_PLUGINS_DIR/gnu-utils/gnu-utils.plugin.zsh
+source $OMZ_PLUGINS_DIR/rsync/rsync.plugin.zsh
+source $OMZ_PLUGINS_DIR/sudo/sudo.plugin.zsh
+source $OMZ_PLUGINS_DIR/tig/tig.plugin.zsh
+source $OMZ_PLUGINS_DIR/tmux/tmux.plugin.zsh
+source $OMZ_PLUGINS_DIR/tmuxinator/tmuxinator.plugin.zsh
+source $OMZ_PLUGINS_DIR/ubuntu/ubuntu.plugin.zsh
+source $OMZ_PLUGINS_DIR/vi-mode/vi-mode.plugin.zsh
+
+### codeclimate, kube-ps1.plugin.zsh
 
