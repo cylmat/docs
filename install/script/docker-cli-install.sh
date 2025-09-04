@@ -72,7 +72,17 @@ echo
 echo 'Use "sudo update-alternatives --config iptables" if errors'
 echo 'Check with "docker run hello-world"'      # run a test docker container
 
+# 7. autocompletion
+# https://docs.docker.com/engine/cli/completion/#zsh
+mkdir -p ~/.docker/completions
+docker completion zsh > ~/.docker/completions/_docker
 
+# then add
+#cat <<"EOT" >> ~/.zshrc
+#FPATH="$HOME/.docker/completions:$FPATH"
+#autoload -Uz compinit
+#compinit
+#EOT
 
 
 
