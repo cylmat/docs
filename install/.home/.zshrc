@@ -38,7 +38,7 @@ USE_PWR10=0
 ### Oh MY ZSH ###
 #################
 
-if [[ ! -z $USE_OMZ ]]; then
+if [[ "1" == "$USE_OMZ" ]]; then
     # Override ~/.omz.zsh and allow use of "omz plugin enable <plugin>"
     plugins=(git)
     source $HOME/.omz.zsh 
@@ -55,7 +55,7 @@ fi
 # Initialization code that may require console input (password prompts) [y/n]
 # confirmations, etc.) must go above this block; everything else may go below. 
 
-if [[ ! -z $USE_PWR10 ]]; then
+if [[ "1" == "$USE_PWR10" ]]; then
     [[ -f ~/.p10k-top.zsh ]] && source ~/.p10k-top.zsh
 fi
 
@@ -102,7 +102,7 @@ PROMPT_EOL_MARK=''
 ### @https://github.com/romkatv/powerlevel10k
 ### To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 
-if [[ ! -z $USE_PWR10 ]]; then
+if [[ "1" == "$USE_PWR10" ]]; then
     [[ -d ~/powerlevel10k ]] && source ~/powerlevel10k/powerlevel10k.zsh-theme   
     [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 fi
@@ -112,7 +112,7 @@ fi
 ### @https://starship.rs1 
 ### curl -sS https://starship.rs/install.sh | sh   
 
-if [[ ! -z $USE_STAR ]]; then
+if [[ "1" == "$USE_STAR" ]]; then
     eval "$(starship init zsh)"
 fi
 
@@ -127,6 +127,6 @@ fi
 
 
 ### Added for no-manager plugins
-if [[ ! -z $USE_ZSH ]]; then
+if [[ "1" == "$USE_ZSH" ]]; then
     [[ -f ~/.plugins.zsh ]] && source ~/.plugins.zsh
 fi
