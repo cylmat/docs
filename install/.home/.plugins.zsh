@@ -29,7 +29,6 @@ source $OMZ_PLUGINS_DIR/copypath/copypath.plugin.zsh
 
 source $OMZ_PLUGINS_DIR/docker/docker.plugin.zsh
 source $OMZ_PLUGINS_DIR/eza/eza.plugin.zsh
-source $OMZ_PLUGINS_DIR/fzf/fzf.plugin.zsh
 source $OMZ_PLUGINS_DIR/git/git.plugin.zsh
 source $OMZ_PLUGINS_DIR/git-flow/git-flow.plugin.zsh
 source $OMZ_PLUGINS_DIR/gnu-utils/gnu-utils.plugin.zsh
@@ -44,5 +43,5 @@ source $OMZ_PLUGINS_DIR/tmuxinator/tmuxinator.plugin.zsh
 source $OMZ_PLUGINS_DIR/ubuntu/ubuntu.plugin.zsh
 source $OMZ_PLUGINS_DIR/vi-mode/vi-mode.plugin.zsh
 
-### codeclimate, kube-ps1.plugin.zsh
+### codeclimate, fzf, kube-ps1...
 
