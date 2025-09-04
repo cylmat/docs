@@ -11,7 +11,6 @@
 OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
 
 source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
-source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
 source $OMZ_PLUGINS_DIR/brew/brew.plugin.zsh
 source $OMZ_PLUGINS_DIR/colorize/colorize.plugin.zsh
 source $OMZ_PLUGINS_DIR/colored-man-pages/colored-man-pages.plugin.zsh
