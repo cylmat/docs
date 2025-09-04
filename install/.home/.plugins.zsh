@@ -1,11 +1,12 @@
-# Manager-free Zsh plugins
+### Manager-free Zsh plugins ###
 
-# Install with brew
+### Install with brew and ohMyZsh
+### Load from direct sourcing
 
 # z
 # zsh-autosuggestions
 # zsh-syntax-highlighting
 # ...
 
-# source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.oh-my-zsh/plugins/aliases/aliases.plugin.zsh
+
