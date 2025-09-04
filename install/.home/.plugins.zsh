@@ -17,9 +17,16 @@ source $OMZ_PLUGINS_DIR/colored-man-pages/colored-man-pages.plugin.zsh
 source $OMZ_PLUGINS_DIR/command-not-found/command-not-found.plugin.zsh
 source $OMZ_PLUGINS_DIR/common-aliases/common-aliases.plugin.zsh
 source $OMZ_PLUGINS_DIR/composer/composer.plugin.zsh
+
+# ctrl-o to copy the current text in the command line to the system clipboard
 source $OMZ_PLUGINS_DIR/copybuffer/copybuffer.plugin.zsh
+
+# copyfile <filename> to copy the file named filename
 source $OMZ_PLUGINS_DIR/copyfile/copyfile.plugin.zsh
+
+# copypath <file_or_directory>: copies the absolute path of the given file
 source $OMZ_PLUGINS_DIR/copypath/copypath.plugin.zsh
+
 source $OMZ_PLUGINS_DIR/docker/docker.plugin.zsh
 source $OMZ_PLUGINS_DIR/eza/eza.plugin.zsh
 source $OMZ_PLUGINS_DIR/fzf/fzf.plugin.zsh
@@ -27,7 +34,10 @@ source $OMZ_PLUGINS_DIR/git/git.plugin.zsh
 source $OMZ_PLUGINS_DIR/git-flow/git-flow.plugin.zsh
 source $OMZ_PLUGINS_DIR/gnu-utils/gnu-utils.plugin.zsh
 source $OMZ_PLUGINS_DIR/rsync/rsync.plugin.zsh
+
+# pressing the <esc><esc> sudo prefix the same command 
 source $OMZ_PLUGINS_DIR/sudo/sudo.plugin.zsh
+
 source $OMZ_PLUGINS_DIR/tig/tig.plugin.zsh
 source $OMZ_PLUGINS_DIR/tmux/tmux.plugin.zsh
 source $OMZ_PLUGINS_DIR/tmuxinator/tmuxinator.plugin.zsh
