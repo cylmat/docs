@@ -14,11 +14,11 @@ HISTSIZE=2000
 SAVEHIST=2000
 HISTFILE=~/.zsh_history
 
-# Set up the prompt (Disable it with OMZ !)
+# Set up the prompt 
 autoload -Uz promptinit
 promptinit
 
-### COMMENT IT for other prompt (starship, omz, etc..) ###
+### COMMENT IT when using other prompt (starship, omz..) ###
 prompt adam1
 ### 
 
