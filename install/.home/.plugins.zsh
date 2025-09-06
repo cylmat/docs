@@ -50,5 +50,5 @@ source $OMZ_PLUGINS_DIR/vi-mode/vi-mode.plugin.zsh
 
 source $OMZ_PLUGINS_DIR/z/z.plugin.zsh
 
-### codeclimate, fzf, kube-ps1...
+### codeclimate, fzf, kube-ps1, nmap...
 
