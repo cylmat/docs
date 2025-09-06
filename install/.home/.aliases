@@ -8,6 +8,7 @@
 
 ### COMMON ###
 
+alias ..="cd .."
 alias .aliases="vim ~/.aliases"
 alias .bashrc="vim ~/.bashrc"
 alias .tmux="vim ~/.tmux.conf"
