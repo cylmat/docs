@@ -9,12 +9,12 @@ source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.
 source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ###
 
-
+# omz lib
 source $HOME/.oh-my-zsh/lib/directories.zsh
 source $HOME/.oh-my-zsh/lib/grep.zsh
 source $HOME/.oh-my-zsh/lib/history.zsh
 
-
+# omz plugins
 OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
 
 source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
