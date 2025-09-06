@@ -29,6 +29,9 @@ source $OMZ_PLUGINS_DIR/copyfile/copyfile.plugin.zsh
 # copypath <file_or_directory>: copies the absolute path of the given file
 source $OMZ_PLUGINS_DIR/copypath/copypath.plugin.zsh
 
+# navigate dir with ALT + ← → ↑ ↓
+source $OMZ_PLUGINS_DIR/dirhistory/dirhistory.plugin.zsh
+
 source $OMZ_PLUGINS_DIR/docker/docker.plugin.zsh
 source $OMZ_PLUGINS_DIR/eza/eza.plugin.zsh
 source $OMZ_PLUGINS_DIR/git/git.plugin.zsh
