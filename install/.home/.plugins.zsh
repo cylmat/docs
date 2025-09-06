@@ -10,6 +10,11 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 ###
 
 
+source $HOME/.oh-my-zsh/lib/directories.zsh
+source $HOME/.oh-my-zsh/lib/grep.zsh
+source $HOME/.oh-my-zsh/lib/history.zsh
+
+
 OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
 
 source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
@@ -50,5 +55,5 @@ source $OMZ_PLUGINS_DIR/vi-mode/vi-mode.plugin.zsh
 
 source $OMZ_PLUGINS_DIR/z/z.plugin.zsh
 
-### codeclimate, fzf, kube-ps1, nmap...
+### codeclimate, fzf, kube-ps1, nmap, procs...
 
