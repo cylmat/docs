@@ -3,10 +3,7 @@
 ### Install with brew and ohMyZsh
 ### Load from direct sourcing
 
-# z
-# zsh-autosuggestions
-# zsh-syntax-highlighting
-# ...
+# brew install zsh-autosuggestions zsh-syntax-highlighting 
 
 OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
 
