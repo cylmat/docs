@@ -18,7 +18,14 @@ source $HOME/.oh-my-zsh/lib/history.zsh
 OMZ_PLUGINS_DIR=$HOME/.oh-my-zsh/plugins
 
 source $OMZ_PLUGINS_DIR/aliases/aliases.plugin.zsh
+
+# alias finder
 source $OMZ_PLUGINS_DIR/alias-finder/alias-finder.plugin.zsh
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+
 source $OMZ_PLUGINS_DIR/brew/brew.plugin.zsh
 source $OMZ_PLUGINS_DIR/colorize/colorize.plugin.zsh
 source $OMZ_PLUGINS_DIR/colored-man-pages/colored-man-pages.plugin.zsh
