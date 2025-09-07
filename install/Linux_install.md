@@ -35,6 +35,10 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 
 If Very slow internet connection (linux mint)
 ```
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+```
+and
+```
 echo "
 net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
