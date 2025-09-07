@@ -94,8 +94,8 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 # Overrided in .zshrc
-plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker docker-compose dirhistory eza 
-git fzf kube-ps1 kubectl helm rsync snap ssh sudo symfony6 taskwarrior tig tldr tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
+plugins=(aliases alias-finder copybuffer colored-man-pages command-not-found common-aliases copypath copyfile docker dirhistory eza git fzf 
+kube-ps1 kubectl helm rsync ssh sudo symfony6 tig tldr tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
