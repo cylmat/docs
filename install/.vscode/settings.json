@@ -10,6 +10,7 @@
     "editor.guides.bracketPairs": true,
     "editor.letterSpacing": 1,
     "editor.lineHeight": 20,
+    "editor.linkedEditing": true, // Auto-rename tags
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
