@@ -91,9 +91,6 @@
         "thenouillet.symfony-vscode",
         "xdebug.php-debug",
 
-        // helper
-        "formulahendry.auto-rename-tag",
-
         // linter
         "dbaeumer.vscode-eslint",
         "ecodes.vscode-phpmd",
