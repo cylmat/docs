@@ -27,7 +27,7 @@
 
         // Backend - PHP Essentials //
         "bmewburn.vscode-intelephense-client",
-        "devsense.phptools-vscode",
+        "devsense.intelli-php-vscode",
         "mehedidracula.php-constructor",
         "mehedidracula.php-namespace-resolver",
         "onecentlin.php-productive-pack",
@@ -41,8 +41,6 @@
         "ms-vscode-remote.remote-containers",
         "ms-vscode-remote.remote-ssh",
         "ms-vscode-remote.remote-wsl",
-        "ms-vscode.remote-repositories",
-        "ms-vscode.remote-server",
         "ms-azuretools.vscode-containers", // docker
 
         // Project
@@ -74,6 +72,7 @@
 
         // Frontend //
         "firefox-devtools.vscode-firefox-debug",
+        "ecmel.vscode-html-css",
         "hbenl.vscode-test-explorer",
         "mattpocock.ts-error-translator",
         "orta.vscode-jest",
@@ -105,41 +104,27 @@
         "wongjn.php-sniffer",
 
         // format
+        "bierner.markdown-mermaid",
         "dotjoshjohnson.xml",
-        "eriklynd.json-tools",
         "esbenp.prettier-vscode",
-        "hookyqr.beautify",
         "janisdd.vscode-edit-csv",
-        "mblode.twig-language-2",
-        "mikestead.dotenv",
-        "mohsen1.prettify-json",
-        "nickdemayo.vscode-json-editor",
-        "redhat.vscode-yaml", // *
+        "redhat.vscode-yaml",
         "shd101wyy.markdown-preview-enhanced",
-        "yhpnoraa.beauty",
         "yzhang.markdown-all-in-one",
         "zainchen.json",
 
         // db
         "alexcvzz.vscode-sqlite",
         "mongodb.mongodb-vscode",
-        "mtxr.sqltools", // *
+        "mtxr.sqltools",
         "qwtel.sqlite-viewer",
 
         // server
         "formulahendry.docker-explorer",
         "humao.rest-client",
         "jeff-hykin.better-dockerfile-syntax",
-        "ms-azuretools.vscode-azureresourcegroups", // *
         "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "ms-vscode-remote.remote-containers",
-        "ms-vscode-remote.remote-ssh-edit",
-        "ms-vscode-remote.remote-ssh",
-        "ms-vscode-remote.remote-wsl",
-        "ms-vscode.remote-explorer",
         "p1c2u.docker-compose",
-        "ritwickdey.liveserver",
-        "techiecouch.docker-essentials",
 
         // ai & autocomplete
         "andrewbutson.vscode-openai",
@@ -153,7 +138,6 @@
         "tabnine.tabnine-vscode",
 
         // project
-        "bierner.markdown-mermaid",
         "gruntfuggly.todo-tree",
         "hediet.vscode-drawio",
         "ms-vsliveshare.vsliveshare",
