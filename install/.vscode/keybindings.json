@@ -1,4 +1,7 @@
-// /home/user/.config/Code/User/keybindings.json
+// file in /home/user/.config/Code/User/keybindings.json
+// see https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+// see https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+
 // Place your key bindings in this file to override the defaults
 [
     // editor
