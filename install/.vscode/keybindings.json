@@ -1,12 +1,12 @@
 // file in /home/user/.config/Code/User/keybindings.json
 // Place your key bindings in this file to override the defaults
 
-// ///
-// Linux Reset Keybindings
-//
+//                         //
+// Linux Reset Keybindings //
+//                         //
+
 // Remove differences with Windows shortcuts on Linux in VsCode
 // see https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-// ///
 [
     // === GENERAL ===
   {
@@ -201,8 +201,7 @@
     "command": "",
     "when": "terminalFocus"
   },
-
-  // -windows reset- //
+  // -windows reset-
 
 
     //             //
@@ -221,15 +220,22 @@
         "when": "editorTextFocus && !editorReadonly"
     },
 
-    // workbench
+    // terminal fix
     {
         "key": "ctrl+[Quote]",
         "command": "workbench.action.terminal.focus",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     },
     {
-        "key": "ctrl+shift+[Backquote]",
+        "key": "ctrl+shift+[Quote]",
         "command": "workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+
+    // workbench
+    {
+        "key": "ctrl+[BracketLeft]",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
     },
 ]
