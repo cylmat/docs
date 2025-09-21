@@ -124,7 +124,6 @@
         "humao.rest-client",
         "jeff-hykin.better-dockerfile-syntax",
         "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "p1c2u.docker-compose",
 
         // ai & autocomplete
         "andrewbutson.vscode-openai",
