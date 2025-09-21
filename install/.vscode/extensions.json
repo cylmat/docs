@@ -15,20 +15,27 @@
         "yatki.vscode-surround",
 
         // Frontend - React Extension Pack //
-        "abikos.javascriptsnippets",
-        "abikos.reactsnippets",
         "baeumer.vscode-eslint",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
+        "hossaini.bootstrap-intellisense",
+        //
+        "dsznajder.es7-react-js-snippets",
+        "nadim-vscode.twig-code-snippets",
+        "xabikos.javascriptsnippets",
+        "xabikos.reactsnippets",
 
         // Backend - PHP Essentials //
         "bmewburn.vscode-intelephense-client",
+        "devsense.phptools-vscode",
         "mehedidracula.php-constructor",
         "mehedidracula.php-namespace-resolver",
-        "onecentlin.phpunit-snippets",
         "onecentlin.php-productive-pack",
-        "phiter.phpstorm-snippets",
         "recca0120.vscode-phpunit",
+        //
+        "hakcorp.php-awesome-snippets",
+        "nadim-vscode.symfony-code-snippets",
+        "onecentlin.phpunit-snippets",
 
         // Server - Remote Development Pack //
         "ms-vscode-remote.remote-containers",
@@ -53,7 +60,7 @@
         // - USEFUL - //
         // ---------- //
 
-        // color
+        // color //
         "aaron-bond.better-comments",
         "johnpapa.vscode-peacock",
         "mechatroner.rainbow-csv",
@@ -61,53 +68,33 @@
         "oderwat.indent-rainbow",
         "wayou.vscode-todo-highlight",
 
-        // theme
+        // theme //
         "pkief.material-icon-theme",
         "vscode-icons-team.vscode-icons",
 
         // Frontend //
-        "burkeholland.simple-react-snippets",
         "firefox-devtools.vscode-firefox-debug",
         "hbenl.vscode-test-explorer",
-        "hossaini.bootstrap-intellisense",
         "mattpocock.ts-error-translator",
         "orta.vscode-jest",
         "pranaygp.vscode-css-peek",
         "zignd.html-css-class-completion",
 
-        // Backend
-        "blanc-frederic.vs-phpcompanion",
+        // Backend //
         "coozieki.php-implementor",
-        "damianbal.vs-phpclassgen",
         "devsense.composer-php-vscode",
-        "devsense.intelli-php-vscode",
-        "devsense.phptools-vscode",
         "devsense.profiler-php-vscode",
-        "firefox-devtools.vscode-firefox-debug",
         "mrchetan.phpstorm-parameter-hints-in-vscode",
         "ms-vscode.test-adapter-converter",
         "neilbrayfield.php-docblocker",
-        "phiter.phpstorm-snippets",
         "phproberto.vscode-php-getters-setters",
         "thenouillet.symfony-vscode",
         "xdebug.php-debug",
 
         // helper
-        "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
 
-        // snippets
-        "dsznajder.es7-react-js-snippets",
-        "hakcorp.php-awesome-snippets",
-        "nadim-vscode.symfony-code-snippets",
-        "nadim-vscode.twig-code-snippets",
-        "phiter.phpstorm-snippets",
-        "sadeghpm.sql-snippets",
-        "thekalinga.bootstrap4-vscode",
-        "xabikos.javascriptsnippets",
-
         // linter
-        "breezelin.phpstan",
         "dbaeumer.vscode-eslint",
         "ecodes.vscode-phpmd",
         "fterrag.vscode-php-cs-fixer",
@@ -161,6 +148,7 @@
         "andrewbutson.vscode-openai",
         "codeium.codeium",
         "danielsanmedium.dscodegpt",
+        "devsense.intelli-php-vscode",
         "genieai.chatgpt-vscode",
         "gitHub.copilot",
         "gitHub.copilot-chat",
