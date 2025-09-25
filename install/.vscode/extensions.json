@@ -16,7 +16,7 @@
 
         // ai
         "codeium.codeium", // windsurf
-        "continue.continue",
+        "continue.continue", // with codestral
         "genieai.chatgpt-vscode",
 
         // Frontend - React Extension Pack //
