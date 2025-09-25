@@ -16,7 +16,7 @@
 
         // ai
         "codeium.codeium", // windsurf
-        "continue.continue", // with codestral
+        "continue.continue", // autocomplete slow
         "genieai.chatgpt-vscode",
 
         // Frontend - React Extension Pack //
