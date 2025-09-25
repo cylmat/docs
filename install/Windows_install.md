@@ -185,6 +185,7 @@ Chrome
 - Secure shell : https://chromewebstore.google.com/detail/secure-shell
 - Api tester : https://chromewebstore.google.com/detail/talend-api-tester-free-ed
 - Raindrop.io : Bookmarks manager
+- https://bitwarden.com
 
 +
 
