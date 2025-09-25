@@ -10,6 +10,8 @@
         // -------------- //
 
         // Coding
+        "codeium.codeium",
+        "genieai.chatgpt-vscode",
         "shardulm94.trailing-spaces",
         "vscodevim.vim",
         "yatki.vscode-surround",
@@ -128,14 +130,11 @@
 
         // ai & autocomplete
         "andrewbutson.vscode-openai",
-        "codeium.codeium",
         "danielsanmedium.dscodegpt",
         "devsense.intelli-php-vscode",
-        "genieai.chatgpt-vscode",
         "gitHub.copilot",
         "gitHub.copilot-chat",
-        "sourcegraph.cody-ai",
-        "tabnine.tabnine-vscode",
+        "saoudrizwan.claude-dev",
 
         // project
         "gruntfuggly.todo-tree",
