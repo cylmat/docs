@@ -18,9 +18,9 @@
 
         // Frontend - React Extension Pack //
         "baeumer.vscode-eslint",
-        "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
-        "hossaini.bootstrap-intellisense",
+        "hossaini.bootstrap-intellisense", // need enable configuration
+        "pranaygp.vscode-css-peek",
         //
         "dsznajder.es7-react-js-snippets",
         "nadim-vscode.twig-code-snippets",
@@ -73,13 +73,15 @@
         "vscode-icons-team.vscode-icons",
 
         // Frontend //
-        "firefox-devtools.vscode-firefox-debug",
+        "anbuselvanrocky.bootstrap5-vscode", // prefix b5
+        "christian-kohler.npm-intellisense",
         "ecmel.vscode-html-css",
+        "firefox-devtools.vscode-firefox-debug",
         "hbenl.vscode-test-explorer",
         "mattpocock.ts-error-translator",
         "orta.vscode-jest",
-        "pranaygp.vscode-css-peek",
-        "zignd.html-css-class-completion",
+        "thekalinga.bootstrap4-vscode",
+// zignd.html-css-class-completion // no live, very long 
 
         // Backend //
         "coozieki.php-implementor",
@@ -129,12 +131,14 @@
         "ms-kubernetes-tools.vscode-kubernetes-tools",
 
         // ai & autocomplete
-        "andrewbutson.vscode-openai",
-        "danielsanmedium.dscodegpt",
         "devsense.intelli-php-vscode",
         "gitHub.copilot",
         "gitHub.copilot-chat",
-        "saoudrizwan.claude-dev",
+        "saoudrizwan.claude-dev", // cline
+// andrewbutson.vscode-openai // doesn't works
+// danielsanmedium.dscodegpt // error localhost 54112
+// sourcegraph.cody-ai // doesn't works
+// tabnine.tabnine-vscode // pay
 
         // project
         "gruntfuggly.todo-tree",
