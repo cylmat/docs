@@ -138,6 +138,7 @@
         "gitHub.copilot",
         "gitHub.copilot-chat",
         "saoudrizwan.claude-dev", // cline
+        "zencoderai.zencoder",
 // andrewbutson.vscode-openai // doesn't works
 // augment.vscode-augment // pay
 // danielsanmedium.dscodegpt // error localhost 54112
