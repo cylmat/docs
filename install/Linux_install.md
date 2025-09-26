@@ -48,7 +48,15 @@ net.ipv6.conf.lo.disable_ipv6 = 1
 sudo sysctl -p
 ```
 
+## Others
+
+printer HP  
+https://debian-facile.org/doc:materiel:imprimante-hp
+```
+apt install -y hplip hplip-gui
+```
+
 ## Docs
 
-- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.docker.com/engine/install/ubuntu
 - https://docs.docker.com/engine/install/linux-postinstall
