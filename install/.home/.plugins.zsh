@@ -10,6 +10,7 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 ###
 
 # omz lib
+source $HOME/.oh-my-zsh/lib/completion.zsh
 source $HOME/.oh-my-zsh/lib/directories.zsh
 source $HOME/.oh-my-zsh/lib/grep.zsh
 source $HOME/.oh-my-zsh/lib/history.zsh
