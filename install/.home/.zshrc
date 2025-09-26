@@ -34,6 +34,31 @@ USE_OMZ=0
 USE_STAR=0
 USE_PWR10=0
 
+######################
+### Autocompletion ###
+######################
+
+### docker ###
+### https://docs.docker.com/engine/cli/completion
+
+# mkdir -p ~/.docker/completions
+# docker completion zsh > ~/.zsh/completions/_docker
+# FPATH="$HOME/.zsh/completions:$FPATH"
+
+### kube ###
+### https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#enable-shell-autocompletion
+### CAN BE SLOW
+
+# kubectl completion zsh > ~/.zsh/completions/kubectl-completion.zsh
+# source ~/.zsh/completions/kubectl-completion.zsh
+
+### git ###
+
+# curl -o ~/.zsh/completions/git-completion.zsh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+# curl -o ~/.zsh/completions/git-prompt.sh https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+# zstyle ':completion:*:*:git:*' script ~/.zsh/completions/git-completion.zsh
+
+
 #################
 ### Oh MY ZSH ###
 #################
