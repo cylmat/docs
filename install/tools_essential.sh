@@ -156,19 +156,6 @@ echo 'add in /usr/local/bin/chatgpt on line 20 : OPENAI_KEY=$(echo $OPENAI_KEY |
 echo 'add in .zshrc or .bashrc :'
 echo 'export OPENAI_KEY=your_base64_key_here'
 
-### to use argument-like prompt (ex "chat give me a random number")
-### add in .aliases
-_chat() {
-  # echo "$@" > /tmp/chatgpt.req
-  # chatgpt --prompt-from-file /tmp/chatgpt.req
-  # rm /tmp/chatgpt.req
-  tmpfile=$(mktemp /tmp/chatgpt.req.XXXXXX)
-  trap 'rm -f "$tmpfile"' EXIT
-  echo "$@" > "$tmpfile"
-  chatgpt --prompt-from-file "$tmpfile"
-}
-alias chat=_chat
-
 
 
 ############
