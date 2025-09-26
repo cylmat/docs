@@ -118,6 +118,7 @@ kubectl version --client
 # tre (tree improved)
 # ugrep (user-friendly faster grep)
 # vifm (Vim-like environment files)
+# yq (jq for yaml)
 #############
 
 
@@ -133,7 +134,8 @@ rsync \
 tmux \
 tmuxinator \ # >40Mo
 tre-command \
-ugrep
+ugrep \
+yq
 
 
 
