@@ -50,6 +50,15 @@
 " tomasiser/vim-code-dark (color)
 """""""""""""""""""""""""""""""""""""""""""""" config
 
+""" cheats
+""" curl -o ~/.vim.cheat https://raw.githubusercontent.com/cylmat/cheats/refs/heads/main/VIM-cheats.md
+" nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
+
+#######################
+""" Install VimPlug """
+#######################
+
+" mkdir -p ~/.vim/autoload/plug.vim && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
 """"""""""""""""""""""""""""""""""""""""""""""
@@ -187,6 +196,10 @@ Plug 'tpope/vim-unimpaired'
 
 
 """ USEFUL """""""""""""""""""
+
+""" Ai
+Plug 'madox2/vim-ai'
+let g:vim_ai_token_file_path = "~/.config/openai.token"
 
 """ Fugitive.vim
 " A Git wrapper so awesome
