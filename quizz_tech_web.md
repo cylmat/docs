@@ -1,7 +1,7 @@
 # Quizz techniques
 
-[Php/Symfony](https://github.com/cylmat/docs/blob/main/quizz/php-symfony.md)
-[Php/Symfony](https://github.com/cylmat/docs/blob/main/quizz/js-react.md)
+[Php/Symfony](https://github.com/cylmat/docs/blob/main/quizz/php-symfony.md)  
+[Js/React](https://github.com/cylmat/docs/blob/main/quizz/js-react.md)
 
 
 Linux
