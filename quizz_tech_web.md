@@ -1,33 +1,8 @@
 # Quizz techniques
 
-[Php/Symfony](https://github.com/cylmat/docs/tree/main/quizz)
+[Php/Symfony](https://github.com/cylmat/docs/blob/main/quizz/php-symfony.md)
+[Php/Symfony](https://github.com/cylmat/docs/blob/main/quizz/js-react.md)
 
-React Js
---------
-1. Quelle est la différence entre un composant fonctionnel et un composant de classe en React ?
-2. À quoi sert le hook useState ? Donnez un exemple.
-3. Quelle est la différence entre useEffect avec et sans tableau de dépendances ?
-4. Pourquoi utilise-t-on key dans une boucle .map() qui rend une liste de composants ?
-5. Qu’est-ce que le Virtual DOM et pourquoi est-il utile ?
-6. Expliquez la notion de lifting state up en React.
-7. À quoi sert le hook useContext ? Donnez un exemple d’usage.
-8. Quelle est la différence entre props et state ?
-9. Quand utiliser useMemo ou useCallback ?
-10. Qu’est-ce qu’un controlled component dans un formulaire React ?
-11. Quelle est la différence entre Redux, Context API et useState pour gérer l’état ?
-12. Expliquez comment fonctionne la propagation d'événements (event bubbling) dans React.
-13. Quelle est la différence entre React.memo et useMemo ?
-14. Qu’est-ce que le code splitting et comment l’implémenter avec React ?
-15. Comment éviter les rendus inutiles d’un composant ?
-16. Comment fonctionne le routing avec react-router-dom ?
-17. Quelle est la différence entre useEffect(() => {}, []) et useEffect(() => {}) ?
-18. Quelle est la différence entre useRef et useState ?
-19. Comment faire un appel API dans React de manière propre et gérer les erreurs ?
-20. Quels sont les risques de sécurité courants dans React (ex : XSS) et comment les prévenir ?
-21. Quelle est la différence entre le DOM et le Virtual DOM ?
-22. Pourquoi utilise-t-on useEffect dans React ?
-23. Quelle est la différence entre localStorage, sessionStorage et les cookies ?
-24. Expliquez le concept de Single Page Application (SPA).
 
 Linux
 -----
