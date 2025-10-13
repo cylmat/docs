@@ -29,9 +29,29 @@ Symfony Php
 25. Quelle est la différence entre une base de données relationnelle et NoSQL ?
 26. Que signifie l’acronyme ACID en base de données ?
 27. À quoi sert un ORM (comme Sequelize ou TypeORM) ?
-28. Quel est le rôle d’un middleware dans un framework comme Express.js ?
-29. Quelle est la différence entre == et === en JavaScript ?
-30. Expliquez la notion d’"asynchrone" et la différence entre async/await et promises en JavaScript.
+28. Qu’est-ce qu’un Command Handler dans une architecture CQRS Symfony ?
+29. Quelle est la différence entre un Service Container et un Service Locator en PHP ?
+30. Qu’est-ce qu’un Trait en PHP et quand faut-il éviter de l’utiliser dans Symfony ?
+31. Quelle est la différence entre un bundle et un package Composer dans Symfony ?
+32. Comment fonctionne le Kernel de Symfony et quel est son rôle principal ?
+33. Qu’est-ce qu’un Controller Resolver et comment Symfony l’utilise-t-il pour exécuter les contrôleurs ?
+34. Décrivez le cycle de vie d’une requête HTTP dans Symfony (Request → Response).
+35. Quelle est la différence entre un service public et un service privé dans le conteneur de services Symfony ?
+36. Comment peut-on surcharger la configuration d’un bundle tiers dans Symfony ?
+37. Quelle est la différence entre les fichiers .env, .env.local, .env.test et .env.prod ?
+38. À quoi sert le fichier bootstrap.php dans le dossier config/ d’un projet Symfony ?
+39. Comment configurer plusieurs Entity Managers ou connexions Doctrine dans Symfony ?
+40. Comment définir un paramètre global dans Symfony et l’injecter dans un service ou un contrôleur ?
+41. Comment mettre en place une relation ManyToMany et la gérer dans un formulaire Symfony ?
+42. Quelle est la différence entre les stratégies de chargement EAGER et LAZY dans Doctrine ?
+43. Quelles sont les bonnes pratiques pour optimiser les performances des requêtes Doctrine ?
+44. Qu’est-ce qu’un Lifecycle Callback dans Doctrine et donnez un exemple d’utilisation ?
+45. Comment effectuer une requête personnalisée (DQL ou QueryBuilder) dans un repository Doctrine ?
+46. Quelle est la différence entre un voter et un access control dans Symfony ?
+47. Comment créer un authentificateur personnalisé (Custom Authenticator) dans Symfony 6/7 ?
+48. Quelle est la différence entre un UserProvider et un Authenticator dans le système de sécurité ?
+49. Comment fonctionne la protection CSRF dans les formulaires Symfony ?
+50. Comment gérer la régénération du token de session après une authentification réussie (pour éviter le session fixation) ?
 
 React Js
 --------
