@@ -1,57 +1,6 @@
 # Quizz techniques
 
-Symfony Php
------------
-1. Quelle est la différence entre un service et un contrôleur dans Symfony ?
-2. Qu’est-ce que l’injection de dépendance et comment Symfony la met-il en œuvre ?
-3. À quoi sert le fichier services.yaml dans un projet Symfony ?
-4. Expliquez la différence entre les annotations @Route et la configuration de routes via YAML ou PHP.
-5. Que fait la commande php bin/console cache:clear ?
-6. Quelle est la différence entre paramConverter et un service qui charge manuellement une entité ?
-7. Qu’est-ce que Doctrine dans Symfony et à quoi sert l’EntityManager ?
-8. Différence entre persist() et flush() dans Doctrine ?
-9. Quelle est la différence entre une entité Symfony et un DTO (Data Transfer Object) ?
-10. Qu’est-ce qu’un EventSubscriber dans Symfony ? Donnez un cas d’usage.
-11. À quoi sert le fichier security.yaml ?
-12. Quelle est la différence entre un firewall et un access control dans Symfony ?
-13. Comment fonctionne le système d’authentification via JWT dans un projet Symfony ?
-14. À quoi sert le composant Validator dans Symfony ?
-15. Comment définir un middleware (EventListener) global dans Symfony ?
-16. Quelle est la différence entre un contrôleur API (JsonResponse) et un contrôleur classique (Response) ?
-17. Comment gérer les erreurs 404 ou 403 dans Symfony proprement ?
-18. Quelles sont les bonnes pratiques pour paginer des résultats dans une API Symfony ?
-19. Expliquez comment utiliser les environnements (.env, .env.local) dans Symfony.
-20. Quelle est la commande pour créer une migration et appliquer les changements de schéma en base ?
-21. Quelle est la différence entre le hashage et le cryptage ?
-22. Que fait une requête HTTP de type PUT par rapport à POST ?
-23. Quelle est la différence entre une API REST et une API GraphQL ?
-24. Expliquez le principe de fonctionnement d'un token JWT.
-25. Quelle est la différence entre une base de données relationnelle et NoSQL ?
-26. Que signifie l’acronyme ACID en base de données ?
-27. À quoi sert un ORM (comme Sequelize ou TypeORM) ?
-28. Qu’est-ce qu’un Command Handler dans une architecture CQRS Symfony ?
-29. Quelle est la différence entre un Service Container et un Service Locator en PHP ?
-30. Qu’est-ce qu’un Trait en PHP et quand faut-il éviter de l’utiliser dans Symfony ?
-31. Quelle est la différence entre un bundle et un package Composer dans Symfony ?
-32. Comment fonctionne le Kernel de Symfony et quel est son rôle principal ?
-33. Qu’est-ce qu’un Controller Resolver et comment Symfony l’utilise-t-il pour exécuter les contrôleurs ?
-34. Décrivez le cycle de vie d’une requête HTTP dans Symfony (Request → Response).
-35. Quelle est la différence entre un service public et un service privé dans le conteneur de services Symfony ?
-36. Comment peut-on surcharger la configuration d’un bundle tiers dans Symfony ?
-37. Quelle est la différence entre les fichiers .env, .env.local, .env.test et .env.prod ?
-38. À quoi sert le fichier bootstrap.php dans le dossier config/ d’un projet Symfony ?
-39. Comment configurer plusieurs Entity Managers ou connexions Doctrine dans Symfony ?
-40. Comment définir un paramètre global dans Symfony et l’injecter dans un service ou un contrôleur ?
-41. Comment mettre en place une relation ManyToMany et la gérer dans un formulaire Symfony ?
-42. Quelle est la différence entre les stratégies de chargement EAGER et LAZY dans Doctrine ?
-43. Quelles sont les bonnes pratiques pour optimiser les performances des requêtes Doctrine ?
-44. Qu’est-ce qu’un Lifecycle Callback dans Doctrine et donnez un exemple d’utilisation ?
-45. Comment effectuer une requête personnalisée (DQL ou QueryBuilder) dans un repository Doctrine ?
-46. Quelle est la différence entre un voter et un access control dans Symfony ?
-47. Comment créer un authentificateur personnalisé (Custom Authenticator) dans Symfony 6/7 ?
-48. Quelle est la différence entre un UserProvider et un Authenticator dans le système de sécurité ?
-49. Comment fonctionne la protection CSRF dans les formulaires Symfony ?
-50. Comment gérer la régénération du token de session après une authentification réussie (pour éviter le session fixation) ?
+
 
 React Js
 --------
