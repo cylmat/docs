@@ -1,6 +1,18 @@
 Js React
 ========
 
+- Composants et Hooks React
+- Gestion d’état et Props
+- Performance et Optimisation
+- React avancé et fonctionnalités
+- JavaScript/Typescript fondamentaux
+- DOM et Web
+- Architecture et Concepts Web
+- Sécurité et Meilleures Pratiques
+
+Questions
+---------
+
 1. Quelle est la différence entre un composant fonctionnel et un composant de classe en React ?
 2. À quoi sert le hook useState ? Donnez un exemple.
 3. Quelle est la différence entre useEffect avec et sans tableau de dépendances ?
