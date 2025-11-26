@@ -3,7 +3,7 @@
     "debug.internalConsoleOptions": "neverOpen",
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {},
-    "editor.fontFamily": "JetBrains Mono, Fira Code iScript, Fira Code, Consolas, Courier New, monospace",
+    "editor.fontFamily": "JetBrains Mono, FiraCode Nerd Font, Fira Code, Consolas, Courier New, monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.fontWeight": "300",
