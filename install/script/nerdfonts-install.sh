@@ -6,7 +6,7 @@
 echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 
 if [[ -f ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf ]]; then
-  echo "FireCode already installed"
+  echo "FiraCode already installed"
   echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
   echo
   exit 0
