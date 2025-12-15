@@ -20,6 +20,15 @@ passwd username
 wslconfig /setdefault Ubuntu-22.04  
 ```
 
+**import from other disk**
+
+```
+wsl.exe --list --online
+wsl --export docker-desktop D:\Applications\Docker\docker-desktop.tar
+wsl --unregister docker-desktop
+wsl --import docker-desktop D:\Applications\Docker D:\Applications\Docker\docker-desktop.tar --version 2
+```
+
 ### in WSL
 ```
 sudo adduser username
