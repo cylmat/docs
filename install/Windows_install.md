@@ -30,6 +30,7 @@ wsl --import docker-desktop D:\Applications\Docker D:\Applications\Docker\docker
 ```
 
 ### in WSL
+
 ```
 sudo adduser username
 echo "[user]" >> /etc/wsl.conf
@@ -38,6 +39,15 @@ echo "default=username" >> /etc/wsl.conf
 # disable wsl info
 touch /username/.hushlogin
 sudo systemctl disable snapd
+```
+
+etc/resolv.conf in WSL 
+```
+$ sudo nano /etc/resolv.conf
+nameserver 1.1.1.1
+nameserver 8.8.8.8
+
+$ sudo chattr +i /etc/resolv.conf
 ```
 
 ### > How to shrink (reduce) Wsl size
