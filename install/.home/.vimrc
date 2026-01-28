@@ -21,6 +21,8 @@
 "
 """"""""""""""""""
 " - see also:
+" vim copilot https://github.com/github/copilot.vim
+"
 " neoclide/coc.nvim
 " romainl/vim-qf: Tame the quickfix window
 " stefandtw/quickfix-reflector.vim: Change code right in the quickfix window
