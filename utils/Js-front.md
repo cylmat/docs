@@ -126,6 +126,9 @@ Testing framework
 * https://mochajs.org
 * https://playwright.dev
 
+Validation
+* zod / yup
+
 ---
 SPA
 * https://hotwired.dev: Turbo - Stimulus - Strada for SPA
