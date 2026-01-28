@@ -188,6 +188,7 @@ Write code that will survive time and team changes.
 
 💡 Rule: Treat null as a design decision, not an accident
 - Nulls are allowed at the edges (DB, API, input), NOT in the core logic.
+- Inside, everything should be valid, typed, and trustworthy.
 - Fail fast, not late : Null bugs hurt because they explode in random places.
 
 Bad: user.address.city  
