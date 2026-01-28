@@ -186,10 +186,10 @@ Write code that will survive time and team changes.
 -
 1️⃣ Nullable
 
-Treat null as a design decision, not an accident
+Treat null as a design decision, not an accident  
 💡 Rule: Nulls are allowed at the edges (DB, API, input), NOT in the core logic.
 
-Bad: user.address.city
-Better: user.address?.city ?? "Unknown"
-Best: type User = { address: Address }
-if ($user->address === null) { throw new LogicException("User has no address"); }
+Bad: user.address.city  
+Better: user.address?.city ?? "Unknown"  
+Best: type User = { address: Address }  
+if ($user->address === null) { throw new LogicException("User has no address"); }  
