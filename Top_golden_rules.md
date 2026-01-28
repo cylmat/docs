@@ -186,8 +186,9 @@ Write code that will survive time and team changes.
 -
 1️⃣ Nullable
 
-Treat null as a design decision, not an accident  
-💡 Rule: Nulls are allowed at the edges (DB, API, input), NOT in the core logic.
+💡 Rule: Treat null as a design decision, not an accident
+- Nulls are allowed at the edges (DB, API, input), NOT in the core logic.
+- Fail fast, not late : Null bugs hurt because they explode in random places.
 
 Bad: user.address.city  
 Better: user.address?.city ?? "Unknown"  
