@@ -194,3 +194,13 @@ Bad: user.address.city
 Better: user.address?.city ?? "Unknown"  
 Best: type User = { address: Address }  
 if ($user->address === null) { throw new LogicException("User has no address"); }  
+
+2️⃣ Make illegal states impossible
+
+- Most bugs are not “code is wrong”.
+- They are “this situation should never exist, but it does”.
+
+💡 The real secret 💡
+
+- High-quality apps are not made by avoiding nulls.
+- They are made by removing ambiguity from the system.
