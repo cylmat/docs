@@ -19,6 +19,24 @@
 " :source %
 " :PlugInstall
 "
+" See also VimCode (vim like Vscode)
+" https://github.com/ibnYusrat/vimcode
+"   with:
+" Plug 'mattn/emmet-vim'
+" Plug 'mhartington/oceanic-next'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+" Plug 'jcherven/jummidark.vim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'jremmen/vim-ripgrep'
+" Plug 'preservim/nerdtree'
+" Plug 'ryanoasis/vim-devicons'
+" Plug 'metakirby5/codi.vim'
+" Plug 'preservim/nerdcommenter'
+" Plug 'tpope/vim-surround'
+" Plug 'APZelos/blamer.nvim'
+"
 """"""""""""""""""
 " - see also:
 " vim copilot https://github.com/github/copilot.vim
@@ -61,55 +79,6 @@
 #######################
 
 " mkdir -p ~/.vim/autoload/plug.vim && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-
-""""""""""""""""""""""""""""""""""""""""""""""
-""" OPTIONS                                """
-""""""""""""""""""""""""""""""""""""""""""""""
-
-""" info """
-" syntax highlighting, theme, encoding, fileformat
-syntax enable 
-colorscheme desert
-set encoding=utf8 ffs=unix,dos
-
-" errorbells - eb Ring the bell (beep or screen flash) for error messages.
-" lazyredraw - lz Don't redraw while executing macros
-" ruler      - ru Display the cursor position
-" showcmd    - sc Show partial commands in the last line of the screen
-" showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
-" visualbell - vb Use visual bell instead of beeping when doing something wrong
-" wildmenu   - wmnu Better command-line completion
-:set lazyredraw noeb ruler showcmd showmatch visualbell wildmenu
-
-""" edition """
-" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
-" ignorecase - ic Ignore case when searching
-" incsearch  - is incremental search, show matches as typing
-" (r)number  - nu rnu Display line numbers on the left
-" smartcase  - scs smart searching 
-:set hlsearch ignorecase incsearch number rnumber smartcase
-
-" expandtab  - et use spaces instead of tabs
-" shiftwidth - -> tabstop
-" smarttab   - sta smart tabs
-" tabstop    - ts number of tab spaces
-:set expandtab shiftwidth=4 smarttab tabstop=4
-
-" autoindent - ai
-" smartindent- si
-" wrap       - wrap lines longer than window width
-:set autoindent smartindent wrap
-
-
-""" magic
-" https://vim.fandom.com/wiki/Simplifying_regular_expressions_using_magic_and_no-magic
-" - Use of "\m" makes the pattern after it be interpreted as if 'magic' is set (like grep)
-" - After very "\v", all ASCII chars except '09','az','AZ','_' has special meaning (egrep)
-:set magic
-
-""" other
-" hid backspace=eol,start,indent whichwrap+=<,>,h,l
 
 
 
@@ -159,6 +128,56 @@ Plug 'mhinz/vim-startify'
 """ Tagbar: <Tags> outline viewer
 " :TagbarToggle
 Plug 'majutsushi/tagbar'
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""
+""" OPTIONS                                """
+""""""""""""""""""""""""""""""""""""""""""""""
+
+""" info """
+" syntax highlighting, theme, encoding, fileformat
+syntax enable 
+colorscheme desert
+set encoding=utf8 ffs=unix,dos
+
+" errorbells - eb Ring the bell (beep or screen flash) for error messages.
+" lazyredraw - lz Don't redraw while executing macros
+" ruler      - ru Display the cursor position
+" showcmd    - sc Show partial commands in the last line of the screen
+" showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
+" visualbell - vb Use visual bell instead of beeping when doing something wrong
+" wildmenu   - wmnu Better command-line completion
+:set lazyredraw noeb ruler showcmd showmatch visualbell wildmenu
+
+""" edition """
+" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
+" ignorecase - ic Ignore case when searching
+" incsearch  - is incremental search, show matches as typing
+" (r)number  - nu rnu Display line numbers on the left
+" smartcase  - scs smart searching 
+:set hlsearch ignorecase incsearch number rnumber smartcase
+
+" expandtab  - et use spaces instead of tabs
+" shiftwidth - -> tabstop
+" smarttab   - sta smart tabs
+" tabstop    - ts number of tab spaces
+:set expandtab shiftwidth=4 smarttab tabstop=4
+
+" autoindent - ai
+" smartindent- si
+" wrap       - wrap lines longer than window width
+:set autoindent smartindent wrap
+
+
+""" magic
+" https://vim.fandom.com/wiki/Simplifying_regular_expressions_using_magic_and_no-magic
+" - Use of "\m" makes the pattern after it be interpreted as if 'magic' is set (like grep)
+" - After very "\v", all ASCII chars except '09','az','AZ','_' has special meaning (egrep)
+:set magic
+
+""" other
+" hid backspace=eol,start,indent whichwrap+=<,>,h,l
 
 
 
