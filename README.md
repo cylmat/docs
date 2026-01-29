@@ -8,7 +8,7 @@ I share here an overview of tools and utils installed on my workspace. Enjoy!
 --
 
 - Shell with auto and colors:
-  + [Zsh](https://wiki.ubuntu-fr.org/zsh) by default, with help of [Nushell](https://www.nushell.sh)
+  + [Zsh](https://wiki.ubuntu-fr.org/zsh) by default, with help of [Nushell](https://www.nushell.sh) and [Z-shell](https://wiki.zshell.dev)
   + Framework [OhMyZsh](https://ohmyz.sh)
   + OhMyZsh plugins: (**aliases alias-finder copybuffer copypath copyfile dirhistory git fzf kube-ps1 kubectl helm ssh sudo tmux tmuxinator vi-mode z zsh-autosuggestions zsh-navigation-tools zsh-syntax-highlighting**)  
   + Plugins manager [Antidote](https://getantidote.github.io) or [Prezto](https://github.com/sorin-ionescu/prezto)
