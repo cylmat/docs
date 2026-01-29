@@ -15,6 +15,12 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "on",
 
+      // keep vscode editor focus with copilot enabled
+      // Your focus moves because Copilot + Chat auto UI steals it
+      "editor.inlineSuggest.enabled": false,
+      "chat.focusWindowOnOpen": false,
+      "github.copilot.inlineSuggest.enable": false, // set true if copilot not enabled
+
     // @https://www.alveeakand.com/how-to-modify-themes-in-vscode
     // (optional) "editor.semanticHighlighting.enabled": false, 
     // get attributes with "Developer Inspect Editor Tokens And Scope"
