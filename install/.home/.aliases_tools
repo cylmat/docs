@@ -27,7 +27,7 @@ tig, tmux, tmuxinator, vim
 openssl, uuidgen
 
 - FILES & LOGS -
-bat, ccze, eza, fdf, fzf, fzy, icdiff, 
+bat, ccze, eza, fd, fzf, fzy, icdiff, 
 rsync, tre, ugrep, ranger, vifm
 
 - FUN -
