@@ -60,7 +60,7 @@ Files & logs
 + [bat](https://github.com/sharkdp/bat) **_Better Cat!_** A cat clone with wings
 + [ccze](https://github.com/cornet/ccze) Fast log colorizer
 + [eza](https://github.com/eza-community/eza) **_Better Ls!_** A modern alternative to ls 
-+ [fdfind](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
++ [fd](https://github.com/sharkdp/fd) Simple fast and user-friendly alternative to 'find'
 + [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder 
 + [fzy](https://github.com/jhawthorn/fzy) A simple, fast fuzzy finder for the terminal
 + [icdiff](https://github.com/jeffkaufman/icdiff) **_Better diff!_** Improved colored diff 
