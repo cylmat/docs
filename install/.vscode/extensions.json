@@ -63,6 +63,9 @@
         // - USEFUL - //
         // ---------- //
 
+        // ai //
+        "Google.geminicodeassist",
+
         // color //
         "aaron-bond.better-comments",
         "johnpapa.vscode-peacock",
