@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 
-
 ### Utils ###
 
 
@@ -120,7 +119,15 @@ so \
 tidy-viewer \
 toipe
 
+##########
+### AI ###
+##########
 
+# npm install -g @google/gemini-cli
+
+############
+### HTTP ###
+############
 
 ### curlie @https://github.com/rs/curlie
 # use curlie httpbin.org/headers
