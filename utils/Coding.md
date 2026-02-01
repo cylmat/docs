@@ -31,6 +31,13 @@ Editor
 * https://vscode.dev
 * https://phpsandbox.io: Php cloud editor
 
+Cli
+- https://geminicli.com: Gemini AI Cli
+- https://claude.com/fr-fr/product/claude-code: Claude Code AI
+
+IDE
+- https://antigravity.google: Google AI editor
+
 Fake data
 * https://www.generatedata.com
 * https://mockaroo.com
