@@ -3,7 +3,7 @@
 
     "claudeCodeChat.wsl.enabled": false,
     "claudeCodeChat.wsl.distro": "Ubuntu-22.04",
-    "claudeCodeChat.wsl.nodePath": "/home/cmatte/.nvm/versions/node/v18.20.8/bin/node",
+    "claudeCodeChat.wsl.nodePath": "$HOME/.nvm/versions/node/v18.20.8/bin/node",
     "claudeCodeChat.wsl.claudePath": "/home/linuxbrew/.linuxbrew/bin/claude",
     "claudeCodeChat.permissions.yoloMode": false,
     "claudeCode.preferredLocation": "panel",
