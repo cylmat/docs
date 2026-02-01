@@ -70,10 +70,6 @@
 " tomasiser/vim-code-dark (color)
 """""""""""""""""""""""""""""""""""""""""""""" config
 
-""" cheats
-""" curl -o ~/.vim.cheat https://raw.githubusercontent.com/cylmat/cheats/refs/heads/main/VIM-cheats.md
-" nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
-
 #######################
 """ Install VimPlug """
 #######################
@@ -288,7 +284,17 @@ nnoremap <C-L> :nohl<CR><C-L>
 " Leader to <Space>
 noremap <Space> <Nop>
 map <Space> <Leader>
+
 " --- or let mapleader="\<Space>"
+" must be first defined
+" define Space as Leader
+let mapleader = " "
+
+""" cheats
+""" curl -o ~/.vim.cheat https://raw.githubusercontent.com/cylmat/cheats/refs/heads/main/VIM-cheats.md
+" must be AFTER mapleader mapping
+" nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
+
 
 " Editing
 nnoremap <Leader>r <C-r>
