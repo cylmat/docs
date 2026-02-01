@@ -3,6 +3,9 @@
 Api
 * https://nodered.org: Low-code programming for event-driven applications
 
+Architecture
+- https://www.npmjs.com/package/dependency-cruiser : Validate and visualise dependencies.
+
 Build
 * https://brunch.io
 * https://babeljs.io
