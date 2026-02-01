@@ -8,6 +8,13 @@
     "claudeCodeChat.permissions.yoloMode": false,
     "claudeCode.preferredLocation": "panel",
 
+    "chat.agent.enabled": false,
+    "chat.agent.thinkingStyle": "none",
+    "chat.emptyChatState.enabled": false,
+    "chat.implicitContext.suggestedContext": false,
+    "chat.math.enabled": false,
+    "chat.mcp.access": "none",
+
     //
 
     "console": "integratedTerminal",
