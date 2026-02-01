@@ -123,7 +123,11 @@ toipe
 ### AI ###
 ##########
 
-# npm install -g @google/gemini-cli
+# Gemini cli
+npm install -g @google/gemini-cli
+
+# Claude code cli
+brew install --cask claude-code
 
 ############
 ### HTTP ###
