@@ -24,6 +24,7 @@ alias bat="batcat"
 alias cheat="cht"
 alias dc="docker compose"
 alias dce="docker compose exec"
+alias dcs='docker compose config --services'
 alias dk="docker"
 alias fdf="fdfind"
 alias k="kubectl"
