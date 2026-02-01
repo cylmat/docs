@@ -12,6 +12,9 @@ Automatisation
 * https://robo.li
 * https://robotframework.org
 
+* https://deployer.org/
+* https://github.com/jolicode/castor
+
 Bug tracker
 * https://github.com/marekjm/issue: Command line issue tracker
 * https://www.mantisbt.org
