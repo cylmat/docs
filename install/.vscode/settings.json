@@ -156,6 +156,13 @@
     
     "vim.commandLineModeKeyBindings": [],
     "vim.easymotion": true,
+     "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["q", "q"],
+            "after": "<Esc>"
+        }
+    ],
+     "vim.history": 500,
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-c>": false,
