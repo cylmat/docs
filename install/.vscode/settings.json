@@ -1,6 +1,20 @@
 {
+    // claude
+
+    "claudeCodeChat.wsl.enabled": false,
+    "claudeCodeChat.wsl.distro": "Ubuntu-22.04",
+    "claudeCodeChat.wsl.nodePath": "/home/cmatte/.nvm/versions/node/v18.20.8/bin/node",
+    "claudeCodeChat.wsl.claudePath": "/home/linuxbrew/.linuxbrew/bin/claude",
+    "claudeCodeChat.permissions.yoloMode": false,
+    "claudeCode.preferredLocation": "panel",
+
+    //
+
     "console": "integratedTerminal",
     "debug.internalConsoleOptions": "neverOpen",
+
+    // editor
+    
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {},
     "editor.fontFamily": "JetBrains Mono, FiraCode Nerd Font, Fira Code, Consolas, Courier New, monospace",
@@ -24,6 +38,7 @@
     // @https://www.alveeakand.com/how-to-modify-themes-in-vscode
     // (optional) "editor.semanticHighlighting.enabled": false, 
     // get attributes with "Developer Inspect Editor Tokens And Scope"
+    
     "editor.tokenColorCustomizations": {
         // global
         "textMateRules": [
@@ -54,6 +69,18 @@
             }]
         },
     },
+
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php",
+        "js",
+        "javascript",
+        "ts",
+        "typescript",
+        "tsx",
+        "*"
+    ],
+
     "files.eol": "\n",
     "files.autoSave": "afterDelay",
     "files.associations": {
@@ -104,7 +131,13 @@
     "sync.autoUpload": true,
     "sync.forceUpload": true,
     "sync.quietSync": true,
+
+    // terminal
+    
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.profiles.windows": {
         "Ubuntu (WSL)": {
             "args": [
@@ -118,6 +151,9 @@
             "source": "PowerShell"
         }
     },
+
+    // vim
+    
     "vim.commandLineModeKeyBindings": [],
     "vim.easymotion": true,
     "vim.handleKeys": {
@@ -133,8 +169,16 @@
     "vim.leader": "<Space>",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-          "after": ["<C-r>"],
-          "before": ["<Leader>", "r"]
+          "before": ["<Leader>", "r"],
+          "after": ["<C-r>"]
+        },
+        {
+            "before": ["<Leader>", "u"],
+            "after": ["<C-u>"]
+        },
+        {
+            "before": ["<Leader>", "d"],
+            "after": ["<C-d>"]
         }
     ],
     "vim.smartRelativeLine": true,
@@ -142,8 +186,15 @@
     "vim.startInInsertMode": true,
     "vim.statusBarColors.easymotionmode": "",
     "vim.statusBarColorControl": true,
+
+    "window.zoomLevel": -1,
     "workbench.colorCustomizations": {
-        "editorUnnecessaryCode.border": "#dd7aab",
-        "editorUnnecessaryCode.foreground": "#dd7aab"
+        "editorUnnecessaryCode.border": "#663355",
+        "editorUnnecessaryCode.foreground": "#dd7aab",
+         "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
     }
 }
