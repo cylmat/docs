@@ -21,7 +21,6 @@
 "
 """"""""""""""""""
 " - see also:
-" neoclide/coc.nvim
 " romainl/vim-qf: Tame the quickfix window
 " stefandtw/quickfix-reflector.vim: Change code right in the quickfix window
 " tpope/vim-eunuch: Helpers for UNIX
@@ -49,6 +48,9 @@
 " skim-rs/skim (fzf)
 " tomasiser/vim-code-dark (color)
 
+
+" (use also https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
+
 " See also VimCode (vim like Vscode)
 " https://github.com/ibnYusrat/vimcode
 "   with:
@@ -57,7 +59,6 @@
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 " Plug 'jcherven/jummidark.vim'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'jremmen/vim-ripgrep'
 " Plug 'preservim/nerdtree'
@@ -115,9 +116,13 @@ set sidescrolloff=8
 set signcolumn=yes
 set splitbelow
 set splitright
-set updatetime=300
+set updatetime=200
 set wildmenu
 set wildmode=longest:full,full
+
+set shortmess+=c
+set nocursorcolumn
+set noshowmode   " since airline already shows it
 
 
 """ info """
@@ -128,13 +133,11 @@ set wildmode=longest:full,full
 
 
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
-" lazyredraw - lz Don't redraw while executing macros
 " ruler      - ru Display the cursor position
 " showcmd    - sc Show partial commands in the last line of the screen
 " showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
 " visualbell - vb Use visual bell instead of beeping when doing something wrong
 
-set lazyredraw 
 set noeb 
 set ruler 
 set showcmd 
@@ -151,8 +154,6 @@ set visualbell
 set hlsearch
 set ignorecase
 set incsearch
-set number
-set relativenumber 
 set smartcase
 
 
@@ -176,6 +177,7 @@ set wrap
 
 """  PERFORMANCE
 
+" lazyredraw - lz Don't redraw while executing macros
 set lazyredraw
 set ttyfast
 
@@ -221,6 +223,7 @@ Plug 'altercation/vim-colors-solarized'
 " set encoding=UTF-8
 Plug 'ryanoasis/vim-devicons'
 
+" !set file is chmod 600
 Plug 'madox2/vim-ai'
 let g:vim_ai_token_file_path = '~/.config/openai.token'
 
@@ -303,8 +306,8 @@ Plug 'junegunn/fzf.vim'
 " A collection of language packs for Vim.
 Plug 'sheerun/vim-polyglot'
 
-""" Syntastic : a syntax checking
-Plug 'scrooloose/syntastic'
+""" a syntax checking
+Plug 'dense-analysis/ale'
 
 """ Tcomment: https://github.com/tomtom/tcomment_vim
 " :help tcomment-operator
@@ -316,6 +319,25 @@ Plug 'tomtom/tcomment_vim'
 
 " Comment toggle (Ctrl+/)
 Plug 'tpope/vim-commentary'
+
+
+"" --- must have ---
+""""""""""""""""""""
+
+" Shows leader mappings like VS Code.
+Plug 'liuchengxu/vim-which-key'
+
+" https://github.com/neoclide/coc.nvim
+" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
+" For your style (fzf + git + big configs), this is gold:
+" instant file marks
+" jump between 4–8 files like tabs on steroids
+Plug 'ThePrimeagen/harpoon'
+
+
 
 call plug#end()
 
@@ -355,15 +377,15 @@ let mapleader = " "
 
 """"""""""""" ai
 " stop async chat generation
-nnoremap <leader>s :AIStopChat<CR>
+nnoremap <leader>ais :AIStopChat<CR>
 
 " complete text on the current line or in visual selection
-nnoremap <leader>a :AI<CR>
-xnoremap <leader>a :AI<CR>
+nnoremap <leader>aia :AI<CR>
+xnoremap <leader>aia :AI<CR>
 
 " edit text with a custom prompt
-xnoremap <leader>s :AIEdit fix grammar and spelling<CR>
-nnoremap <leader>s :AIEdit fix grammar and spelling<CR>
+" xnoremap <leader>aif :AIEdit fix grammar and spelling<CR>
+" nnoremap <leader>aif :AIEdit fix grammar and spelling<CR>
 
 " trigger chat
 xnoremap <leader>c :AIChat<CR>
@@ -404,7 +426,7 @@ nnoremap <leader>f :Files<CR>
 
 " Ctrl+Shift+F → Search in files
 nnoremap <C-S-f> :Rg<CR>
-nnoremap <leader>s :Rg<CR>
+nnoremap <leader>g :Rg<CR>
 
 " Ctrl+S → Save
 nnoremap <C-s> :w<CR>
@@ -415,7 +437,8 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :bd<CR>
 
 " Ctrl+W → Close file (buffer, not split)
-nnoremap <C-w> :bd<CR>
+" don't use <C-w> over-mapping because it's used for Vim window management
+nnoremap <leader>x :bd<CR>
 
 
 " ---- Buffers ----
