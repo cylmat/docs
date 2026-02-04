@@ -1,4 +1,3 @@
-" $HOME/.vscodevimrc
 
 """""""""""""""""""""
 """     VSCODE    """
@@ -8,15 +7,30 @@
 " --- or let mapleader="\<Space>"
 " must be first defined
 " define Space as Leader
+ " Change VScode Ctrl binding to Space 
+" :echo mapleader or :let mapleader
 let mapleader = " "
 
 " Leader to <Space>
 ""noremap <Space> <Nop>
 " map <Space> <Leader>
 
+" Set configuration in VsCode to disable plugin keys
+"vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-f>": false,
+    "<C-o>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-y>": false,
+    "<C-z>": false
+"}
 
- " Change VScode Ctrl binding to Space 
-" :echo mapleader or :let mapleader
+
+
+nnoremap <leader>f :call VSCodeNotify('workbench.action.quickOpen')<CR>
+nnoremap <leader>e :call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>
 
 " Editing
 nnoremap <leader>r <C-r>
