@@ -48,6 +48,24 @@
 " kshenoy/vim-signature
 " skim-rs/skim (fzf)
 " tomasiser/vim-code-dark (color)
+
+" See also VimCode (vim like Vscode)
+" https://github.com/ibnYusrat/vimcode
+"   with:
+" Plug 'mattn/emmet-vim'
+" Plug 'mhartington/oceanic-next'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+" Plug 'jcherven/jummidark.vim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'jremmen/vim-ripgrep'
+" Plug 'preservim/nerdtree'
+" Plug 'ryanoasis/vim-devicons'
+" Plug 'metakirby5/codi.vim'
+" Plug 'preservim/nerdcommenter'
+" Plug 'tpope/vim-surround'
+" Plug 'APZelos/blamer.nvim'
 """""""""""""""""""""""""""""""""""""""""""""" config
 
 
