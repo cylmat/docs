@@ -97,65 +97,65 @@ set encoding=utf8
 set ffs=unix,dos
 
 """"" BASIC SETTINGS """""
-
-" wildmenu   - wmnu Better command-line completion
-set clipboard=unnamed
-set cmdheight=1
-set cursorline
+" errorbells - eb Ring the bell (beep or screen flash) for error messages.
+" hidden    : switch buffers without saving (You can :e otherfile without :w)
+" laststatus: 2 is 'always'
+" nocursorcolumn: CursorColumn highlights the entire vertical column under the cursor. (noisy)
+" selectmode: Mouse selection enter in VISUAL mode
+" showcmd   : sc Shows partial commands while typing
+" showmode  : show insert, visual.. (not useful if already in status bar)
+" signcolumn: Always show the sign column
+" splitbelow: Horizontal splits open below the current window. (:split)
+" splitright: Vertical splits open to the right. (:vsplit)
+" shortmess : Makes completion less noisy.
+" updatetime: Faster diagnostics
+" visualbell - vb Use visual bell instead of beeping when doing something wrong
+" wildmenu  : interactive tab completion for ":" commands.
+" wildmode  : Controls how command completion behaves.
+" wrap      : Long lines stay on multi lines (no wrap: stay on one long line)
+set noeb
 set hidden
 set laststatus=2
-set mouse=a
-set nowrap
-set number
-set relativenumber
-set ruler
-set scrolloff=8
+set nocursorcolumn
+set noshowmode   " since airline already shows it
+set selectmode+=mouse
+set shortmess+=c
 set showcmd
 set showmode
-set sidescrolloff=8
 set signcolumn=yes
 set splitbelow
 set splitright
 set updatetime=200
 set wildmenu
 set wildmode=longest:full,full
+set visualbell
+set wrap
 
-set shortmess+=c
-set nocursorcolumn
-set noshowmode   " since airline already shows it
+""" navigation
 
-
-""" info """
-" syntax highlighting, theme, encoding, fileformat
-" colorscheme desert
-
-
-
-
-" errorbells - eb Ring the bell (beep or screen flash) for error messages.
-" ruler      - ru Display the cursor position
-" showcmd    - sc Show partial commands in the last line of the screen
-" showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
-" visualbell - vb Use visual bell instead of beeping when doing something wrong
-
-set noeb 
-set ruler 
-set showcmd 
-set showmatch 
-set visualbell 
+" number          : show absolute line numbers
+" relativenumber  - rnu Display line numbers on the left
+" ruler           : show cursor position in status bar
+" scrolloff=8     : Keep 8 lines visible above and below the cursor
+" sidescrolloff=8 : Keeps 8 columns visible when scrolling sideways
+set number
+set relativenumber
+set ruler
+set scrolloff=8
+set sidescrolloff=8
 
 """ edition """
 
 " hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
 " ignorecase - ic Ignore case when searching
 " incsearch  - is incremental search, show matches as typing
-" (r)number  - nu rnu Display line numbers on the left
-" smartcase  - scs smart searching 
+" showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
+" smartcase  - scs smart searching
 set hlsearch
 set ignorecase
 set incsearch
+set showmatch
 set smartcase
-
 
 """ indent  """
 
@@ -163,17 +163,22 @@ set smartcase
 " shiftwidth - -> tabstop
 " smarttab   - sta smart tabs
 " tabstop    - ts number of tab spaces
-set expandtab 
+set expandtab
 set shiftwidth=4
-set smarttab 
+set smarttab
 set tabstop=4
 
 " autoindent - ai
 " smartindent- si
 " wrap       - wrap lines longer than window width
-set autoindent 
-set smartindent 
-set wrap
+set autoindent
+set smartindent
+
+
+""" color """
+" syntax highlighting, theme, encoding, fileformat
+" colorscheme desert
+
 
 """  PERFORMANCE
 
@@ -328,7 +333,7 @@ Plug 'tpope/vim-commentary'
 Plug 'liuchengxu/vim-which-key'
 
 " https://github.com/neoclide/coc.nvim
-" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
+" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Cod
 " uncomment for right version with Vim and Node
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
