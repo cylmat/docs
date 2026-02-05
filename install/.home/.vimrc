@@ -76,11 +76,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
 
-""" @ref:
+" @ref:
 " - https://vim.fandom.com/wiki/Example_vimrc
 " - https://github.com/wellbredgrapefruit/vim_config
 
 " Reset to vim-defaults, ward off unexpected things 
+" Avoid legacy vi mode
 if &compatible
   set nocompatible 
 endif
@@ -89,6 +90,8 @@ set encoding=utf8
 set ffs=unix,dos
 
 filetype plugin indent on
+set backspace=indent,eol,start
+
 
 """  PERFORMANCE
 
@@ -97,11 +100,7 @@ filetype plugin indent on
 set lazyredraw
 set ttyfast
 
-
-""""""""""""""""""""""""""
 """"" BASIC SETTINGS """""
-""""""""""""""""""""""""""
-
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
 " hidden    : (hidden or active) switch buffers without saving (You can :e otherfile without :w)
 " laststatus: 2 is 'always'
@@ -215,7 +214,7 @@ set termguicolors
 " VS Code vibes: dracula or tokyonight (Plug 'folke/tokyonight.nvim')
 " minimal pro: nord (Plug 'arcticicestudio/nord-vim') or solarized (Plug 'altercation/vim-colors-solarized')
 " (Plug 'joshdick/onedark.vim') / (Plug 'joshdick/onedark.vim')
-colorscheme evening
+" colorscheme evening
 
 """ EVENING override
 highlight Comment guifg=#777777
@@ -253,7 +252,6 @@ highlight Normal guibg=#1e1e1e ctermbg=NONE
 
 
 
-
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""" PLUGINS (vim-plug) """""""""""""""
@@ -267,54 +265,81 @@ highlight Normal guibg=#1e1e1e ctermbg=NONE
 " call plug#begin('~/.vim/plugged')
 call plug#begin()
 
-""" COLORS & TABS """""""""""""""""""
 
-""" Airline
-" Lean & mean status/tabline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
-""" DevIcons
-" :help devicons
-" set encoding=UTF-8
-Plug 'ryanoasis/vim-devicons'
-
-" !set file is chmod 600
-Plug 'madox2/vim-ai'
-let g:vim_ai_token_file_path = '~/.config/openai.token'
-
-""" Lightline : A light and configurable statusline/tabline
-" Plug 'itchyny/lightline.vim'
-" set laststatus=2 " add color in simple window
-" set noshowmode " remove double information bar
-
-""" NERDTree
-" File explorer (Ctrl+B)
-" :NERDTree
-" :help NERDTree
-Plug 'preservim/nerdtree'
+"""""""""""""""""""""
+""" CONFIGURATION """
+"""""""""""""""""""""
 
 """ Sensible
-" One step above 'nocompatible' mode
+" One step above 'nocompatible' mode (minimal “good defaults” set)
+" runtime! plugin/sensible.vim (if manually) make it load earlier, so we can override config
 " a universal set of defaults that (hopefully) everyone can agree on.
-" runtime! make it load earlier, that we can override config after it
-" runtime! plugin/sensible.vim
+" ex: nocompatible , filetype plugin indent on, backspace=indent,eol,start, matchit.vim etc..
+Plug 'tpope/vim-sensible'
+
+
+""""""""""""""""""""""""
+""" COLORS & STATUS """"
+""""""""""""""""""""""""
+
+""" Airline (heavy but fancy)
+" Lean & mean status/tabline
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+
+  " or "
+
+""" Lightline (lightweight bar)
+" "A light and configurable statusline/tabline
+" set laststatus=2 " add color in simple window
+" set noshowmode " remove double information bar
+Plug 'itchyny/lightline.vim'
+
+""" DevIcons for files
+" :help devicons
+Plug 'ryanoasis/vim-devicons'
+
+""" solarized theme
+" Precision colorscheme for the vim text editor
+Plug 'altercation/vim-colors-solarized'
+
+""" tokyo ight theme
+Plug 'ghifarit53/tokyonight-vim'
 
 """ Startify
 " The fancy start screen for Vim
 Plug 'mhinz/vim-startify'
 
+
+"""""""""""""""""""""""""
+""" TOOLS & EXPLORER """"
+"""""""""""""""""""""""""
+
+""" NERDTree
+" File explorer (Ctrl+B)
+" :help NERDTree
+" :NERDTree
+Plug 'preservim/nerdtree'
+
 """ Tagbar: <Tags> outline viewer
 " :TagbarToggle
+" must install ctags
+" sudo apt install exuberant-ctags
+" brew install ctags
 Plug 'majutsushi/tagbar'
 
+""" Fzf : A command-line fuzzy finder
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+""" Which key
+" Leader key hints
+Plug 'liuchengxu/vim-which-key'
 
 
-""" MOVING """""""
-
-""" Easy-align 
-" A Vim alignment plugin
-Plug 'junegunn/vim-easy-align'
+"""""""""""""""""""
+""" NAVIGATION """"
+"""""""""""""""""""
 
 """ EasyMotion 
 " default leader is '\'
@@ -325,7 +350,9 @@ Plug 'easymotion/vim-easymotion'
 
 """ Matchit
 " extended % matching for HTML and other..
-" Plug 'vim-scripts/matchit.zip'
+" Plug 'https://github.com/adelarsq/vim-matchit'
+Plug 'vim-scripts/matchit.zip'
+
 
 """ Repeat.vim
 " enable repeating supported plugin maps with "."
@@ -336,6 +363,32 @@ Plug 'tpope/vim-repeat'
 " Copy, delete, yank... <cdy>z{char}{char}
 Plug 'justinmk/vim-sneak'
 
+
+""" harpoon  (is nvim ??)
+" For your style (fzf + git + big configs), this is gold:
+" Jump between marked files like tabs on steroids
+Plug 'ThePrimeagen/harpoon'
+
+
+"""""""""""""""
+""" CODING """"
+"""""""""""""""
+
+""" Easy-align 
+" A Vim alignment plugin
+Plug 'junegunn/vim-easy-align'
+
+""" Multi-cursor
+Plug 'mg979/vim-visual-multi'
+
+""" Tcomment: https://github.com/tomtom/tcomment_vim
+" :help tcomment-operator
+" e.g.: gc, gc{motion}, gcc (line), g< (uncomment), g> (selected)
+Plug 'tomtom/tcomment_vim'
+
+""" Comment toggle (Ctrl+/)
+Plug 'tpope/vim-commentary'
+
 """ Surround https://github.com/tpope/vim-surround
 " USE cs"'
 Plug 'tpope/vim-surround'
@@ -344,60 +397,38 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 
 
-""" USEFUL """"""
 
-""" Fugitive.vim
+"""""""""""""""""""
+""""" USEFUL """"""
+"""""""""""""""""""
+
+""" vim ai
+Plug 'madox2/vim-ai'
+
+""" Git Fugitive.vim
 " A Git wrapper so awesome
 " Git (optional, VS Code Source Control vibe)
 Plug 'tpope/vim-fugitive'
+
+""" git gutter
+" Shows git diff in the sign column
 Plug 'airblade/vim-gitgutter'
 
 
-""" Fzf : A command-line fuzzy finder
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"""""""""""""""""""""""""
+""" Language support """"
+"""""""""""""""""""""""""
 
-
-""" Polyglot
-
-" A collection of language packs for Vim.
-Plug 'sheerun/vim-polyglot'
-
-""" a syntax checking
+""" syntax checking
 Plug 'dense-analysis/ale'
 
-""" Tcomment: https://github.com/tomtom/tcomment_vim
-" :help tcomment-operator
-" e.g.: gc{motion}
-Plug 'tomtom/tcomment_vim'
-
-" Multi-cursor
-" Plug 'mg979/vim-visual-multi'
-
-" Comment toggle (Ctrl+/)
-Plug 'tpope/vim-commentary'
+""" A collection of language packs for Vim.
+Plug 'sheerun/vim-polyglot'
 
 
-""" theme """
-
-" Colors-solarized
-" Precision colorscheme for the vim text editor
-Plug 'altercation/vim-colors-solarized'
-
-" tokyo night
-Plug 'ghifarit53/tokyonight-vim'
-
-
-"" --- must have ---
-""""""""""""""""""""
-
-" Shows leader mappings like VS Code.
-Plug 'liuchengxu/vim-which-key'
-
-" For your style (fzf + git + big configs), this is gold:
-" instant file marks
-" jump between 4–8 files like tabs on steroids
-Plug 'ThePrimeagen/harpoon'
+""""""""""""""""""
+"" AUTOCOMPLETE ""
+""""""""""""""""""
 
 " https://github.com/neoclide/coc.nvim
 " autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
@@ -405,13 +436,14 @@ Plug 'ThePrimeagen/harpoon'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
-
 call plug#end()
 
 
-""""""""""""""""
-"  PLUGIN CONFIG
-" """"""""""""""
+
+""""""""""""""""""""""
+"""  PLUGIN CONFIG """
+" """"""""""""""""""""
+
 
 " ---- Airline ----
 let g:airline_powerline_fonts = 1
@@ -428,10 +460,16 @@ set updatetime=250
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 
+" -----vim ai -----
+" !set file is chmod 600
+let g:vim_ai_token_file_path = '~/.config/openai.token'
+
 " ---- Visual Multi (Ctrl+D) ----
 let g:VM_maps = {}
 let g:VM_maps["Find Under"] = "<C-d>"
 let g:VM_maps["Find Subword Under"] = "<C-d>"
+
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""
@@ -446,7 +484,7 @@ let g:VM_maps["Find Subword Under"] = "<C-d>"
 let mapleader = " "
 
 
-""""""""""""" ai
+""" ----- ai ------
 " stop async chat generation
 nnoremap <leader>ais :AIStopChat<CR>
 
@@ -464,6 +502,14 @@ nnoremap <leader>c :AIChat<CR>
 
 " redo last AI command
 nnoremap <leader>r :AIRedo<CR>
+
+
+" --- easy align ----
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 
 """""" Useful mappings
 
