@@ -25,49 +25,39 @@
 " stefandtw/quickfix-reflector.vim: Change code right in the quickfix window
 " tpope/vim-eunuch: Helpers for UNIX
 " tpope/vim-obsession: continuously updated session files
-" tpope/vim-unimpaired: Pairs of handy bracket mappings 
 " unblevable/quick-scope: fast left-right movement
 " vim-test/vim-test
 " bagrat/vim-buffet: IDE-like Vim tabline
 " ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder 
-" itchyny/lightline.vim: statusline/tabline plugin for Vim 
 " junegunn/goyo.vim: Distraction-free writing in Vim
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
 " clever-f.vim: use fff instead of f;;
 """""""""""""""""""
-" tpope/vim-repeat
 " mhinz/vim-signify
-" tpope/vim-fugitive
-" sheerun/vim-polyglot
 " ludovicchabant/vim-gutentags
 " luochen1990/rainbow
 " dominikduda/vim_current_word
 " kshenoy/vim-signature
 " skim-rs/skim (fzf)
-" tomasiser/vim-code-dark (color)
-
 
 " (use also https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
 
 " See also VimCode (vim like Vscode)
 " https://github.com/ibnYusrat/vimcode
-"   with:
+
 " Plug 'mattn/emmet-vim'
 " Plug 'mhartington/oceanic-next'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
 " Plug 'jcherven/jummidark.vim'
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'jremmen/vim-ripgrep'
-" Plug 'preservim/nerdtree'
 " Plug 'ryanoasis/vim-devicons'
 " Plug 'metakirby5/codi.vim'
 " Plug 'preservim/nerdcommenter'
-" Plug 'tpope/vim-surround'
 " Plug 'APZelos/blamer.nvim'
 """""""""""""""""""""""""""""""""""""""""""""" config
+
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""
@@ -304,16 +294,23 @@ Plug 'itchyny/lightline.vim'
 " :help devicons
 Plug 'ryanoasis/vim-devicons'
 
+""" Startify
+" The fancy start screen for Vim
+Plug 'mhinz/vim-startify'
+
+
+  " themes "
+
 """ solarized theme
 " Precision colorscheme for the vim text editor
 Plug 'altercation/vim-colors-solarized'
 
-""" tokyo ight theme
+""" tokyo night theme
 Plug 'ghifarit53/tokyonight-vim'
 
-""" Startify
-" The fancy start screen for Vim
-Plug 'mhinz/vim-startify'
+""" vimcode dark
+Plug 'tomasiser/vim-code-dark'
+
 
 
 """""""""""""""""""""""""
