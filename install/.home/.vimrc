@@ -85,16 +85,11 @@ if &compatible
   set nocompatible 
 endif
 
-" Enable syntax highlighting
-if has('syntax')
-  syntax on
-" syntax enable 
-endif
+set encoding=utf8
+set ffs=unix,dos
 
 filetype plugin indent on
 
-set encoding=utf8
-set ffs=unix,dos
 
 """  PERFORMANCE
 
@@ -103,17 +98,15 @@ set ffs=unix,dos
 set lazyredraw
 set ttyfast
 
-
-
 """"" BASIC SETTINGS """""
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
-" hidden    : switch buffers without saving (You can :e otherfile without :w)
+" hidden    : (hidden or active) switch buffers without saving (You can :e otherfile without :w)
 " laststatus: 2 is 'always'
 " nocursorcolumn: CursorColumn highlights the entire vertical column under the cursor. (noisy)
 " selectmode: Mouse selection enter in VISUAL mode
 " showcmd   : sc Shows partial commands while typing
 " showmode  : show insert, visual.. (not useful if already in status bar)
-" signcolumn: Always show the sign column
+" signcolumn: Always show the sign column (Prevents text from shifting.)
 " splitbelow: Horizontal splits open below the current window. (:split)
 " splitright: Vertical splits open to the right. (:vsplit)
 " shortmess : Makes completion less noisy.
@@ -153,18 +146,18 @@ set ruler
 set scrolloff=8
 set sidescrolloff=8
 
+
 """ edition """
 
-" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
 " ignorecase - ic Ignore case when searching
 " incsearch  - is incremental search, show matches as typing
 " showmatch  - sm When a bracket is inserted, briefly jump to the matching one.
 " smartcase  - scs smart searching
-set hlsearch
 set ignorecase
 set incsearch
 set showmatch
 set smartcase
+
 
 """ indent  """
 
@@ -178,17 +171,11 @@ set shiftwidth=4
 set smarttab
 set tabstop=4
 
-
 " autoindent - ai
 " smartindent- si
 " wrap       - wrap lines longer than window width
 set autoindent
 set smartindent
-
-
-""" color """
-" syntax highlighting, theme, encoding, fileformat
-" colorscheme desert
 
 
 """ magic
@@ -200,6 +187,47 @@ set magic
 
 """ other
 " hid backspace=eol,start,indent whichwrap+=<,>,h,l
+
+
+
+""""""""""""""""""""""""""""
+"""""" color & themes """"""
+""""""""""""""""""""""""""""
+
+" syntax : Enable syntax highlighting
+syntax on
+
+" background=dark (or light)
+" termguicolors - mandatory! enable 24-bit true RGB color in the TUI 
+" nocursorline - don't highlight the whole line of the cursor (too noisy)
+set background=dark
+set termguicolors
+set nocursorline
+
+" theme (build-in: evening, elflord, industry, murphy, pablo, peachpuff, ron, shine, slate, torte)
+" switch with :colorscheme {name}
+" classic-modern: gruvbox (Plug 'morhetz/gruvbox')
+" VS Code vibes: dracula or tokyonight (Plug 'folke/tokyonight.nvim')
+" minimal pro: nord (Plug 'arcticicestudio/nord-vim') or solarized (Plug 'altercation/vim-colors-solarized')
+" (Plug 'joshdick/onedark.vim') / (Plug 'joshdick/onedark.vim')
+colorscheme elflord
+
+
+" Dim comments
+highlight Comment ctermfg=DarkGray guifg=#777777
+
+" Make current line number pop
+highlight CursorLineNr ctermfg=Yellow guifg=#FFD700
+
+" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
+set hlsearch
+highlight Search guibg=#444444 guifg=NONE
+
+" for transparent background (e.g. for Alacritty)
+" highlight Normal guibg=NONE ctermbg=NONE
+
+
+
 
 
 
@@ -222,10 +250,6 @@ call plug#begin()
 " Lean & mean status/tabline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-""" Colors-solarized
-" Precision colorscheme for the vim text editor
-Plug 'altercation/vim-colors-solarized'
 
 """ DevIcons
 " :help devicons
@@ -312,6 +336,7 @@ Plug 'junegunn/fzf.vim'
 
 
 """ Polyglot
+
 " A collection of language packs for Vim.
 Plug 'sheerun/vim-polyglot'
 
@@ -330,47 +355,60 @@ Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-commentary'
 
 
+""" theme """
+
+" Colors-solarized
+" Precision colorscheme for the vim text editor
+Plug 'altercation/vim-colors-solarized'
+
+" tokyo night
+Plug 'ghifarit53/tokyonight-vim'
+
+
 "" --- must have ---
 """"""""""""""""""""
 
 " Shows leader mappings like VS Code.
 Plug 'liuchengxu/vim-which-key'
 
-" https://github.com/neoclide/coc.nvim
-" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Cod
-" uncomment for right version with Vim and Node
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-
 " For your style (fzf + git + big configs), this is gold:
 " instant file marks
 " jump between 4–8 files like tabs on steroids
 Plug 'ThePrimeagen/harpoon'
+
+" https://github.com/neoclide/coc.nvim
+" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
+" uncomment for right version with Vim and Node
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 
 call plug#end()
 
 
+""""""""""""""""
 "  PLUGIN CONFIG
 " """"""""""""""
-
-" ---- NERDTree ----
-let g:NERDTreeShowHidden=1
-let g:NERDTreeMinimalUI=1
 
 " ---- Airline ----
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 
+" ---- NERDTree ----
+let g:NERDTreeShowHidden=1
+let g:NERDTreeMinimalUI=1
+
 " ---- GitGutter ----
 set updatetime=250
+
+" ----- theme tokyo night -----
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
 
 " ---- Visual Multi (Ctrl+D) ----
 let g:VM_maps = {}
 let g:VM_maps["Find Under"] = "<C-d>"
 let g:VM_maps["Find Subword Under"] = "<C-d>"
-
 
 
 """"""""""""""""""""""""""""""""""""""""""""""
