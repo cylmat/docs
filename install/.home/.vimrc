@@ -226,6 +226,7 @@ highlight LineNr guifg=#666666
 highlight MatchParen guibg=#3a3a3a guifg=#ffffff gui=bold
 highlight NormalNC guibg=#181818
 highlight Search guibg=#444444 guifg=NONE
+highlight SignColumn guibg=#1e1e1e
 highlight VertSplit guifg=#333333 guibg=#1e1e1e
 highlight Visual guibg=#333333
 
