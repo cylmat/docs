@@ -168,14 +168,16 @@ set smartcase
 
 """ indent  """
 
-" expandtab  - et use spaces instead of tabs
-" shiftwidth - -> tabstop
-" smarttab   - sta smart tabs
-" tabstop    - ts number of tab spaces
+" expandtab  - When you press <Tab>, insert spaces instead of a real tab.
+" shiftwidth - One “indent level” = 4 spaces. Used by: >> / << = auto-format
+" tabstop    - ts <Tab> is visually displayed as 4 spaces
+" smarttab   - <Tab> behaves differently at start of line vs mid-line
+"             At line start → use shiftwidth. In middle of line → use tabstop
 set expandtab
 set shiftwidth=4
 set smarttab
 set tabstop=4
+
 
 " autoindent - ai
 " smartindent- si
