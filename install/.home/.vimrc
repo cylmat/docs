@@ -96,6 +96,15 @@ filetype plugin indent on
 set encoding=utf8
 set ffs=unix,dos
 
+"""  PERFORMANCE
+
+" lazyredraw - lz Don't redraw while executing macros
+" ttyfast - Blast output as fast as possible.
+set lazyredraw
+set ttyfast
+
+
+
 """"" BASIC SETTINGS """""
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
 " hidden    : switch buffers without saving (You can :e otherfile without :w)
@@ -178,13 +187,6 @@ set smartindent
 """ color """
 " syntax highlighting, theme, encoding, fileformat
 " colorscheme desert
-
-
-"""  PERFORMANCE
-
-" lazyredraw - lz Don't redraw while executing macros
-set lazyredraw
-set ttyfast
 
 
 """ magic
