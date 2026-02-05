@@ -37,6 +37,9 @@ alias cht_install="curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.
 
 ### OMZ zsh ###
 # copybuffer is Ctrl-O
+if alias cp >/dev/null 2>&1; then
+    unalias cp
+fi
 alias cph="copypath"
 alias cpf="copyfile"
 
