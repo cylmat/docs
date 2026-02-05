@@ -329,7 +329,8 @@ Plug 'liuchengxu/vim-which-key'
 
 " https://github.com/neoclide/coc.nvim
 " autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" uncomment for right version with Vim and Node
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " For your style (fzf + git + big configs), this is gold:
