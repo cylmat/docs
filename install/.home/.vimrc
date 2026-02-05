@@ -7,6 +7,7 @@
 " Plugins
 " - https://dev.to/javiersalcedopuyo/turn-vim-into-a-comfy-and-modern-editor-with-these-plugins-53k3
 " - https://vimawesome.com
+" - https://github.com/ibnYusrat/vimcode (vim like Vscode)
 " 
 " VIMPLUG : Lightweight plugin manager
 " - https://github.com/junegunn/vim-plug
@@ -17,44 +18,43 @@
 "
 " Load plugins:
 " :source %
-" :PlugInstall
 "
 """"""""""""""""""
 " - see also:
+
+""" quickfix
 " romainl/vim-qf: Tame the quickfix window
 " stefandtw/quickfix-reflector.vim: Change code right in the quickfix window
-" tpope/vim-eunuch: Helpers for UNIX
-" tpope/vim-obsession: continuously updated session files
+
+""" navigation
+" rhysd/clever-f.vim: use fff instead of f;;
 " unblevable/quick-scope: fast left-right movement
-" vim-test/vim-test
+
+""" tabs & status
 " bagrat/vim-buffet: IDE-like Vim tabline
-" ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder 
-" junegunn/goyo.vim: Distraction-free writing in Vim
-" junegunn/limelight.vim: Hyperfocus-writing in Vim
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
-" clever-f.vim: use fff instead of f;;
-"""""""""""""""""""
-" mhinz/vim-signify
+
+""" tools
+" ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder
+" mhinz/vim-signify (git gutter alternative)
+" skim-rs/skim (fzf)
+" vim-test/vim-test
+
+""" focus
+" junegunn/goyo.vim: Distraction-free writing in Vim
+" junegunn/limelight.vim: Hyperfocus-writing in Vim
+
+"""
+" craigemery/vim-autotag
+" dominikduda/vim_current_word
+" jremmen/vim-ripgrep'
+" kshenoy/vim-signature
 " ludovicchabant/vim-gutentags
 " luochen1990/rainbow
-" dominikduda/vim_current_word
-" kshenoy/vim-signature
-" skim-rs/skim (fzf)
+" mattn/emmet-vim'
+" preservim/nerdcommenter'
 
-" (use also https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer/)
-
-" See also VimCode (vim like Vscode)
-" https://github.com/ibnYusrat/vimcode
-
-" Plug 'mattn/emmet-vim'
-" Plug 'mhartington/oceanic-next'
-" Plug 'jcherven/jummidark.vim'
-" Plug 'jremmen/vim-ripgrep'
-" Plug 'ryanoasis/vim-devicons'
-" Plug 'metakirby5/codi.vim'
-" Plug 'preservim/nerdcommenter'
-" Plug 'APZelos/blamer.nvim'
 """""""""""""""""""""""""""""""""""""""""""""" config
 
 
@@ -542,11 +542,6 @@ nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <C-p> :Files<CR>
 nnoremap <leader>f :Files<CR>
 
-
-" Ctrl+Shift+F → Search in files
-nnoremap <C-S-f> :Rg<CR>
-nnoremap <leader>g :Rg<CR>
-
 " Ctrl+S → Save
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
@@ -630,3 +625,9 @@ vnoremap > >gv
 
 " Quick escape
 inoremap jk <Esc>
+
+""" ---- others
+
+" Ctrl+Shift+F → Search in files (with fzf + ripgrep)
+" nnoremap <C-S-f> :Rg<CR>
+" nnoremap <leader>g :Rg<CR>
