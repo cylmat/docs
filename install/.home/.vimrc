@@ -261,6 +261,11 @@ highlight Normal guibg=#1e1e1e ctermbg=NONE
 """ Install VimPlug """
 " mkdir -p ~/.vim/autoload/plug.vim && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+""" Install plugins with vim-plug
+" PlugClean - Remove plugins not listed in the vimrc
+" PlugInstall - Install plugins
+" PlugUpdate  - Update plugins
+
 
 " call plug#begin('~/.vim/plugged')
 call plug#begin()
