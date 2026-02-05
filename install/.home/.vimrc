@@ -76,7 +76,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
 
-" @ref:
+""" @ref:
 " - https://vim.fandom.com/wiki/Example_vimrc
 " - https://github.com/wellbredgrapefruit/vim_config
 
@@ -90,7 +90,6 @@ set ffs=unix,dos
 
 filetype plugin indent on
 
-
 """  PERFORMANCE
 
 " lazyredraw - lz Don't redraw while executing macros
@@ -98,7 +97,11 @@ filetype plugin indent on
 set lazyredraw
 set ttyfast
 
+
+""""""""""""""""""""""""""
 """"" BASIC SETTINGS """""
+""""""""""""""""""""""""""
+
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
 " hidden    : (hidden or active) switch buffers without saving (You can :e otherfile without :w)
 " laststatus: 2 is 'always'
@@ -198,11 +201,13 @@ set magic
 syntax on
 
 " background=dark (or light)
-" termguicolors - mandatory! enable 24-bit true RGB color in the TUI 
+" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
 " nocursorline - don't highlight the whole line of the cursor (too noisy)
+" termguicolors - mandatory! enable 24-bit true RGB color in the TUI 
 set background=dark
-set termguicolors
+set hlsearch
 set nocursorline
+set termguicolors
 
 " theme (build-in: evening, elflord, industry, murphy, pablo, peachpuff, ron, shine, slate, torte)
 " switch with :colorscheme {name}
@@ -210,21 +215,38 @@ set nocursorline
 " VS Code vibes: dracula or tokyonight (Plug 'folke/tokyonight.nvim')
 " minimal pro: nord (Plug 'arcticicestudio/nord-vim') or solarized (Plug 'altercation/vim-colors-solarized')
 " (Plug 'joshdick/onedark.vim') / (Plug 'joshdick/onedark.vim')
-colorscheme elflord
+colorscheme evening
 
+""" EVENING override
+highlight Comment guifg=#777777
+highlight CursorLine guibg=#262626
+highlight CursorLineNr guifg=#FFD700 gui=bold
+highlight IncSearch guibg=#555555 guifg=NONE
+highlight LineNr guifg=#666666
+highlight MatchParen guibg=#3a3a3a guifg=#ffffff gui=bold
+highlight NormalNC guibg=#181818
+highlight Search guibg=#444444 guifg=NONE
+highlight VertSplit guifg=#333333 guibg=#1e1e1e
+highlight Visual guibg=#333333
 
-" Dim comments
-highlight Comment ctermfg=DarkGray guifg=#777777
+" Darker background
+highlight EndOfBuffer guibg=#1e1e1e
+highlight NonText guibg=#1e1e1e
+highlight Normal guibg=#1e1e1e ctermbg=NONE
+"""
+
+" color comments
+" highlight Comment ctermfg=DarkGray guifg=#777777
 
 " Make current line number pop
-highlight CursorLineNr ctermfg=Yellow guifg=#FFD700
+" highlight CursorLineNr ctermfg=Yellow guifg=#FFD700
 
-" hlsearch   - hls Highlight searches (use <C-L> to temporarily turn off highlighting
-set hlsearch
-highlight Search guibg=#444444 guifg=NONE
+" hightlight search colors
+" highlight Search guibg=#444444 guifg=NONE
 
 " for transparent background (e.g. for Alacritty)
 " highlight Normal guibg=NONE ctermbg=NONE
+
 
 
 
