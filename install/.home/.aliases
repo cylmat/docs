@@ -4,7 +4,8 @@
 # Copy file
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.aliases > ~/.aliases
 
-[[ -f ~/.aliases_doc ]] && source ~/.aliases_doc; 
+[[ -f ~/.aliases_doc ]] && source ~/.aliases_doc;
+[[ -f ~/.aliases_find ]] && source ~/.aliases_find;
 [[ -f ~/.aliases_ports ]] && source ~/.aliases_ports; 
 [[ -f ~/.aliases_tools ]] && source ~/.aliases_tools; 
 
