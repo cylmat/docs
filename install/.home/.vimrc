@@ -93,11 +93,9 @@ set ttyfast
 """"" BASIC SETTINGS """""
 " errorbells - eb Ring the bell (beep or screen flash) for error messages.
 " hidden    : (hidden or active) switch buffers without saving (You can :e otherfile without :w)
-" laststatus: 2 is 'always'
 " nocursorcolumn: CursorColumn highlights the entire vertical column under the cursor. (noisy)
 " selectmode: Mouse selection enter in VISUAL mode
 " showcmd   : sc Shows partial commands while typing
-" showmode  : show insert, visual.. (not useful if already in status bar)
 " signcolumn: Always show the sign column (Prevents text from shifting.)
 " splitbelow: Horizontal splits open below the current window. (:split)
 " splitright: Vertical splits open to the right. (:vsplit)
@@ -109,13 +107,10 @@ set ttyfast
 " wrap      : Long lines stay on multi lines (no wrap: stay on one long line)
 set noeb
 set hidden
-set laststatus=2
 set nocursorcolumn
-set noshowmode   " since airline already shows it
 set selectmode+=mouse
 set shortmess+=c
 set showcmd
-set showmode
 set signcolumn=yes
 set splitbelow
 set splitright
@@ -124,6 +119,13 @@ set wildmenu
 set wildmode=longest:full,full
 set visualbell
 set wrap
+
+" -- statusbar --
+" laststatus: 2 'always' display lightbar (pure vim no bar: laststatus=0)
+" noshowmode: do not show insert, visual.. (not useful if already in status bar)
+set laststatus=2 
+set noshowmode   " since airline already shows it 
+
 
 """ navigation
 
@@ -241,7 +243,6 @@ highlight Normal guibg=#1e1e1e ctermbg=NONE
 
 
 
-
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""" PLUGINS (vim-plug) """""""""""""""
@@ -286,16 +287,18 @@ Plug 'tpope/vim-sensible'
 
 """ Lightline (lightweight bar)
 " "A light and configurable statusline/tabline
-" set laststatus=2 " add color in simple window
+" set laststatus=2 " always display status bar
 " set noshowmode " remove double information bar
 Plug 'itchyny/lightline.vim'
 
 """ DevIcons for files
+" for lightline, startify, nerdtree..
 " :help devicons
 Plug 'ryanoasis/vim-devicons'
 
 """ Startify
 " The fancy start screen for Vim
+" ONLY SHOW ON ENTER "vim", not when opening a file "vim file.txt"
 Plug 'mhinz/vim-startify'
 
 
@@ -318,25 +321,57 @@ Plug 'tomasiser/vim-code-dark'
 """""""""""""""""""""""""
 
 """ NERDTree
-" File explorer (Ctrl+B)
 " :help NERDTree
 " :NERDTree
+" File explorer (shortcutted as Ctrl+B)
+"
+" additional plugins
+" Xuyuanp/nerdtree-git-plugin: Shows Git status flags for files and folders in NERDTree.
+" ryanoasis/vim-devicons: Adds filetype-specific icons to NERDTree files and folders.
+" tiagofumo/vim-nerdtree-syntax-highlight: Adds syntax highlighting to NERDTree based on filetype.
+" scrooloose/nerdtree-project-plugin: Saves and restores the state of the NERDTree between sessions.
+" PhilRunninger/nerdtree-buffer-ops: 1) Highlights open files in a different color. 2) Closes a buffer directly from NERDTree.
+" PhilRunninger/nerdtree-visual-selection: Enables NERDTree to open, delete, move, or copy multiple Visually-selected files at once.
+
 Plug 'preservim/nerdtree'
+
 
 """ Tagbar: <Tags> outline viewer
 " :TagbarToggle
 " must install ctags
 " sudo apt install exuberant-ctags
 " brew install ctags
+
 Plug 'majutsushi/tagbar'
 
 """ Fzf : A command-line fuzzy finder
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" brew install  fzf
+" brew install fzf bat ripgrep the_silver_searcher perl universal-ctags
+"
+" For syntax-highlighted preview, install bat
+" If delta is available, GF?, Commits and BCommits will use it to format git diff output.
+" Ag requires The Silver Searcher (ag)
+" Rg requires ripgrep (rg)
+" Tags and Helptags require Perl
+"
+" usage: :Files, :Buffers, :Lines, :BLines, :Tags, :BTags, :Commands
+"        :Maps, :History:, :History?, :Rg, :Ag
+
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
+
+""" Ripgrep
+" brew install ripgrep
+" rg <pattern> is like grep -R -E <pattern> but faster
+" use :Rg <string|pattern>
+Plug 'jremmen/vim-ripgrep'
+
+""" Buffet
+" Plug 'bagrat/vim-buffet'
 
 """ Which key
 " Leader key hints
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
 
 
 """""""""""""""""""
@@ -348,28 +383,28 @@ Plug 'liuchengxu/vim-which-key'
 " :let mapleader="\"
 " :echo mapleader
 " e.g.: <Leader><Leader>fo
-Plug 'easymotion/vim-easymotion'
+" Plug 'easymotion/vim-easymotion'
 
 """ Matchit
 " extended % matching for HTML and other..
 " Plug 'https://github.com/adelarsq/vim-matchit'
-Plug 'vim-scripts/matchit.zip'
+" Plug 'vim-scripts/matchit.zip'
 
 
 """ Repeat.vim
 " enable repeating supported plugin maps with "."
-Plug 'tpope/vim-repeat'
+" Plug 'tpope/vim-repeat'
 
 """ Sneak
 " Use s{char}{char} or s{char}{Enter}
 " Copy, delete, yank... <cdy>z{char}{char}
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 
 
 """ harpoon  (is nvim ??)
 " For your style (fzf + git + big configs), this is gold:
 " Jump between marked files like tabs on steroids
-Plug 'ThePrimeagen/harpoon'
+" Plug 'ThePrimeagen/harpoon'
 
 
 """""""""""""""
@@ -378,25 +413,25 @@ Plug 'ThePrimeagen/harpoon'
 
 """ Easy-align 
 " A Vim alignment plugin
-Plug 'junegunn/vim-easy-align'
+" Plug 'junegunn/vim-easy-align'
 
 """ Multi-cursor
-Plug 'mg979/vim-visual-multi'
+" Plug 'mg979/vim-visual-multi'
 
 """ Tcomment: https://github.com/tomtom/tcomment_vim
 " :help tcomment-operator
 " e.g.: gc, gc{motion}, gcc (line), g< (uncomment), g> (selected)
-Plug 'tomtom/tcomment_vim'
+" Plug 'tomtom/tcomment_vim'
 
 """ Comment toggle (Ctrl+/)
-Plug 'tpope/vim-commentary'
+" Plug 'tpope/vim-commentary'
 
 """ Surround https://github.com/tpope/vim-surround
 " USE cs"'
-Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-surround'
 
 """ Unimpaired: https://tpope.io/vim/unimpaired.git
-Plug 'tpope/vim-unimpaired'
+" Plug 'tpope/vim-unimpaired'
 
 
 
@@ -405,16 +440,16 @@ Plug 'tpope/vim-unimpaired'
 """""""""""""""""""
 
 """ vim ai
-Plug 'madox2/vim-ai'
+" Plug 'madox2/vim-ai'
 
 """ Git Fugitive.vim
 " A Git wrapper so awesome
 " Git (optional, VS Code Source Control vibe)
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 
 """ git gutter
 " Shows git diff in the sign column
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 
 
 """""""""""""""""""""""""
@@ -422,10 +457,10 @@ Plug 'airblade/vim-gitgutter'
 """""""""""""""""""""""""
 
 """ syntax checking
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 
 """ A collection of language packs for Vim.
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 
 
 """"""""""""""""""
@@ -451,12 +486,16 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 
+" ---- GitGutter ----
+set updatetime=250
+
 " ---- NERDTree ----
 let g:NERDTreeShowHidden=1
 let g:NERDTreeMinimalUI=1
 
-" ---- GitGutter ----
-set updatetime=250
+" ---- ripgrep -----
+" Use ripgrep for :grep, only current directory
+" set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case\ --max-depth\ 1
 
 " ----- theme tokyo night -----
 let g:tokyonight_style = 'night' " available: night, storm
@@ -465,6 +504,7 @@ let g:tokyonight_enable_italic = 1
 " -----vim ai -----
 " !set file is chmod 600
 let g:vim_ai_token_file_path = '~/.config/openai.token'
+
 
 " ---- Visual Multi (Ctrl+D) ----
 let g:VM_maps = {}
@@ -479,6 +519,16 @@ let g:VM_maps["Find Subword Under"] = "<C-d>"
 """""""""""""""" KEYMAPS """""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""
+" Recursive mapping (map, imap, etc.) allows the mapped keys to trigger other mappings.
+" Always prefer *noremap unless you specifically want recursion.
+" n → Normal mode
+" i → Insert mode
+" v → Visual mode
+" x → Visual block mode
+" c → Command-line mode
+" t → Terminal mode
+" see all mappings with :map, :nmap, :imap, :vmap, etc.
+
 
 " --- or let mapleader="\<Space>"
 " must be first defined
@@ -533,29 +583,48 @@ nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 
 " =====================
 " VS CODE–LIKE KEYBINDS
+" =====================
+
+
+""""""""""""""""""""""""
+""" TOOLS & EXPLORER """
+""""""""""""""""""""""""
 
 " Ctrl+B → Toggle file explorer
+" nnoremap <leader>b :NERDTreeToggle<CR>
 nnoremap <C-b> :NERDTreeToggle<CR>
-nnoremap <leader>e :NERDTreeToggle<CR>
+
+" Normal mode: Ctrl+Shift+E focuses NERDTree
+" go back to previous window with <Ctrl-W>p
+" nnoremap <leader>e :NERDTreeFocus<CR>
+nnoremap <C-S-e> :NERDTreeFocus<CR>
+
 
 " Ctrl+P → Quick open file
+" nnoremap <leader>p :Files<CR>
 nnoremap <C-p> :Files<CR>
-nnoremap <leader>f :Files<CR>
 
 " Ctrl+S → Save
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
 
-nnoremap <C-w> :bd<CR>
-nnoremap <leader>w :w<CR>
-nnoremap <leader>q :bd<CR>
+" avoid remapping <Ctrl-w>
+" nnoremap <C-w> :bd<CR>
+" nnoremap <leader>w :w<CR>
+" nnoremap <leader>q :bd<CR>
 
 " Ctrl+W → Close file (buffer, not split)
 " don't use <C-w> over-mapping because it's used for Vim window management
 nnoremap <leader>x :bd<CR>
 
+" Ctrl+Shift+F → Search in files (with ripgrep)
+nnoremap <C-S-f> :Rg<CR>
+nnoremap <leader>g :Rg<CR>
+
+
 
 " ---- Buffers ----
+
 " Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev buffer
 nnoremap <leader>b :Buffers<CR>
 nnoremap <C-Tab> :bnext<CR>
@@ -626,8 +695,49 @@ vnoremap > >gv
 " Quick escape
 inoremap jk <Esc>
 
-""" ---- others
 
-" Ctrl+Shift+F → Search in files (with fzf + ripgrep)
-" nnoremap <C-S-f> :Rg<CR>
-" nnoremap <leader>g :Rg<CR>
+
+" -------------------------------
+" ------ COMMANDS ---------------
+" -------------------------------
+
+
+" Start NERDTree and put the cursor back in the other window.
+" :wincmd p (back to previous window)
+autocmd VimEnter * NERDTree | wincmd p
+
+" Automatically close Vim if NERDTree is the last window
+" BufEnter * → runs on every buffer switch
+" winnr('$') == 1 → checks if this is the only window left
+" &filetype == 'nerdtree' → only triggers if it’s the NERDTree buffer
+autocmd BufEnter * if winnr('$') == 1 && &filetype == 'nerdtree' | quit | endif
+
+
+" Safe auto-close NERDTree + buffers
+
+" 1️⃣ Close NERDTree if it's the last window
+" autocmd BufEnter * if winnr('$') == 1 && &filetype ==# 'nerdtree' | quit | endif
+
+" 2️⃣ Close all other buffers when exiting, but prompt to save
+" function! s:SafeQuitAll()
+"   " Get a list of modified buffers
+"   let l:modified = filter(range(1, bufnr('$')), 'getbufvar(v:val, "&mod")')
+"   if !empty(l:modified)
+"     " Prompt user if any unsaved buffers exist
+"     echohl WarningMsg
+"     echo "You have unsaved buffers. Use :wqall to save all, or :qall! to discard."
+"     echohl None
+"     return
+"   endif
+"   " No unsaved buffers, safe to quit all
+"   qall
+" endfunction
+
+" autocmd VimLeavePre * call s:SafeQuitAll()
+
+""" 
+" sample: how to load plugin
+" augroup Startify
+"   autocmd!
+"   autocmd VimEnter * call timer_start(50, {-> execute('Startify')})
+" augroup END
