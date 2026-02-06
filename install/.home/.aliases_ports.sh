@@ -1,4 +1,4 @@
- # $HOME/.aliases-ports.sh
+ # $HOME/.aliases_ports.sh
 
 # ==================================================
 # PORTS / NETWORKING — REAL-WORLD ALIASES & FUNCTIONS
