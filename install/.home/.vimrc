@@ -50,6 +50,7 @@
 " dominikduda/vim_current_word
 " jremmen/vim-ripgrep'
 " kshenoy/vim-signature
+" liuchengxu/vista.vim
 " ludovicchabant/vim-gutentags
 " luochen1990/rainbow
 " mattn/emmet-vim'
@@ -339,10 +340,11 @@ Plug 'preservim/nerdtree'
 """ Tagbar: <Tags> outline viewer
 " :TagbarToggle
 " must install ctags
-" sudo apt install exuberant-ctags
-" brew install ctags
+" sudo apt install exuberant-ctags   (or universal-ctags)
+" brew install ctags  (or universal-ctags/universal-ctags/universal-ctags)
 
-Plug 'majutsushi/tagbar'
+" -get some error when using NerdTree autoclose-
+" Plug 'majutsushi/tagbar'
 
 """ Fzf : A command-line fuzzy finder
 " brew install  fzf
@@ -367,11 +369,14 @@ Plug 'majutsushi/tagbar'
 Plug 'jremmen/vim-ripgrep'
 
 """ Buffet
-" Plug 'bagrat/vim-buffet'
+" add a nice top tabline with open buffers, like an IDE
+Plug 'bagrat/vim-buffet'
 
 """ Which key
-" Leader key hints
-" Plug 'liuchengxu/vim-which-key'
+" Leader key hints after timeout (e.g. after pressing <Leader>)
+" vim-which-key requires option timeout is on, see :h timeout.
+" just configure nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+Plug 'liuchengxu/vim-which-key'
 
 
 """""""""""""""""""
@@ -497,6 +502,13 @@ let g:NERDTreeMinimalUI=1
 " Use ripgrep for :grep, only current directory
 " set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case\ --max-depth\ 1
 
+" ------tagbar -----
+" automatic open tagbar for these languages
+autocmd FileType cpp,js,java,php,python,ts TagbarOpen
+
+" can Prevent Tagbar from closing itself automatically
+" let g:tagbar_close_auto = 0
+
 " ----- theme tokyo night -----
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
@@ -534,6 +546,11 @@ let g:VM_maps["Find Subword Under"] = "<C-d>"
 " must be first defined
 " define Space as Leader
 let mapleader = " "
+
+" "localleader" is for plugins to use, it’s not used by Vim itself.
+" It’s a second leader key that plugins can use for their own mappings,
+" so they don’t conflict with your main leader key.
+" By default, localleader is set to \
 
 
 """ ----- ai ------
@@ -599,6 +616,10 @@ nnoremap <C-b> :NERDTreeToggle<CR>
 " nnoremap <leader>e :NERDTreeFocus<CR>
 nnoremap <C-S-e> :NERDTreeFocus<CR>
 
+" Toggle Tagbar
+" - DON'T USE IT CAUSE ERROR ON CLOSING
+" - let TagBar manage itself on files
+" nnoremap <F8> :TagbarToggle<CR>
 
 " Ctrl+P → Quick open file
 " nnoremap <leader>p :Files<CR>
@@ -671,7 +692,8 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 
-
+" vim-which-key plugin
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 
 " ===============
 " QUALITY OF LIFE
@@ -710,7 +732,12 @@ autocmd VimEnter * NERDTree | wincmd p
 " BufEnter * → runs on every buffer switch
 " winnr('$') == 1 → checks if this is the only window left
 " &filetype == 'nerdtree' → only triggers if it’s the NERDTree buffer
-autocmd BufEnter * if winnr('$') == 1 && &filetype == 'nerdtree' | quit | endif
+autocmd BufEnter * try | if winnr('$') == 1 && bufname('%') =~ 'NERD_tree_'  | quit | endif | catch | endtry
+
+" autocmd WinEnter *
+"   \ try | if winnr('$') == 1 && bufname('%') =~ 'NERD_tree_' |
+"   \ call timer_start(10, { -> execute('quit') }) |
+"   \ endif | catch | endtry
 
 
 " Safe auto-close NERDTree + buffers
