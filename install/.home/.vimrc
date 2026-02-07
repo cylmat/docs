@@ -39,6 +39,7 @@
 " ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder
 " mhinz/vim-signify (git gutter alternative)
 " skim-rs/skim (fzf)
+" tpope/vim-speeddating
 " vim-test/vim-test
 
 """ focus
@@ -46,6 +47,7 @@
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 
 """
+" andymass/vim-matchup
 " craigemery/vim-autotag
 " dominikduda/vim_current_word
 " jremmen/vim-ripgrep'
@@ -342,8 +344,8 @@ Plug 'preservim/nerdtree'
 " must install ctags
 " sudo apt install exuberant-ctags   (or universal-ctags)
 " brew install ctags  (or universal-ctags/universal-ctags/universal-ctags)
-
 " -get some error when using NerdTree autoclose-
+
 " Plug 'majutsushi/tagbar'
 
 """ Fzf : A command-line fuzzy finder
@@ -366,16 +368,19 @@ Plug 'preservim/nerdtree'
 " brew install ripgrep
 " rg <pattern> is like grep -R -E <pattern> but faster
 " use :Rg <string|pattern>
+
 Plug 'jremmen/vim-ripgrep'
 
 """ Buffet
 " add a nice top tabline with open buffers, like an IDE
+
 Plug 'bagrat/vim-buffet'
 
 """ Which key
 " Leader key hints after timeout (e.g. after pressing <Leader>)
 " vim-which-key requires option timeout is on, see :h timeout.
 " just configure nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+
 Plug 'liuchengxu/vim-which-key'
 
 
@@ -385,30 +390,36 @@ Plug 'liuchengxu/vim-which-key'
 
 """ EasyMotion 
 " default leader is '\'
-" :let mapleader="\"
+" :let mapleader=" "
 " :echo mapleader
 " e.g.: <Leader><Leader>fo
-" Plug 'easymotion/vim-easymotion'
+
+Plug 'easymotion/vim-easymotion'
 
 """ Matchit
 " extended % matching for HTML and other..
-" Plug 'https://github.com/adelarsq/vim-matchit'
-" Plug 'vim-scripts/matchit.zip'
+" -- must be tested !
+
+" Plug 'adelarsq/vim-matchit'
 
 
 """ Repeat.vim
+" works with surround.vim and unimpaired.vim
 " enable repeating supported plugin maps with "."
-" Plug 'tpope/vim-repeat'
+
+Plug 'tpope/vim-repeat'
 
 """ Sneak
 " Use s{char}{char} or s{char}{Enter}
 " Copy, delete, yank... <cdy>z{char}{char}
-" Plug 'justinmk/vim-sneak'
+
+Plug 'justinmk/vim-sneak'
 
 
 """ harpoon  (is nvim ??)
 " For your style (fzf + git + big configs), this is gold:
 " Jump between marked files like tabs on steroids
+" - to be tested !
 " Plug 'ThePrimeagen/harpoon'
 
 
@@ -418,25 +429,39 @@ Plug 'liuchengxu/vim-which-key'
 
 """ Easy-align 
 " A Vim alignment plugin
-" Plug 'junegunn/vim-easy-align'
 
-""" Multi-cursor
-" Plug 'mg979/vim-visual-multi'
+" Plug 'junegunn/vim-easy-align'
 
 """ Tcomment: https://github.com/tomtom/tcomment_vim
 " :help tcomment-operator
 " e.g.: gc, gc{motion}, gcc (line), g< (uncomment), g> (selected)
+
 " Plug 'tomtom/tcomment_vim'
 
 """ Comment toggle (Ctrl+/)
+
 " Plug 'tpope/vim-commentary'
+
+""" Multi-cursor
+
+" Plug 'mg979/vim-visual-multi'
 
 """ Surround https://github.com/tpope/vim-surround
 " USE cs"'
-" Plug 'tpope/vim-surround'
+
+Plug 'tpope/vim-surround'
 
 """ Unimpaired: https://tpope.io/vim/unimpaired.git
-" Plug 'tpope/vim-unimpaired'
+" :help unimpaired
+" :help unimpaired-mappings
+" :map [, :map [b, etc..
+" most used:
+" [b, ]b (prev/next buffer),   [q, (prev quickfix), [c, (prev change)
+" [a, ]a (prev/next argument), [d, (prev diff),     [f, (prev file)
+" [t, ]t (prev/next tab),      [s, (prev search),   [l, (prev location)
+" [e, ]e (swap line up/down),  [p, ]p (paste above/below)
+
+Plug 'tpope/vim-unimpaired'
 
 
 
@@ -445,16 +470,31 @@ Plug 'liuchengxu/vim-which-key'
 """""""""""""""""""
 
 """ vim ai
+" bring the power of OpenAI's language models to Vim
+
 " Plug 'madox2/vim-ai'
+
+
+""" https://github.com/neoclide/coc.nvim
+" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
+" uncomment for right version with Vim and Node
+
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 """ Git Fugitive.vim
 " A Git wrapper so awesome
-" Git (optional, VS Code Source Control vibe)
-" Plug 'tpope/vim-fugitive'
+" use with Git (optional, VS Code Source Control vibe)
+" :Git blame  <> Enter → opens the exact commit, = → diff that commit, o → open in new split
+" :Gdiffsplit <> left: index / HEAD, right: working tree
+" :Git        <> - stages/unstages a file, cc commits, dv vertical diff, = inline diff
+" etc..
+
+Plug 'tpope/vim-fugitive'
 
 """ git gutter
 " Shows git diff in the sign column
-" Plug 'airblade/vim-gitgutter'
+
+Plug 'airblade/vim-gitgutter'
 
 
 """""""""""""""""""""""""
@@ -468,14 +508,6 @@ Plug 'liuchengxu/vim-which-key'
 " Plug 'sheerun/vim-polyglot'
 
 
-""""""""""""""""""
-"" AUTOCOMPLETE ""
-""""""""""""""""""
-
-" https://github.com/neoclide/coc.nvim
-" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
-" uncomment for right version with Vim and Node
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 call plug#end()
@@ -487,38 +519,38 @@ call plug#end()
 " """"""""""""""""""""
 
 
-" ---- Airline ----
+""" ---- Airline ----
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 
-" ---- GitGutter ----
+""" ---- GitGutter ----
 set updatetime=250
 
-" ---- NERDTree ----
+""" ---- NERDTree ----
 let g:NERDTreeShowHidden=1
 let g:NERDTreeMinimalUI=1
 
-" ---- ripgrep -----
+""" ---- ripgrep -----
 " Use ripgrep for :grep, only current directory
 " set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case\ --max-depth\ 1
 
-" ------tagbar -----
+""" ------tagbar -----
 " automatic open tagbar for these languages
 autocmd FileType cpp,js,java,php,python,ts TagbarOpen
 
 " can Prevent Tagbar from closing itself automatically
 " let g:tagbar_close_auto = 0
 
-" ----- theme tokyo night -----
+""" ----- theme tokyo night -----
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 
-" -----vim ai -----
+""" -----vim ai -----
 " !set file is chmod 600
 let g:vim_ai_token_file_path = '~/.config/openai.token'
 
 
-" ---- Visual Multi (Ctrl+D) ----
+""" ---- Visual Multi (Ctrl+D) ----
 let g:VM_maps = {}
 let g:VM_maps["Find Under"] = "<C-d>"
 let g:VM_maps["Find Subword Under"] = "<C-d>"
@@ -553,7 +585,28 @@ let mapleader = " "
 " By default, localleader is set to \
 
 
+""""""""""""""""""""""""
+""" COLORS & STATUS """"
+""""""""""""""""""""""""
+"""""""""""""""""""""""""
+""" TOOLS & EXPLORER """"
+"""""""""""""""""""""""""
+"""""""""""""""""""
+""" NAVIGATION """"
+"""""""""""""""""""
+"""""""""""""""
+""" CODING """"
+"""""""""""""""
+"""""""""""""""""""
+""""" USEFUL """"""
+"""""""""""""""""""
+"""""""""""""""""""""""""
+""" Language support """"
+"""""""""""""""""""""""""
+
+
 """ ----- ai ------
+
 " stop async chat generation
 nnoremap <leader>ais :AIStopChat<CR>
 
@@ -573,7 +626,9 @@ nnoremap <leader>c :AIChat<CR>
 nnoremap <leader>r :AIRedo<CR>
 
 
-" --- easy align ----
+
+
+""" --- easy align ----
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
@@ -623,11 +678,11 @@ nnoremap <C-S-e> :NERDTreeFocus<CR>
 
 " Ctrl+P → Quick open file
 " nnoremap <leader>p :Files<CR>
-nnoremap <C-p> :Files<CR>
+" nnoremap <C-p> :Files<CR>
 
 " Ctrl+S → Save
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>a
+" nnoremap <C-s> :w<CR>
+" inoremap <C-s> <Esc>:w<CR>a
 
 " avoid remapping <Ctrl-w>
 " nnoremap <C-w> :bd<CR>
@@ -636,15 +691,32 @@ inoremap <C-s> <Esc>:w<CR>a
 
 " Ctrl+W → Close file (buffer, not split)
 " don't use <C-w> over-mapping because it's used for Vim window management
-nnoremap <leader>x :bd<CR>
+" nnoremap <leader>x :bd<CR>
 
 " Ctrl+Shift+F → Search in files (with ripgrep)
-nnoremap <C-S-f> :Rg<CR>
-nnoremap <leader>g :Rg<CR>
+" nnoremap <C-S-f> :Rg<CR>
+" nnoremap <leader>g :Rg<CR>
 
 
 
-" ---- Buffers ----
+""""""""""""""
+""" coding """
+""""""""""""""
+
+
+" Ctrl+/ → Toggle comment
+" nnoremap <C-/> :Commentary<CR>
+" vnoremap <C-/> :Commentary<CR>
+" nnoremap <leader>c :Commentary<CR>
+" vnoremap <leader>c :Commentary<CR>
+
+
+""""""""""""""""""
+""" navigation """
+""""""""""""""""""
+
+
+""" ---- Buffers ----
 
 " Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev buffer
 nnoremap <leader>b :Buffers<CR>
@@ -657,11 +729,16 @@ nnoremap <A-k> :m .-2<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 
-" Ctrl+/ → Toggle comment
-nnoremap <C-/> :Commentary<CR>
-vnoremap <C-/> :Commentary<CR>
-nnoremap <leader>c :Commentary<CR>
-vnoremap <leader>c :Commentary<CR>
+""" ----- vim impaired ----
+" configure unimpaired mappings with < and > as the prefix
+nmap < [
+nmap > ]
+omap < [
+omap > ]
+xmap < [
+xmap > ]
+
+
 
 " ---- Git ----
 nnoremap <leader>gs :Git<CR>
