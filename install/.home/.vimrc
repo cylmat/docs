@@ -31,7 +31,6 @@
 " unblevable/quick-scope: fast left-right movement
 
 """ tabs & status
-" bagrat/vim-buffet: IDE-like Vim tabline
 " powerline/powerline
 " tpope/vim-flagship: Configurable and extensible tab line and status line 
 
@@ -364,6 +363,7 @@ Plug 'preservim/nerdtree'
 " Rg requires ripgrep (rg)
 " Tags and Helptags require Perl
 " CTRL-T / CTRL-X / CTRL-V to open in new tab, split or vsplit
+" use lazy load with Plug 'junegunn/fzf.vim', { 'on': ['Files', 'GFiles', 'Buffers'] }
 "
 " usage: :Files, :GFiles, :Buffers, :Colors, :Lines, :BLines, :Tags, :Helptags, :BTags, :Commands, :Locate PATTERN
 "        :Changes, :Marks, :BMarks, :Jumps, :Windows, :Snippets, :Filetypes, :Maps, :History:, :History?, :Rg, :Ag
@@ -439,11 +439,13 @@ Plug 'justinmk/vim-sneak'
 
 " Plug 'junegunn/vim-easy-align'
 
+
 """ Tcomment: https://github.com/tomtom/tcomment_vim
 " :help tcomment-operator
 " e.g.: gc, gc{motion}, gcc (line), g< (uncomment), g> (selected)
 
 " Plug 'tomtom/tcomment_vim'
+
 
 """ Comment toggle (gcc)
 " gcc to comment out a line (takes a count)
@@ -589,6 +591,16 @@ let g:VM_maps["Find Subword Under"] = "<C-d>"
 " t → Terminal mode
 " see all mappings with :map, :nmap, :imap, :vmap, etc.
 
+" !!! CAUTION !!!
+" Why <C-Tab> / <C-S-Tab> don’t work
+" Ctrl+Tab and Ctrl+Shift+Tab are not standard keycodes in terminals.
+" Terminal apps like Alacritty, iTerm2, Gnome Terminal, or Windows Terminal may not even send any escape sequence for these combinations.
+
+" Use Alt + arrow keys
+" Alt usually works in most terminals if your terminal sends the proper escape sequences:
+
+" !!! Capital letters are treated as SHIFT !!!
+" so <leader>F equals <leader+Shift>f
 
 " --- or let mapleader="\<Space>"
 " must be first defined
@@ -606,6 +618,7 @@ let mapleader = " "
 
 
 """ ---- Git 
+
 nnoremap <leader>gs :Git<CR>
 nnoremap <leader>gd :Gdiffsplit<CR>
 nnoremap <leader>gc :Git commit<CR>
@@ -633,6 +646,15 @@ nnoremap <leader>aic :AIChat<CR>
 nnoremap <leader>air :AIRedo<CR>
 
 
+""" ---- vim buffet recommendation
+
+" noremap <Tab> :bn<CR>
+" noremap <S-Tab> :bp<CR>
+" noremap <Leader><Tab> :Bw<CR>
+" noremap <Leader><S-Tab> :Bw!<CR>
+" noremap <C-t> :tabnew split<CR>
+
+
 """ --- vim easy align 
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
@@ -641,7 +663,14 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 
+""" ---- vim fzf
+
+nnoremap <leader>ff :Files<CR>
+nnoremap <leader>fg :Rg<CR>
+
+
 """ ----- vim impaired 
+
 " configure unimpaired mappings with < and > as the prefix
 nmap < [
 nmap > ]
@@ -660,6 +689,11 @@ nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 """"" CUSTOM """"""
 """""""""""""""""""
 
+" buffers
+" - don't use cause conflict with leader+p search in files
+" nnoremap <leader>n :bnext<CR>
+" nnoremap <leader>p :bprevious<CR>
+nnoremap <leader>bp :Buffers<CR>   " list buffers and pick
 
 " Keep selection when indenting
 vnoremap < <gv
@@ -667,13 +701,6 @@ vnoremap > >gv
 
 " Clear search 
 nnoremap <leader><space> :nohlsearch<CR>
-
-" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
-map Y y$
-
-" Map <C-L> (redraw screen) to also turn off search highlighting until the next search
-nnoremap <C-L> :nohl<CR><C-L>
-
 
 " Escape in insert mode
 inoremap qq <Esc>
@@ -684,13 +711,29 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 
-" Open cheat sheet
+" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
+map Y y$
+
+" Map <C-L> (redraw screen) to also turn off search highlighting until the next search
+nnoremap <C-L> :nohl<CR><C-L>
+
+" Ctrl+S → Save
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>a
+
+
+" ------- Open cheat sheet ------
 nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
+
+
+
 
 
 """""" ===================== """"""
 """""" VS CODE–LIKE KEYBINDS """"""
 """""" ===================== """"""
+
+" !!! <C-Tab> / <C-S-Tab> usually don’t work in terminal Vim !!!
 
 
 """"""""""""""""""""""""
@@ -699,12 +742,12 @@ nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 
 " Ctrl+B → Toggle file explorer
 " nnoremap <leader>b :NERDTreeToggle<CR>
-nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <leader>b :NERDTreeToggle<CR>
 
 " Normal mode: Ctrl+Shift+E focuses NERDTree
 " go back to previous window with <Ctrl-W>p
 " nnoremap <leader>e :NERDTreeFocus<CR>
-nnoremap <C-S-e> :NERDTreeFocus<CR>
+nnoremap <leader>E :NERDTreeFocus<CR>
 
 
 " Toggle Tagbar
@@ -715,12 +758,14 @@ nnoremap <C-S-e> :NERDTreeFocus<CR>
 """ Vim fzf
 " Ctrl+P → Quick FZF open file
 " nnoremap <leader>p :Files<CR>
-nnoremap <C-p> :Files<CR>
+nnoremap <leader>p :FzfFiles<CR>
 
 
 " Ctrl+Shift+F → Search in files (with ripgrep)
-nnoremap <C-S-f> :Rg<CR>
-nnoremap <leader>g :Rg<CR>
+" nnoremap <C-S-f> :Rg<CR>
+" Leader + Shift + F → :Rg
+nnoremap <leader>F :FzfRg<CR>
+nnoremap <leader>g :FzfRg<CR>
 
 
 """"""""""""""
@@ -735,9 +780,6 @@ nnoremap <leader>g :Rg<CR>
 nnoremap <leader>: :Commentary<CR>
 vnoremap <leader>: :Commentary<CR>
 
-" Ctrl+S → Save
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>a
 
 
 """"""""""""""""""
@@ -747,8 +789,11 @@ inoremap <C-s> <Esc>:w<CR>a
 """ Buffers
 " Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev buffer
 " nnoremap <leader>b :Buffers<CR>
-nnoremap <C-Tab> :bnext<CR>
-nnoremap <C-S-Tab> :bprevious<CR>
+" nnoremap <C-Tab> :bnext<CR>
+" nnoremap <C-S-Tab> :bprevious<CR>
+nnoremap <leader><Tab> :bnext<CR>
+nnoremap <leader><S-Tab> :bprevious<CR>
+
 
 """ Resize splits
 nnoremap <leader><Left>  :vertical resize -5<CR>
