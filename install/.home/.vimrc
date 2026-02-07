@@ -674,8 +674,6 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the next search
 nnoremap <C-L> :nohl<CR><C-L>
 
-" Open cheat sheet
-nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 
 " Escape in insert mode
 inoremap qq <Esc>
@@ -686,6 +684,8 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 
+" Open cheat sheet
+nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 
 
 """""" ===================== """"""
