@@ -130,6 +130,12 @@ set laststatus=2
 set noshowmode   " since airline already shows it 
 
 
+ " Better yank/paste (doesn't works without +clipboard support, e.g. in WSL)
+" set clipboard+=unnamedplus
+" mouse=a   : enable mouse in all modes (normal, visual, insert, command-line)
+set mouse=a 
+
+
 """ navigation
 
 " number          : show absolute line numbers
@@ -357,12 +363,13 @@ Plug 'preservim/nerdtree'
 " Ag requires The Silver Searcher (ag)
 " Rg requires ripgrep (rg)
 " Tags and Helptags require Perl
+" CTRL-T / CTRL-X / CTRL-V to open in new tab, split or vsplit
 "
-" usage: :Files, :Buffers, :Lines, :BLines, :Tags, :BTags, :Commands
-"        :Maps, :History:, :History?, :Rg, :Ag
+" usage: :Files, :GFiles, :Buffers, :Colors, :Lines, :BLines, :Tags, :Helptags, :BTags, :Commands, :Locate PATTERN
+"        :Changes, :Marks, :BMarks, :Jumps, :Windows, :Snippets, :Filetypes, :Maps, :History:, :History?, :Rg, :Ag
 
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 """ Ripgrep
 " brew install ripgrep
@@ -438,9 +445,15 @@ Plug 'justinmk/vim-sneak'
 
 " Plug 'tomtom/tcomment_vim'
 
-""" Comment toggle (Ctrl+/)
+""" Comment toggle (gcc)
+" gcc to comment out a line (takes a count)
+" gc to comment out the target of a motion (for example, gcap to comment out a paragraph)
+" gc in visual mode to comment out the selection
+" gc in operator pending mode to target a comment. 
+" :7,17Commentary
+" :global invocation like with :g/TODO/Commentary
 
-" Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 
 """ Multi-cursor
 
@@ -508,9 +521,9 @@ Plug 'airblade/vim-gitgutter'
 " Plug 'sheerun/vim-polyglot'
 
 
-
-
 call plug#end()
+
+
 
 
 
@@ -526,6 +539,11 @@ let g:airline_theme='dark'
 """ ---- GitGutter ----
 set updatetime=250
 
+""" ------ fzf -------
+" open every command swith Fzf prefix, e.g. :FzfFiles, :FzfBuffers...
+" :echo g:fzf_vim.command_prefix
+let g:fzf_command_prefix = 'Fzf'
+
 """ ---- NERDTree ----
 let g:NERDTreeShowHidden=1
 let g:NERDTreeMinimalUI=1
@@ -536,8 +554,7 @@ let g:NERDTreeMinimalUI=1
 
 """ ------tagbar -----
 " automatic open tagbar for these languages
-autocmd FileType cpp,js,java,php,python,ts TagbarOpen
-
+autocmd FileType js,java,php,python,ts TagbarOpen
 " can Prevent Tagbar from closing itself automatically
 " let g:tagbar_close_auto = 0
 
@@ -548,7 +565,6 @@ let g:tokyonight_enable_italic = 1
 """ -----vim ai -----
 " !set file is chmod 600
 let g:vim_ai_token_file_path = '~/.config/openai.token'
-
 
 """ ---- Visual Multi (Ctrl+D) ----
 let g:VM_maps = {}
@@ -584,28 +600,19 @@ let mapleader = " "
 " so they don’t conflict with your main leader key.
 " By default, localleader is set to \
 
-
-""""""""""""""""""""""""
-""" COLORS & STATUS """"
-""""""""""""""""""""""""
-"""""""""""""""""""""""""
-""" TOOLS & EXPLORER """"
-"""""""""""""""""""""""""
-"""""""""""""""""""
-""" NAVIGATION """"
-"""""""""""""""""""
-"""""""""""""""
-""" CODING """"
-"""""""""""""""
-"""""""""""""""""""
-""""" USEFUL """"""
-"""""""""""""""""""
-"""""""""""""""""""""""""
-""" Language support """"
-"""""""""""""""""""""""""
+""""""""""""""""""""
+""""" PLUGINS """"""
+""""""""""""""""""""
 
 
-""" ----- ai ------
+""" ---- Git 
+nnoremap <leader>gs :Git<CR>
+nnoremap <leader>gd :Gdiffsplit<CR>
+nnoremap <leader>gc :Git commit<CR>
+nnoremap <leader>gb :Git blame<CR>
+
+
+""" ----- vim-ai 
 
 " stop async chat generation
 nnoremap <leader>ais :AIStopChat<CR>
@@ -619,43 +626,71 @@ xnoremap <leader>aia :AI<CR>
 " nnoremap <leader>aif :AIEdit fix grammar and spelling<CR>
 
 " trigger chat
-xnoremap <leader>c :AIChat<CR>
-nnoremap <leader>c :AIChat<CR>
+xnoremap <leader>aic :AIChat<CR>
+nnoremap <leader>aic :AIChat<CR>
 
 " redo last AI command
-nnoremap <leader>r :AIRedo<CR>
+nnoremap <leader>air :AIRedo<CR>
 
 
+""" --- vim easy align 
 
-
-""" --- easy align ----
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
 
-"""""" Useful mappings
+""" ----- vim impaired 
+" configure unimpaired mappings with < and > as the prefix
+nmap < [
+nmap > ]
+omap < [
+omap > ]
+xmap < [
+xmap > ]
+
+
+""" ---- vim-which-key plugin
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+
+
+
+"""""""""""""""""""
+""""" CUSTOM """"""
+"""""""""""""""""""
+
+
+" Keep selection when indenting
+vnoremap < <gv
+vnoremap > >gv
+
+" Clear search 
+nnoremap <leader><space> :nohlsearch<CR>
+
+" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
+map Y y$
+
+" Map <C-L> (redraw screen) to also turn off search highlighting until the next search
+nnoremap <C-L> :nohl<CR><C-L>
+
+" Open cheat sheet
+nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 
 " Escape in insert mode
 inoremap qq <Esc>
 
-" Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
-" which is the default
-map Y y$
-
-" Map <C-L> (redraw screen) to also turn off search highlighting until the
-" next search
-nnoremap <C-L> :nohl<CR><C-L>
-
-nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
+" Faster Window navigation 
+nnoremap <leader>h <C-w>h
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
 
 
 
-
-" =====================
-" VS CODE–LIKE KEYBINDS
-" =====================
+"""""" ===================== """"""
+"""""" VS CODE–LIKE KEYBINDS """"""
+"""""" ===================== """"""
 
 
 """"""""""""""""""""""""
@@ -671,128 +706,73 @@ nnoremap <C-b> :NERDTreeToggle<CR>
 " nnoremap <leader>e :NERDTreeFocus<CR>
 nnoremap <C-S-e> :NERDTreeFocus<CR>
 
+
 " Toggle Tagbar
 " - DON'T USE IT CAUSE ERROR ON CLOSING
 " - let TagBar manage itself on files
 " nnoremap <F8> :TagbarToggle<CR>
 
-" Ctrl+P → Quick open file
+""" Vim fzf
+" Ctrl+P → Quick FZF open file
 " nnoremap <leader>p :Files<CR>
-" nnoremap <C-p> :Files<CR>
+nnoremap <C-p> :Files<CR>
 
-" Ctrl+S → Save
-" nnoremap <C-s> :w<CR>
-" inoremap <C-s> <Esc>:w<CR>a
-
-" avoid remapping <Ctrl-w>
-" nnoremap <C-w> :bd<CR>
-" nnoremap <leader>w :w<CR>
-" nnoremap <leader>q :bd<CR>
-
-" Ctrl+W → Close file (buffer, not split)
-" don't use <C-w> over-mapping because it's used for Vim window management
-" nnoremap <leader>x :bd<CR>
 
 " Ctrl+Shift+F → Search in files (with ripgrep)
-" nnoremap <C-S-f> :Rg<CR>
-" nnoremap <leader>g :Rg<CR>
-
+nnoremap <C-S-f> :Rg<CR>
+nnoremap <leader>g :Rg<CR>
 
 
 """"""""""""""
 """ coding """
 """"""""""""""
 
-
-" Ctrl+/ → Toggle comment
+""" Tpope/vim-commentary
+" Ctrl+/ → Toggle comment (DOESN'T WORKS ON MOST TERMINALS, e.g. Alacritty)
+" use Leader instead for now, or remap to something else
 " nnoremap <C-/> :Commentary<CR>
 " vnoremap <C-/> :Commentary<CR>
-" nnoremap <leader>c :Commentary<CR>
-" vnoremap <leader>c :Commentary<CR>
+nnoremap <leader>: :Commentary<CR>
+vnoremap <leader>: :Commentary<CR>
+
+" Ctrl+S → Save
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>a
 
 
 """"""""""""""""""
 """ navigation """
 """"""""""""""""""
 
-
-""" ---- Buffers ----
-
+""" Buffers
 " Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev buffer
-nnoremap <leader>b :Buffers<CR>
+" nnoremap <leader>b :Buffers<CR>
 nnoremap <C-Tab> :bnext<CR>
 nnoremap <C-S-Tab> :bprevious<CR>
 
-" Alt+Up / Alt+Down → Move line
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-
-""" ----- vim impaired ----
-" configure unimpaired mappings with < and > as the prefix
-nmap < [
-nmap > ]
-omap < [
-omap > ]
-xmap < [
-xmap > ]
-
-
-
-" ---- Git ----
-nnoremap <leader>gs :Git<CR>
-nnoremap <leader>gd :Gdiffsplit<CR>
-nnoremap <leader>gc :Git commit<CR>
-nnoremap <leader>gb :Git blame<CR>
-
-" ---- Resize splits ----
+""" Resize splits
 nnoremap <leader><Left>  :vertical resize -5<CR>
 nnoremap <leader><Right> :vertical resize +5<CR>
 nnoremap <leader><Up>    :resize +3<CR>
 nnoremap <leader><Down>  :resize -3<CR>
 
- " ---- Move lines ----
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-vnoremap <A-j> :m '>+1<CR>gv=gv
-vnoremap <A-k> :m '<-2<CR>gv=gv
 
-" ---- Clear search ----
-nnoremap <leader><space> :nohlsearch<CR>
+""" Move lines
+" Alt+Up / Alt+Down → Move line
+" nnoremap <A-j> :m .+1<CR>==
+" nnoremap <A-k> :m .-2<CR>==
+" inoremap <A-j> <Esc>:m .+1<CR>==gi
+" inoremap <A-k> <Esc>:m .-2<CR>==gi
+" vnoremap <A-j> :m '>+1<CR>gv=gv
+" vnoremap <A-k> :m '<-2<CR>gv=gv
+""" WORKAROUND TO WORKS WITH ALL TERMINALS (Alt+Up/Down doesn't work in some terminals, e.g. Alacritty)
+nnoremap <silent> <Esc>j :m .+1<CR>==
+nnoremap <silent> <Esc>k :m .-2<CR>==
+inoremap <silent> <Esc>j <Esc>:m .+1<CR>==gi
+inoremap <silent> <Esc>k <Esc>:m .-2<CR>==gi
+vnoremap <silent> <Esc>j :m '>+1<CR>gv=gv
+vnoremap <silent> <Esc>k :m '<-2<CR>gv=gv
 
-" ---- Window navigation ----
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
-
-" vim-which-key plugin
-nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
-
-" ===============
-" QUALITY OF LIFE
-
-" Clear search highlight
-nnoremap <leader><space> :nohlsearch<CR>
-
-" Faster window navigation
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
-
- " Better yank/paste
-set clipboard+=unnamedplus
-
-" Keep selection when indenting
-vnoremap < <gv
-vnoremap > >gv
-
-" Quick escape
-inoremap jk <Esc>
 
 
 
