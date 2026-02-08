@@ -70,6 +70,7 @@
 " dominikduda/vim_current_word
 " jremmen/vim-ripgrep'
 " junegunn/vim-easy-align
+" justinmk/vim-dirvish
 " kshenoy/vim-signature
 " liuchengxu/vista.vim
 " ludovicchabant/vim-gutentags
