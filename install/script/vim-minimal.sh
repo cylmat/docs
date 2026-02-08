@@ -1,44 +1,40 @@
 #!/usr/bin/env bash
 
-# ###
-# samples
-# https://github.com/javiersalcedopuyo/DOT-Files/blob/master/init.vim
-# https://dev.to/javiersalcedopuyo/turn-vim-into-a-comfy-and-modern-editor-with-these-plugins-53k3
+### ######################### ###
+### MINIMAL REMOTE VIM CONFIG ###
+### ######################### ###
 
 # ###
 # usage:
 # curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/script/vim-minimal.sh | bash
 # ###
 
-apt update && apt install curl
+apt update && apt install -y curl
 
-DEBIAN_FRONTEND=noninteractive TZ=Europe/Paris apt-get -y install tzdata
-apt install -y git vim
+DEBIAN_FRONTEND=noninteractive TZ=Europe/Paris apt-get -y install tzdata git vim
 
-export PLUGIN_DIR=~/.vim/pack/plugins/start
+export PLUGIN_DIR="$HOME/.vim/pack/plugins/start"
 
 # create 
 echo "Run"
 echo "create ~/.vim/pack/plugins/start"
 echo ""
 
-# mkdir -p ~/.vim/pack/plugins/start
 mkdir -p $PLUGIN_DIR
 
 # plugins
 
-echo "Installing..."
+echo "Installing plugins..."
 
 echo ":h NERDTree"
-test -d $PLUGIN_DIR/nerdtree       || git clone https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
+test -d $PLUGIN_DIR/nerdtree       || git clone --depth 1https://github.com/scrooloose/nerdtree $PLUGIN_DIR/nerdtree
 echo ":h easymotion (default '\')"
-test -d $PLUGIN_DIR/vim-easymotion || git clone https://github.com/easymotion/vim-easymotion.git $PLUGIN_DIR/vim-easymotion
+test -d $PLUGIN_DIR/vim-easymotion || git clone --depth 1https://github.com/easymotion/vim-easymotion.git $PLUGIN_DIR/vim-easymotion
 echo ":h sneak"
-test -d $PLUGIN_DIR/vim-sneak      || git clone https://github.com/justinmk/vim-sneak $PLUGIN_DIR/vim-sneak
+test -d $PLUGIN_DIR/vim-sneak      || git clone --depth 1https://github.com/justinmk/vim-sneak $PLUGIN_DIR/vim-sneak
 echo ":h surround"
-test -d $PLUGIN_DIR/vim-surround   || git clone https://github.com/tpope/vim-surround $PLUGIN_DIR/vim-surround
+test -d $PLUGIN_DIR/vim-surround   || git clone --depth 1https://github.com/tpope/vim-surround $PLUGIN_DIR/vim-surround
 
-# :helptags ~/.vim/pack/plugins/start/nerdtree
 
 echo "Listing..."
 ls -al $PLUGIN_DIR
