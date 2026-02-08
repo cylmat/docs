@@ -44,7 +44,6 @@
 
 """ useful
 " vim-ctrlspace/vim-ctrlspace " control spaces
-" junegunn/vim-peekaboo " see the registers content
 
 """ focus
 " junegunn/goyo.vim: Distraction-free writing in Vim
@@ -502,6 +501,11 @@ Plug 'tpope/vim-surround'
 
 Plug 'tpope/vim-unimpaired'
 
+""" peekaboo
+" see the registers content
+" extends " and @ in normal mode and <CTRL-R> in insert mode
+" so you can see the contents of the registers.
+Plug 'junegunn/vim-peekaboo' 
 
 
 """""""""""""""""""
