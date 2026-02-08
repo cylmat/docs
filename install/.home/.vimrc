@@ -76,8 +76,9 @@
 " liuchengxu/vista.vim
 " ludovicchabant/vim-gutentags
 " luochen1990/rainbow
-" mattn/emmet-vim'
-" preservim/nerdcommenter'
+" tpope/vim-abolish
+" mattn/emmet-vim
+" preservim/nerdcommenter
 
 """""""""""""""""""""""""""""""""""""""""""""" config
 
