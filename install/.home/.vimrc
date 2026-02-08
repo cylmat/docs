@@ -707,6 +707,9 @@ vnoremap > >gv
 " Clear search 
 nnoremap <leader>c :nohlsearch<CR>
 
+" Close  window
+nnoremap <leader>q :wqall<CR>
+
 " Escape in insert mode
 inoremap qq <Esc>
 
@@ -731,7 +734,7 @@ nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 """""" VS CODE–LIKE KEYBINDS """"""
 """""" ===================== """"""
 
-" !!! <C-Tab> / <C-S-Tab> usually don’t work in terminal Vim !!!
+" !!! <C-Tab> / <C-S-Tab> / <A-Tab>... usually don’t work in terminal Vim !!!
 
 
 """"""""""""""""""""""""
@@ -778,8 +781,6 @@ nnoremap <leader>ù :term<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
 
-" Close  window
-nnoremap <C-q> :wqall<CR>
 
 """ Tpope/vim-commentary
 " Ctrl+/ → Toggle comment (DOESN'T WORKS ON MOST TERMINALS, e.g. Alacritty)
@@ -836,8 +837,8 @@ nnoremap <leader>tq :tabclose<CR>
 
 """ SPLITS
 
-nnoremap <leader>% :vsplit<CR>
-nnoremap <leader>" :split<CR>
+nnoremap <leader>v :vsplit<CR>
+nnoremap <leader>s :split<CR>
 
 " Resize splits
 nnoremap <leader><Left>  :vertical resize -5<CR>
@@ -846,18 +847,15 @@ nnoremap <leader><Up>    :resize +3<CR>
 nnoremap <leader><Down>  :resize -3<CR>
 
 
-
 """ Move lines
 " Alt+Up / Alt+Down → Move line
 
-""" WORKAROUND TO WORKS WITH ALL TERMINALS (Alt+Up/Down doesn't work in some terminals, e.g. Alacritty)
-
-nnoremap <silent> <Esc><Down> :m .+1<CR>==
-nnoremap <silent> <Esc><Up> :m .-2<CR>==
-inoremap <silent> <Esc><Down> <Esc>:m .+1<CR>==gi
-inoremap <silent> <Esc><Up> <Esc>:m .-2<CR>==gi
-vnoremap <silent> <Esc><Down> :m '>+1<CR>gv=gv
-vnoremap <silent> <Esc><Up> :m '<-2<CR>gv=gv
+nnoremap <A-Down> :m .+1<CR>==
+nnoremap <A-Up>   :m .-2<CR>==
+inoremap <A-Down> <Esc>:m .+1<CR>==gi
+inoremap <A-Up>   <Esc>:m .-2<CR>==gi
+vnoremap <A-Down> :m '>+1<CR>gv=gv
+vnoremap <A-Up>   :m '<-2<CR>gv=gv
 
 
 
