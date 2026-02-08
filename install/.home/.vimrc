@@ -38,6 +38,7 @@
 " ctrlpvim/ctrlp.vim: Fuzzy file, buffer, mru, tag, etc finder
 " mhinz/vim-signify (git gutter alternative)
 " skim-rs/skim (fzf)
+" tomtom/tcomment_vim
 " tpope/vim-speeddating
 " vim-test/vim-test
 
@@ -68,6 +69,7 @@
 " craigemery/vim-autotag
 " dominikduda/vim_current_word
 " jremmen/vim-ripgrep'
+" junegunn/vim-easy-align
 " kshenoy/vim-signature
 " liuchengxu/vista.vim
 " ludovicchabant/vim-gutentags
@@ -460,18 +462,6 @@ Plug 'MattesGroeger/vim-bookmarks'
 """ CODING """"
 """""""""""""""
 
-""" Easy-align 
-" A Vim alignment plugin
-
-" Plug 'junegunn/vim-easy-align'
-
-
-""" Tcomment: https://github.com/tomtom/tcomment_vim
-" :help tcomment-operator
-" e.g.: gc, gc{motion}, gcc (line), g< (uncomment), g> (selected)
-
-" Plug 'tomtom/tcomment_vim'
-
 
 """ Comment toggle (gcc)
 " gcc to comment out a line (takes a count)
@@ -589,6 +579,18 @@ let g:VM_maps = {}
 let g:VM_maps["Find Under"] = "<C-d>"
 let g:VM_maps["Find Subword Under"] = "<C-d>"
 
+" highlight default link WhichKeyFloating Pmenu
+
+""" --- which key popup
+highlight WhichKeyFloat      guifg=#d4d4d4 guibg=#1e1e1e
+highlight WhichKeyFloating   guifg=#d4d4d4 guibg=#1e1e1e
+highlight WhichKeyGroup      guifg=#569CD6 guibg=#1e1e1e gui=bold
+highlight WhichKeyDesc       guifg=#9CDCFE guibg=#1e1e1e
+highlight WhichKeySeperator  guifg=#C586C0 guibg=#1e1e1e gui=bold
+highlight WhichKeyKey        guifg=#DCDCAA guibg=#1e1e1e gui=bold
+highlight WhichKeyPending    guifg=#CE9178 guibg=#1e1e1e gui=bold
+highlight WhichKeySel        guifg=#ffffff guibg=#3c3c3c  gui=bold
+
 
 
 
@@ -662,19 +664,10 @@ nnoremap <leader>aic :AIChat<CR>
 nnoremap <leader>air :AIRedo<CR>
 
 
-
-""" --- vim easy align 
-
-" Start interactive EasyAlign in visual mode (e.g. vipga)
-xmap ga <Plug>(EasyAlign)
-" Start interactive EasyAlign for a motion/text object (e.g. gaip)
-nmap ga <Plug>(EasyAlign)
-
-
 """ ---- vim fzf
 
 nnoremap <leader>ff :FzfFiles<CR>
-nnoremap <leader>fg :FzRg<CR>
+nnoremap <leader>fg :FzfRg<CR>
 
 
 """ ----- vim impaired 
@@ -689,7 +682,10 @@ xmap > ]
 
 
 """ ---- vim-which-key plugin
+" Without <silent>: Vim would echo :WhichKey 'g' in the command line.
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+nnoremap <silent> [ :WhichKey '['<CR>
+nnoremap <silent> ] :WhichKey ']'<CR>
 
 
 
@@ -721,10 +717,6 @@ nnoremap <leader>l <C-w>l
 
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 map Y y$
-
-" Map <C-L> (redraw screen) to also turn off search highlighting until the next search
-nnoremap <C-L> :nohl<CR><C-L>
-
 
 
 " ------- Open cheat sheet ------
@@ -795,6 +787,15 @@ nnoremap <C-q> :wqall<CR>
 " vnoremap <C-/> :Commentary<CR>
 nnoremap <leader>: :Commentary<CR>
 vnoremap <leader>: :Commentary<CR>
+
+" Normal mode: indent / de-indent current line
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+
+" Visual mode: indent / de-indent selection and stay in visual mode
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+
 
 
 
