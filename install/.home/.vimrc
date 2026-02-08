@@ -785,8 +785,6 @@ inoremap <C-s> <Esc>:w<CR>a
 """ Tpope/vim-commentary
 " Ctrl+/ → Toggle comment (DOESN'T WORKS ON MOST TERMINALS, e.g. Alacritty)
 " use Leader instead for now, or remap to something else
-" nnoremap <C-/> :Commentary<CR>
-" vnoremap <C-/> :Commentary<CR>
 nnoremap <leader>: :Commentary<CR>
 vnoremap <leader>: :Commentary<CR>
 
