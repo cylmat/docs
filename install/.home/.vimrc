@@ -60,6 +60,9 @@
 
 " Plug 'majutsushi/tagbar'
 
+""" Multi-cursor
+" Plug 'mg979/vim-visual-multi'
+
 """
 " andymass/vim-matchup
 " craigemery/vim-autotag
@@ -434,11 +437,23 @@ Plug 'tpope/vim-repeat'
 Plug 'justinmk/vim-sneak'
 
 
-""" harpoon 
+""" vim-bookmarks, harpoon -like style
 " Jump between marked files like tabs on steroids
 " For your style (fzf + git + big configs), this is gold:
+" mm 	:BookmarkToggle
+" mi 	:BookmarkAnnotate <TEXT>
+" mn 	:BookmarkNext
+" mp 	:BookmarkPrev
+" ma 	:BookmarkShowAll
+" mc 	:BookmarkClear
+" mx 	:BookmarkClearAll
+" [count]mkk 	:BookmarkMoveUp [<COUNT>]
+" [count]mjj 	:BookmarkMoveDown [<COUNT>]
+" [count]mg 	:BookmarkMoveToLine <LINE>
+" :BookmarkSave <FILE_PATH>
+" :BookmarkLoad <FILE_PATH>
 
-Plug 'ThePrimeagen/harpoon'
+Plug 'MattesGroeger/vim-bookmarks'
 
 
 """""""""""""""
@@ -468,9 +483,6 @@ Plug 'ThePrimeagen/harpoon'
 
 Plug 'tpope/vim-commentary'
 
-""" Multi-cursor
-
-" Plug 'mg979/vim-visual-multi'
 
 """ Surround https://github.com/tpope/vim-surround
 " USE cs"'
