@@ -143,11 +143,13 @@ set wildmode=longest:full,full
 set visualbell
 set wrap
 
+
 " -- statusbar --
 " laststatus: 2 'always' display lightbar (pure vim no bar: laststatus=0)
 " noshowmode: do not show insert, visual.. (not useful if already in status bar)
 set laststatus=2 
-set noshowmode   " since airline already shows it 
+set noshowmode   " since airline already shows it
+set showtabline=2  " always show tabline, even if only one tab
 
 
  " Better yank/paste (doesn't works without +clipboard support, e.g. in WSL)
@@ -393,6 +395,8 @@ Plug 'jremmen/vim-ripgrep'
 """ Buffet
 " add a nice top tabline with open buffers, like an IDE
 " vim buffet recommendation
+" Bw[!] - close all buffers except the current one, with or without saving
+"
 " noremap <Tab> :bn<CR>
 " noremap <S-Tab> :bp<CR>
 " noremap <Leader><Tab> :Bw<CR>
@@ -580,7 +584,14 @@ let g:VM_maps = {}
 let g:VM_maps["Find Under"] = "<C-d>"
 let g:VM_maps["Find Subword Under"] = "<C-d>"
 
-" highlight default link WhichKeyFloating Pmenu
+""" ----vim-buffet
+let g:buffet_use_devicons = 1    " optional: show file icons
+let g:buffet_show_modified = 1   " show if buffer is modified
+let g:buffet_show_tab_number = 1 " show tab number in the tabline (default: 1)
+
+
+" Automatically update the tabline
+set laststatus=2
 
 """ --- which key popup
 highlight WhichKeyFloat      guifg=#d4d4d4 guibg=#1e1e1e
@@ -665,12 +676,6 @@ nnoremap <leader>aic :AIChat<CR>
 nnoremap <leader>air :AIRedo<CR>
 
 
-""" ---- vim fzf
-
-nnoremap <leader>ff :FzfFiles<CR>
-nnoremap <leader>fg :FzfRg<CR>
-
-
 """ ----- vim impaired 
 
 " configure unimpaired mappings with < and > as the prefix
@@ -694,15 +699,10 @@ nnoremap <silent> ] :WhichKey ']'<CR>
 """"" CUSTOM """"""
 """""""""""""""""""
 
-" buffers
-" - don't use cause conflict with leader+p search in files
-" nnoremap <leader>n :bnext<CR>
-" nnoremap <leader>p :bprevious<CR>
-nnoremap <leader>bp :FzfBuffers<CR>   " list buffers and pick
+" ------- helper ------
 
-" Keep selection when indenting
-vnoremap < <gv
-vnoremap > >gv
+" Escape in insert mode
+inoremap qq <Esc>
 
 " Clear search 
 nnoremap <leader>c :nohlsearch<CR>
@@ -710,22 +710,77 @@ nnoremap <leader>c :nohlsearch<CR>
 " Close  window
 nnoremap <leader>q :wqall<CR>
 
-" Escape in insert mode
-inoremap qq <Esc>
-
 " Faster Window navigation 
 nnoremap <leader>h <C-w>h
 nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 
+""" --- BUFFERS
+
+" new workspace
+nnoremap <leader>bw :enew<CR>
+
+" next / prev workspace
+nnoremap <leader>bn :bnext<CR>
+nnoremap <leader>bp :bprevious<CR>
+
+" close workspace
+nnoremap <leader>bd :bdelete<CR>
+
+" List all buffers and pick one visually
+nnoremap <leader>bb :FzfBuffers<CR>
+
+""" buffer helpers
+
+" Close current buffer but keep the window open (uncomment if needed)
+" nnoremap <leader>bd :bp<BAR>bd#<CR>
+
+" Save all buffers
+" nnoremap <leader>wa :wa<CR>
+
+
+
+""" --- TABS
+
+" new workspace
+nnoremap <leader>tw :tabnew<CR>
+
+" next / prev workspace
+nnoremap <leader>tn :tabnext<CR>
+nnoremap <leader>tp :tabprevious<CR>
+
+" close workspace
+nnoremap <leader>tc :tabclose<CR>
+
+""" --- SPLITS
+
+nnoremap <leader>v :vsplit<CR>
+nnoremap <leader>s :split<CR>
+
+" Resize splits
+nnoremap <leader><Left>  :vertical resize -5<CR>
+nnoremap <leader><Right> :vertical resize +5<CR>
+nnoremap <leader><Up>    :resize +3<CR>
+nnoremap <leader><Down>  :resize -3<CR>
+
+""" --- search vim fzf
+
+nnoremap <leader>ff :FzfFiles<CR>
+nnoremap <leader>fg :FzfRg<CR>
+
+
+" ------- behavior ------
+
+" Keep selection when indenting
+vnoremap < <gv
+vnoremap > >gv
+
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 map Y y$
 
-
 " ------- Open cheat sheet ------
 nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
-
 
 
 
@@ -776,7 +831,6 @@ nnoremap <leader>ù :term<CR>
 """ coding """
 """"""""""""""
 
-
 " Ctrl+S → Save
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
@@ -788,14 +842,12 @@ inoremap <C-s> <Esc>:w<CR>a
 nnoremap <leader>: :Commentary<CR>
 vnoremap <leader>: :Commentary<CR>
 
-" Normal mode: indent / de-indent current line
-nnoremap <Tab> >>
-nnoremap <S-Tab> <<
+" Insert mode: de-indent current line
+inoremap <S-Tab> <Esc><<i
 
-" Visual mode: indent / de-indent selection and stay in visual mode
+" " Visual mode: indent / de-indent selection and stay in visual mode
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
-
 
 
 
@@ -803,46 +855,30 @@ vnoremap <S-Tab> <gv
 """ navigation """
 """"""""""""""""""
 
-""" Buffers 
+""" Tabs 
 " VSCODE display Tabs
 " Vim use buffers
-
-" Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev tab
-nnoremap <leader><Tab> :bnext<CR>
-nnoremap <leader><S-Tab> :bprevious<CR>
 
 " 1gt   " go to tab 1
 " 2gt   " go to tab 2
 " 3gt   " go to tab 3
-nnoremap <leader>& :buffer 1<CR>
-nnoremap <leader>é :buffer 2<CR>
-nnoremap <leader>" :buffer 3<CR>
-nnoremap <leader>' :buffer 4<CR>
-nnoremap <leader>( :buffer 5<CR>
+nnoremap <leader>& 1gt<CR>
+nnoremap <leader>é 2gt<CR>
+nnoremap <leader>" 3gt<CR>
+nnoremap <leader>' 4gt<CR>
+nnoremap <leader>( 5gt<CR>
+nnoremap <leader>- 6gt<CR>
+nnoremap <leader>è 7gt<CR>
+nnoremap <leader>_ 8gt<CR>
+nnoremap <leader>ç 9gt<CR>
+nnoremap <leader>à 10gt<CR>
 
 
-""" TABS
-" new workspace
-nnoremap <leader>tw :tabnew<CR>
-
-" next / prev workspace
-nnoremap <leader>tn :tabnext<CR>
-nnoremap <leader>tp :tabprevious<CR>
-
-" close workspace
-nnoremap <leader>tq :tabclose<CR>
-
-
-""" SPLITS
-
-nnoremap <leader>v :vsplit<CR>
-nnoremap <leader>s :split<CR>
-
-" Resize splits
-nnoremap <leader><Left>  :vertical resize -5<CR>
-nnoremap <leader><Right> :vertical resize +5<CR>
-nnoremap <leader><Up>    :resize +3<CR>
-nnoremap <leader><Down>  :resize -3<CR>
+""" Buffers
+" Ctrl+Tab → Next buffer
+" Ctrl+Shift+Tab → Previous buffer
+nnoremap <leader><Tab> :bnext<CR>
+nnoremap <leader><S-Tab> :bprevious<CR>
 
 
 """ Move lines
