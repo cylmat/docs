@@ -67,6 +67,7 @@
 """
 " andymass/vim-matchup
 " craigemery/vim-autotag
+" jlanzarotta/bufexplorer
 " dominikduda/vim_current_word
 " jremmen/vim-ripgrep'
 " junegunn/vim-easy-align
