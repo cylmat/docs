@@ -953,3 +953,14 @@ autocmd BufEnter * try | if winnr('$') == 1 && bufname('%') =~ 'NERD_tree_'  | q
 "   autocmd!
 "   autocmd VimEnter * call timer_start(50, {-> execute('Startify')})
 " augroup END
+
+
+if filereadable(expand('~/.vim/.custom.vim'))
+  source ~/.vim/.custom.vim
+endif
+
+
+if filereadable(expand('~/.vim/.override.vim'))
+  source ~/.vim/.override.vim
+endif
+
