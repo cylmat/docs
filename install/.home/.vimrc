@@ -42,6 +42,10 @@
 " tpope/vim-speeddating
 " vim-test/vim-test
 
+""" useful
+" vim-ctrlspace/vim-ctrlspace " control spaces
+" junegunn/vim-peekaboo " see the registers content
+
 """ focus
 " junegunn/goyo.vim: Distraction-free writing in Vim
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
