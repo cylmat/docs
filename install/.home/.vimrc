@@ -45,6 +45,21 @@
 " junegunn/goyo.vim: Distraction-free writing in Vim
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 
+""" https://github.com/neoclide/coc.nvim
+" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
+" uncomment for right version with Vim and Node
+
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+""" Tagbar: <Tags> outline viewer
+" :TagbarToggle
+" must install ctags
+" sudo apt install exuberant-ctags   (or universal-ctags)
+" brew install ctags  (or universal-ctags/universal-ctags/universal-ctags)
+" -get some error when using NerdTree autoclose-
+
+" Plug 'majutsushi/tagbar'
+
 """
 " andymass/vim-matchup
 " craigemery/vim-autotag
@@ -344,15 +359,6 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'preservim/nerdtree'
 
 
-""" Tagbar: <Tags> outline viewer
-" :TagbarToggle
-" must install ctags
-" sudo apt install exuberant-ctags   (or universal-ctags)
-" brew install ctags  (or universal-ctags/universal-ctags/universal-ctags)
-" -get some error when using NerdTree autoclose-
-
-" Plug 'majutsushi/tagbar'
-
 """ Fzf : A command-line fuzzy finder
 " brew install  fzf
 " brew install fzf bat ripgrep the_silver_searcher perl universal-ctags
@@ -380,6 +386,12 @@ Plug 'jremmen/vim-ripgrep'
 
 """ Buffet
 " add a nice top tabline with open buffers, like an IDE
+" vim buffet recommendation
+" noremap <Tab> :bn<CR>
+" noremap <S-Tab> :bp<CR>
+" noremap <Leader><Tab> :Bw<CR>
+" noremap <Leader><S-Tab> :Bw!<CR>
+" noremap <C-t> :tabnew split<CR>
 
 Plug 'bagrat/vim-buffet'
 
@@ -404,10 +416,9 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'easymotion/vim-easymotion'
 
 """ Matchit
-" extended % matching for HTML and other..
-" -- must be tested !
+" extended % matching for HTML, if/else, try/catch etc..
 
-" Plug 'adelarsq/vim-matchit'
+Plug 'adelarsq/vim-matchit'
 
 
 """ Repeat.vim
@@ -423,11 +434,11 @@ Plug 'tpope/vim-repeat'
 Plug 'justinmk/vim-sneak'
 
 
-""" harpoon  (is nvim ??)
-" For your style (fzf + git + big configs), this is gold:
+""" harpoon 
 " Jump between marked files like tabs on steroids
-" - to be tested !
-" Plug 'ThePrimeagen/harpoon'
+" For your style (fzf + git + big configs), this is gold:
+
+Plug 'ThePrimeagen/harpoon'
 
 
 """""""""""""""
@@ -488,13 +499,6 @@ Plug 'tpope/vim-unimpaired'
 " bring the power of OpenAI's language models to Vim
 
 " Plug 'madox2/vim-ai'
-
-
-""" https://github.com/neoclide/coc.nvim
-" autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
-" uncomment for right version with Vim and Node
-
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 """ Git Fugitive.vim
 " A Git wrapper so awesome
@@ -619,7 +623,7 @@ let mapleader = " "
 
 """ ---- Git 
 
-nnoremap <leader>gs :Git<CR>
+nnoremap <leader>g :Git<CR>
 nnoremap <leader>gd :Gdiffsplit<CR>
 nnoremap <leader>gc :Git commit<CR>
 nnoremap <leader>gb :Git blame<CR>
@@ -646,14 +650,6 @@ nnoremap <leader>aic :AIChat<CR>
 nnoremap <leader>air :AIRedo<CR>
 
 
-""" ---- vim buffet recommendation
-
-" noremap <Tab> :bn<CR>
-" noremap <S-Tab> :bp<CR>
-" noremap <Leader><Tab> :Bw<CR>
-" noremap <Leader><S-Tab> :Bw!<CR>
-" noremap <C-t> :tabnew split<CR>
-
 
 """ --- vim easy align 
 
@@ -665,8 +661,8 @@ nmap ga <Plug>(EasyAlign)
 
 """ ---- vim fzf
 
-nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fg :Rg<CR>
+nnoremap <leader>ff :FzfFiles<CR>
+nnoremap <leader>fg :FzRg<CR>
 
 
 """ ----- vim impaired 
@@ -693,14 +689,14 @@ nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 " - don't use cause conflict with leader+p search in files
 " nnoremap <leader>n :bnext<CR>
 " nnoremap <leader>p :bprevious<CR>
-nnoremap <leader>bp :Buffers<CR>   " list buffers and pick
+nnoremap <leader>bp :FzfBuffers<CR>   " list buffers and pick
 
 " Keep selection when indenting
 vnoremap < <gv
 vnoremap > >gv
 
 " Clear search 
-nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>c :nohlsearch<CR>
 
 " Escape in insert mode
 inoremap qq <Esc>
@@ -717,9 +713,6 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the next search
 nnoremap <C-L> :nohl<CR><C-L>
 
-" Ctrl+S → Save
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>a
 
 
 " ------- Open cheat sheet ------
@@ -740,7 +733,7 @@ nnoremap <leader>cht :tabnew ~/.vim.cheat <CR>
 """ TOOLS & EXPLORER """
 """"""""""""""""""""""""
 
-" Ctrl+B → Toggle file explorer
+" Ctrl+b → Toggle file explorer
 " nnoremap <leader>b :NERDTreeToggle<CR>
 nnoremap <leader>b :NERDTreeToggle<CR>
 
@@ -756,21 +749,32 @@ nnoremap <leader>E :NERDTreeFocus<CR>
 " nnoremap <F8> :TagbarToggle<CR>
 
 """ Vim fzf
-" Ctrl+P → Quick FZF open file
+" Ctrl+p → Quick FZF open file
 " nnoremap <leader>p :Files<CR>
 nnoremap <leader>p :FzfFiles<CR>
 
+""" Command palette
+nnoremap <leader>P :FzfCommands<CR>
 
-" Ctrl+Shift+F → Search in files (with ripgrep)
-" nnoremap <C-S-f> :Rg<CR>
-" Leader + Shift + F → :Rg
+
+" Leader+Shift+F → Search in files (with ripgrep)
 nnoremap <leader>F :FzfRg<CR>
-nnoremap <leader>g :FzfRg<CR>
+
+""" terminal
+nnoremap <leader>ù :term<CR>
 
 
 """"""""""""""
 """ coding """
 """"""""""""""
+
+
+" Ctrl+S → Save
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>a
+
+" Close  window
+nnoremap <C-q> :wqall<CR>
 
 """ Tpope/vim-commentary
 " Ctrl+/ → Toggle comment (DOESN'T WORKS ON MOST TERMINALS, e.g. Alacritty)
@@ -786,37 +790,60 @@ vnoremap <leader>: :Commentary<CR>
 """ navigation """
 """"""""""""""""""
 
-""" Buffers
-" Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev buffer
-" nnoremap <leader>b :Buffers<CR>
-" nnoremap <C-Tab> :bnext<CR>
-" nnoremap <C-S-Tab> :bprevious<CR>
+""" Buffers 
+" VSCODE display Tabs
+" Vim use buffers
+
+" Ctrl+Tab / Ctrl+Shift+Tab → Next / Prev tab
 nnoremap <leader><Tab> :bnext<CR>
 nnoremap <leader><S-Tab> :bprevious<CR>
 
+" 1gt   " go to tab 1
+" 2gt   " go to tab 2
+" 3gt   " go to tab 3
+nnoremap <leader>& :buffer 1<CR>
+nnoremap <leader>é :buffer 2<CR>
+nnoremap <leader>" :buffer 3<CR>
+nnoremap <leader>' :buffer 4<CR>
+nnoremap <leader>( :buffer 5<CR>
 
-""" Resize splits
+
+""" TABS
+" new workspace
+nnoremap <leader>tw :tabnew<CR>
+
+" next / prev workspace
+nnoremap <leader>tn :tabnext<CR>
+nnoremap <leader>tp :tabprevious<CR>
+
+" close workspace
+nnoremap <leader>tq :tabclose<CR>
+
+
+""" SPLITS
+
+nnoremap <leader>% :vsplit<CR>
+nnoremap <leader>" :split<CR>
+
+" Resize splits
 nnoremap <leader><Left>  :vertical resize -5<CR>
 nnoremap <leader><Right> :vertical resize +5<CR>
 nnoremap <leader><Up>    :resize +3<CR>
 nnoremap <leader><Down>  :resize -3<CR>
 
 
+
 """ Move lines
 " Alt+Up / Alt+Down → Move line
-" nnoremap <A-j> :m .+1<CR>==
-" nnoremap <A-k> :m .-2<CR>==
-" inoremap <A-j> <Esc>:m .+1<CR>==gi
-" inoremap <A-k> <Esc>:m .-2<CR>==gi
-" vnoremap <A-j> :m '>+1<CR>gv=gv
-" vnoremap <A-k> :m '<-2<CR>gv=gv
+
 """ WORKAROUND TO WORKS WITH ALL TERMINALS (Alt+Up/Down doesn't work in some terminals, e.g. Alacritty)
-nnoremap <silent> <Esc>j :m .+1<CR>==
-nnoremap <silent> <Esc>k :m .-2<CR>==
-inoremap <silent> <Esc>j <Esc>:m .+1<CR>==gi
-inoremap <silent> <Esc>k <Esc>:m .-2<CR>==gi
-vnoremap <silent> <Esc>j :m '>+1<CR>gv=gv
-vnoremap <silent> <Esc>k :m '<-2<CR>gv=gv
+
+nnoremap <silent> <Esc><Down> :m .+1<CR>==
+nnoremap <silent> <Esc><Up> :m .-2<CR>==
+inoremap <silent> <Esc><Down> <Esc>:m .+1<CR>==gi
+inoremap <silent> <Esc><Up> <Esc>:m .-2<CR>==gi
+vnoremap <silent> <Esc><Down> :m '>+1<CR>gv=gv
+vnoremap <silent> <Esc><Up> :m '<-2<CR>gv=gv
 
 
 
