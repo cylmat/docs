@@ -152,10 +152,10 @@ set wrap
 " -- statusbar --
 " laststatus: 2 'always' display lightbar (pure vim no bar: laststatus=0)
 " noshowmode: do not show insert, visual.. (not useful if already in status bar)
+" showtabline: 1: show tabbar if more than one tabs, 2: always
 set laststatus=2 
 set noshowmode   " since airline already shows it
-set showtabline=2  " always show tabline, even if only one tab
-
+set showtabline=1
 
  " Better yank/paste (doesn't works without +clipboard support, e.g. in WSL)
 " set clipboard+=unnamedplus
