@@ -35,6 +35,13 @@ alias h="helm"
 alias mnk="minikube"
 alias sym="symfony"
 
+### cheats ###
+# use curl -o $HOME/cheats/git-one-cheat.md https://raw.githubusercontent.com/cylmat/cheats/refs/heads/main/onepage/git-one-cheat.md
+alias cht-git="less $HOME/cheats/git-one-cheat.md"
+alias cht-vim="less $HOME/cheats/vim-one-cheat.md"
+alias cht-vsc="less $HOME/cheats/vsc-one-cheat.md"
+alias cht-zsh="less $HOME/cheats/zsh-one-cheat.md"
+
 ### INSTALL
 alias cht_install="curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh"
 
