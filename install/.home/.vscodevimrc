@@ -15,7 +15,16 @@
 let mapleader = " "
 
 
-" Set configuration in VsCode to disable plugin keys
+" Set this configuration in VsCode settings to disable plugin keys
+" @see https://vim.rtorr.com/
+" ctrl a: increment           -> select all
+" ctrl c: back to normal mode -> copy
+" ctrl f: page forward        -> find in files
+" ctrl o: previous jump       -> open file
+" ctrl v: visual block        -> paste
+" ctrl x: decrement           -> paste
+" ctrl y: scroll line up      -> redo
+" ctrl z: suspend vim in bg   -> undo
 "vim.handleKeys": {
     "<C-a>": false,
     "<C-c>": false,
