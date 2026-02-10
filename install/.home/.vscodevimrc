@@ -9,11 +9,11 @@
 " define Space as Leader
  " Change VScode Ctrl binding to Space 
 " :echo mapleader or :let mapleader
-let mapleader = " "
-
 " Leader to <Space>
 ""noremap <Space> <Nop>
 " map <Space> <Leader>
+let mapleader = " "
+
 
 " Set configuration in VsCode to disable plugin keys
 "vim.handleKeys": {
@@ -28,9 +28,14 @@ let mapleader = " "
 "}
 
 
-
 nnoremap <leader>f :call VSCodeNotify('workbench.action.quickOpen')<CR>
 nnoremap <leader>e :call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>
+
+" Navigation
+nnoremap <leader>d <C-d>
+nnoremap <leader>u <C-u>
+nnoremap <leader>f <C-f>
+nnoremap <leader>b <C-b>
 
 " Editing
 nnoremap <leader>r <C-r>
