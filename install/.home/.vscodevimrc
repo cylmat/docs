@@ -13,6 +13,8 @@
 ""noremap <Space> <Nop>
 " map <Space> <Leader>
 let mapleader = " "
+" Map the localleader (for insert mode mappings)
+let maplocalleader = "\"
 
 
 " Set this configuration in VsCode settings to disable vim plugin keys
@@ -65,27 +67,27 @@ nnoremap <leader>v <C-v>
 " c-h delete char before
 " c-w delete word before
 " c-u delete line before
-inoremap <leader>h <C-h>
-inoremap <leader>w <C-w>
-inoremap <leader>u <C-u>
+inoremap <localleader>h <C-h>
+inoremap <localleader>w <C-w>
+inoremap <localleader>u <C-u>
 
 " c-j add line break
-inoremap <leader>j <C-j>
+inoremap <localleader>j <C-j>
 
 " c-t indent
 " c-d de-indent
-inoremap <leader>t <C-t>
-inoremap <leader>d <C-d>
+inoremap <localleader>t <C-t>
+inoremap <localleader>d <C-d>
 
 " c-n insert next match
 " c-p insert previous match
-inoremap <leader>n <C-n>
-inoremap <leader>p <C-p>
+inoremap <localleader>n <C-n>
+inoremap <localleader>p <C-p>
 
 " c-r insert register X content
 " c-o fire one Normal-command
-inoremap <leader>r <C-r>
-inoremap <leader>o <C-o>
+inoremap <localleader>r <C-r>
+inoremap <localleader>o <C-o>
 
 
 """""""""""""""
