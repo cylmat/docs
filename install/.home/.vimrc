@@ -653,6 +653,8 @@ let mapleader = " "
 " It’s a second leader key that plugins can use for their own mappings,
 " so they don’t conflict with your main leader key.
 " By default, localleader is set to \
+" Map the localleader (for Insert -ode mappings)
+" let maplocalleader = "\"
 
 """"""""""""""""""""
 """"" PLUGINS """"""
