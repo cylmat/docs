@@ -3,6 +3,8 @@
 """     VSCODE    """
 """""""""""""""""""""
 "if exists('g:vscode')
+"endif
+
 
 " --- or let mapleader="\<Space>"
 " must be first defined
@@ -13,8 +15,7 @@
 ""noremap <Space> <Nop>
 " map <Space> <Leader>
 let mapleader = " "
-" Map the localleader (for insert mode mappings)
-let maplocalleader = "\"
+
 
 
 " Set this configuration in VsCode settings to disable vim plugin keys
@@ -63,42 +64,32 @@ nnoremap <leader>v <C-v>
 " INSERT "
 """"""""""
 
+" Vim's Vscode plugins doesn't use localleader
+" so use litteral "\" instead
+
 """ Editing
 " c-h delete char before
 " c-w delete word before
 " c-u delete line before
-inoremap <localleader>h <C-h>
-inoremap <localleader>w <C-w>
-inoremap <localleader>u <C-u>
+inoremap \h <C-h>
+inoremap \w <C-w>
+inoremap \u <C-u>
 
 " c-j add line break
-inoremap <localleader>j <C-j>
+inoremap \j <C-j>
 
 " c-t indent
 " c-d de-indent
-inoremap <localleader>t <C-t>
-inoremap <localleader>d <C-d>
+inoremap \t <C-t>
+inoremap \d <C-d>
 
 " c-n insert next match
 " c-p insert previous match
-inoremap <localleader>n <C-n>
-inoremap <localleader>p <C-p>
+inoremap \n <C-n>
+inoremap \p <C-p>
 
 " c-r insert register X content
 " c-o fire one Normal-command
-inoremap <localleader>r <C-r>
-inoremap <localleader>o <C-o>
+inoremap \r <C-r>
+inoremap \o <C-o>
 
-
-"""""""""""""""
-""" plugins """
-"""""""""""""""
-
-" Sneak plugin
-" nmap s <Plug>Sneak_s
-" nmap S <Plug>Sneak_S
-" map f <Plug>Sneak_s
-" map F <Plug>Sneak_S
-
-"endif
-""" specific for vscode
