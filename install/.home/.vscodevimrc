@@ -36,28 +36,50 @@ let mapleader = " "
     "<C-z>": false
 "}
 
+""""""""""
+" NORMAL "
+""""""""""
 
-nnoremap <leader>f :call VSCodeNotify('workbench.action.quickOpen')<CR>
-nnoremap <leader>e :call VSCodeNotify('workbench.action.toggleSidebarVisibility')<CR>
-
-" Navigation
-nnoremap <leader>d <C-d>
-nnoremap <leader>u <C-u>
-nnoremap <leader>f <C-f>
+" navigation
 nnoremap <leader>b <C-b>
-
-" Editing
-nnoremap <leader>r <C-r>
+nnoremap <leader>d <C-d>
+nnoremap <leader>f <C-f>
+nnoremap <leader>u <C-u>
 
 " Numbers 
 nnoremap <leader>a <C-a>
 nnoremap <leader>x <C-x>
 
+" jumps
+nnoremap <leader>i <C-i>
+nnoremap <leader>o <C-o>
+
 " Visual
 nnoremap <leader>v <C-v>
 
-" Windows
-nnoremap <leader>w <C-w>
+""""""""""
+" INSERT "
+""""""""""
+
+" Editing
+inoremap <leader>h <C-h> " delete char before
+inoremap <leader>w <C-w> " delete word before
+
+inoremap <leader>j <C-j> " add line break
+
+inoremap <leader>t <C-t> " indent
+inoremap <leader>d <C-d> " de-indent
+
+inoremap <leader>n <C-n> " insert next match
+inoremap <leader>p <C-p> " insert previous match
+
+inoremap <leader>r <C-r> " insert register X content
+inoremap <leader>p <C-p> " fire one Normal-command
+
+
+"""""""""""""""
+""" plugins """
+"""""""""""""""
 
 " Sneak plugin
 " nmap s <Plug>Sneak_s
