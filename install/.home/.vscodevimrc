@@ -64,8 +64,10 @@ nnoremap <leader>v <C-v>
 """ Editing
 " c-h delete char before
 " c-w delete word before
+" c-u delete line before
 inoremap <leader>h <C-h>
 inoremap <leader>w <C-w>
+inoremap <leader>u <C-u>
 
 " c-j add line break
 inoremap <leader>j <C-j>
