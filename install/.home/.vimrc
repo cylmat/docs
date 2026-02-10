@@ -152,14 +152,15 @@ set wrap
 " -- statusbar --
 " laststatus: 2 'always' display lightbar (pure vim no bar: laststatus=0)
 " noshowmode: do not show insert, visual.. (not useful if already in status bar)
+"     " since airline already shows it
 " showtabline: 1: show tabbar if more than one tabs, 2: always
 set laststatus=2 
-set noshowmode   " since airline already shows it
+set noshowmode 
 set showtabline=1
 
  " Better yank/paste (doesn't works without +clipboard support, e.g. in WSL)
 " set clipboard+=unnamedplus
-" mouse=a   : enable mouse in all modes (normal, visual, insert, command-line)
+" mouse=a: enable mouse in all modes (normal, visual, insert, command-line)
 set mouse=a 
 
 
@@ -582,7 +583,8 @@ autocmd FileType js,java,php,python,ts TagbarOpen
 " let g:tagbar_close_auto = 0
 
 """ ----- theme tokyo night -----
-let g:tokyonight_style = 'night' " available: night, storm
+" available: night, storm
+let g:tokyonight_style = 'night' 
 let g:tokyonight_enable_italic = 1
 
 """ -----vim ai -----
