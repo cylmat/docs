@@ -61,20 +61,29 @@ nnoremap <leader>v <C-v>
 " INSERT "
 """"""""""
 
-" Editing
-inoremap <leader>h <C-h> " delete char before
-inoremap <leader>w <C-w> " delete word before
+""" Editing
+" c-h delete char before
+" c-w delete word before
+inoremap <leader>h <C-h>
+inoremap <leader>w <C-w>
 
-inoremap <leader>j <C-j> " add line break
+" c-j add line break
+inoremap <leader>j <C-j>
 
-inoremap <leader>t <C-t> " indent
-inoremap <leader>d <C-d> " de-indent
+" c-t indent
+" c-d de-indent
+inoremap <leader>t <C-t>
+inoremap <leader>d <C-d>
 
-inoremap <leader>n <C-n> " insert next match
-inoremap <leader>p <C-p> " insert previous match
+" c-n insert next match
+" c-p insert previous match
+inoremap <leader>n <C-n>
+inoremap <leader>p <C-p>
 
-inoremap <leader>r <C-r> " insert register X content
-inoremap <leader>p <C-p> " fire one Normal-command
+" c-r insert register X content
+" c-o fire one Normal-command
+inoremap <leader>r <C-r>
+inoremap <leader>o <C-o>
 
 
 """""""""""""""
