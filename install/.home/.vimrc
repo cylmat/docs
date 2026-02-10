@@ -911,7 +911,9 @@ vnoremap <A-Up>   :m '<-2<CR>gv=gv
 
 " Start NERDTree and put the cursor back in the other window.
 " :wincmd p (back to previous window)
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
+autocmd VimEnter * if exists(":NERDTree") | NERDTree | wincmd p | endif
+
 
 " Automatically close Vim if NERDTree is the last window
 " BufEnter * → runs on every buffer switch
