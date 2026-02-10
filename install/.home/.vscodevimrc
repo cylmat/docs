@@ -15,7 +15,7 @@
 let mapleader = " "
 
 
-" Set this configuration in VsCode settings to disable plugin keys
+" Set this configuration in VsCode settings to disable vim plugin keys
 " @see https://vim.rtorr.com/
 " ctrl a: increment           -> select all
 " ctrl c: back to normal mode -> copy
