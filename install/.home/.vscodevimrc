@@ -23,6 +23,7 @@ let mapleader = " "
 " ctrl a: increment           -> select all
 " ctrl c: back to normal mode -> copy
 " ctrl f: page forward        -> find in files
+" ctrl i: -
 " ctrl o: previous jump       -> open file
 " ctrl v: visual block        -> paste
 " ctrl x: decrement           -> paste
@@ -32,6 +33,7 @@ let mapleader = " "
     "<C-a>": false,
     "<C-c>": false,
     "<C-f>": false,
+    "<C-i>": false,
     "<C-o>": false,
     "<C-v>": false,
     "<C-x>": false,
@@ -43,21 +45,24 @@ let mapleader = " "
 " NORMAL "
 """"""""""
 
-" navigation
+""" navigation
+" b back, f forward, u up, d down
 nnoremap <leader>b <C-b>
 nnoremap <leader>d <C-d>
 nnoremap <leader>f <C-f>
 nnoremap <leader>u <C-u>
 
-" Numbers 
+""" Numbers 
+" a increment, x decrement
 nnoremap <leader>a <C-a>
 nnoremap <leader>x <C-x>
 
-" jumps
+""" jumps
+" i next, o previous
 nnoremap <leader>i <C-i>
 nnoremap <leader>o <C-o>
 
-" Visual
+""" Visual block
 nnoremap <leader>v <C-v>
 
 """"""""""
@@ -93,3 +98,10 @@ inoremap \p <C-p>
 inoremap \r <C-r>
 inoremap \o <C-o>
 
+
+
+""" plugins """
+
+" surround  cs'"
+" sneak s{char}{char}
+" easymotion <Leader><Leader>f{char}
