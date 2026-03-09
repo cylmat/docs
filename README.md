@@ -72,6 +72,8 @@ Files & logs
 
 Helper & ai
 * [cheat.sh](https://github.com/chubin/cheat.sh) **_Cheats_** The only cheat sheet you need
+* [Copilot cli](https://github.com/features/copilot/cli)
+* [Claude code](https://claude.com/fr-fr/product/claude-code)
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
