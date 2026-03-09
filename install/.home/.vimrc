@@ -578,7 +578,7 @@ let g:NERDTreeMinimalUI=1
 
 """ ------tagbar -----
 " automatic open tagbar for these languages
-autocmd FileType js,java,php,python,ts TagbarOpen
+" autocmd FileType js,java,php,python,ts TagbarOpen
 " can Prevent Tagbar from closing itself automatically
 " let g:tagbar_close_auto = 0
 
