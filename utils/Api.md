@@ -9,7 +9,7 @@
 * https://openapi-generator.tech
 * https://swagger.io
 
-### Coding
+### * Coding
 
 * https://grpc.io : A high performance, open source universal RPC framework
 
@@ -23,15 +23,15 @@
 **Database**  
 * https://postgrest.org: Server that turns Postgres into RESTful API  
 
-### Management solution
+### * Management solution
 
 * https://konghq.com/kong: Opensource Api gateway
 
-### Standards
+### * Standards
 
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
 
-### Tests & mock    
+### * Tests & mock    
 
 **app**  
 * https://wiremock.org   
@@ -45,7 +45,7 @@
 - https://mockapi.io  
 - https://ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4  
 
-### Openapi
+### * Openapi
 
 - https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20  
 - https://data.opendatasoft.com/explore/dataset/tco-bus-circulation-passages-tr%40keolis-rennes/api/  
