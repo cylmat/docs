@@ -22,11 +22,9 @@
 
 ### * Tests & mock *    
 
-**app**  
 * https://wiremock.org   
 - https://swagger.io/tools/swagger-codegen  
-**online**  
-- https://jsonplaceholder.typicode.com
+- https://jsonplaceholder.typicode.com  
 - https://dummyjson.com/products
 - https://www.wiremock.io
 - https://mocki.io/fake-json-api  
