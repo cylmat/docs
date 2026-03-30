@@ -1,6 +1,6 @@
 # Api
 
-### * Coding
+### * Coding *
 
 * https://grpc.io : A high performance, open source universal RPC framework
 
@@ -13,7 +13,7 @@
 **Database**  
 * https://postgrest.org: Server that turns Postgres into RESTful API  
 
-### * Tools  
+### * Tools *  
 
 * https://openapi.tools: List of tools
   
@@ -21,7 +21,7 @@
 * https://hoppscotch.io: Online client open source API 
 * https://swagger.io
 
-**Tests & mock**    
+### * Tests & mock *    
 
 **app**  
 * https://wiremock.org   
@@ -34,7 +34,7 @@
 - https://mockapi.io  
 - https://ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4
 
-### * OS Tools app
+### * OS Tools app *
 
 * https://insomnia.rest: Api design platform
 * https://jsonhero.io: JSON Viewer
