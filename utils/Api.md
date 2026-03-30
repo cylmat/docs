@@ -8,17 +8,18 @@ Tools
 * https://openapi-generator.tech
 * https://swagger.io
 
-Database
-* https://postgrest.org: Server that turns Postgres into RESTful API
-
 Management solution
 * https://konghq.com/kong: Opensource Api gateway
 
-Language (Php / Js)
-* https://github.com/nelmio/NelmioApiDocBundle: Generate documentation
-* https://socket.io
+Coding
 * https://grpc.io : A high performance, open source universal RPC framework
+    Php
+* https://github.com/nelmio/NelmioApiDocBundle: Generate documentation
 * https://gitlab.com/jaspr/mapper : Mapping
+    Js
+* https://socket.io
+    Database
+* https://postgrest.org: Server that turns Postgres into RESTful API
 
 Standards
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
