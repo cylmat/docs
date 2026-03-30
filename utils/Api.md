@@ -14,17 +14,17 @@
 
 ### * Tools *  
 
-* https://openapi.tools: List of tools
+* https://openapi.tools: List of tools  
   
 **online**  
-* https://hoppscotch.io: Online client open source API 
-* https://swagger.io
+* https://hoppscotch.io: Online client open source API   
+* https://swagger.io  
 
 ### * Tests & mock *    
 
 **app**  
 * https://wiremock.org   
-- https://swagger.io/tools/swagger-codegen
+- https://swagger.io/tools/swagger-codegen  
 **online**  
 - https://jsonplaceholder.typicode.com
 - https://dummyjson.com/products
