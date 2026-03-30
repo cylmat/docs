@@ -24,9 +24,9 @@ Coding
 Standards
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
 
-Tests & mock  
-    app
-* https://wiremock.org  
+Tests & mock    
+    app  
+* https://wiremock.org   
 - https://swagger.io/tools/swagger-codegen  
     online
 - https://jsonplaceholder.typicode.com/
