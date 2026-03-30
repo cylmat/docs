@@ -1,13 +1,13 @@
 
 ### * Coding *
 
-- https://grpc.io : A high performance, open source universal RPC framework
+- https://grpc.io : A high performance, open source universal RPC framework  
 Php  
 - https://github.com/nelmio/NelmioApiDocBundle: Generate documentation  
 - https://gitlab.com/jaspr/mapper : Mapping  
 Node    
-- https://socket.io
-- https://openapi-generator.tech
+- https://socket.io  
+- https://openapi-generator.tech  
 Database  
 - https://postgrest.org: Server that turns Postgres into RESTful API  
 
