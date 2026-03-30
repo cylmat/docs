@@ -14,7 +14,7 @@ Database
 ### * Tools *  
 
 List  
-- https://openapi.tools: List of tools  
+- https://openapi.tools: List of tools    
 online  
 - https://hoppscotch.io: Online client open source API   
 - https://swagger.io  
@@ -23,7 +23,7 @@ online
 
 App  
 - https://wiremock.org   
-- https://swagger.io/tools/swagger-codegen
+- https://swagger.io/tools/swagger-codegen  
 Online   
 - https://jsonplaceholder.typicode.com  
 - https://dummyjson.com/products
@@ -34,7 +34,7 @@ Online
 
 ### * OS Tools app *
 
-- https://insomnia.rest: Api design platform
+- https://insomnia.rest: Api design platform  
 - https://jsonhero.io: JSON Viewer
 - https://www.postman.com
 - https://www.soapui.org: Manage and execute end-to-end tests
