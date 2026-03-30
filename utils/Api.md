@@ -1,45 +1,48 @@
 # Api
 
-Creation
-  - -> https://openapi.tools: List of generators  
-* https://hoppscotch.io: Open source API development ecosystem ...
-* https://github.com/nelmio/NelmioApiDocBundle: Generate documentation
+Tools
+-> https://openapi.tools: List of tools <-
+
+* https://hoppscotch.io: Open source API development ecosystem 
+* https://jsonhero.io: JSON Viewer
 * https://openapi-generator.tech
-* https://stoplight.io: Design, Document & Build APIs Faster
 * https://swagger.io
 
-Management solution
-* https://konghq.com/kong: Take control of your APIs
-* https://insomnia.rest: Api design platform
-
-Server
+Database
 * https://postgrest.org: Server that turns Postgres into RESTful API
 
-Sockets
+Management solution
+* https://konghq.com/kong: Opensource Api gateway
+
+Language (Php / Js)
+* https://github.com/nelmio/NelmioApiDocBundle: Generate documentation
 * https://socket.io
 * https://grpc.io : A high performance, open source universal RPC framework
+* https://gitlab.com/jaspr/mapper : Mapping
 
 Standards
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
-* https://jsonhero.io: JSON Viewer
-- Mapping : https://gitlab.com/jaspr/mapper
 
-Tests & mock app
-* https://designer.mocky.io
-* https://www.postman.com
-* https://www.soapui.org: Manage and execute end-to-end tests
+Tests & mock
+    app
 * https://wiremock.org
-- ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4
-- https://swagger.io/tools/swagger-codegen/
-
-Fake and mock online
+- https://swagger.io/tools/swagger-codegen
+    online
 - https://jsonplaceholder.typicode.com/
 - https://dummyjson.com/products
 - https://www.wiremock.io
 - https://mocki.io/fake-json-api
-- https://mockapi.io/
+- https://mockapi.io
+- https://ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4
 
 Openapi
 - https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20
 - https://data.opendatasoft.com/explore/dataset/tco-bus-circulation-passages-tr%40keolis-rennes/api/
-- https://www.omdbapi.com/
+- https://www.omdbapi.com
+
+---
+OS Tools app
+
+* https://insomnia.rest: Api design platform
+* https://www.postman.com
+* https://www.soapui.org: Manage and execute end-to-end tests
