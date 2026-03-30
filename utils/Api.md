@@ -1,34 +1,43 @@
 # Api
 
-Tools  
--> https://openapi.tools: List of tools <-
+### Tools  
+
+**https://openapi.tools: List of tools**   
 
 * https://hoppscotch.io: Open source API development ecosystem 
 * https://jsonhero.io: JSON Viewer
 * https://openapi-generator.tech
 * https://swagger.io
 
-Management solution
-* https://konghq.com/kong: Opensource Api gateway
+### Coding
 
-Coding
-* https://grpc.io : A high performance, open source universal RPC framework  
-    Php
+* https://grpc.io : A high performance, open source universal RPC framework
+
+**Php** 
 * https://github.com/nelmio/NelmioApiDocBundle: Generate documentation  
-* https://gitlab.com/jaspr/mapper : Mapping  
-    Js
-* https://socket.io  
-    Database
+* https://gitlab.com/jaspr/mapper : Mapping
+
+**Js**  
+* https://socket.io
+
+**Database**  
 * https://postgrest.org: Server that turns Postgres into RESTful API  
 
-Standards
+### Management solution
+
+* https://konghq.com/kong: Opensource Api gateway
+
+### Standards
+
 * https://jwt.io: JSON Web Tokens standard RFC 7519 method
 
-Tests & mock    
-    app  
+### Tests & mock    
+
+**app**  
 * https://wiremock.org   
-- https://swagger.io/tools/swagger-codegen  
-    online
+- https://swagger.io/tools/swagger-codegen
+
+**online**  
 - https://jsonplaceholder.typicode.com/
 - https://dummyjson.com/products
 - https://www.wiremock.io
@@ -36,13 +45,15 @@ Tests & mock
 - https://mockapi.io  
 - https://ipinfo.io : Trusted IP Data Provider, from IPv6 to IPv4  
 
-Openapi
+### Openapi
+
 - https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/tco-bus-circulation-passages-tr@keolis-rennes/records?limit=20  
 - https://data.opendatasoft.com/explore/dataset/tco-bus-circulation-passages-tr%40keolis-rennes/api/  
 - https://www.omdbapi.com  
 
 ---
-OS Tools app
+
+### OS Tools app
 
 * https://insomnia.rest: Api design platform
 * https://www.postman.com
