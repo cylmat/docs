@@ -44,6 +44,7 @@ Framework
 + https://htmx.org: high power tools for HTML
 -
 * https://alpinejs.dev:  lightweight, JavaScript framework
+* https://getbootstrap.com
 * https://angularjs.org
 * https://backbonejs.org
 * https://d3js.org: Data-driven document
@@ -121,7 +122,7 @@ Playground
 - https://cssdeck.com
 
 Project
-- https://storybook.js.org/
+- https://storybook.js.org
 
 Testing framework
 * https://www.cypress.io
