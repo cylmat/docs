@@ -1,7 +1,4 @@
-# Utils back
-
-* Awesome Vscode: https://github.com/viatsko/awesome-vscode
-* Vim : https://vimawesome.com/
+# Coding
 
 AI
 * https://github.com/features/copilot
@@ -10,7 +7,7 @@ AI
 
 - https://copilot.microsoft.com
 - https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai
-- https://codeium.com/
+- https://codeium.com
 
 Analysis
 * https://astexplorer.net: Explore your code
@@ -42,9 +39,6 @@ Fake data
 * https://www.generatedata.com
 * https://mockaroo.com
 
-Git
-* https://jonas.github.io/tig: Ncurses-based text-mode interface for git
-
 Playground Back
 * https://3v4l.org: Online Php editor!
 * https://code.sololearn.com
@@ -69,7 +63,7 @@ Shell & fonts
 - https://github.com/romkatv/powerlevel10k
 - https://github.com/powerline/powerline
 - https://www.nerdfonts.com
-- https://www.nushell.sh: !
+- https://www.nushell.sh
 
 Security
 * https://www.vaultproject.io: By HashiCorp
@@ -81,18 +75,25 @@ Toolbox
 * https://devtoys.app: Swiss army life for dev
 * https://www.dev-box.app
 -
-* https://rgx.tools: REgexp AI 
+* https://rgx.tools: Regexp AI 
 
 Typing
 * https://www.typingstudy.com/typingtest
 
 ---
+
+Awesome
+* Awesome Vscode: https://github.com/viatsko/awesome-vscode
+* Vim : https://vimawesome.com
+
+---
+
 ## Language
 + https://elm-lang.org
 + https://hacklang.org
 + https://haxe.org: Cross-plateform toolkit
 + https://www.lua.org
 + https://www.perl.org
-+ https://www.purescript.org/
++ https://www.purescript.org
 + https://www.ruby-lang.org
 + https://nim-lang.org
