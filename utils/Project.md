@@ -38,9 +38,6 @@ Prototype
 + https://www.canva.com/prototypes
 + https://nicepage.com: Website Builder Software
 
-Theme
-- https://themer.dev
-
 Hosting
 * https://aws.amazon.com/fr/codecommit
 * https://bitbucket.org
@@ -60,33 +57,3 @@ Mind mapping
 * https://www.wisemapping.com
 
 
----
-### Websites
-
-Bookmarks
-- https://raindrop.io
-
-Free pictures
-* https://commons.wikimedia.org/wiki/Category:Images
-* https://iconoir.com: Free icons
-* https://unsplash.com
-
-**Collection svg**: https://github.com/n3r4zzurr0/svg-spinners
-
-Templates
-- https://dev.to/davidepacilio/40-free-html-landing-page-templates-3gfp
-
-CMS
-- https://sulu.io
-
-Games
-* https://menyr.nogstudio.com : Generate entire worlds in seconds
-
-Fun
-- https://www.la-rache.com
-
----
-## Extensions Chrome
-- https://www.screencastify.com: Screencastify - Screen Video Recorder
-- Screen Recorder
-- https://www.tango.us: Tango: screenshots, training, & documentation
