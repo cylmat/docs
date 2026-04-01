@@ -32,6 +32,9 @@ Cli
 - https://geminicli.com: Gemini AI Cli
 - https://claude.com/fr-fr/product/claude-code: Claude Code AI
 
+Git
+* https://jonas.github.io/tig: Ncurses-based text-mode interface for git
+
 IDE
 - https://antigravity.google: Google AI editor
 
