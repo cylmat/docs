@@ -1,23 +1,23 @@
 # Databases
 
-Big data
+### ▣ Big data
 - https://cassandra.apache.org: Open-source NoSQL database management system
 - https://couchdb.apache.org: Relax
 - https://hbase.apache.org: Big data store
 
-Cloud
+### ▣ Cloud
 * https://www.cloudamqp.com
 * https://www.elephantsql.com
 * https://www.memcachier.com: most advanced managed Memcache
 
-Data science
+### ▣ Data science
 - https://www.arangodb.com: Natively store data for graph
 - https://neo4j.com: Graph Data Platform
 
-Events
+### ▣ Events
 + https://debezium.io: Open source distributed platform for change data capture
 
-In-memory
+### ▣ In-memory
 - https://ignite.apache.org: Distributed database for high-performance
 - https://memcached.org
 - https://www.oracle.com/fr/database/technologies/related/berkeleydb.html
@@ -26,32 +26,32 @@ In-memory
 - https://relay.so: Redis-like with concurency 
 - https://www.teamblue.unicomsi.com/products/soliddb: SolidDB is designed for extreme speed as a persistent
 
-Light
+### ▣ Light
 - https://github.com/typicode/lowdb
 - https://www.sqlite.org
 
-No-Sql
+### ▣ No-Sql
 - https://docs.couchdb.org: Open-source document-oriented NoSQL database
 - https://www.elastic.co
   - https://elasticvue.com: free and open-source elasticsearch gui
 - https://www.mongodb.com
 
-Object storage
+### ▣ Object storage
 * https://etcd.io: Distributed key-value store
 * https://min.io: S3 compatible object storage
 
-ORM - ODM
+### ▣ ORM - ODM
 * https://mongoosejs.com
 * https://propelorm.org
 * https://sequelize.org: Node.js ORM for MySQL
 * https://github.com/compositephp/db
 
-Performance
+### ▣ Performance
 * https://www.influxdata.com: High-speed read and write database
 * https://rethinkdb.com: Real-time push
 * http://rocksdb.org: Persistent key-value for fast storage
 
-Relational
+### ▣ Relational
 - https://firebirdsql.org
 - https://mariadb.org
 - https://www.mysql.com
@@ -61,30 +61,32 @@ Relational
 - https://www.postgresql.org
 - https://sqlite.org
 
-Bonus  
+### ▣ Bonus  
 - https://www.proxysql.com: MySQL protocol high performance proxy
 
 @ref: https://dbdb.io: Database of databases
 
+---
+
 ## Admin
+
 Mysql
 * https://dbeaver.io: Free Universal Database Tool
 * https://www.dbvis.com: Data visualizer
 * https://www.heidisql.com
 * https://www.mysql.com/products/workbench
 * https://www.phpmyadmin.net
-* https://dbmstools.com/
+* https://dbmstools.com
 
 Postgres
 * https://bucardo.org
 
 
-
 ---
 
-# Data
+# Message broker
 
-Communication
+### ▣ Communication
 * https://activemq.apache.org
 * https://mercure.rocks: Real time protocol
 * https://qpid.apache.org: Messaging tools that speak AMQP
@@ -93,18 +95,18 @@ Communication
 * https://stomp.github.io: Simple Text Orientated Messaging Protocol
 * https://zeromq.org: Open-source universal messaging library
 
-Email
+### ▣ Email
 * https://github.com/mailhog/MailHog: Golang web and API based SMTP testing
 
-Jobs
+### ▣ Jobs
 * http://resque.github.io
 * https://sidekiq.org: Background jobs for Ruby
 
-Search
+### ▣ Search
 * https://www.elastic.co
 * https://lucene.apache.org: World class search capabilities
 * https://solr.apache.org: Search plateform build on Lucene
 
 
-Database
+### ▣ Database
 - https://tableplus.com
