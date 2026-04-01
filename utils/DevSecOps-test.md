@@ -1,18 +1,17 @@
-# Utils
+# DevOps
 
 Admin panel
 * https://adminlte.io: Admin dashboard & control panel theme
 * http://crud-admin-generator.com
 * https://www.phpcrudgenerator.com
-
-- https://ajenti.org: Fast way to manage a remote linux box
+* https://ajenti.org: Fast way to manage a remote linux box
 
 Automatisation
 * https://www.jenkins.io
 * https://robo.li
 * https://robotframework.org
 
-* https://deployer.org/
+* https://deployer.org
 * https://github.com/jolicode/castor
 
 Bug tracker
@@ -34,19 +33,8 @@ Security
 * https://www.cvedetails.com
 * https://application.security
 
-Testing
-* https://github.com/symm/vape: HTTP smoke tests
-* https://www.karatelabs.io: API & UI testing
-* https://docs.pact.io: Microservices testing
-* https://qossmic.github.io/deptrac: Keep your architecture CLEAN
-* https://www.sonarqube.org: Code Quality and Code Security, SonarLint paired with IDE
-* https://testproject.io: Test recorder
-* https://tideways.com/profiler/features
-- https://playwright.dev: End-to-end testing
-- https://github.com/easy-coding-standard/easy-coding-standard: PhpCs made easy
-
 QA
-https://phpqa.io
+- https://phpqa.io
 - https://github.com/easy-coding-standard
 - https://edgedesigncz.github.io/phpqa
 - https://jakzal.github.io/toolbox
@@ -58,20 +46,5 @@ Versionning
 ## Extension mozilla
 - https://addons.mozilla.org/en-US/firefox/addon/tweak-extension
 
-# Security & Pentest
-
-* https://www.aircrack-ng.org: WIFI security
-* https://www.kali.org
-* https://hashcat.net: Password recovery
-* nmap
-* sqlmap: Injection SQL
-* https://portswigger.net/burp: Burp suite
-* https://www.wireshark.org
-* https://www.zaproxy.org: Zed Attack Proxy (Owasp)
-
-Online
-- https://www.cvedetails.com: CVE Security
-
----
 ## Devops
 * https://www.getambassador.io
