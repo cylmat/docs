@@ -68,6 +68,3 @@ Stack
 * https://laragon.org: Portable dev environment
 * http://meanjs.org: Full-stack JS solution
 * https://openresty.org: Full web platform of Nginx and LuaJIT
-
-
-
