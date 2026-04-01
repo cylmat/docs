@@ -1,11 +1,5 @@
  # Utils front
 
-------------------------------
-front
-
-* https://getbootstrap.com
-------------------------------
-
 ### ▣ Colors & themes
 
 * https://coolors.co
