@@ -170,6 +170,8 @@
         }
     ],
      "vim.history": 500,
+     "vim.vimrc.enable": true
+     // .vscodevimrc MUST BE in C:\HOME_Windows\Users.., not in WSL home ~/..
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-c>": false,
