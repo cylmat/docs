@@ -22,6 +22,7 @@ let mapleader = " "
 " @see https://vim.rtorr.com/
 " ctrl a: increment           -> select all
 " ctrl c: back to normal mode -> copy
+" ctrl e: scroll line up      -> not used
 " ctrl f: page forward        -> find in files
 " ctrl i: -
 " ctrl o: previous jump       -> open file
