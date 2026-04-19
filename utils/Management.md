@@ -14,8 +14,14 @@
 + https://backstage.io
 + https://taiga.io: project management
 
+Hard drive
+----------
+- https://pcloud.com
+- https://icedrive.net
+
 Presentation
-+ https://www.canva.com
+------------
++ https://canva.com
 + https://docs.google.com/presentation: Google Slides
 + https://slides.com
 
