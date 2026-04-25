@@ -52,6 +52,10 @@ nnoremap <leader>b <C-b>
 nnoremap <leader>d <C-d>
 nnoremap <leader>f <C-f>
 nnoremap <leader>u <C-u>
+vnoremap <leader>b <C-b>
+vnoremap <leader>d <C-d>
+vnoremap <leader>f <C-f>
+vnoremap <leader>u <C-u>
 
 """ Numbers 
 " a increment, x decrement
