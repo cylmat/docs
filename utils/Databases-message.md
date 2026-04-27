@@ -88,6 +88,7 @@ Postgres
 
 ### ▣ Communication
 * https://activemq.apache.org
+* https://bullmq.io : open source message queue for Redis
 * https://mercure.rocks: Real time protocol
 * https://qpid.apache.org: Messaging tools that speak AMQP
 * https://www.rabbitmq.com: Message broker
