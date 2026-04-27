@@ -398,6 +398,13 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'jremmen/vim-ripgrep'
 
+""" Vim Project
+" manage projects and sessions.
+" :Project <path>
+" :ProjectNew <path>
+" :ProjectList
+Plug 'leafOfTree/vim-project'
+
 """ Buffet
 " add a nice top tabline with open buffers, like an IDE
 " vim buffet recommendation
