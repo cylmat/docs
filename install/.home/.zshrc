@@ -59,6 +59,16 @@ USE_PWR10=0
 # zstyle ':completion:*:*:git:*' script ~/.zsh/completions/git-completion.zsh
 
 
+###############
+### MAPPING ###
+###############
+
+# different  behavior with vi-style (omz "vi-mode")
+
+# bindkey '^K' kill-line
+# bindkey '^Y' yank
+# etc...
+
 #################
 ### Oh MY ZSH ###
 #################
