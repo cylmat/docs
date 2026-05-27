@@ -147,6 +147,10 @@ source $ZSH/oh-my-zsh.sh
 # git config --global core.autocrlf false
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+# --- command-not-found
+# sometime need pygments (error: zsh: command not found: pygmentize -l pytb)
+# install with python3 -m pip install --user pygments
+
 # z @https://github.com/ajeetdsouza/zoxide
 
 # >CTRL-o (copybuffer: copy command to clipboard)
