@@ -127,6 +127,7 @@ toipe
 npm install -g @google/gemini-cli
 
 # Claude code cli
+# use ANTHROPIC_API_KEY
 brew install --cask claude-code
 
 # Copilot 
