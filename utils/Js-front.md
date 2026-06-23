@@ -12,6 +12,7 @@ Build
 
 Database
 * https://github.com/typicode/lowdb: Simple and fast JSON database
+* https://fate.technology: A modern data client for React
 
 Docs
 * http://es6-features.org
