@@ -88,6 +88,8 @@
         "*"
     ],
 
+ "explorer.autoReveal": true, // (default true) select file when click on tab 
+
     "files.eol": "\n",
     "files.autoSave": "afterDelay",
     "files.associations": {
