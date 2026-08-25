@@ -133,7 +133,8 @@ Testing framework
 * https://playwright.dev
 
 Validation
-* zod / yup
+* [zod](https://zod.dev)
+* yup
 
 ---
 SPA
