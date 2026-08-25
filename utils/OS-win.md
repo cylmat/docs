@@ -13,6 +13,9 @@ Console
 Files
 - https://winmerge.org
 
+Git desktop
+- https://www.gitkraken.com/
+
 HTTP sniffer
 - https://httptoolkit.tech
 - https://portswigger.net/burp: Security testing of web applications
