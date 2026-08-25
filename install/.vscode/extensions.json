@@ -157,6 +157,7 @@
         // tools
         "adpyke.codesnap",
         "alefragnani.Bookmarks",
+        "appulate.filewatcher",
         "grapecity.gc-excelviewer",
         "alefragnani.read-only-indicator",
         "andycui.vscode-log-viewer-gb2312",
