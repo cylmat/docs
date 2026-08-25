@@ -108,6 +108,9 @@ NodeJs
 * https://www.meteor.com
 * https://sailsjs.com
 
+Packages
+- https://www.npmjs.com/package/npm-check-updates
+
 Playground
 * https://codepen.io
 * https://www.codeply.com
