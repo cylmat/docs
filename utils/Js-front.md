@@ -28,6 +28,9 @@ Design
 Editor
 - https://jsoneditoronline.org
 
+Events
+- https://rxjs.dev : "lodash for events"
+
 Form
 - https://rjsf-team.github.io/react-jsonschema-form
 
