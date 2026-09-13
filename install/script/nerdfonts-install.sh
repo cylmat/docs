@@ -28,6 +28,11 @@ echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 
 # (🗲 https://www.compart.com/fr/unicode/U+F0E7)
 
+###                 ###
+### !! IMPORTANT !! ###
+### Install it for Windows terminal too: Download zip, right-click on each fonts
+### In terminal "appearance", configure "JetBrainsMono Nerd Font"
+###                 ###
 
 
 ######### Powerline FONT
