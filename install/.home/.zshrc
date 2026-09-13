@@ -108,6 +108,7 @@ export PATH="$HOME/.symfony5/bin:$PATH"
 export PATH="$HOME/.volta/bin:$PATH"
 
 ### Linuxbrew ###
+# -> must be before sourcing ~/.omz.zsh to avoid "eza not loaded" error
 if [[ -f /home/linuxbrew/.linuxbrew/bin/brew ]]; then
   export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
