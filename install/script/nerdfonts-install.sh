@@ -12,15 +12,18 @@ if [[ -f ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf ]]; then
   exit 0
 fi
 
+
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 
 # Download and unzip (FiraCode.zip / JetBrainsMono.zip)
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
-unzip FiraCode.zip
-rm FiraCode.zip
-fc-cache -fv
+unzip FiraCode.zip && rm FiraCode.zip
+#
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip JetBrainsMono.zip && rm JetBrainsMono.zip
 
+fc-cache -fv
 # test
 fc-list | grep -i "nerd"
 fc-list | grep -i "firacode"
