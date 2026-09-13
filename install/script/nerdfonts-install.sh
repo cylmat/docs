@@ -4,9 +4,10 @@
 # https://www.nerdfonts.com
 
 echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
+echo -e "\ue7a8 \uf09b \uf303 \ue795"
 
-if [[ -f ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf ]]; then
-  echo "FiraCode already installed"
+if [[ -f ~/.local/share/fonts/JetBrainsMonoNerdFont-Bold.ttf ]]; then
+  echo "JetBrains already installed"
   echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
   echo
   exit 0
@@ -16,18 +17,15 @@ fi
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 
-# Download and unzip (FiraCode.zip / JetBrainsMono.zip)
-# wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
-# unzip FiraCode.zip && rm FiraCode.zip
-#
+# Download and unzip (JetBrainsMono.zip) -not- FiraCode for nvim 
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
 unzip JetBrainsMono.zip && rm JetBrainsMono.zip
 
 fc-cache -fv
 # test
 fc-list | grep -i "nerd"
-fc-list | grep -i "firacode"
 echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
+echo -e "\ue7a8 \uf09b \uf303 \ue795"
 
 # (🗲 https://www.compart.com/fr/unicode/U+F0E7)
 
@@ -65,8 +63,9 @@ echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 # wget install
 ######
 
-# wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
-# && cd ~/.local/share/fonts \
-# && unzip JetBrainsMono.zip \
-# && rm JetBrainsMono.zip \
+# cd ~/.local/share/fonts
+# wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+# unzip FiraCode.zip && rm FiraCode.zip
+# fc-list | grep -i "firacode"
+# ls ~/.local/share/fonts/FiraCodeNerdFont-Bold.ttf
 # && fc-cache -fv
