@@ -9,6 +9,8 @@ Architecture
 Build
 * https://brunch.io
 * https://babeljs.io
+* https://bun.com : combine in ONE runtime (node.js) + package (npm) + test -jest) + bundler (esbuild, vite, webpack..) 
+
 
 Database
 * https://github.com/typicode/lowdb: Simple and fast JSON database
