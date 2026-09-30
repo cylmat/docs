@@ -34,6 +34,7 @@ Cli
 
 Git
 * https://jonas.github.io/tig: Ncurses-based text-mode interface for git
+* https://cli.github.com/
 
 IDE
 - https://antigravity.google: Google AI editor
