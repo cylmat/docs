@@ -50,6 +50,7 @@
 " junegunn/limelight.vim: Hyperfocus-writing in Vim
 
 """ https://github.com/neoclide/coc.nvim
+""" https://github.com/prabirshrestha/vim-lsp
 " autocompletion engine for Vim8 & Neovim, full language server protocol support as VS Code
 " uncomment for right version with Vim and Node
 
