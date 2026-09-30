@@ -50,6 +50,9 @@ Proxy
 Remote
 - https://mremoteng.org
 
+Type d'architecture
+- https://jamstack.org:  architectural approach that decouples the web experience layer from data and business logic
+
 Security
 * https://aquasecurity.github.io/trivy: Docker scanner
 
