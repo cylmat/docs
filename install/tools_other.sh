@@ -47,6 +47,7 @@ xsel
 # diff-so-fancy
 # dnote
 # fpp (file PathPicker)
+# gh (github cli, https://cli.github.com)
 # glow (render markdown)
 # gron (grep json)
 # joshuto
@@ -62,6 +63,7 @@ brew install \
 autojump \
 diff-so-fancy \
 fpp \
+gh \
 glow \
 gron \
 joshuto \
