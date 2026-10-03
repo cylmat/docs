@@ -44,6 +44,7 @@ Common
 Dev
 - [docker](https://www.docker.com) Container application [Docker-library](https://github.com/docker-library)
 - [git](https://git-scm.com) Distributed version control system
+- [gh](https://cli.github.com) Github cli
 - [jq](https://jqlang.github.io/jq) Lightweight and flexible command-line JSON processor
 - [minikube](https://minikube.sigs.k8s.io) Quickly sets up a local Kubernetes cluster
 - [tig](https://jonas.github.io/tig) Ncurses-based text-mode interface for gitEncrypt
