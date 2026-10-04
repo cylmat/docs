@@ -4,6 +4,11 @@
 * https://learn.microsoft.com/en-us/windows/powertoys/
 * https://ninite.com : Install and Update All Your Programs at Once
 
+AI
+* https://github.com/techjarves/ClaudeCode-Portable
+* https://github.com/aaif-goose/goose
+
+
 Console
 * https://cmder.net: Nice console emulators
 * https://hyper.is
