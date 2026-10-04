@@ -94,6 +94,9 @@ if [[ "1" == "$USE_PWR10" ]]; then
     [[ -f ~/.p10k-top.zsh ]] && source ~/.p10k-top.zsh
 fi
 
+# set "blue light" directory colors
+export EZA_COLORS="di=01;36" 
+
 #######
 # ENV #
 #######
