@@ -17,6 +17,11 @@ ZSH_THEME="cloud"  # set by `omz`
 # chsh -s /bin/bash && apt-get --purge remove zsh
 # ###
 
+### CUSTOM ###
+
+# set docker options dns
+export DOCKER_OPTS="--dns=1.1.1.1 --dns=8.8.8.8"
+
 
 # Use file
 # mv ~/.zshrc ~/.zshrc.bak && curl https://raw.githubusercontent.com/cylmat/docs/refs/heads/main/install/.home/.zshrc > ~/.zshrc 
