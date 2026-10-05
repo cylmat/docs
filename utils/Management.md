@@ -1,5 +1,11 @@
 # Management
 
+## ai
+
+* https://zapier.com: automation in the agentic era
+
+## project
+
 * https://asana.com
 * https://www.bitrix24.fr: Plateforme tout-en-un
 * https://collabtive.o-dyn.de: App
