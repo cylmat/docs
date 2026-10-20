@@ -8,6 +8,7 @@ ZSH_THEME="cloud"  # set by `omz`
 ### INSTALL ZSH
 # sudo apt install -y curl git wget zsh
 # chsh -s "$(command -v zsh)"
+# echo $0
 
 ### INSTALL OMZ
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
