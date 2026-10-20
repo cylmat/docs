@@ -75,6 +75,7 @@ Helper & ai
 * [cheat.sh](https://github.com/chubin/cheat.sh) **_Cheats_** The only cheat sheet you need
 * [Copilot cli](https://github.com/features/copilot/cli)
 * [Claude code](https://claude.com/fr-fr/product/claude-code)
+* [Goose](https://goose-docs.ai/) Open-source AI agent
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
