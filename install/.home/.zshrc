@@ -1,6 +1,9 @@
 ZSH_THEME="cloud"  # set by `omz`
 # Override ~/.omz.zsh and allow use of "omz theme enable <plugin>"
 
+### INSTALL OMZ ###
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # ###
 # Doc
 # - https://doc.ubuntu-fr.org/zsh
