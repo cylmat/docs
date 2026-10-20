@@ -43,7 +43,10 @@ sudo groupadd docker
 sudo usermod -aG docker $USER 
 cat /etc/group
 
-# then RESTART shell   
+### ->
+# ! then TOTALLY RESTART shell !  #
+### ->
+
 # exec su -l $USER
 # sudo reboot
 
