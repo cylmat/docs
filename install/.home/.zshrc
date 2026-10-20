@@ -8,6 +8,7 @@ ZSH_THEME="cloud"  # set by `omz`
 ### INSTALL ZSH
 # sudo apt install -y curl git wget zsh
 # chsh -s "$(command -v zsh)"
+# -> ! TOTALLY CLOSE SHELL AND WSL ! <-
 # echo $0
 
 ### INSTALL OMZ
