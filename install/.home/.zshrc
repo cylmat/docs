@@ -45,11 +45,11 @@ export DOCKER_OPTS="--dns=1.1.1.1 --dns=8.8.8.8"
 #####################
 
 ### Use Plugin manager
-USE_ZSH=0
+USE_ZSH=1
 USE_OMZ=0
 
 ### Use themes
-USE_STAR=0
+USE_STAR=1
 USE_PWR10=0
 
 ######################
