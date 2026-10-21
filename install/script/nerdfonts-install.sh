@@ -3,6 +3,9 @@
 # https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-installation
 # https://www.nerdfonts.com
 
+### INSTALL !!!
+# sudo apt install fontconfig
+
 echo -e "\uE0B0 \uF120 \uF0E7 \uF013"
 echo -e "\ue7a8 \uf09b \uf303 \ue795"
 
