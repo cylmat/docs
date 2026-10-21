@@ -14,6 +14,9 @@ ZSH_THEME="cloud"  # set by `omz`
 ### INSTALL OMZ
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+### INSTALL STARSHIP
+# curl -sS https://starship.rs/install.sh | sh   
+
 # ###
 # Doc
 # - https://doc.ubuntu-fr.org/zsh
