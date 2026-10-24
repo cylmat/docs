@@ -15,6 +15,7 @@
     "chat.agent.thinkingStyle": "none",
     "chat.emptyChatState.enabled": false,
     "chat.implicitContext.suggestedContext": false,
+    // "chat.instructionsFilesLocations": { "./.copilot/regles-metier": true }
     "chat.math.enabled": false,
     "chat.mcp.access": "none",
 
