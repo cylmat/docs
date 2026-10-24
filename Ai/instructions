@@ -1,0 +1,44 @@
+
+# Instructions (globales aux chats)
+
+
+---------------------------
+!!! CAREFUL !!!
+1. Les instructions sont ajoutées au prompt, et assimilées par le modèle en fonction du contexte. Les instructions ne sont -PAS DU TOUT- obligatoirement traitées !
+   C'est le modèle qui va décider (ou non) de les appliquer en fonction du contexte, et de son... humeur (par il ne va pas les prendre en compte car cela ne lui convenait pas..)
+
+2. Les instructions sont appliquées en fonction du prompt, de la pertinence de la requête et du titre
+     (ex : une instruction marquée "écriture de tests unitaires" ne s'appliquera pas forcément à un prompt "merci de mettre en forme ce code")
+--------------------------
+
+
+
+Communes aux projets :
+~/.copilot/copilot-instructions.md
+~/.copilot/instructions/code.instructions.md
+~/.copilot/instructions/test.instructions.md
+~/.copilot/instructions/review.instructions.md ...
+
+~/.copilot/copilot-instructions.md
+```
+description: Write every function with a comment describing its purpose and parameters.
+applyTo: '/.'
+Instructions
+Write a comment above every function describing its purpose and parameters.
+```
+
+The comment should be in the following format:
+```
+/**
+
+  Function Name: FUNCTION_NAME
+  Purpose: Describe the purpose of the function here.
+  Parameters:
+  - param1: Description of the first parameter.
+  - param2: Description of the second parameter.
+  - ...
+*/
+
+# Explanation
+This is done to maintain a consistent coding style and improve readability across the project.
+```
