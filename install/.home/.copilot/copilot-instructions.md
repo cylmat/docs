@@ -1,5 +1,5 @@
 ---
-title: Global persona
+name: Global persona
 description: How to behave and react in the chat
 applyTo: '*'
 ---
