@@ -1,5 +1,5 @@
 ---
-title: Function comments
+name: Function comments
 description: Write every function with a comment describing its purpose and parameters.
 applyTo: '*'
 ---
