@@ -1,5 +1,5 @@
 ---
-applyTo: "assets/**/*.tsx", "assets/**/*.ts", "src/components/**/*.tsx"
+applyTo: "assets/**/*.tsx, assets/**/*.ts, src/components/**/*.tsx"
 ---
 
 # Directives React & TypeScript
