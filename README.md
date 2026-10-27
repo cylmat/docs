@@ -196,8 +196,8 @@ Programming
 
 ---
 Most used:
-- [Install](https://github.com/cylmat/docs/tree/main/install) : Windows apps, Vscode extentions, apt shell scripts... 
 - [Utils](https://github.com/cylmat/docs/tree/main/utils) : Coding, security, project useful tools...
+- [Cylmat/Install](https://github.com/cylmat/install) : Windows apps, Vscode extentions, apt shell scripts... 
 
 ---
 Ref:
