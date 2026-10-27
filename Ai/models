@@ -1,0 +1,35 @@
+OpenAI — GPT‑6
+Modèles et dérivés actuels : GPT‑6 Astra (option la plus performante, aussi proposée dans ChatGPT sous le nom GPT‑6 Pro) ; GPT‑6.1 Sol ; GPT‑6 Luna. 
+Les niveaux Instant, Medium, High et Extra High correspondent à des niveaux d’effort de GPT‑6 Sol, pas à des modèles séparés.
+Profil comparatif : Astra vise les tâches de raisonnement les plus difficiles ; Sol, le code, la recherche et l’usage de l’ordinateur ; Luna, les tâches courantes rapides et à grande échelle. 30 35 
+
+OpenAI — générations encore proposées
+Modèles et dérivés actuels : GPT‑5.6 Sol, GPT‑5.6 Sol Pro, GPT‑5.6 Luna.
+Profil comparatif : restent accessibles dans ChatGPT même avec le déploiement de GPT‑6 ; Sol vise les tâches complexes, Sol Pro les travaux les plus exigeants, Luna les usages plus courants. 35 
+
+Anthropic — Claude 5.5
+Modèles et dérivés actuels : Claude Opus 5.5, Claude Sonnet 5.5, Claude Haiku 5.5.
+Profil comparatif : Opus offre la capacité maximale pour les tâches complexes ; Sonnet est un compromis entre capacité, vitesse et coût ; 
+Haiku privilégie la rapidité et les tâches répétitives ou à fort volume. 31 34 
+
+Google — Gemini 4 / 3.x
+Modèles et dérivés actuels : Gemini 4 Argon ; Gemini 3.8 Flash ; Gemini 3.8 Live ; Gemini 3.5 Flash ; Gemini 3.5 Flash‑Lite ; Gemini 3.1 Flash‑Lite.
+Profil comparatif : Argon est le modèle de pointe pour les tâches complexes ; Flash privilégie la vitesse et les tâches agentiques ; 
+Live est spécialisé dans l’interaction en temps réel ; Flash‑Lite vise l’efficacité. Gemini 2.5 Pro et Flash ont atteint leur date de retrait annoncée le 20 octobre 2026. 3 10 
+
+xAI — Grok 4.x
+Modèles et dérivés actuels : Grok 4.7, Grok 4.6, Grok 4.5.
+Profil comparatif : famille orientée vers le raisonnement, le code et les tâches agentiques ; Grok 4.7 est la version la plus récente signalée dans la documentation API consultée. 21 
+
+Mistral — modèles généralistes
+Modèles et dérivés actuels : Mistral Large 4 (aperçu public) ; Mistral Medium 3.5.
+Profil comparatif : Large 4 est la nouvelle option de pointe en aperçu public ; Medium 3.5 est présenté comme un modèle multimodal destiné notamment au code et aux usages agentiques. 17 16 
+
+DeepSeek — V4.1
+Modèles et dérivés actuels : DeepSeek V4.1 Flash, dont la version mise à jour est V4.1‑Flash‑1017.
+Profil comparatif : variante Flash de la famille V4.1 ; la mise à jour du 17 octobre 2026 est signalée pour l’API, le site et l’application DeepSeek. 40 
+
+Meta — Llama 4
+Modèles et dérivés actuels : Llama 4 Scout, Llama 4 Maverick.
+Profil comparatif : famille de modèles à poids ouverts et multimodaux ; Scout et Maverick sont les variantes principales repérées. 
+Llama 5 n’est pas inclus, car les résultats consultés ne confirment pas sa sortie. 23 24 
