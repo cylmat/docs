@@ -26,3 +26,4 @@ collaboratif
 **SKILLS**
 
 - https://agenticskills.io
+- https://skills.sh
