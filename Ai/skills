@@ -23,10 +23,13 @@ use direct module, or claude plugin, or skills.sh, ex for https://impeccable.sty
 - /plugin marketplace add pbakaus/impeccable
 - npx skills add pbakaus/impeccable
 
-or
+## Sample
 
 @https://github.com/jakubkrehel/make-interfaces-feel-better
 - npx skills add jakubkrehel/make-interfaces-feel-better
+
+@https://github.com/cursor/plugins/tree/main/cursor-team-kit  
+@https://github.com/cursor/plugins/blob/main/cursor-team-kit/skills/thermo-nuclear-code-quality-review/SKILL.md  
 
 ## Exemple workflow
 
