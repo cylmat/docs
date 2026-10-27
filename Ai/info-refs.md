@@ -27,3 +27,9 @@ collaboratif
 - https://skills.sh
 - https://agenticskills.io
 - https://verified-skill.com
+
+## VsCode
+
+Foundry Toolkit (building, testing, deploying, evaluating, and monitoring AI applications and agents)
+- https://code.visualstudio.com/docs/intelligentapps/overview
+
