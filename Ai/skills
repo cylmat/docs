@@ -16,6 +16,12 @@ Un skill garde son intérêt pour ce que le modèle ne peut pas deviner :
 • Non-Technical AI Literacy: Using AI tools effectively in everyday business tasks. This includes prompt engineering, critical thinking, responsible AI use, and cross-functional workflow automation.
 • Modular AI Agent Skills: Reusable instruction files (like SKILL.md) that teach AI coding agents how to run tests, write code, triage issues, or interact with APIs.
 
+## Install
+
+use direct module, or claude plugin, or skills.sh, ex for https://impeccable.style
+- npx impeccable install
+- /plugin marketplace add pbakaus/impeccable
+- npx skills add pbakaus/impeccable
 
 ## Exemple workflow
 
