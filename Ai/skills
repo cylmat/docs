@@ -23,6 +23,11 @@ use direct module, or claude plugin, or skills.sh, ex for https://impeccable.sty
 - /plugin marketplace add pbakaus/impeccable
 - npx skills add pbakaus/impeccable
 
+or
+
+@https://github.com/jakubkrehel/make-interfaces-feel-better
+- npx skills add jakubkrehel/make-interfaces-feel-better
+
 ## Exemple workflow
 
 - Before coding      : Grill me (clarify the need)
