@@ -15,3 +15,12 @@ Un skill garde son intérêt pour ce que le modèle ne peut pas deviner :
 • Technical AI Skills: Building, testing, and managing AI models or infrastructure. This includes machine learning algorithms, data science, statistics, and programming languages like Python or Java.
 • Non-Technical AI Literacy: Using AI tools effectively in everyday business tasks. This includes prompt engineering, critical thinking, responsible AI use, and cross-functional workflow automation.
 • Modular AI Agent Skills: Reusable instruction files (like SKILL.md) that teach AI coding agents how to run tests, write code, triage issues, or interact with APIs.
+
+
+## Exemple workflow
+
+- Before coding      : Grill me (clarify the need)
+- Implement          : APEX (code + test + screenshots)
+- Design the UI      : Impeccable (deslopify)
+- Polish the details : Make Interface Feel Better
+- Check the quality  : Thermo-Nuclear
