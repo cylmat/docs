@@ -25,5 +25,5 @@ collaboratif
 
 **SKILLS**
 
-- https://agenticskills.io
 - https://skills.sh
+- https://agenticskills.io
