@@ -2,13 +2,12 @@
 
 ## Agents
 
-**openai**
-
 - https://opencode.ai/v2/docs
 
 ## Awesome
 
-- https://awesome-copilot.github.com/skills
+- https://awesome-copilot.github.com
+- https://awesomeclaude.ai
 
 ## Orchestration
 
