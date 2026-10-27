@@ -12,7 +12,7 @@
 
 ## Orchestration
 
-- https://crewai.com/
+- https://crewai.com: "métaphore de l’équipe humaine."
 - https://langchain.com/langgraph
 - https://microsoft.github.io/autogen/stable/
 - https://github.com/openai/swarm
@@ -20,9 +20,6 @@
 collaboratif
 - https://dust.tt
 
-```
- Aux côtés de LangGraph, AutoGen, OpenAI Swarm et plus récemment Anthropic Computer Use, CrewAI occupe une position singulière : c’est le framework qui pousse le plus loin la métaphore de l’équipe humaine.
-```
 
 ## Customization
 
