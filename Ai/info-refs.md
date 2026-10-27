@@ -1,10 +1,14 @@
 # REF
 
-**skills**
+## Awesome
+
+- https://awesome-copilot.github.com/skills
+
+## skills
 
 - https://agenticskills.io/
 
----
+## Agents
 
 **openai**
 
