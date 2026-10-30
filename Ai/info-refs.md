@@ -27,6 +27,7 @@ collaboratif
 **SKILLS**
 
 - https://skills.sh
+- https://aiskill.market
 - https://agenticskills.io
 - https://verified-skill.com
 
