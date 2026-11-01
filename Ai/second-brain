@@ -37,6 +37,10 @@ Pour éviter le chaos, organisez votre espace en seulement 4 dossiers principaux
  3. Ressources (Resources) -> Sujets d'intérêt général pour le futur (ex: "Notes de lecture", "Idées d'invités", "Recettes"). └── 📁
  4. Archives (Archives)   -> Éléments des 3 autres dossiers qui sont terminés ou inactifs (pour vider l'esprit sans supprimer).
 
+** Other
+
+(méthode CMA : Clarifier, Mapper, Amplifier)
+
 Les principes clés
 
     Mémoire décentralisée : Vos données restent stockées localement sur votre ordinateur (par exemple via des fichiers texte brut ou Markdown) pour garder le contrôle de votre vie privée. [1]
