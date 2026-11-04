@@ -6,6 +6,17 @@
 • Runway (Gen-4.5) : Apprécié pour la narration créative et le contrôle précis des plans pour illustrer un récit long.
 • Pika (2.5) : Pratique et rapide pour générer de courts clips d'illustration ou des effets visuels percutants.
 
+- Veo 3.1 (Google) : le meilleur générateur de vidéos par IA gratuit, accessible depuis Flow
+- Kling AI : une IA qui sait générer des mouvements réalistes
+- Higgsfield : les meilleurs modèles de génération vidéo accessibles depuis la même interface -> Atelier de production
+- PixVerse : une application vidéo IA aux quotas gratuits très généreux
+- Pika : générer des vidéos virales
+- Canva : la solution de vidéo IA la plus simple à prendre en main pour les non-initiés
+- HeyGen : créez gratuitement vos avatars vidéo avec l’IA
+- Synthesia : la vidéo IA corporate et pour les formations
+- Opus Clip : l’IA de montage vidéo gratuite pour transformer vos longues vidéos en shorts viraux
+- PlayPlay : la vidéo pro pour les équipes marketing et com
+
 2. Avatars IA et voix off (pour incarner un présentateur ou narrer le documentaire)
 • HeyGen : Idéal si vous souhaitez faire apparaître un avatar virtuel (ou votre propre jumeau numérique) pour présenter la vidéo face caméra avec une synchronisation labiale fluide.
 • Synthesia : Très orienté professionnel/pédagogique pour créer des présentateurs virtuels propres et sérieux, bien adaptés aux formats explicatifs.
@@ -23,6 +34,7 @@ Workflow type pour une chaîne Science / Histoire :
 5. Rediffusion : Extraire des extraits courts via Opus Clip pour TikTok, Shorts et Reels.
 
 
+
 ### Tools
 
 > https://toolkit.artlist.io
@@ -33,10 +45,15 @@ Avatar
 Génération
 
 + https://higgsfield.ai : High-quality AI videos storytelling
-- https://aistudio.google.com/models/veo
-- https://kling.ai : Idée en storyboard 
 - https://magiclight.ai : Vidéos longues / Turn any text into video
-- https://www.synthesia.io : Fast-moving marketing
+- https://synthesia.io : Fast-moving marketing
+- https://openart.ai/fr
+
+Free
+- https://aistudio.google.com/models/veo
+  + https://flow.google.com
+- https://canva.com
+- https://kling.ai : Idée en storyboard 
 
 Montage
 - https://capcut.com
