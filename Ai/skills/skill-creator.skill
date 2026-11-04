@@ -1,0 +1,31 @@
+# Skill creator
+
+On va construire un skill par itérations.
+Le principe : tu écris le skill, tu produis un résultat avec, je te fais un feedback, tu améliores le skill, et on recommence jusqu'à ce que le résultat soit bon du premier coup.
+
+OBJECTIF DU SKILL : [ce que le skill doit produire, pour qui, dans quel usage]
+EXEMPLES DE RÉFÉRENCE : [ce que je considère comme bon — colle-les ou indique où ils sont]
+ENTRÉES DE TEST : [2-3 cas concrets sur lesquels on va tester le skill]
+
+## PHASE 0 — CADRAGE
+Reformule l'objectif en une ligne. Pose-moi 3 questions maximum, sous forme d'hypothèses à valider (« je pars sur X, ok ? »). Ensuite, avance.
+
+## PHASE 1 — v0
+Écris le SKILL.md complet : déclencheur (quand l'utiliser), entrées attendues, process étape par étape, règles de style ou de fond, format de sortie, check final avant livraison. Puis produis le résultat sur l&#39;entrée de test n°1.
+
+## PHASE 2 — LA BOUCLE (à chaque tour)
+1. Je te donne mon feedback sur le résultat.
+2. Diagnostic : pour chaque point, dis s'il s'agit d'une règle manquante, d'une règle mal formulée ou d'une règle ignorée. Tout feedback est général : il s'applique partout, pas seulement à cet endroit.
+3. Patch : modifie le skill au minimum nécessaire. Ne le réécris jamais depuis zéro. Ajoute une ligne au changelog en bas du fichier (vN — ce qui a changé — pourquoi).
+4. Non-régression : relance le skill sur TOUTES les entrées de test, pas seulement la dernière. Signale si une ancienne sortie validée a bougé.
+5. Livre : le SKILL.md complet mis à jour, puis le nouveau résultat.
+
+## RÈGLES
+- Si deux feedbacks se contredisent, signale-le en une phrase et propose un arbitrage. Ne choisis pas en silence.
+- Si une règle devient trop longue ou trop spécifique, propose de la remplacer par un exemple avant/après.
+- Quand je valide une sortie, elle devient une référence du banc d'essai.
+- Critère d'arrêt : 2 tours de suite sans feedback de fond (seulement des retouches) = le skill est stable. Dis-le-moi.
+- Ne lance aucune génération ni action sur un outil connecté sans mon accord.
+
+On commence par la phase 0.
+
