@@ -76,6 +76,7 @@ Helper & ai
 * [Copilot cli](https://github.com/features/copilot/cli)
 * [Claude code](https://claude.com/fr-fr/product/claude-code)
 * [Goose](https://goose-docs.ai/) Open-source AI agent
+* [OpenCode](https://opencode.ai/)
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
