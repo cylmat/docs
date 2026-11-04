@@ -2,6 +2,7 @@
 
 Analytics
 * https://www.openwebanalytics.com
+* https://fr.matomo.org/
 
 Browser size testing
 * https://www.browserling.com
