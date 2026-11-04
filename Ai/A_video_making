@@ -1,5 +1,27 @@
 # AI Making Video
 
+1. Générateurs de vidéos et de plans animés (pour illustrer des faits historiques ou des concepts scientifiques)
+• Google Veo 3.1 : Actuellement l'une des références pour obtenir une qualité cinématique avec un rendu audio natif et une excellente compréhension des prompts complexes
+• Kling AI (3.0) : Très performant pour le mouvement réaliste des personnages et les scènes dynamiques, ce qui permet d'animer des portraits ou des reconstitutions d'époque.
+• Runway (Gen-4.5) : Apprécié pour la narration créative et le contrôle précis des plans pour illustrer un récit long.
+• Pika (2.5) : Pratique et rapide pour générer de courts clips d'illustration ou des effets visuels percutants.
+
+2. Avatars IA et voix off (pour incarner un présentateur ou narrer le documentaire)
+• HeyGen : Idéal si vous souhaitez faire apparaître un avatar virtuel (ou votre propre jumeau numérique) pour présenter la vidéo face caméra avec une synchronisation labiale fluide.
+• Synthesia : Très orienté professionnel/pédagogique pour créer des présentateurs virtuels propres et sérieux, bien adaptés aux formats explicatifs.
+
+3. Assistants de montage, sous-titrage et optimisation
+• Opus Clip : Parfait pour découper vos longues vidéos de science ou d'histoire en plusieurs shorts/reels viraux pour promouvoir votre chaîne.
+• VEED.io : Un éditeur tout-en-un très efficace pour générer automatiquement des sous-titres dynamiques, nettoyer l'audio et accélérer le montage.
+• VidIQ : Indispensable pour la recherche de mots-clés, l'analyse des tendances, la génération de titres accrocheurs et de descriptions adaptées à la niche Histoire/Science.
+
+Workflow type pour une chaîne Science / Histoire :
+1. Écriture et structure : Utiliser un assistant LLM (comme ChatGPT ou Claude) pour sourcer, vérifier la chronologie ou vulgariser un concept scientifique complexe.
+2. Illustration : Générer les séquences visuelles avec Veo ou Kling AI à partir de descriptions précises d'archives ou d'expériences.
+3. Voix et visage : Enregistrer votre propre voix ou utiliser un clone vocal/avatar via HeyGen.
+4. Montage : Assembler le tout et incruster des sous-titres animés avec VEED.io ou un logiciel classique (Premiere, Filmora).
+5. Rediffusion : Extraire des extraits courts via Opus Clip pour TikTok, Shorts et Reels.
+
 
 ### Tools
 
@@ -11,12 +33,14 @@ Avatar
 Génération
 
 + https://higgsfield.ai : High-quality AI videos storytelling
+- https://aistudio.google.com/models/veo
 - https://kling.ai : Idée en storyboard 
 - https://magiclight.ai : Vidéos longues / Turn any text into video
 - https://www.synthesia.io : Fast-moving marketing
 
 Montage
 - https://capcut.com
+- https://opus.pro
 
 Voix
 - https://elevenlabs.io : Generate natural speech with AI
@@ -26,4 +50,4 @@ Fun
 
 ### Clipping
 
-https://agenceclipping.fr
+- https://agenceclipping.fr
