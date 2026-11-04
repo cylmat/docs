@@ -1,13 +1,10 @@
 # REF
 
-- https://www.aiagentslibrary.com
-
 ## Agents
 
 - https://opencode.ai/v2/docs
 
-## Awesome
-
+Awesome
 - https://awesome-copilot.github.com
 - https://awesomeclaude.ai
 
@@ -18,7 +15,11 @@
 - https://microsoft.github.io/autogen/stable/
 - https://github.com/openai/swarm
 
-collaboratif
+Cli
+- https://herdr.dev/
+- https://www.onorca.dev/
+
+Collaboratif
 - https://dust.tt
 
 
@@ -28,6 +29,7 @@ collaboratif
 
 - https://skills.sh
 - https://aiskill.market
+- https://aiagentslibrary.com
 - https://agenticskills.io
 - https://verified-skill.com
 
@@ -35,4 +37,8 @@ collaboratif
 
 Foundry Toolkit (building, testing, deploying, evaluating, and monitoring AI applications and agents)
 - https://code.visualstudio.com/docs/intelligentapps/overview
+
+## Tools
+
+- https://wisprflow.ai: Parle, Claude écrit
 
