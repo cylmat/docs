@@ -77,6 +77,9 @@ Helper & ai
 * [Claude code](https://claude.com/fr-fr/product/claude-code)
 * [Goose](https://goose-docs.ai/) Open-source AI agent
 * [OpenCode](https://opencode.ai/)
+  
+* [HerDr](https://herdr.dev/) : Orchestrator Cli
+* [Orca](https://www.onorca.dev/) : Orchestrator
 
 Monitor & info  
 + [btop](https://github.com/aristocratos/btop) **_Better top!_** A monitor of resources
