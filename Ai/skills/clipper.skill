@@ -1,0 +1,56 @@
+# Création de Clipper
+
+Tu vas construire « Clipper », un outil qui transforme des vidéos YouTube longues (podcasts, interviews, formations) en extraits horizontaux de 2 à 5 minutes, 
+puis les publie sur une chaîne YouTube de clips. 
+J'ai les droits sur toutes les vidéos sources.
+
+## ObjectifJe colle une URL (vidéo, playlist ou chaîne). 
+L'outil sort 5 à 15 clips candidats par vidéo, chacun avec une note, un titre et une miniature.
+Je valide en un clic, et les clips validés partent dans une file de publication programmée sur YouTube.
+
+## Avant de coder
+1. Passe en mode plan : architecture, stack, phases. 
+Pose-moi 4 questions max, chacune sous forme d'hypothèse à valider. 
+Ensuite avance sans redemander et signale chaque choix en une ligne.
+2. Écris un CLAUDE.md à la racine (but, stack, commandes, conventions) et tiens-le à jour.
+
+## Stack par défaut (change-la si tu as une meilleure raison, et donne-la)
+- Python, SQLite pour l'état, interface web locale (FastAPI + HTML simple) pour la revue.Tout en local, sans cloud en v1.
+- yt-dlp pour le téléchargement, Deepgram (ou WhisperX en local) pour la transcription horodatée au mot avec locuteurs, 
+l'API Anthropic pour la sélection et les titres, ffmpeg pour la découpe, l'API YouTube Data v3 (OAuth) pour l'upload.
+- Clés dans un .env, réglages dans un config.yaml.
+
+## Pipeline
+1. Ingestion : meilleure qualité, métadonnées stockées, jamais de retraitement.
+2. Transcription : mots horodatés et locuteurs, mise en cache, jamais transcrite deux fois.
+3. Sélection : Claude reçoit la transcription et rend 5 à 15 candidats avec début, fin, sujet en une phrase, note sur 100 et raison.
+Critères : le clip tient seul, traite une seule idée, démarre sur la phrase qui pose le sujet, finit sur une conclusion.
+Exclure intro, sponsor, outro. Chevauchement sous 20 %. Transcription trop longue : blocs qui se recouvrent, puis fusion.
+4. Bornes : recale début et fin sur une frontière de phrase, marge de 0,3 s, durée entre 2 et 5 min sinon rejet expliqué.
+5. Titres : 3 propositions par clip (60 caractères max, en français, le titre dit ce qu'on apprend), description avec lien et timecode source, 10 tags, texte de miniature de 3 à 4 mots.
+6. Découpe : ffmpeg précis à la frame, 1080p 16:9, fondu audio 0,3 s, −14 LUFS.
+7. Miniature : 10 images extraites, la plus nette avec un visage est retenue, texte posé avec Pillow (réglages dans config.yaml), 1280×720 sous 2 Mo, image changeable en un clic.
+8. Revue : une page locale par vidéo. Par clip : lecteur, note, titres éditables, miniature, boutons Valider / Rejeter / Ajuster (début et fin par pas de 1 s). 
+Raccourcis clavier. Tout sauvegardé en SQLite.
+9. Publication : file des clips validés, cadence dans config.yaml, upload en privé avec date programmée, titre, description, tags, miniature, playlist.
+Rien en public directement. Quota : un upload coûte 1 600 unités sur 10 000 par jour, donc 6 max ; affiche le reste et bloque sans perdre la file.
+10. Suivi : à 2 et 7 jours, vues et durée moyenne de visionnage par clip, stockées avec titre et note, export CSV.
+
+## Commandes
+clipper add URL, run, review, publish, status, stats.
+Idempotentes, reprise après crash, une vidéo qui échoue ne bloque pas les autres. 
+Logs en français.
+
+## Phases
+1 : ingestion, transcription, sélection, test sur 1 vidéo.
+2 : bornes, découpe, miniatures, revue.
+3 : publication et quota.
+4 : suivi. Après chaque phase, montre-moi le résultat sur une vraie vidéo et attends mon OK.
+
+## Contraintes
+- Prompts de sélection et de titres dans prompts/*.md, modifiables sans toucher au code.
+- clipper status affiche le coût estimé par vidéo et le cumul.
+- Tests sur les bornes, le parsing de la sortie Claude, le quota et les doublons.
+- Pas de dépendance inutile, code lisible, commentaires en français.
+- Livrables : README avec installation pas à pas (dont OAuth YouTube), config.yaml commenté, .env.example.
+
