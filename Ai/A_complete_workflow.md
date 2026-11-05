@@ -12,3 +12,7 @@
 
 - Make / n8n auto-hébergé
 - CapCut
+
+```shell
+curl -fsSL https://get.n8n.io | sh
+```
