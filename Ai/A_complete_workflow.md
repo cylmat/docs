@@ -4,7 +4,6 @@
 
 1. Déclencheur : Collez le script généré par Claude dans une ligne Google Sheets.
   - Installer n8n self-hosted in docker
-    + https://docs.n8n.io/deploy/host-n8n/install-options/install-using-docker-compose   
   - Activer Google Drive Api
     + https://console.cloud.google.com/apis/library/drive.googleapis.com
 2. Action 1 : Make détecte la ligne et envoie le texte dans un modèle Google Slides pour générer et exporter la miniature automatiquement.
@@ -33,29 +32,7 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 
 ```shell
 curl -fsSL https://get.n8n.io | sh
-# or
-docker volume create n8n_data
-docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
-# or
-volumes:
-  n8n_data:
-services:
-  n8n:
-    image: docker.n8n.io/n8nio/n8n
-    container_name: n8n
-    ports: [5678:5678]
-    volumes:
-      - n8n_data:/home/node/.n8n
-    environment:
-      N8N_ENABLED_MODULES: instance-ai
-      N8N_INSTANCE_AI_MODEL: anthropic/claude-opus-4-8
-      N8N_INSTANCE_AI_MODEL_API_KEY: sk-ant-xxx
-      N8N_INSTANCE_AI_SANDBOX_ENABLED: 'true'
-      N8N_INSTANCE_AI_SANDBOX_PROVIDER: daytona
-      N8N_INSTANCE_AI_SANDBOX_IMAGE: daytonaio/sandbox:0.5.3-slim
-      DAYTONA_API_URL: https://app.daytona.io/api
-      DAYTONA_API_KEY: dtn_xxx
-      INSTANCE_AI_BRAVE_SEARCH_API_KEY: BSA-xxx
+# @https://docs.n8n.io/deploy/host-n8n/install-options/install-using-docker-compose 
 ```
 
 
