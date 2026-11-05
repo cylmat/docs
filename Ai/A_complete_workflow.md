@@ -18,6 +18,16 @@ curl -fsSL https://get.n8n.io | sh
 # or
 docker volume create n8n_data
 docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+# or
+volumes:
+  - n8n_data:
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    ports: [5678:5678]
+    volumes:
+      - n8n_data:/home/node/.n8n
 ```
 
 
