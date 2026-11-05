@@ -8,6 +8,20 @@
 4. Action 3 (Une fois la vidéo exportée de CapCut) : Déposer le fichier vidéo dans un dossier Google Drive.
 5. Action 4 : Make détecte le nouveau fichier dans Google Drive et l'envoie avec la vignette sur Buffer pour programmer la diffusion sur TikTok, Instagram et YouTube.
 
+### Tips
+
+n8n self-hosted
+```shell
+Workflow n8n idéal pour votre projet vidéo
+
+Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici comment structurer vos nœuds (nodes) gratuitement :
+1. Nœud Déclencheur (Webhook ou Google Sheets) : Vous collez le texte généré par Claude dans un fichier Google Sheets gratuit. n8n détecte instantanément la nouvelle ligne.
+2. Nœud Google Slides (Miniature automatique) : n8n récupère le titre rédigé par Claude, l'injecte dans un modèle de présentation Google Slides configuré aux dimensions d'une vignette, puis télécharge le résultat en image (PNG).
+3. Nœud d'Attente / Notification (Discord ou Telegram) : Comme aucun logiciel de montage professionnel n'est 100% automatisable par API de façon gratuite, n8n vous envoie un message automatique sur votre Discord ou Telegram privé avec le script de Claude. Vous n'avez plus qu'à faire un copier-coller dans CapCut pour générer la vidéo en 2 clics.
+4. Nœud Google Drive / Local (Détection de la vidéo) : Une fois votre vidéo exportée de CapCut, vous la glissez dans un dossier spécifique. n8n repère le fichier vidéo finalisé.
+5. Nœud de Publication (YouTube / TikTok) : n8n intègre nativement les connecteurs pour YouTube (via l'API YouTube gratuite pour les développeurs) et pour les réseaux sociaux. Il publie la vidéo et 
+```
+
 ### Tools
 
 - Make / n8n auto-hébergé
