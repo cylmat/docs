@@ -4,6 +4,7 @@
 
 1. Déclencheur : Collez le script généré par Claude dans une ligne Google Sheets.
   - Installer n8n self-hosted in docker
+    + http://localhost:5678
   - Activer Google Drive Api
     + https://console.cloud.google.com/apis/library/drive.googleapis.com
 2. Action 1 : Make détecte la ligne et envoie le texte dans un modèle Google Slides pour générer et exporter la miniature automatiquement.
