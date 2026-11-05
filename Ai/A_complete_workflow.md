@@ -10,5 +10,5 @@
 
 ### Tools
 
-- Make / n8n local
+- Make / n8n auto-hébergé
 - CapCut
