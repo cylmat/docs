@@ -8,6 +8,7 @@
   - Activer Google Drive Api
     + https://console.cloud.google.com/apis/library/drive.googleapis.com
 2. Action 1 : Make détecte la ligne et envoie le texte dans un modèle Google Slides pour générer et exporter la miniature automatiquement.
+2b. Création de la vidéo avec Comfyui.fr
 3. Action 2 : Make envoie un message sur Telegram/Discord avec le script purifié pour le glisser dans CapCut.
 4. Action 3 (Une fois la vidéo exportée de CapCut) : Déposer le fichier vidéo dans un dossier Google Drive.
 5. Action 4 : Make détecte le nouveau fichier dans Google Drive et l'envoie avec la vignette sur Buffer pour programmer la diffusion sur TikTok, Instagram et YouTube.
@@ -28,7 +29,8 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 
 ### Tools
 
-- Make / n8n auto-hébergé
+- n8n auto-hébergé
+- https://comfyui.fr
 - CapCut
 
 ```shell
