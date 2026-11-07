@@ -4,38 +4,39 @@ Project
 https://c4model.com: Context, Containers, Components, and Code  
   
 Diagram: 
-* https://app.diagrams.net
+* https://app.diagrams.net (draw.io)
+- https://chatuml.com: UML assisted
 * http://dia-installer.de: App
 * http://diagramo.com: Flowchart
-* https://www.diagrameditor.com
-* https://www.lucidchart.com
+* https://diagrameditor.com
+* https://lucidchart.com
 * https://mermaid-js.github.io: Markdown syntax for flowchart
 * https://markmap.js.org/repl: markdown + mindmap
-* https://www.planttext.com: UML editor
+* https://planttext.com: UML editor
 * https://online.visual-paradigm.com
 * https://plantuml.com/fr/yaml : Uml in Yaml
-* https://www.umlet.com: Free UML tool and VSCode
-* https://www.websequencediagrams.com
+* https://umlet.com: Free UML tool and VSCode
+* https://websequencediagrams.com
 * https://yuml.me: Diagram generator language
-* https://www.yworks.com/yed-live
-- https://chatuml.com: UML assisted
+* https://yworks.com/yed-live
 
 Format
 - https://asciidoc.org : presentation-rich content
+- https://dgraph.io
 - https://docs.framasoft.org/fr/grav/markdown.html
 - https://mermaid.js.org: Diagramming and charting tool
 
 Prototype
 + https://penpot.app : Design and code beautiful products
-+ https://www.figma.com
-+ https://www.invisionapp.com/cloud/prototype
++ https://figma.com
++ https://invisionapp.com/cloud/prototype
 + https://proto.io
 + https://webflow.com
 + http://pencil.evolus.vn
 + https://storybook.js.org
 + https://wireframe.cc
 + https://retool.com
-+ https://www.canva.com/prototypes
++ https://canva.com/prototypes
 + https://nicepage.com: Website Builder Software
 
 Hosting
