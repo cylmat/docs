@@ -1,24 +1,79 @@
 # Automatisation and orchestrators
 
-### Orchestration
+### Orchestration d'agents
 
-- https://orkas.ai:  client de bureau / équipe d'agents IA coordonnés (rapport, pdf, vidéo..)
++ https://orkas.ai: application de bureau « local-first » qui coordonne des agents IA, rapport, pdf, vidéo.. (free plan)
++ https://langchain.com: écosystème de développement d’applications IA (free plan)
+
+Sdk
++ https://crewai.com:  framework Python pour organiser des agents spécialisés et leurs tâches (free plan)
 
 ### Automatisor
 
 - https://make.com (free use)
 - https://n8n.io: Agent workflow (totaly free use community model self-hosted) 
 
-### Teams of agents experts
-
-+ https://agpt.co: AutoGPT (pay model)
-+ https://crewai.com: worfklow automation (free use model, python)
-+ https://langchain.com: Build agents fast (free use)
-
 other
 - StackAi
 - Zapier
 
-### Webscraping real-time
+### Other
 
-- https://octoparse.fr
+- https://octoparse.fr: Webscraping / real-time data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------- AI
+
+Orchestration d’agents IA et applications multi-agents
+
+    Orkas — application de bureau « local-first » qui coordonne des agents IA pour accomplir des tâches et produire des livrables.
+    CrewAI — framework Python pour organiser des agents spécialisés et leurs tâches ; une plateforme visuelle est également proposée.
+    LangChain — écosystème de développement d’applications IA. Pour les workflows d’agents avec état et étapes contrôlées, voir LangGraph.
+    Microsoft Agent Framework — framework pour agents et workflows, notamment adapté à l’écosystème Microsoft. Il succède aux projets AutoGen et Semantic Kernel.
+    OpenAI Agents SDK — SDK pour construire des agents et gérer leurs transferts de tâche, garde-fous et traces.
+    Google Agent Development Kit (ADK) — framework de développement d’agents, particulièrement adapté à l’écosystème Google.
+    AutoGPT — plateforme d’agents et d’automatisations accessible via une interface visuelle ; les coûts dépendent de l’offre et de l’usage.
+    LlamaIndex — outils pour créer des agents et applications qui exploitent des données et documents.
+
+À retenir : CrewAI, LangGraph et les SDK cités sont des outils de développement ; ils ne sont pas nécessairement des applications clé en main. AutoGen reste un nom connu, mais le Microsoft Agent Framework est présenté comme la voie unifiée plus actuelle pour l’écosystème Microsoft. 5 14 
+Automatisation de workflows et intégration d’applications
+
+    Make — éditeur visuel pour automatiser des tâches entre applications ; formule gratuite avec limites d’usage.
+    n8n — automatisation visuelle, extensible et adaptée aux usages techniques. L’édition communautaire peut être auto-hébergée gratuitement, mais l’hébergement et la maintenance restent à votre charge.
+    Zapier — automatisation no-code simple à prendre en main, avec un vaste catalogue d’intégrations ; les limites dépendent de la formule.
+    Activepieces — alternative open source avec cœur MIT et possibilité d’auto-hébergement ; l’édition communautaire auto-hébergée permet des flux et utilisateurs illimités, selon sa documentation. 16
+    Node-RED — outil open source de programmation visuelle, souvent utilisé pour les flux événementiels, l’IoT et l’intégration de systèmes.
+    Microsoft Power Automate — automatisation de processus et intégration avec Microsoft 365 et l’écosystème Power Platform.
+    Pipedream — automatisation orientée développeurs, avec intégrations et étapes de code ; vérifier le statut et les conditions du produit avant de démarrer un nouveau projet.
+
+Repère rapide : Make ou Zapier pour démarrer simplement ; n8n ou Activepieces si l’auto-hébergement et le contrôle de l’infrastructure sont importants ; Node-RED pour des flux événementiels ou liés à l’IoT. Les alternatives et leurs compromis sont comparés dans les guides actuels sur n8n. 2 6 
+Outils visuels et plateformes pour créer des applications IA
+
+    StackAI — création visuelle d’applications et de workflows IA, orientée équipes et entreprises.
+    Gumloop — création visuelle d’automatisations et d’agents IA.
+    Lindy — assistants et agents IA prêts à configurer pour automatiser des tâches métier.
+
+Ces plateformes peuvent recouper les outils d’automatisation classiques, mais mettent davantage l’accent sur la création d’expériences ou d’agents IA.
+Extraction de données web et surveillance de pages
+
+    Octoparse — outil visuel de scraping web, avec options de bureau et cloud.
+    Apify — plateforme d’extraction et d’automatisation web fondée sur des « Actors » exécutables dans le cloud ou localement ; les tâches peuvent être lancées par API ou planifiées. 17 19
+    Browse AI — robots sans code pour extraire des informations et surveiller les changements sur des pages web. 1 22
+    Scrapy — framework Python open source pour développer des crawlers ; convient mieux aux personnes qui codent.
+    Zyte — services et infrastructure d’extraction web destinés notamment aux équipes techniques.
+    Bright Data — infrastructure et produits de collecte de données web, plutôt adaptés aux besoins de volume ou d’entreprise.
+
+Précision : « temps réel » n’est pas garanti par la catégorie elle-même. Selon l’outil, les données sont récupérées à la demande, selon un calendrier, ou lors de la détection d’un changement ; vérifiez la fréquence de collecte et les conditions d’utilisation du site ciblé
