@@ -11,6 +11,7 @@
 * Action : n8n détecte le nouveau fichier dans Google Drive et l'envoie avec la vignette sur Buffer pour programmer la diffusion sur TikTok, Instagram et YouTube.
   - Activer Google Drive Api (https://console.cloud.google.com/apis/library/drive.googleapis.com)
 
+Modèle n8n : Claude écrit un script court, ElevenLabs génère la voix, Creatomate produit la vidéo et l’enregistre sur Drive. Nœud de publication (ex Blotato) et contrôles avant diffusion
 
 ### Tips
 
