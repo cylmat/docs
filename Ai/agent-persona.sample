@@ -2,7 +2,11 @@
 # AGENT #
 ---------
 
-(agent personnalisé combinant des instructions, des outils et des modèles)
+(VsCode): @debugger, @git, @profiler, @test
+
+## AGENT AI
+
+> agent personnalisé combinant des instructions, des outils et des modèles)
 
 ex: .github/agents/reviewer.agent.md
 ```
