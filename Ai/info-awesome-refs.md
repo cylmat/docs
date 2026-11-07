@@ -8,6 +8,7 @@
 ## Agents
 
 - https://opencode.ai/v2/docs
+- https://openagents.org
 
 ## Audio / Videos creation
 
