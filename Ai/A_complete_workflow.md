@@ -13,6 +13,9 @@
 
 Modèle n8n : Claude écrit un script court, ElevenLabs génère la voix, Creatomate produit la vidéo et l’enregistre sur Drive. Nœud de publication (ex Blotato) et contrôles avant diffusion
 
+
+
+
 ### Tips
 
 n8n self-hosted
@@ -29,9 +32,8 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 
 ### Tools
 
-- RunPod Serverless (pour faire tourner les apps)
-- n8n auto-hébergé
-- https://comfyui.fr
+- AWS Lightsail  avec n8n auto-hébergé
+- RunPod Serverless avec Comfyui pour la génération vidéo
 - CapCut
 
 ```shell
