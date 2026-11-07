@@ -1,12 +1,13 @@
 # REF
 
+## Awesome
+- https://awesome-copilot.github.com
+  + https://github.com/dfinke/awesome-copilot-chatmodes
+- https://awesomeclaude.ai
+
 ## Agents
 
 - https://opencode.ai/v2/docs
-
-Awesome
-- https://awesome-copilot.github.com
-- https://awesomeclaude.ai
 
 ## Orchestration
 
@@ -22,12 +23,11 @@ Cli
 Collaboratif
 - https://dust.tt
 
-
 ## Customization
 
 **SKILLS**
 
-- https://skills.sh
+- https://skills.sh +++
 - https://aiskill.market
 - https://aiagentslibrary.com
 - https://agenticskills.io
