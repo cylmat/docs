@@ -2,8 +2,6 @@
 # AGENT #
 ---------
 
-(VsCode): @debugger, @git, @profiler, @test
-
 ## AGENT AI
 
 > agent personnalisé combinant des instructions, des outils et des modèles)
