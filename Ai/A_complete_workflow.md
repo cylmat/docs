@@ -30,6 +30,9 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 5. Nœud de Publication (YouTube / TikTok) : n8n intègre nativement les connecteurs pour YouTube (via l'API YouTube gratuite pour les développeurs) et pour les réseaux sociaux. Il publie la vidéo et 
 ```
 
+ref
+- https://www.youtube.com/watch?v=cnQnGz5ezGo : Claude crée mes Vidéos de A à Z
+
 ### Tools
 
 - Ovh Vps (ou Lightsail) avec n8n auto-hébergé
