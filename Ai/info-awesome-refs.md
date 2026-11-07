@@ -9,6 +9,10 @@
 
 - https://opencode.ai/v2/docs
 
+## Audio / Videos creation
+
+- https://openart.ai
+
 ## Orchestration
 
 - https://crewai.com: "métaphore de l’équipe humaine."
