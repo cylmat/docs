@@ -6,11 +6,15 @@
 
 ### Automatisor
 
-- https://www.make.com (free use)
+- https://make.com (free use)
 - https://n8n.io: Agent workflow (totaly free use community model self-hosted) 
 
 ### Teams of agents experts
 
 + https://agpt.co: AutoGPT (pay model)
-+ https://crewai.com: worfklow automation (free use model)
++ https://crewai.com: worfklow automation (free use model, python)
 + https://langchain.com: Build agents fast (free use)
+
+### Webscraping real-time
+
+- https://octoparse.fr
