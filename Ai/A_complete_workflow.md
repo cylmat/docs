@@ -32,7 +32,7 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 
 ### Tools
 
-- AWS Lightsail  avec n8n auto-hébergé
+- Ovh Vps (ou Lightsail) avec n8n auto-hébergé
 - RunPod Serverless avec Comfyui pour la génération vidéo
 - CapCut
 
