@@ -33,6 +33,11 @@ Collaboratif
 - https://agenticskills.io
 - https://verified-skill.com
 
+## Providers / AI gateway
+
+- https://www.genaicore.com (api.genaicore.com)
+- https://www.litellm.ai
+
 ## VsCode
 
 Foundry Toolkit (building, testing, deploying, evaluating, and monitoring AI applications and agents)
