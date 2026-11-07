@@ -1,4 +1,16 @@
-# Automatisation
+# Automatisation and orchestrators
 
-ref
+### Orchestration
+
 - https://orkas.ai:  client de bureau / équipe d'agents IA coordonnés (rapport, pdf, vidéo..)
+
+### Automatisor
+
+- https://www.make.com (free use)
+- https://n8n.io: Agent workflow (totaly free use community model self-hosted) 
+
+### Teams of agents experts
+
++ https://agpt.co: AutoGPT (pay model)
++ https://crewai.com: worfklow automation (free use model)
++ https://langchain.com: Build agents fast (free use)
