@@ -29,6 +29,7 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 
 ### Tools
 
+- RunPod Serverless (pour faire tourner les apps)
 - n8n auto-hébergé
 - https://comfyui.fr
 - CapCut
