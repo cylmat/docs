@@ -21,3 +21,20 @@ prompt engineering -> context engineering -> then harness engineering
  Autoriser ou bloquer
 - Connecteurs
 - MCP
+- Plugins
+- Skills
+- Embarqués (computer use, extensions browser..)
+
+## Automatisation
+
+- Tâche planifiée
+- Hooks (déclencheurs)
+
+## Evaluations
+
+- Boucle agent->output->agent..
+  -> skill https://github.com/karpathy/autoresearch
+
+ref
+- https://www.youtube.com/watch?v=HOmMAaQUleA (C'est quoi le Harness pour les Agents IA ?)
+- https://github.com/karpathy/autoresearch
