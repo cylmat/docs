@@ -2,9 +2,12 @@
 
 Tout ce qui est "autour" du moteur "agent"
 
-1. prompt engineering
-2. context engineering
-3. ..then harness engineering
+- history
+prompt engineering -> context engineering -> then harness engineering
+
+- application
+1. context
+2. outils
 
 ##  Context
 
@@ -12,3 +15,5 @@ Tout ce qui est "autour" du moteur "agent"
 - Connaissances (SKILL.md, references, scripts..)
   ex: mon-role-dans-cette-entreprise.md
 - Dossier, BDD..
+
+## Outil
