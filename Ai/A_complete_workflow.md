@@ -48,6 +48,9 @@ curl -fsSL https://get.n8n.io | sh
 
 On network volume
 ```
+# use for pod and serverless
+ln -s /workspaces/runpod-slim/ComfyUI/models /workspaces/models
+
 # for serverless
 mkdir -p /workspace/models/unet /workspace/models/vae /workspace/models/clip
 
