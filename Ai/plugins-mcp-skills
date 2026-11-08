@@ -16,6 +16,15 @@ ref
 # SKILLS #
 ----------
 
+- Architecture
+/skills
+  /my-skill
+    /assets
+    /references
+    /scripts
+    SKILL.md
+    ...
+
 ref
 - https://aihero.dev/skills
 - https://skills.sh: https://github.com/vercel-labs/skills
