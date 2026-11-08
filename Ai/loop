@@ -1,5 +1,33 @@
 # Loop
 
+Automatiser des tâches sans avoir à taper "continue" à chaque étape
+
 ref
 - https://claude.com/fr/resources/articles/getting-started-with-loops
+- https://www.youtube.com/watch?v=FD0i-wFhnC4 (Arrêtez les prompts. Passez aux Loops)
 
+## Models
+
+**Claude**
+
+/goal:  est basé sur une condition d'arrêt (Ligne d'arrivée). Claude travaille de manière autonome et itérative jusqu'à ce qu'un objectif mesurable soit validé
+  ex: /goal "Répare tous les tests qui échouent dans test/auth et assure-toi que le linter passe à 100%. S'arrête après 15 tours."
+/loop:  est basé sur le temps (cronjob-like). Claude se réveille à intervalles réguliers pour exécuter une action, puis se rendort
+  ex: /loop 10m "Vérifie s'il y a de nouvelles Pull Requests sur le dépôt GitHub. Si oui, fais-moi un résumé des changements."
+
+**Copilot**
+
+- VsCode : mode Agent
+- ~/.copilot/goals.md
+- https://awesome-copilot.github.com/plugin/copilot-goal-skill
+- https://marketplace.visualstudio.com/items?itemName=gabrimatic.copilot-goal-system
+
+## Exemple
+
+* Loop hebdo, lundi 9h
+  - [Orchestrator]: instagram-manager
+    + [Veille]: finance-trend-agent (perplexity, websearch)
+    + [Redaction]: copywriter (brand-book, adn-text)
+    +[Visuel] visual-instagram-creator -nanobanana, adn-visuel)
+  - [Validation]: Note/20, conformité
+  - [Memory]: /project/last-step
