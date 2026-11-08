@@ -54,6 +54,8 @@ Add to serverless env variable
 BUCKET_ENDPOINT_URL=https://s3api-eu-ro-1.runpod.io
 BUCKET_ACCESS_KEY_ID=S3AccesskeyIDAKIAIOSFODNN7EXAMPLE
 BUCKET_SECRET_ACCESS_KEY=Matching/secretkey/wJalrXUtnFEMI/
+AWS_DEFAULT_REGION=eu-ro-1
+AWS_REGION=eu-ro-1
 ```
 
 On network volume
