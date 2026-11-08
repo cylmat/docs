@@ -44,7 +44,25 @@ curl -fsSL https://get.n8n.io | sh
 # @https://docs.n8n.io/deploy/host-n8n/install-options/install-using-docker-compose 
 ```
 
+### Initiialization (first load)
 
+On network volume
+```
+# for serverless
+mkdir -p /workspace/models/unet /workspace/models/vae /workspace/models/clip
+
+wget -O /workspace/modelsunet/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors \
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
+
+wget -O /workspace/modelsunet/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors \
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
+
+wget -O /workspace/modelsvae/wan_2.1_vae.safetensors \
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+
+wget -O /workspace/modelsclip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
+  "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+```
 
 
 
