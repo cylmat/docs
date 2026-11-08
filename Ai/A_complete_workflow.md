@@ -43,6 +43,11 @@ curl -fsSL https://get.n8n.io | sh
 
 ### Initiialization (first load)
 
+Storage
+- Create Network storage to put Comfy models
+- Create S3 storage to put Serverless output videos before upload on Youtube
+
+
 On network volume
 ```
 # use for pod and serverless
