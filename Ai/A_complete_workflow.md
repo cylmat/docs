@@ -30,9 +30,6 @@ Dans n8n, vous allez pouvoir créer un scénario visuel identique à Make. Voici
 5. Nœud de Publication (YouTube / TikTok) : n8n intègre nativement les connecteurs pour YouTube (via l'API YouTube gratuite pour les développeurs) et pour les réseaux sociaux. Il publie la vidéo et 
 ```
 
-ref
-- https://www.youtube.com/watch?v=cnQnGz5ezGo : Claude crée mes Vidéos de A à Z
-
 ### Tools
 
 - Ovh Vps (ou Lightsail) avec n8n auto-hébergé
@@ -86,6 +83,9 @@ wget -c -O /workspace/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
 "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 ```
 
+ref
+- https://www.youtube.com/watch?v=cnQnGz5ezGo : Claude crée mes Vidéos de A à Z
+- https://github.com/purzbeats/lora_tester/blob/master/.claude/skills/comfy_workflows/skill.md
 
 
 
