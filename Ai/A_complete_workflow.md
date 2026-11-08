@@ -49,8 +49,9 @@ Storage
 -> EU-RO-1 do both (storage + S3) 
 
 Add to serverless env variable
+- (sample: aws s3 ls --region eu-ro-1 --endpoint-url https://s3api-eu-ro-1.runpod.io s3://enn5gsvera/)
 ```
-BUCKET_ENDPOINT_URL=https://<your-bucket-name>.s3.<aws-region>.amazonaws.com
+BUCKET_ENDPOINT_URL=https://s3api-eu-ro-1.runpod.io
 BUCKET_ACCESS_KEY_ID=S3AccesskeyIDAKIAIOSFODNN7EXAMPLE
 BUCKET_SECRET_ACCESS_KEY=Matching/secretkey/wJalrXUtnFEMI/
 ```
