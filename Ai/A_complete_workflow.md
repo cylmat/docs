@@ -46,6 +46,7 @@ curl -fsSL https://get.n8n.io | sh
 Storage
 - Create Network storage to put Comfy models
 - Create S3 storage to put Serverless output videos before upload on Youtube
+-> EU-RO-1 do both (storage + S3) 
 
 
 On network volume
