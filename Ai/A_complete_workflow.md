@@ -48,6 +48,12 @@ Storage
 - Create S3 storage to put Serverless output videos before upload on Youtube
 -> EU-RO-1 do both (storage + S3) 
 
+Add to serverless env variable
+```
+BUCKET_ENDPOINT_URL=https://<your-bucket-name>.s3.<aws-region>.amazonaws.com
+BUCKET_ACCESS_KEY_ID=S3AccesskeyIDAKIAIOSFODNN7EXAMPLE
+BUCKET_SECRET_ACCESS_KEY=Matching/secretkey/wJalrXUtnFEMI/
+```
 
 On network volume
 ```
