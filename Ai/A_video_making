@@ -103,3 +103,21 @@ Fun
 ------------
 
 - https://agenceclipping.fr
+
+
+
+
+## SAMPLE
+
+```
+Voici une chaine youtube qui marche très bien: http://youtube.com/channel/AAAAAAAAAAA. 
+Analyse ses vidéos, les piècees jointes, le texte de ses vidéos les plus vues.
+Analyse cette chaine, ses accroches, la structure de ses vidéos, son rythme.
+Puis écrit-moi le script d'une nouvelle vidéo de 5min dans le même style, en francais, sur un sujet qui marcherai bien chez elle.
+---
+Maintenant fabrique la vidéo avec Higgsfield. Fait seulement le début (le cold open)
+Découpe-le en 4 plans de 5secondes, génère une image par plan dans un style réaliste et cinématographique,
+toujours le même, puis anime chaque image avec Kling3.0 en 720p.
+Ajoute la voix off en francais. Budget maximum: 10€. Donne-moi le coût avant de lancer.
+```
+
