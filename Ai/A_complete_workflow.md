@@ -48,7 +48,7 @@ Storage
 - Create S3 storage to put Serverless output videos before upload on Youtube
 -> EU-RO-1 do both (storage + S3) 
 
-Add to serverless env variable
+Add to serverless env variable to "ComfyUI 5.11.0" endpoint
 - (sample: aws s3 ls --region eu-ro-1 --endpoint-url https://s3api-eu-ro-1.runpod.io s3://enn5gsvera/)
 ```
 BUCKET_ENDPOINT_URL=https://s3api-eu-ro-1.runpod.io/__BUCKETNAME__
