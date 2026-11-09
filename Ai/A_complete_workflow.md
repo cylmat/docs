@@ -51,7 +51,7 @@ Storage
 Add to serverless env variable
 - (sample: aws s3 ls --region eu-ro-1 --endpoint-url https://s3api-eu-ro-1.runpod.io s3://enn5gsvera/)
 ```
-BUCKET_ENDPOINT_URL=https://s3api-eu-ro-1.runpod.io
+BUCKET_ENDPOINT_URL=https://s3api-eu-ro-1.runpod.io/__BUCKETNAME__
 BUCKET_ACCESS_KEY_ID=S3AccesskeyIDAKIAIOSFODNN7EXAMPLE
 BUCKET_SECRET_ACCESS_KEY=Matching/secretkey/wJalrXUtnFEMI/
 AWS_DEFAULT_REGION=eu-ro-1
