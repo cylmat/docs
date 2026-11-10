@@ -128,5 +128,14 @@ toujours le même, puis anime chaque image avec Kling3.0 en 720p.
 Ajoute la voix off en francais. Budget maximum: 10€. Donne-moi le coût avant de lancer.
 ```
 
+
+## WORKFLOW EXEMPLE
+
 ref
 - https://www.youtube.com/watch?v=_ln5ssCFm6Q: Générer des vidéos 100 % IA automatiquement avec N8N (Kling + Minimax) 
+
+1. Initialisation / Génération d'histoire
+  - Schedule Trigger -> GSheet -> GDrive 
+    -> Agent Generator [OpenChat + Tavily + Output parser]
+2. Génération d'image
+  - Split out -> (Limit) -> GDrive image -> OpenaI Generator -> GDrive upload
