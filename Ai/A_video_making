@@ -142,3 +142,8 @@ ref
     -> Agent Generator [OpenChat + Tavily + Output parser]
 2. Génération d'image
   - Split out -> (Limit) -> GDrive image -> OpenaI Generator -> GDrive upload
+
+3. 
+
+- openai - image
+- https://fal.ai image to video
