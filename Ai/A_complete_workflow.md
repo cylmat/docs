@@ -80,7 +80,6 @@ wget -O /workspace/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
 
 # V2
 
-
 # 1. High noise UNet (~14 GB)
 wget -c -O /workspace/models/unet/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors \
 "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
@@ -96,6 +95,12 @@ wget -c -O /workspace/models/vae/wan_2.1_vae.safetensors \
 # 4. Text encoder (~6.7 GB)
 wget -c -O /workspace/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
 "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+
+- image to video
+
+cd /workspace/models/unet
+wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors
+wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors
 ```
 
 ref
