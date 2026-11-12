@@ -66,35 +66,22 @@ ln -s /workspace/runpod-slim/ComfyUI/models /workspace/models
 # for serverless
 mkdir -p /workspace/models/unet /workspace/models/vae /workspace/models/clip
 
-wget -O /workspace/models/unet/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors \
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
+# V1
 
-wget -O /workspace/models/unet/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors \
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
+cd /workspace/models/clip
+wget https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
 
-wget -O /workspace/models/vae/wan_2.1_vae.safetensors \
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+cd /workspace/models/vae
+wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors
 
-wget -O /workspace/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
-  "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+cd /workspace/models/clip
+wget https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
 
 # V2
 
-# 1. High noise UNet (~14 GB)
-wget -c -O /workspace/models/unet/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors \
-"https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
-
-# 2. Low noise UNet (~14 GB)
-wget -c -O /workspace/models/unet/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors \
-"https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors"
-
-# 3. VAE (~250 MB)
-wget -c -O /workspace/models/vae/wan_2.1_vae.safetensors \
-"https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
-
-# 4. Text encoder (~6.7 GB)
-wget -c -O /workspace/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors \
-"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+cd /workspace/models/unet
+wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors
+wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors
 
 # image to video
 cd /workspace/models/unet
