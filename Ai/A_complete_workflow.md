@@ -91,6 +91,9 @@ wget https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/sp
 # dockerfile custom
 cd ComfyUI/custom_nodes
 git clone https://github.com/nakagawadev/comfyui_nakagawa
+
+# rights
+chown 100000:100000 -R /workspace/models
 ```
 
 ref
