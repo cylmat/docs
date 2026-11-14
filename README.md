@@ -178,14 +178,24 @@ Utils & work
 
 ## Awesome !
 
+**AI**
+
+Awesome copilot
+- https://awesome-copilot.github.com
+- https://github.com/github/awesome-copilot 
+
+awesome claude 
+- https://awesomeclaude.ai
+- https://github.com/anthropics/skills
+
+**Dev**
+
 [Awesome-awesome](https://github.com/emijrp/awesome-awesome) - [Awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
 
 Awesome lists: [Awesome rank](https://awesomerank.github.io), [Awesome lists](https://github.com/sindresorhus/awesome), [Awesome all tracked lists](https://www.trackawesomelist.com/#all-tracked-list), [Awesome top 50](https://www.trackawesomelist.com/#top-50-awesome-list), [Project-awesome](https://project-awesome.org)
 
 Data: [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets) - [Awesome DB tools](https://project-awesome.org/mgramin/awesome-db-tools)
-
 Dev tools: [Awesome Docker](https://github.com/veggiemonk/awesome-docker), [Awesome Git](https://github.com/dictcp/awesome-git), [Awesome Git add](https://project-awesome.org/stevemao/awesome-git-addons)
-
 Editor: [Awesome VSCode](https://github.com/viatsko/awesome-vscode), [Awesome Vim](https://github.com/akrawchyk/awesome-vim), [vimawesome.com](https://vimawesome.com)
 
 Environment
