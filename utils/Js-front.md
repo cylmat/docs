@@ -56,7 +56,7 @@ Framework
 * https://d3js.org: Data-driven document
 * https://dojo.io
 * https://dojotoolkit.org
-* https://www.electronjs.org
+* https://www.electronjs.org: Desktop html+js application
 * https://emberjs.com
 * https://pugjs.org: Templating
 * https://script.aculo.us
